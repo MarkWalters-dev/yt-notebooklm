@@ -86,13 +86,13 @@ def transcribe_file(file_path, max_retries=3):
                 contents=[
                     audio_part,
                     (
-                        f"Transcribe this audio file into a clean, structured Markdown document. "
-                        f"Use the following as the title: '# {title_text}'.\n\n"
-                        "Follow these specific rules to optimize the output for study:\n"
-                        "1. **Structure with Headers:** Insert descriptive H2 headings (##) whenever the speaker shifts to a new distinct topic (e.g., 'Mouse Data', 'Yeast Studies', 'Human Evidence').\n"
-                        "2. **Clean Verbatim:** Remove stuttering, false starts, filler words ('um', 'ah', 'like'), and repetitive phrases to improve readability.\n"
-                        "3. **Contextual Corrections:** Use the scientific context to fix phonetic ambiguities (e.g., ensure specific terms like 'Little mice' or chemical names are spelled correctly rather than phonetically).\n"
-                        "4. **Format:** Write in clear, coherent paragraphs. Do not use timestamps or speaker labels."
+                        f"Transcribe this audio file into a clean, structured Markdown study note. "
+                        f"Use the title: '# {title_text}'.\n\n"
+                        "**Strict Editing Rules:**\n"
+                        "1. **Remove Visual References:** Delete phrases like 'black circles', 'as shown here', or 'in this graph'. Describe the data trend directly instead.\n"
+                        "2. **Format Protocols as Lists:** If the speaker describes a step-by-step protocol (like the exercise routine), format it as a bulleted list.\n"
+                        "3. **Delete Meta-Commentary:** Remove intros/outros like 'check my Patreon', 'leave a comment', or 'in a previous video'. Keep only the scientific data.\n"
+                        "4. **Standardize Terms:** Replace 'lit mice' with 'Little (dwarf) mice' throughout."
                     )
                 ]
             )
