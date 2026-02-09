@@ -86,10 +86,13 @@ def transcribe_file(file_path, max_retries=3):
                 contents=[
                     audio_part,
                     (
-                        f"Transcribe this audio file into markdown format. "
-                        f"Use the following as the title: '{title_text}'. "
-                        "Write the transcript as paragraphs, using natural breaks where a new paragraph is needed. "
-                        "Do not add timestamps or speaker labels. Output only markdown, and do not repeat the title."
+                        f"Transcribe this audio file into a clean, structured Markdown document. "
+                        f"Use the following as the title: '# {title_text}'.\n\n"
+                        "Follow these specific rules to optimize the output for study:\n"
+                        "1. **Structure with Headers:** Insert descriptive H2 headings (##) whenever the speaker shifts to a new distinct topic (e.g., 'Mouse Data', 'Yeast Studies', 'Human Evidence').\n"
+                        "2. **Clean Verbatim:** Remove stuttering, false starts, filler words ('um', 'ah', 'like'), and repetitive phrases to improve readability.\n"
+                        "3. **Contextual Corrections:** Use the scientific context to fix phonetic ambiguities (e.g., ensure specific terms like 'Little mice' or chemical names are spelled correctly rather than phonetically).\n"
+                        "4. **Format:** Write in clear, coherent paragraphs. Do not use timestamps or speaker labels."
                     )
                 ]
             )
