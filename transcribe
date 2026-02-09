@@ -1,0 +1,95 @@
+import os
+import time
+import google.generativeai as genai
+from pathlib import Path
+from dotenv import load_dotenv
+
+# --- Configuration ---
+# 1. Load environment variables from .env file
+load_dotenv()
+
+# 2. Fetch the key safely
+API_KEY = os.getenv("GEMINI_API_KEY")
+
+if not API_KEY:
+    raise ValueError("Error: GEMINI_API_KEY not found in .env file.")
+
+BASE_AUDIO_DIR = "audio"
+BASE_SUBS_DIR = "subs"
+
+# Configure the Gemini API
+genai.configure(api_key=API_KEY)
+
+MODEL_NAME = "gemini-1.5-flash"
+
+def transcribe_file(file_path):
+    """
+    Uploads an audio file to Gemini, requests a transcription, 
+    and returns the text.
+    """
+    print(f"Uploading {file_path}...")
+    
+    try:
+        # Upload the file to the Gemini File API
+        audio_file = genai.upload_file(path=file_path)
+        
+        # Wait for the file to be processed
+        while audio_file.state.name == "PROCESSING":
+            print("Processing audio file...")
+            time.sleep(2)
+            audio_file = genai.get_file(audio_file.name)
+
+        if audio_file.state.name == "FAILED":
+            raise ValueError("Audio file processing failed.")
+
+        print(f"Transcribing {file_path.name}...")
+
+        # Generate content using the model
+        model = genai.GenerativeModel(MODEL_NAME)
+        response = model.generate_content(
+            [audio_file, "Transcribe this audio file into text. Do not add timestamps or speaker labels, just the raw text."],
+            request_options={"timeout": 600}
+        )
+
+        # Clean up: Delete the file from Gemini cloud storage
+        audio_file.delete()
+        
+        return response.text
+
+    except Exception as e:
+        print(f"Error transcribing {file_path}: {e}")
+        return None
+
+def main():
+    # Supported audio extensions
+    audio_extensions = {'.mp3', '.wav', '.m4a', '.aac', '.flac', '.ogg'}
+
+    print(f"Scanning '{BASE_AUDIO_DIR}' for audio files...")
+
+    # Walk through the directory structure
+    for root, dirs, files in os.walk(BASE_AUDIO_DIR):
+        for file in files:
+            file_path = Path(root) / file
+            
+            if file_path.suffix.lower() in audio_extensions:
+                
+                # Calculate paths
+                relative_path = file_path.relative_to(BASE_AUDIO_DIR)
+                output_path = Path(BASE_SUBS_DIR) / relative_path.with_suffix('.txt')
+                
+                # Create destination directory
+                output_path.parent.mkdir(parents=True, exist_ok=True)
+
+                if output_path.exists():
+                    print(f"Skipping {file_path.name} (Transcript already exists)")
+                    continue
+
+                transcript = transcribe_file(file_path)
+                
+                if transcript:
+                    with open(output_path, "w", encoding="utf-8") as f:
+                        f.write(transcript)
+                    print(f"Saved: {output_path}")
+
+if __name__ == "__main__":
+    main()
