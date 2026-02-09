@@ -13,7 +13,6 @@ pkgs.mkShell {
   ];
 
   shellHook = ''
-    alias -s md=glow
     export PATH="$PWD:$PATH"
   '';
 }
