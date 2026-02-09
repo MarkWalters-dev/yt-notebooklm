@@ -4,8 +4,8 @@ pkgs.mkShell {
   buildInputs = [
     pkgs.yt-dlp
     pkgs.ffmpeg
+    pkgs.glow
     
-    # Python 3 with Gemini and DotEnv libraries
     (pkgs.python3.withPackages (ps: [
       ps.google-generativeai
       ps.python-dotenv
@@ -13,7 +13,7 @@ pkgs.mkShell {
   ];
 
   shellHook = ''
-    echo "Environment loaded with yt-dlp, ffmpeg, and Python dependencies."
+    alias -s md=glow
     export PATH="$PWD:$PATH"
   '';
 }
