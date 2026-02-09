@@ -1,0 +1,1 @@
+yt-dlp -f 140 --restrict-filenames -o "%(upload_date>%Y-%m-%d)s_%(title)s_%(id)s.%(ext)s" --remote-components ejs:github --download-archive .archive https://www.youtube.com/@conqueragingordietrying123/videos
