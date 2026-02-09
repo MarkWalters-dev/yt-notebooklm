@@ -34,7 +34,8 @@ def transcribe_file(file_path, max_retries=3):
     for attempt in range(1, max_retries + 1):
         logging.info(f"Uploading {file_path} (Attempt {attempt})...")
         try:
-            audio_file = client.files.upload(path=file_path)
+            with open(file_path, "rb") as f:
+                audio_file = client.files.upload(file=f)
             while audio_file.state == "PROCESSING":
                 logging.info(f"Processing audio file {file_path}...")
                 time.sleep(2)
