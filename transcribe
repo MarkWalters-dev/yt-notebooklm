@@ -48,11 +48,12 @@ def transcribe_file(file_path, max_retries=3):
         print(msg)
         logging.info(msg)
         try:
-            # Upload file with config specifying mime_type
-            audio_file = client.files.upload(
-                path=str(file_path),
-                config={'mime_type': mime_type}
-            )
+            # Upload file with display_name to help infer mime type
+            with open(file_path, "rb") as f:
+                audio_file = client.files.upload(
+                    file=f,
+                    display_name=file_path.name
+                )
             while audio_file.state == "PROCESSING":
                 msg = f"Processing audio file {file_path}..."
                 print(msg)
