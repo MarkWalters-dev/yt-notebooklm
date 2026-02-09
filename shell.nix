@@ -14,5 +14,6 @@ pkgs.mkShell {
 
   shellHook = ''
     echo "Environment loaded with yt-dlp, ffmpeg, and Python dependencies."
+    export PATH=".:$PATH"
   '';
 }
