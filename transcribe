@@ -67,7 +67,10 @@ def transcribe_file(file_path, max_retries=3):
             base_name = file_path.stem.replace('_', ' ')
             # Remove trailing video_id if present (last token after space is likely video_id)
             tokens = base_name.split()
-            if tokens and tokens[-1].startswith('dd') and len(tokens[-1]) == 11:
+            # YouTube video IDs are 11 characters, alphanumeric, sometimes with _ or -
+            import re
+            video_id_pattern = re.compile(r'^[A-Za-z0-9_-]{11}$')
+            if tokens and video_id_pattern.match(tokens[-1]):
                 title_text = ' '.join(tokens[:-1])
             else:
                 title_text = base_name
