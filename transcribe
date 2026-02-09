@@ -44,33 +44,34 @@ def transcribe_file(file_path, max_retries=3):
     mime_type = mime_types.get(ext, 'application/octet-stream')
 
     for attempt in range(1, max_retries + 1):
-        msg = f"Uploading {file_path} (Attempt {attempt})..."
+        msg = f"Transcribing {file_path} (Attempt {attempt})..."
         print(msg)
         logging.info(msg)
         try:
-            # Upload file by path as positional argument
-            audio_file = client.files.upload(str(file_path))
-            while audio_file.state == "PROCESSING":
-                msg = f"Processing audio file {file_path}..."
-                print(msg)
-                logging.info(msg)
-                time.sleep(2)
-                audio_file = client.files.get(name=audio_file.name)
-
-            if audio_file.state == "FAILED":
-                raise ValueError("Audio file processing failed.")
-
-            msg = f"Transcribing {file_path.name}..."
+            # Read audio file and create Part directly
+            with open(file_path, "rb") as f:
+                audio_data = f.read()
+            
+            # Create Part with inline data
+            audio_part = types.Part(
+                inline_data=types.Blob(
+                    mime_type=mime_type,
+                    data=audio_data
+                )
+            )
+            
+            msg = f"Processing transcription for {file_path.name}..."
             print(msg)
             logging.info(msg)
+            
             response = client.models.generate_content(
                 model=MODEL_NAME,
                 contents=[
-                    audio_file,
+                    audio_part,
                     "Transcribe this audio file into text. Do not add timestamps or speaker labels, just the raw text."
                 ]
             )
-            client.files.delete(name=audio_file.name)
+            
             msg = f"Transcription successful for {file_path}"
             print(msg)
             logging.info(msg)
