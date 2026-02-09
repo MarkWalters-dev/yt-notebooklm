@@ -63,33 +63,37 @@ def transcribe_file(file_path, max_retries=3):
             msg = f"Processing transcription for {file_path.name}..."
             print(msg)
             logging.info(msg)
-            # Prepare markdown title
+            # Prepare markdown title (exclude video_id)
             base_name = file_path.stem.replace('_', ' ')
-            title = f"# {base_name}\n\n"
-            # Prompt Gemini to format transcript with paragraphs and markdown
+            # Remove trailing video_id if present (last token after space is likely video_id)
+            tokens = base_name.split()
+            if tokens and tokens[-1].startswith('dd') and len(tokens[-1]) == 11:
+                title_text = ' '.join(tokens[:-1])
+            else:
+                title_text = base_name
+            title = f"# {title_text}\n\n"
+            # Prompt Gemini to format transcript with paragraphs and markdown, using only the cleaned title
             response = client.models.generate_content(
                 model=MODEL_NAME,
                 contents=[
                     audio_part,
                     (
                         f"Transcribe this audio file into markdown format. "
-                        f"Use the following as the title: '{title.strip()}'. "
+                        f"Use the following as the title: '{title_text}'. "
                         "Write the transcript as paragraphs, using natural breaks where a new paragraph is needed. "
-                        "Do not add timestamps or speaker labels. Output only markdown."
+                        "Do not add timestamps or speaker labels. Output only markdown, and do not repeat the title."
                     )
                 ]
             )
             msg = f"Transcription successful for {file_path}"
             print(msg)
             logging.info(msg)
-            # Format transcript as markdown
-            transcript = response.text
-            # Extract filename, replace _ with space, remove extension
-            base_name = file_path.stem.replace('_', ' ')
-            title = f"# {base_name}\n\n"
-            # Split transcript into paragraphs by double newlines
-            paragraphs = [p.strip() for p in transcript.split('\n\n') if p.strip()]
-            markdown = title + '\n\n'.join(paragraphs) + '\n'
+            # Only add the title once, and ensure transcript does not repeat it
+            transcript = response.text.strip()
+            # Remove duplicate title if Gemini includes it
+            if transcript.startswith(title.strip()):
+                transcript = transcript[len(title.strip()):].lstrip('\n')
+            markdown = title + transcript + '\n'
             return markdown
         except Exception as e:
             err_msg = f"Error transcribing {file_path} on attempt {attempt}: {e}"
