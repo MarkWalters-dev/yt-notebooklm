@@ -26,3 +26,10 @@
 2026-02-09 16:42:18,564 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
 2026-02-09 16:42:18,569 [INFO] Transcription successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-07-03_Lithocholic_Acid_-_A_Gut_Bacterial_Metabolite_That_Extends_Lifespan_dd_TXkHsKVI.m4a
 2026-02-09 16:42:18,570 [INFO] Saved: subs/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-07-03_Lithocholic_Acid_-_A_Gut_Bacterial_Metabolite_That_Extends_Lifespan_dd_TXkHsKVI.md
+2026-02-09 16:43:22,209 [INFO] Scanning 'audio' for audio files...
+2026-02-09 16:43:22,210 [INFO] Transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-07-03_Lithocholic_Acid_-_A_Gut_Bacterial_Metabolite_That_Extends_Lifespan_dd_TXkHsKVI.m4a (Attempt 1)...
+2026-02-09 16:43:22,215 [INFO] Processing transcription for 2022-07-03_Lithocholic_Acid_-_A_Gut_Bacterial_Metabolite_That_Extends_Lifespan_dd_TXkHsKVI.m4a...
+2026-02-09 16:43:22,215 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 16:43:39,272 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-09 16:43:39,276 [INFO] Transcription successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-07-03_Lithocholic_Acid_-_A_Gut_Bacterial_Metabolite_That_Extends_Lifespan_dd_TXkHsKVI.m4a
+2026-02-09 16:43:39,278 [INFO] Saved: subs/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-07-03_Lithocholic_Acid_-_A_Gut_Bacterial_Metabolite_That_Extends_Lifespan_dd_TXkHsKVI.md
