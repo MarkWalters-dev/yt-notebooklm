@@ -63,11 +63,20 @@ def transcribe_file(file_path, max_retries=3):
             msg = f"Processing transcription for {file_path.name}..."
             print(msg)
             logging.info(msg)
+            # Prepare markdown title
+            base_name = file_path.stem.replace('_', ' ')
+            title = f"# {base_name}\n\n"
+            # Prompt Gemini to format transcript with paragraphs and markdown
             response = client.models.generate_content(
                 model=MODEL_NAME,
                 contents=[
                     audio_part,
-                    "Transcribe this audio file into text. Do not add timestamps or speaker labels, just the raw text. Separate paragraphs with blank lines."
+                    (
+                        f"Transcribe this audio file into markdown format. "
+                        f"Use the following as the title: '{title.strip()}'. "
+                        "Write the transcript as paragraphs, using natural breaks where a new paragraph is needed. "
+                        "Do not add timestamps or speaker labels. Output only markdown."
+                    )
                 ]
             )
             msg = f"Transcription successful for {file_path}"
