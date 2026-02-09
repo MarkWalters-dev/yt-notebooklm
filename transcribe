@@ -31,20 +31,38 @@ def transcribe_file(file_path, max_retries=3):
     Uploads an audio file to Gemini, requests a transcription,
     and returns the text. Retries on failure.
     """
+    # Map file extensions to mime types
+    mime_types = {
+        '.mp3': 'audio/mpeg',
+        '.wav': 'audio/wav',
+        '.m4a': 'audio/mp4',
+        '.aac': 'audio/aac',
+        '.flac': 'audio/flac',
+        '.ogg': 'audio/ogg',
+    }
+    ext = Path(file_path).suffix.lower()
+    mime_type = mime_types.get(ext, 'application/octet-stream')
+
     for attempt in range(1, max_retries + 1):
-        logging.info(f"Uploading {file_path} (Attempt {attempt})...")
+        msg = f"Uploading {file_path} (Attempt {attempt})..."
+        print(msg)
+        logging.info(msg)
         try:
             with open(file_path, "rb") as f:
-                audio_file = client.files.upload(file=f)
+                audio_file = client.files.upload(file=f, mime_type=mime_type)
             while audio_file.state == "PROCESSING":
-                logging.info(f"Processing audio file {file_path}...")
+                msg = f"Processing audio file {file_path}..."
+                print(msg)
+                logging.info(msg)
                 time.sleep(2)
                 audio_file = client.files.get(name=audio_file.name)
 
             if audio_file.state == "FAILED":
                 raise ValueError("Audio file processing failed.")
 
-            logging.info(f"Transcribing {file_path.name}...")
+            msg = f"Transcribing {file_path.name}..."
+            print(msg)
+            logging.info(msg)
             response = client.models.generate_content(
                 model=MODEL_NAME,
                 contents=[
@@ -53,19 +71,26 @@ def transcribe_file(file_path, max_retries=3):
                 ]
             )
             client.files.delete(name=audio_file.name)
-            logging.info(f"Transcription successful for {file_path}")
+            msg = f"Transcription successful for {file_path}"
+            print(msg)
+            logging.info(msg)
             return response.text
         except Exception as e:
-            logging.error(f"Error transcribing {file_path} on attempt {attempt}: {e}")
+            err_msg = f"Error transcribing {file_path} on attempt {attempt}: {e}"
+            print(err_msg)
+            logging.error(err_msg)
             if attempt < max_retries:
                 time.sleep(5)
             else:
                 logging.error(f"Max retries reached for {file_path}. Skipping.")
+                print(f"Max retries reached for {file_path}. Skipping.")
     return None
 
 def main():
     audio_extensions = {'.mp3', '.wav', '.m4a', '.aac', '.flac', '.ogg'}
-    logging.info(f"Scanning '{BASE_AUDIO_DIR}' for audio files...")
+    msg = f"Scanning '{BASE_AUDIO_DIR}' for audio files..."
+    print(msg)
+    logging.info(msg)
     processed_one = False
     for root, dirs, files in os.walk(BASE_AUDIO_DIR):
         for file in files:
@@ -75,15 +100,21 @@ def main():
                 output_path = Path(BASE_SUBS_DIR) / relative_path.with_suffix('.txt')
                 output_path.parent.mkdir(parents=True, exist_ok=True)
                 if output_path.exists():
-                    logging.info(f"Skipping {file_path.name} (Transcript already exists)")
+                    msg = f"Skipping {file_path.name} (Transcript already exists)"
+                    print(msg)
+                    logging.info(msg)
                     continue
                 transcript = transcribe_file(file_path)
                 if transcript:
                     with open(output_path, "w", encoding="utf-8") as f:
                         f.write(transcript)
-                    logging.info(f"Saved: {output_path}")
+                    msg = f"Saved: {output_path}"
+                    print(msg)
+                    logging.info(msg)
                 else:
-                    logging.error(f"Failed to transcribe {file_path}")
+                    err_msg = f"Failed to transcribe {file_path}"
+                    print(err_msg)
+                    logging.error(err_msg)
                 processed_one = True
                 break
         if processed_one:
