@@ -64,16 +64,21 @@ def transcribe_file(file_path, max_retries=3):
             print(msg)
             logging.info(msg)
             # Prepare markdown title (exclude video_id)
-            base_name = file_path.stem.replace('_', ' ')
-            # Remove trailing video_id if present (last token after space is likely video_id)
-            tokens = base_name.split()
-            # YouTube video IDs are 11 characters, alphanumeric, sometimes with _ or -
             import re
+            # Remove trailing video_id if present (last token after space or underscore is likely video_id)
+            base_name = file_path.stem.replace('_', ' ')
             video_id_pattern = re.compile(r'^[A-Za-z0-9_-]{11}$')
+            tokens = base_name.split()
+            # Remove last token if it matches video_id pattern
             if tokens and video_id_pattern.match(tokens[-1]):
                 title_text = ' '.join(tokens[:-1])
             else:
-                title_text = base_name
+                # Also check if last token after removing underscores matches
+                base_name_no_underscore = file_path.stem.replace('_', '')
+                if video_id_pattern.match(base_name_no_underscore[-11:]):
+                    title_text = base_name[:-12].rstrip()
+                else:
+                    title_text = base_name
             title = f"# {title_text}\n\n"
             # Prompt Gemini to format transcript with paragraphs and markdown, using only the cleaned title
             response = client.models.generate_content(
