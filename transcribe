@@ -48,11 +48,11 @@ def transcribe_file(file_path, max_retries=3):
         print(msg)
         logging.info(msg)
         try:
-            with open(file_path, "rb") as f:
-                file_bytes = f.read()
-            # Use types.File to set mime_type
-            gemini_file = types.File(data=file_bytes, mime_type=mime_type, name=str(file_path))
-            audio_file = client.files.upload(file=gemini_file)
+            # Upload file with config specifying mime_type
+            audio_file = client.files.upload(
+                path=str(file_path),
+                config={'mime_type': mime_type}
+            )
             while audio_file.state == "PROCESSING":
                 msg = f"Processing audio file {file_path}..."
                 print(msg)
