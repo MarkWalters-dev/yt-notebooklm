@@ -6,9 +6,9 @@ pkgs.mkShell {
     pkgs.ffmpeg
     pkgs.glow
     
-    (pkgs.python3.withPackages (ps: [
-      ps.google-generativeai
-      ps.python-dotenv
+    (pkgs.python3.withPackages (p: [
+      p.google-genai
+      p.python-dotenv
     ]))
   ];
 
