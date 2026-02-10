@@ -3,8 +3,12 @@ import os
 import asyncio
 import httpx
 import time
-from deepgram import AsyncDeepgramClient, PrerecordedOptions, FileSource
-
+from deepgram import (
+    DeepgramClientOptions,
+    AsyncDeepgramClient,
+    PrerecordedOptions,
+    FileSource,
+)
 # Concurrency: 10 files at once is safe for your p72's memory
 semaphore = asyncio.Semaphore(5)
 
