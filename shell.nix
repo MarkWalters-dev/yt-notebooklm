@@ -46,7 +46,7 @@ pkgs.mkShell {
       p.backoff
       p.deprecation
       p.aenum
-      p.dataclasses_json
+      p.dataclasses-json
     ]))
   ] 
   ++ lib.optionals isP72 [ 
