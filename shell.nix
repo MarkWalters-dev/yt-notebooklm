@@ -39,6 +39,7 @@ pkgs.mkShell {
       p.google-genai
       p.python-dotenv
       p.tqdm
+      p.deprecation
     ] ++ lib.optionals isP72 [ 
       p.faster-whisper
       deepgram-sdk
