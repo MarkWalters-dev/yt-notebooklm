@@ -1,0 +1,63 @@
+#!/usr/bin/env python
+
+import os
+import shutil
+
+MAX_WORDS = 500_000
+MD_DIR = 'md'
+MERGED_DIR = 'merged'
+
+def get_word_count(text):
+	return len(text.split())
+
+
+def merge_channel(channel):
+	md_path = os.path.join(MD_DIR, channel)
+	merged_path = os.path.join(MERGED_DIR, channel)
+
+	# Remove old merged files
+	if os.path.exists(merged_path):
+		shutil.rmtree(merged_path)
+	os.makedirs(merged_path, exist_ok=True)
+
+	files = sorted([f for f in os.listdir(md_path) if f.endswith('.md')])
+	merged_files = []
+	current_words = 0
+	current_content = []
+	file_index = 1
+
+	for fname in files:
+		fpath = os.path.join(md_path, fname)
+		with open(fpath, 'r', encoding='utf-8') as f:
+			content = f.read()
+		words = get_word_count(content)
+		if current_words + words > MAX_WORDS:
+			# Write current merged file
+			out_path = os.path.join(merged_path, f'{file_index}.md')
+			with open(out_path, 'w', encoding='utf-8') as out:
+				out.write('\n'.join(current_content))
+			merged_files.append(out_path)
+			file_index += 1
+			current_content = []
+			current_words = 0
+		current_content.append(content)
+		current_words += words
+
+	# Write last file if any content
+	if current_content:
+		out_path = os.path.join(merged_path, f'{file_index}.md')
+		with open(out_path, 'w', encoding='utf-8') as out:
+			out.write('\n'.join(current_content))
+		merged_files.append(out_path)
+
+	print(f'Merged files for channel {channel}:')
+	for mf in merged_files:
+		print(f'  {mf}')
+
+def main():
+	channels = [d for d in os.listdir(MD_DIR) if os.path.isdir(os.path.join(MD_DIR, d))]
+	for channel in channels:
+		merge_channel(channel)
+
+if __name__ == '__main__':
+	main()

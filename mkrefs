@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# For each file in md/*/*.md, touch the equivalent in refs/*/*.md
+for src in md/*/*.md; do
+	# Get the directory and filename
+	dir=$(dirname "$src")
+	base=$(basename "$src")
+	# Extract the subdirectory name
+	subdir=$(basename "$dir")
+	# Construct the target path
+	tgt="refs/$subdir/$base"
+	# Ensure the target directory exists
+	mkdir -p "refs/$subdir"
+	# Touch the target file
+	touch "$tgt"
+done

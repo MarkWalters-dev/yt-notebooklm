@@ -1,0 +1,10 @@
+Identify all scientific research studies, meta-analyses, and clinical trials referenced in the provided text. Additionally, retrieve the most recent updates from 2025 and 2026 regarding the specific impact of garlic (allicin) on the gut microbiota-TMAO pathway.
+Output Format:
+[Study Title] - [URL]
+Constraints:
+Provide the URL for each research study on a new line.
+Include the 2025/2026 research updates as separate entries at the end of the list.
+Strictly exclude names of authors, researchers, presenters, or companies.
+Strictly exclude commercial products, test kits, or advertisements.
+Zero-Chat Policy: Do not include any introductory text, concluding remarks, or follow-up questions. Output the list and nothing else.
+

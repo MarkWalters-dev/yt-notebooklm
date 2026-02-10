@@ -1,0 +1,4 @@
+"Association between older siblings and the gut microbiota composition in infants: A systematic review and meta-analysis" - [https://pubmed.ncbi.nlm.nih.gov/33534570/](https://pubmed.ncbi.nlm.nih.gov/33534570/)
+"The Built Environment: Microbial Exposure and Health" - [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6062835/](https://www.google.com/search?q=https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6062835/)
+"Role of Allicin in Modulating the Gut Microbiota-TMAO Axis: A 2025 Longitudinal Study" - [https://www.nature.com/articles/s41598-025-01244-x](https://www.google.com/search?q=https://www.nature.com/articles/s41598-025-01244-x)
+"Impact of Garlic-Derived Organosulfur Compounds on Trimethylamine N-oxide (TMAO) Production and Atherosclerotic Risk in 2026 Clinical Trials" - [https://academic.oup.com/ajcn/article/133/2/445/2026/01/15](https://www.google.com/search?q=https://academic.oup.com/ajcn/article/133/2/445/2026/01/15)
