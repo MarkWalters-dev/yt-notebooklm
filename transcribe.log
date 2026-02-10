@@ -250,3 +250,146 @@
 2026-02-09 18:21:02,955 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 429 Too Many Requests"
 2026-02-09 18:21:02,957 [ERROR] Error converting to markdown for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-03-10_Uric_Acid_-_What_s_Optimal_For_Health_ivXtQkKjjLs.m4a on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 57.145702295s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}
 2026-02-09 18:21:02,957 [WARNING] Rate limit hit. Waiting 60 seconds.
+2026-02-09 18:25:25,786 [INFO] Scanning 'audio' for audio files...
+2026-02-09 18:25:25,800 [INFO] Found 1743 audio files.
+2026-02-09 18:25:25,800 [INFO] Resuming from checkpoint. 6 files already completed.
+2026-02-09 18:25:25,801 [INFO] Processing Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-03-10_Uric_Acid_-_What_s_Optimal_For_Health_ivXtQkKjjLs.m4a (7/1743)
+2026-02-09 18:25:25,801 [INFO] Simple transcription already exists for 2024-03-10_Uric_Acid_-_What_s_Optimal_For_Health_ivXtQkKjjLs.m4a
+2026-02-09 18:25:25,801 [INFO] Converting to markdown for 2024-03-10_Uric_Acid_-_What_s_Optimal_For_Health_ivXtQkKjjLs.m4a (Attempt 1)...
+2026-02-09 18:25:25,801 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:25:26,525 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-002:generateContent "HTTP/1.1 404 Not Found"
+2026-02-09 18:25:26,528 [ERROR] Error converting to markdown for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-03-10_Uric_Acid_-_What_s_Optimal_For_Health_ivXtQkKjjLs.m4a on attempt 1: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash-002 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-09 18:25:31,529 [INFO] Converting to markdown for 2024-03-10_Uric_Acid_-_What_s_Optimal_For_Health_ivXtQkKjjLs.m4a (Attempt 2)...
+2026-02-09 18:25:31,529 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:25:31,995 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-002:generateContent "HTTP/1.1 404 Not Found"
+2026-02-09 18:25:31,996 [ERROR] Error converting to markdown for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-03-10_Uric_Acid_-_What_s_Optimal_For_Health_ivXtQkKjjLs.m4a on attempt 2: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash-002 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-09 18:28:51,264 [INFO] Scanning 'audio' for audio files...
+2026-02-09 18:28:51,277 [INFO] Found 1743 audio files.
+2026-02-09 18:28:51,277 [INFO] Resuming from checkpoint. 6 files already completed.
+2026-02-09 18:28:51,277 [INFO] Processing Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-03-10_Uric_Acid_-_What_s_Optimal_For_Health_ivXtQkKjjLs.m4a (7/1743)
+2026-02-09 18:28:51,278 [INFO] Simple transcription already exists for 2024-03-10_Uric_Acid_-_What_s_Optimal_For_Health_ivXtQkKjjLs.m4a
+2026-02-09 18:28:51,278 [INFO] Converting to markdown for 2024-03-10_Uric_Acid_-_What_s_Optimal_For_Health_ivXtQkKjjLs.m4a (Attempt 1)...
+2026-02-09 18:28:51,278 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:28:54,958 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:28:54,961 [INFO] Markdown conversion successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-03-10_Uric_Acid_-_What_s_Optimal_For_Health_ivXtQkKjjLs.m4a
+2026-02-09 18:28:54,961 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-03-10_Uric_Acid_-_What_s_Optimal_For_Health_ivXtQkKjjLs.md
+2026-02-09 18:28:54,962 [INFO] Processing Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-11-20_Physical_Activity_Body_Weight_And_Diet_Affect_Resting_Heart_Rate_And_Heart_Rate_Variability_GpKo7x8z9eU.m4a (8/1743)
+2026-02-09 18:28:54,962 [INFO] Transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-11-20_Physical_Activity_Body_Weight_And_Diet_Affect_Resting_Heart_Rate_And_Heart_Rate_Variability_GpKo7x8z9eU.m4a (Attempt 1)...
+2026-02-09 18:28:54,968 [INFO] Processing transcription for 2021-11-20_Physical_Activity_Body_Weight_And_Diet_Affect_Resting_Heart_Rate_And_Heart_Rate_Variability_GpKo7x8z9eU.m4a...
+2026-02-09 18:28:54,968 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:29:15,752 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:29:15,767 [INFO] Transcription successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-11-20_Physical_Activity_Body_Weight_And_Diet_Affect_Resting_Heart_Rate_And_Heart_Rate_Variability_GpKo7x8z9eU.m4a
+2026-02-09 18:29:15,768 [INFO] Saved simple transcription: subs/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-11-20_Physical_Activity_Body_Weight_And_Diet_Affect_Resting_Heart_Rate_And_Heart_Rate_Variability_GpKo7x8z9eU.txt
+2026-02-09 18:29:15,768 [INFO] Converting to markdown for 2021-11-20_Physical_Activity_Body_Weight_And_Diet_Affect_Resting_Heart_Rate_And_Heart_Rate_Variability_GpKo7x8z9eU.m4a (Attempt 1)...
+2026-02-09 18:29:15,768 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:29:19,848 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:29:19,851 [INFO] Markdown conversion successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-11-20_Physical_Activity_Body_Weight_And_Diet_Affect_Resting_Heart_Rate_And_Heart_Rate_Variability_GpKo7x8z9eU.m4a
+2026-02-09 18:29:19,851 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-11-20_Physical_Activity_Body_Weight_And_Diet_Affect_Resting_Heart_Rate_And_Heart_Rate_Variability_GpKo7x8z9eU.md
+2026-02-09 18:29:19,851 [INFO] Processing Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-09-11_DHEA-S_Is_A_Weakness_In_My_Data_-_Blood_Test_5_in_2022_DHGyBOzcsfk.m4a (9/1743)
+2026-02-09 18:29:19,852 [INFO] Transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-09-11_DHEA-S_Is_A_Weakness_In_My_Data_-_Blood_Test_5_in_2022_DHGyBOzcsfk.m4a (Attempt 1)...
+2026-02-09 18:29:19,860 [INFO] Processing transcription for 2022-09-11_DHEA-S_Is_A_Weakness_In_My_Data_-_Blood_Test_5_in_2022_DHGyBOzcsfk.m4a...
+2026-02-09 18:29:19,860 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:31:33,060 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:31:33,096 [INFO] Transcription successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-09-11_DHEA-S_Is_A_Weakness_In_My_Data_-_Blood_Test_5_in_2022_DHGyBOzcsfk.m4a
+2026-02-09 18:31:33,098 [INFO] Saved simple transcription: subs/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-09-11_DHEA-S_Is_A_Weakness_In_My_Data_-_Blood_Test_5_in_2022_DHGyBOzcsfk.txt
+2026-02-09 18:31:33,098 [INFO] Converting to markdown for 2022-09-11_DHEA-S_Is_A_Weakness_In_My_Data_-_Blood_Test_5_in_2022_DHGyBOzcsfk.m4a (Attempt 1)...
+2026-02-09 18:31:33,098 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:31:38,983 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:31:38,987 [INFO] Markdown conversion successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-09-11_DHEA-S_Is_A_Weakness_In_My_Data_-_Blood_Test_5_in_2022_DHGyBOzcsfk.m4a
+2026-02-09 18:31:38,987 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-09-11_DHEA-S_Is_A_Weakness_In_My_Data_-_Blood_Test_5_in_2022_DHGyBOzcsfk.md
+2026-02-09 18:31:38,987 [INFO] Processing Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-12-11_Is_Relying_Solely_On_Data_From_Published_Studies_A_Suboptimal_Strategy_For_Optimal_Health_3d15cjIbFa0.m4a (10/1743)
+2026-02-09 18:31:38,987 [INFO] Transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-12-11_Is_Relying_Solely_On_Data_From_Published_Studies_A_Suboptimal_Strategy_For_Optimal_Health_3d15cjIbFa0.m4a (Attempt 1)...
+2026-02-09 18:31:38,989 [INFO] Processing transcription for 2021-12-11_Is_Relying_Solely_On_Data_From_Published_Studies_A_Suboptimal_Strategy_For_Optimal_Health_3d15cjIbFa0.m4a...
+2026-02-09 18:31:38,989 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:31:57,579 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:31:57,593 [INFO] Transcription successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-12-11_Is_Relying_Solely_On_Data_From_Published_Studies_A_Suboptimal_Strategy_For_Optimal_Health_3d15cjIbFa0.m4a
+2026-02-09 18:31:57,594 [INFO] Saved simple transcription: subs/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-12-11_Is_Relying_Solely_On_Data_From_Published_Studies_A_Suboptimal_Strategy_For_Optimal_Health_3d15cjIbFa0.txt
+2026-02-09 18:31:57,594 [INFO] Converting to markdown for 2021-12-11_Is_Relying_Solely_On_Data_From_Published_Studies_A_Suboptimal_Strategy_For_Optimal_Health_3d15cjIbFa0.m4a (Attempt 1)...
+2026-02-09 18:31:57,594 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:32:02,272 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:32:02,276 [INFO] Markdown conversion successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-12-11_Is_Relying_Solely_On_Data_From_Published_Studies_A_Suboptimal_Strategy_For_Optimal_Health_3d15cjIbFa0.m4a
+2026-02-09 18:32:02,277 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-12-11_Is_Relying_Solely_On_Data_From_Published_Studies_A_Suboptimal_Strategy_For_Optimal_Health_3d15cjIbFa0.md
+2026-02-09 18:32:02,277 [INFO] Processing Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2026-01-11_TMAO_Is_Bad_For_Health_But_Can_Be_Reduced_21-Test_Analysis_n4nHbBN7Fgc.m4a (11/1743)
+2026-02-09 18:32:02,277 [INFO] Transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2026-01-11_TMAO_Is_Bad_For_Health_But_Can_Be_Reduced_21-Test_Analysis_n4nHbBN7Fgc.m4a (Attempt 1)...
+2026-02-09 18:32:02,279 [INFO] Processing transcription for 2026-01-11_TMAO_Is_Bad_For_Health_But_Can_Be_Reduced_21-Test_Analysis_n4nHbBN7Fgc.m4a...
+2026-02-09 18:32:02,279 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:32:23,928 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:32:23,942 [INFO] Transcription successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2026-01-11_TMAO_Is_Bad_For_Health_But_Can_Be_Reduced_21-Test_Analysis_n4nHbBN7Fgc.m4a
+2026-02-09 18:32:23,943 [INFO] Saved simple transcription: subs/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2026-01-11_TMAO_Is_Bad_For_Health_But_Can_Be_Reduced_21-Test_Analysis_n4nHbBN7Fgc.txt
+2026-02-09 18:32:23,944 [INFO] Converting to markdown for 2026-01-11_TMAO_Is_Bad_For_Health_But_Can_Be_Reduced_21-Test_Analysis_n4nHbBN7Fgc.m4a (Attempt 1)...
+2026-02-09 18:32:23,944 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:32:29,591 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:32:29,599 [INFO] Markdown conversion successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2026-01-11_TMAO_Is_Bad_For_Health_But_Can_Be_Reduced_21-Test_Analysis_n4nHbBN7Fgc.m4a
+2026-02-09 18:32:29,600 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2026-01-11_TMAO_Is_Bad_For_Health_But_Can_Be_Reduced_21-Test_Analysis_n4nHbBN7Fgc.md
+2026-02-09 18:32:29,601 [INFO] Processing Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-11-03_Aging_By_Autodigestion_-_Geert_Schmid-Schoenbein_PhD_w3ffM5SjOy8.m4a (12/1743)
+2026-02-09 18:32:29,602 [INFO] Transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-11-03_Aging_By_Autodigestion_-_Geert_Schmid-Schoenbein_PhD_w3ffM5SjOy8.m4a (Attempt 1)...
+2026-02-09 18:32:29,609 [INFO] Processing transcription for 2024-11-03_Aging_By_Autodigestion_-_Geert_Schmid-Schoenbein_PhD_w3ffM5SjOy8.m4a...
+2026-02-09 18:32:29,609 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:34:58,324 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:34:58,350 [INFO] Transcription successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-11-03_Aging_By_Autodigestion_-_Geert_Schmid-Schoenbein_PhD_w3ffM5SjOy8.m4a
+2026-02-09 18:34:58,351 [INFO] Saved simple transcription: subs/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-11-03_Aging_By_Autodigestion_-_Geert_Schmid-Schoenbein_PhD_w3ffM5SjOy8.txt
+2026-02-09 18:34:58,351 [INFO] Converting to markdown for 2024-11-03_Aging_By_Autodigestion_-_Geert_Schmid-Schoenbein_PhD_w3ffM5SjOy8.m4a (Attempt 1)...
+2026-02-09 18:34:58,351 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:35:06,621 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:35:06,625 [INFO] Markdown conversion successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-11-03_Aging_By_Autodigestion_-_Geert_Schmid-Schoenbein_PhD_w3ffM5SjOy8.m4a
+2026-02-09 18:35:06,625 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-11-03_Aging_By_Autodigestion_-_Geert_Schmid-Schoenbein_PhD_w3ffM5SjOy8.md
+2026-02-09 18:35:06,626 [INFO] Processing Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-01-17_What_Is_Cell_Senescence_And_Inflammaging_Matt_Yousefzadeh_PhD_Ik90WhV_l4k.m4a (13/1743)
+2026-02-09 18:35:06,626 [INFO] Transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-01-17_What_Is_Cell_Senescence_And_Inflammaging_Matt_Yousefzadeh_PhD_Ik90WhV_l4k.m4a (Attempt 1)...
+2026-02-09 18:35:06,626 [INFO] Processing transcription for 2025-01-17_What_Is_Cell_Senescence_And_Inflammaging_Matt_Yousefzadeh_PhD_Ik90WhV_l4k.m4a...
+2026-02-09 18:35:06,626 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:35:14,031 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:35:14,034 [INFO] Transcription successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-01-17_What_Is_Cell_Senescence_And_Inflammaging_Matt_Yousefzadeh_PhD_Ik90WhV_l4k.m4a
+2026-02-09 18:35:14,035 [INFO] Saved simple transcription: subs/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-01-17_What_Is_Cell_Senescence_And_Inflammaging_Matt_Yousefzadeh_PhD_Ik90WhV_l4k.txt
+2026-02-09 18:35:14,035 [INFO] Converting to markdown for 2025-01-17_What_Is_Cell_Senescence_And_Inflammaging_Matt_Yousefzadeh_PhD_Ik90WhV_l4k.m4a (Attempt 1)...
+2026-02-09 18:35:14,035 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:35:17,077 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:35:17,078 [INFO] Markdown conversion successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-01-17_What_Is_Cell_Senescence_And_Inflammaging_Matt_Yousefzadeh_PhD_Ik90WhV_l4k.m4a
+2026-02-09 18:35:17,078 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-01-17_What_Is_Cell_Senescence_And_Inflammaging_Matt_Yousefzadeh_PhD_Ik90WhV_l4k.md
+2026-02-09 18:35:17,079 [INFO] Processing Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-12-26_50kg_110_lbs_Overhead_Press_m82kPq6oX6M.m4a (14/1743)
+2026-02-09 18:35:17,079 [INFO] Transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-12-26_50kg_110_lbs_Overhead_Press_m82kPq6oX6M.m4a (Attempt 1)...
+2026-02-09 18:35:17,079 [INFO] Processing transcription for 2022-12-26_50kg_110_lbs_Overhead_Press_m82kPq6oX6M.m4a...
+2026-02-09 18:35:17,079 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:35:19,172 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:35:19,176 [INFO] Transcription successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-12-26_50kg_110_lbs_Overhead_Press_m82kPq6oX6M.m4a
+2026-02-09 18:35:19,176 [INFO] Saved simple transcription: subs/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-12-26_50kg_110_lbs_Overhead_Press_m82kPq6oX6M.txt
+2026-02-09 18:35:19,176 [INFO] Converting to markdown for 2022-12-26_50kg_110_lbs_Overhead_Press_m82kPq6oX6M.m4a (Attempt 1)...
+2026-02-09 18:35:19,176 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:35:19,912 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:35:19,915 [INFO] Markdown conversion successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-12-26_50kg_110_lbs_Overhead_Press_m82kPq6oX6M.m4a
+2026-02-09 18:35:19,916 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-12-26_50kg_110_lbs_Overhead_Press_m82kPq6oX6M.md
+2026-02-09 18:35:19,916 [INFO] Processing Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-11-19_The_Waist-To-Hip_RatioModifies_LP_a_-Associated_CVD_Risk_0zPcCocwI5o.m4a (15/1743)
+2026-02-09 18:35:19,917 [INFO] Transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-11-19_The_Waist-To-Hip_RatioModifies_LP_a_-Associated_CVD_Risk_0zPcCocwI5o.m4a (Attempt 1)...
+2026-02-09 18:35:19,917 [INFO] Processing transcription for 2025-11-19_The_Waist-To-Hip_RatioModifies_LP_a_-Associated_CVD_Risk_0zPcCocwI5o.m4a...
+2026-02-09 18:35:19,917 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:35:31,223 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:35:31,227 [INFO] Transcription successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-11-19_The_Waist-To-Hip_RatioModifies_LP_a_-Associated_CVD_Risk_0zPcCocwI5o.m4a
+2026-02-09 18:35:31,228 [INFO] Saved simple transcription: subs/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-11-19_The_Waist-To-Hip_RatioModifies_LP_a_-Associated_CVD_Risk_0zPcCocwI5o.txt
+2026-02-09 18:35:31,228 [INFO] Converting to markdown for 2025-11-19_The_Waist-To-Hip_RatioModifies_LP_a_-Associated_CVD_Risk_0zPcCocwI5o.m4a (Attempt 1)...
+2026-02-09 18:35:31,228 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:35:34,612 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:35:34,613 [INFO] Markdown conversion successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-11-19_The_Waist-To-Hip_RatioModifies_LP_a_-Associated_CVD_Risk_0zPcCocwI5o.m4a
+2026-02-09 18:35:34,613 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-11-19_The_Waist-To-Hip_RatioModifies_LP_a_-Associated_CVD_Risk_0zPcCocwI5o.md
+2026-02-09 18:35:34,614 [INFO] Processing Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-05-16_VLDL_Increases_During_Aging_And_Is_Associated_With_Adverse_Cardiovascular_Outcomes_NBzWUsfmBc8.m4a (16/1743)
+2026-02-09 18:35:34,614 [INFO] Transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-05-16_VLDL_Increases_During_Aging_And_Is_Associated_With_Adverse_Cardiovascular_Outcomes_NBzWUsfmBc8.m4a (Attempt 1)...
+2026-02-09 18:35:34,616 [INFO] Processing transcription for 2021-05-16_VLDL_Increases_During_Aging_And_Is_Associated_With_Adverse_Cardiovascular_Outcomes_NBzWUsfmBc8.m4a...
+2026-02-09 18:35:34,616 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:35:52,683 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:35:52,694 [INFO] Transcription successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-05-16_VLDL_Increases_During_Aging_And_Is_Associated_With_Adverse_Cardiovascular_Outcomes_NBzWUsfmBc8.m4a
+2026-02-09 18:35:52,695 [INFO] Saved simple transcription: subs/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-05-16_VLDL_Increases_During_Aging_And_Is_Associated_With_Adverse_Cardiovascular_Outcomes_NBzWUsfmBc8.txt
+2026-02-09 18:35:52,696 [INFO] Converting to markdown for 2021-05-16_VLDL_Increases_During_Aging_And_Is_Associated_With_Adverse_Cardiovascular_Outcomes_NBzWUsfmBc8.m4a (Attempt 1)...
+2026-02-09 18:35:52,696 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:35:57,653 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:35:57,656 [INFO] Markdown conversion successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-05-16_VLDL_Increases_During_Aging_And_Is_Associated_With_Adverse_Cardiovascular_Outcomes_NBzWUsfmBc8.m4a
+2026-02-09 18:35:57,657 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-05-16_VLDL_Increases_During_Aging_And_Is_Associated_With_Adverse_Cardiovascular_Outcomes_NBzWUsfmBc8.md
+2026-02-09 18:35:57,657 [INFO] Processing Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-12-24_Red_Light_Starvation_Is_A_Public_Health_Problem_-_Glen_Jeffery_PhD_Rg6sn8WBGIU.m4a (17/1743)
+2026-02-09 18:35:57,657 [INFO] Transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-12-24_Red_Light_Starvation_Is_A_Public_Health_Problem_-_Glen_Jeffery_PhD_Rg6sn8WBGIU.m4a (Attempt 1)...
+2026-02-09 18:35:57,658 [INFO] Processing transcription for 2024-12-24_Red_Light_Starvation_Is_A_Public_Health_Problem_-_Glen_Jeffery_PhD_Rg6sn8WBGIU.m4a...
+2026-02-09 18:35:57,658 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:36:05,787 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:36:05,791 [INFO] Transcription successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-12-24_Red_Light_Starvation_Is_A_Public_Health_Problem_-_Glen_Jeffery_PhD_Rg6sn8WBGIU.m4a
+2026-02-09 18:36:05,792 [INFO] Saved simple transcription: subs/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-12-24_Red_Light_Starvation_Is_A_Public_Health_Problem_-_Glen_Jeffery_PhD_Rg6sn8WBGIU.txt
+2026-02-09 18:36:05,792 [INFO] Converting to markdown for 2024-12-24_Red_Light_Starvation_Is_A_Public_Health_Problem_-_Glen_Jeffery_PhD_Rg6sn8WBGIU.m4a (Attempt 1)...
+2026-02-09 18:36:05,792 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 18:36:05,975 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-09 18:36:05,977 [ERROR] Error converting to markdown for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2024-12-24_Red_Light_Starvation_Is_A_Public_Health_Problem_-_Glen_Jeffery_PhD_Rg6sn8WBGIU.m4a on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 54.111178185s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash-lite'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}
+2026-02-09 18:36:05,978 [WARNING] Rate limit hit. Waiting 60 seconds.
