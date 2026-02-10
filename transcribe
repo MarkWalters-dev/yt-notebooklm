@@ -168,7 +168,7 @@ def transcribe_file_simple(file_path, max_retries=3):
                 logging.warning(f"Rate limit hit. Waiting {wait_time} seconds.")
                 time.sleep(wait_time)
             elif attempt < max_retries:
-                time.sleep(5)
+                time.sleep(20)
             
             if attempt >= max_retries:
                 logging.error(f"Max retries reached for {file_path}. Skipping.")
@@ -265,7 +265,7 @@ def convert_to_markdown(transcript, file_path, max_retries=3):
                 logging.warning(f"Rate limit hit. Waiting {wait_time} seconds.")
                 time.sleep(wait_time)
             elif attempt < max_retries:
-                time.sleep(5)
+                time.sleep(20)
             
             if attempt >= max_retries:
                 logging.error(f"Max retries reached for {file_path}. Skipping.")
