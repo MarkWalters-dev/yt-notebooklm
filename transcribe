@@ -172,63 +172,99 @@ def main():
     msg = f"Scanning '{BASE_AUDIO_DIR}' for audio files..."
     print(msg)
     logging.info(msg)
+
+    # Gather all audio files
+    audio_files = []
     for root, dirs, files in os.walk(BASE_AUDIO_DIR):
         for file in files:
             file_path = Path(root) / file
             if file_path.suffix.lower() in audio_extensions:
-                relative_path = file_path.relative_to(BASE_AUDIO_DIR)
+                audio_files.append(file_path)
 
-                # First, create simple transcription in subs/ folder
-                subs_output_path = Path(BASE_SUBS_DIR) / relative_path.with_suffix('.txt')
-                subs_output_path.parent.mkdir(parents=True, exist_ok=True)
+    total_files = len(audio_files)
+    print(f"Found {total_files} audio files.")
+    logging.info(f"Found {total_files} audio files.")
 
-                transcript = None
-                if not subs_output_path.exists():
-                    transcript = transcribe_file_simple(file_path)
-                    if transcript:
-                        with open(subs_output_path, "w", encoding="utf-8") as f:
-                            f.write(transcript)
-                        msg = f"Saved simple transcription: {subs_output_path}"
-                        print(msg)
-                        logging.info(msg)
-                    else:
-                        err_msg = f"Failed to transcribe {file_path}"
-                        print(err_msg)
-                        logging.error(err_msg)
-                        continue
-                else:
-                    msg = f"Simple transcription already exists for {file_path.name}"
+    # Resume checkpoint file
+    checkpoint_file = Path(".transcribe_checkpoint")
+    completed = set()
+    if checkpoint_file.exists():
+        with open(checkpoint_file, "r", encoding="utf-8") as f:
+            completed = set(line.strip() for line in f if line.strip())
+        print(f"Resuming from checkpoint. {len(completed)} files already completed.")
+        logging.info(f"Resuming from checkpoint. {len(completed)} files already completed.")
+
+    processed = 0
+    for idx, file_path in enumerate(audio_files, 1):
+        rel_path_str = str(file_path.relative_to(BASE_AUDIO_DIR))
+        if rel_path_str in completed:
+            print(f"[{idx}/{total_files}] Skipping (already completed): {rel_path_str}")
+            continue
+
+        print(f"[{idx}/{total_files}] Processing: {rel_path_str}")
+        logging.info(f"Processing {rel_path_str} ({idx}/{total_files})")
+
+        relative_path = file_path.relative_to(BASE_AUDIO_DIR)
+
+        # First, create simple transcription in subs/ folder
+        subs_output_path = Path(BASE_SUBS_DIR) / relative_path.with_suffix('.txt')
+        subs_output_path.parent.mkdir(parents=True, exist_ok=True)
+
+        transcript = None
+        if not subs_output_path.exists():
+            transcript = transcribe_file_simple(file_path)
+            if transcript:
+                with open(subs_output_path, "w", encoding="utf-8") as f:
+                    f.write(transcript)
+                msg = f"Saved simple transcription: {subs_output_path}"
+                print(msg)
+                logging.info(msg)
+            else:
+                err_msg = f"Failed to transcribe {file_path}"
+                print(err_msg)
+                logging.error(err_msg)
+                continue
+        else:
+            msg = f"Simple transcription already exists for {file_path.name}"
+            print(msg)
+            logging.info(msg)
+            # Read transcript for markdown conversion
+            with open(subs_output_path, "r", encoding="utf-8") as f:
+                transcript = f.read()
+
+        # Second, create markdown version in md/ folder
+        md_output_path = Path(BASE_MD_DIR) / relative_path.with_suffix('.md')
+        md_output_path.parent.mkdir(parents=True, exist_ok=True)
+
+        if not md_output_path.exists():
+            if transcript:
+                markdown = convert_to_markdown(transcript, file_path)
+                if markdown:
+                    with open(md_output_path, "w", encoding="utf-8") as f:
+                        f.write(markdown)
+                    msg = f"Saved markdown: {md_output_path}"
                     print(msg)
                     logging.info(msg)
-                    # Read transcript for markdown conversion
-                    with open(subs_output_path, "r", encoding="utf-8") as f:
-                        transcript = f.read()
-
-                # Second, create markdown version in md/ folder
-                md_output_path = Path(BASE_MD_DIR) / relative_path.with_suffix('.md')
-                md_output_path.parent.mkdir(parents=True, exist_ok=True)
-
-                if not md_output_path.exists():
-                    if transcript:
-                        markdown = convert_to_markdown(transcript, file_path)
-                        if markdown:
-                            with open(md_output_path, "w", encoding="utf-8") as f:
-                                f.write(markdown)
-                            msg = f"Saved markdown: {md_output_path}"
-                            print(msg)
-                            logging.info(msg)
-                        else:
-                            err_msg = f"Failed to create markdown for {file_path}"
-                            print(err_msg)
-                            logging.error(err_msg)
-                    else:
-                        err_msg = f"No transcript available for markdown conversion: {file_path}"
-                        print(err_msg)
-                        logging.error(err_msg)
                 else:
-                    msg = f"Markdown already exists for {file_path.name}"
-                    print(msg)
-                    logging.info(msg)
+                    err_msg = f"Failed to create markdown for {file_path}"
+                    print(err_msg)
+                    logging.error(err_msg)
+            else:
+                err_msg = f"No transcript available for markdown conversion: {file_path}"
+                print(err_msg)
+                logging.error(err_msg)
+        else:
+            msg = f"Markdown already exists for {file_path.name}"
+            print(msg)
+            logging.info(msg)
+
+        # Mark as completed in checkpoint
+        with open(checkpoint_file, "a", encoding="utf-8") as f:
+            f.write(rel_path_str + "\n")
+        processed += 1
+        print(f"Progress: {processed + len(completed)}/{total_files} completed.")
+    print(f"All done! {processed} new files processed, {len(completed)} previously completed.")
+    logging.info(f"All done! {processed} new files processed, {len(completed)} previously completed.")
 
 if __name__ == "__main__":
     main()
