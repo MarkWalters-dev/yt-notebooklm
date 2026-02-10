@@ -1,0 +1,435 @@
+[0.00s]  Grimmage is the best epigenetic clock for evaluating risk of death.
+[4.64s]  And if you missed that video, I'll link to it in the right corner.
+[7.82s]  But for now, which biomarkers are included in Grimmage?
+[11.12s]  That's what we'll see here.
+[12.74s]  So first, it includes age, gender, and an epigenetic approximation of smoking, DNA and pack years.
+[18.90s]  And then, Grimmage version 1, which is shown here,
+[21.96s]  Grimmage version 2 actually includes a couple of additional biomarkers,
+[24.86s]  or epigenetic approximations of additional biomarkers,
+[28.04s]  including HSCRP and HbA1c.
+[31.08s]  But for now, I'm only focused on Grimmage version 1.
+[34.36s]  It includes 7 protein biomarkers that may be obscure to many.
+[38.56s]  Actually, it's an epigenetic approximation of those 7 biomarkers.
+[42.08s]  So the first may not be obscure to many who are frequent viewers of the channel.
+[46.26s]  And for that, thank you.
+[47.38s]  It's an epigenetic approximation of Cystatin C,
+[50.18s]  which is a biomarker of kidney function.
+[51.86s]  But as we'll see in a future video,
+[53.48s]  it's also associated with a biomarker of neurodegeneration.
+[56.42s]  Then also, we've got leptin, which may seem familiar to many,
+[60.36s]  but then others that are very obscure.
+[62.54s]  TMP1, PAI1, GDF15, ADM,
+[66.70s]  and the biomarker that I'm going to focus on in this video, B2M.
+[70.70s]  B2M stands for beta-2 microglobulin,
+[73.46s]  which then raises the question of, besides contributing to Grimmage,
+[76.82s]  why is B2M important?
+[78.48s]  The beginning of that story will be illustrated by this paper shown here,
+[81.90s]  where B2M was identified as a systemic pro-aging factor
+[86.18s]  that impairs cognitive function and neurogenesis.
+[89.26s]  That then raises the question of what's optimal or what may be optimal for B2M.
+[93.60s]  I won't show those data in this video,
+[95.44s]  but it increases during aging,
+[97.06s]  and higher levels are associated with an increased all-cause mortality risk.
+[101.02s]  In terms of what's optimal,
+[102.58s]  I have a new Patreon tier dedicated specifically to what's optimal for biomarkers,
+[106.70s]  which now includes B2M, which we can classify not just as a kidney function biomarker,
+[111.80s]  but also we can identify it as an immune-related biomarker,
+[115.30s]  and, as we'll see in a minute, it's related to neurogenesis.
+[119.28s]  Besides B2M, this tier currently includes 35 other biomarkers,
+[123.32s]  almost two and a half hours of video content,
+[125.62s]  57 published references,
+[127.44s]  and note that these aren't the reference ranges which you can get from any LLM these days.
+[131.34s]  This is my interpretation of what may be optimal
+[133.52s]  based on how each of these biomarkers changes during aging,
+[136.02s]  and or associations with all-cause mortality risk in the largest studies that exist.
+[141.14s]  So if you're interested in that, check it out.
+[143.28s]  In terms of the data from this paper,
+[145.08s]  let's focus on B2M's impact on neurogenesis.
+[148.68s]  First, starting off with the data here.
+[151.10s]  On the y-axis, we've got double-quartin number of cells slash DG.
+[155.38s]  So this is the number of double-quartin expressing cells,
+[158.78s]  which is a neurogenesis biomarker, as I'll show in a minute,
+[162.02s]  in the dentate gyrus, which is a portion of the brain.
+[164.66s]  And in terms of double-quartin being identified as a neurogenesis biomarker,
+[169.12s]  we'll see that story here.
+[171.56s]  So neurogenesis proceeds along a spectrum,
+[174.26s]  from quiescent neural stem cells on the left to mature neurons on the right.
+[179.16s]  And we can see that there's a cell type as identified there
+[181.86s]  that expresses double-quartin, or DCX positive cells.
+[185.66s]  So double-quartin is well known as a biomarker of neurogenesis.
+[189.70s]  So back to the data on the right, where they compared double-quartin expressing cells
+[194.22s]  in mice that were treated with B2M for 12 days.
+[198.16s]  And what we can see is that the neurogenesis biomarker, double-quartin,
+[202.16s]  declined by about 20% in just 12 days after exposure,
+[205.98s]  after mice were exposed to B2M.
+[208.78s]  So relatively high levels of B2M impair neurogenesis.
+[212.56s]  And I should also mention that that's important
+[214.44s]  because neurogenesis declines during aging.
+[216.56s]  So when considering that B2M increases during aging,
+[219.28s]  are they causally linked?
+[221.04s]  I'm not sure about the data in people,
+[223.10s]  but this is an association that is not potentially good news.
+[226.36s]  But this is just one part of the story.
+[228.46s]  What happens if we remove B2M?
+[230.86s]  So if adding it is bad for neurogenesis,
+[232.94s]  if we remove B2M, we'd expect that to be good for neurogenesis.
+[236.50s]  And that's what they tested in this study.
+[238.42s]  Again, on the y-axis, we've got double-quartin expressing cells,
+[241.44s]  so this neurogenesis biomarker.
+[243.36s]  And now we've got B2M minus minus mice.
+[245.98s]  So these are B2M knockout mice.
+[248.44s]  In other words, they knocked out the B2M protein
+[250.88s]  so that these mice didn't have B2M.
+[254.94s]  And note that this is a longitudinal study
+[256.90s]  as these mice were 18 months old.
+[259.32s]  So this is an 18-month study
+[261.34s]  of evaluating the effect of B2M on neurogenesis.
+[265.68s]  When compared with the data in aged wild-type mice,
+[268.60s]  which have normal levels of B2M,
+[270.86s]  we can see that the mice that were genetically engineered
+[272.88s]  to not have B2M had more than two times higher levels
+[276.50s]  of this neurogenesis biomarker double-quartin.
+[279.84s]  So collectively, these data implicate
+[281.74s]  relatively high levels of B2M,
+[283.72s]  especially as it occurs during the aging process,
+[285.88s]  as potentially being bad for neurogenesis in people.
+[288.82s]  But could that be true?
+[290.58s]  As I mentioned, these data are in mice.
+[292.32s]  What do the data look like in people?
+[294.38s]  So that's what we can see here,
+[296.00s]  where we're going to look at B2M levels
+[297.86s]  in brains of people who were controls,
+[300.44s]  who were not diagnosed with Alzheimer's disease, AD,
+[303.04s]  and in people who had Alzheimer's disease, AD.
+[305.86s]  And note that this is a post-mortem study.
+[307.96s]  So unfortunately, the people had died
+[309.56s]  and they biopsied the brains afterwards
+[311.18s]  and then quantified the amount of B2M
+[313.24s]  that was in those brains.
+[315.04s]  And what we can see is that people
+[316.24s]  who were diagnosed with Alzheimer's disease
+[318.40s]  had two times higher levels of B2M in the brain,
+[321.58s]  which again is potentially bad news.
+[324.38s]  So with that in mind, what's my data?
+[326.40s]  This isn't just a health and longevity news channel.
+[329.00s]  As I've said this many times,
+[330.30s]  this is also a health and longevity optimization channel.
+[334.26s]  So what's my data?
+[335.42s]  So I currently have six tests for B2M.
+[337.52s]  As I mentioned, I just started measuring it in 2025.
+[340.68s]  And as a quick aside,
+[341.72s]  why I just started to measure this now?
+[343.66s]  After realizing that I'd rather have the actual biomarkers
+[346.76s]  rather than their epigenetic prediction
+[348.52s]  as found in Grimmage,
+[349.82s]  and knowing that B2M is one of the biomarkers,
+[352.70s]  the actual biomarkers that Grimmage is based on,
+[354.74s]  I started measuring B2M in 2025.
+[357.22s]  I wish I'd measured it earlier
+[358.42s]  because then I'd have more data
+[359.84s]  and trying to bring it down
+[361.40s]  or keep it as low as possible.
+[363.12s]  So over those six tests in 2025,
+[365.48s]  average B2M is 1.58 milligrams per liter,
+[368.56s]  which then again raises a question of what's optimal.
+[371.68s]  And without going to the Patreon tier,
+[373.42s]  the what's optimal for biomarkers tier,
+[375.02s]  again, lower is generally better.
+[376.58s]  If you want the actual numbers
+[377.82s]  and you want to see the data
+[378.76s]  that I used to derive that story, check it out.
+[381.72s]  Also, avoiding an age-related increase.
+[384.76s]  And this story is currently incomplete
+[386.32s]  as I only have one year of data
+[387.88s]  so I can't evaluate if I'm resisting age-related change.
+[391.48s]  But then it raises a question of
+[392.94s]  what can I do to reduce B2M as I'd like to go lower?
+[395.84s]  For me, my interpretation of the published literature
+[398.12s]  is that 1.58 milligrams per liter for B2M,
+[401.74s]  while although not terribly high,
+[403.78s]  isn't as low as I'd prefer to be.
+[406.60s]  So in terms of what I can do to potentially reduce it,
+[409.00s]  I'm gonna look at correlations for diet with B2M.
+[412.52s]  And for those who are unfamiliar,
+[414.00s]  how I'm able to do that,
+[415.54s]  since 2015, so for the past 10 plus years,
+[418.74s]  I've weighed almost all of my food,
+[420.94s]  more than 99% with a food scale.
+[423.38s]  I then enter those data into Chronometer,
+[425.42s]  a diet tracking app.
+[426.36s]  And quick shout out, if you wanna use Chronometer,
+[428.36s]  there's a discount link in the video's description.
+[430.48s]  I then pull the Chronometer data into a spreadsheet.
+[433.48s]  So the macros and micros and individual food amounts.
+[435.66s]  So now each dietary period in between tests
+[439.66s]  can be used for the latter test.
+[442.34s]  In other words, if there's a 50-day period
+[444.22s]  in between blood testing,
+[445.56s]  I can take the average dietary intake for those 50 days,
+[448.80s]  and that lines up with the latter blood test.
+[451.26s]  So now every blood test has an average dietary intake.
+[454.50s]  With enough blood tests,
+[455.64s]  once I get to three blood tests,
+[456.90s]  I can start looking at correlations.
+[458.82s]  Now sure, there's gonna be a lot of noise in the data
+[461.16s]  after three blood tests,
+[462.64s]  but as many of you know and have seen on this channel,
+[464.66s]  I have now 60-plus blood tests
+[466.22s]  for most clinical chemistry-related biomarkers,
+[469.06s]  kidney, liver, immune, et cetera.
+[470.58s]  So I can look at correlations
+[471.94s]  that can help drive me towards what's an optimal diet
+[474.70s]  and even supplements.
+[476.24s]  So using that approach,
+[477.46s]  let's take a look at correlations for B2M
+[479.72s]  over these six tests with diet
+[481.34s]  to see what I could potentially do
+[482.74s]  to bring it towards the lower end of my range.
+[486.12s]  So this is the top portion of that table,
+[488.52s]  and note that correlations for diet with biomarkers
+[490.70s]  for all biomarkers, not just B2M,
+[492.46s]  with 30 other clinical chemistry biomarkers.
+[495.38s]  And then I also look at correlations
+[496.74s]  for diet with metabolomic data.
+[498.48s]  So I have another 600-plus metabolites
+[500.76s]  that are correlated with diet.
+[502.66s]  So if you're interested in that,
+[503.72s]  check us out on the correlations tier on Patreon.
+[506.14s]  So for this table,
+[507.14s]  we can see that the lowercase r
+[509.02s]  is the correlation coefficient.
+[510.78s]  And then on the right,
+[511.44s]  we've got the p-value
+[512.28s]  as a measure of statistical significance.
+[514.48s]  And here I've used just less than 0.05
+[517.22s]  as the standard nominal threshold
+[519.58s]  for statistical significance.
+[521.48s]  I'm not using a false discovery rate,
+[523.50s]  and if people are interested in why that's the case,
+[525.84s]  just leave a comment,
+[526.58s]  and I'd be happy to describe my process for that
+[528.72s]  in the comments under the video's description.
+[532.26s]  So in terms of the correlations,
+[533.60s]  we can see that there are four
+[534.74s]  that meet that significance threshold.
+[537.06s]  Cacao beans, and these are raw,
+[538.66s]  organic cacao beans, not nibs,
+[540.38s]  which have a positive correlation,
+[542.04s]  which I've labeled as red.
+[543.58s]  That positive correlation suggests
+[545.70s]  that when cacao intake is towards
+[548.00s]  the higher end of my range,
+[549.34s]  that's significantly correlated
+[550.52s]  with higher levels of B2M.
+[552.80s]  Note that I said correlation.
+[554.32s]  This is not causation.
+[555.54s]  I can't see anything about causation.
+[557.42s]  I can get close to causation
+[558.74s]  by either increasing or decreasing
+[561.14s]  a given amount of food or nutrient
+[563.16s]  based on these correlations.
+[564.48s]  But again, these are correlations.
+[565.84s]  I'm not presuming causation.
+[568.16s]  On the other hand, inverse correlations,
+[570.74s]  which suggest that higher levels of the food
+[572.72s]  may be related to lower levels of B2M
+[576.26s]  include almonds, lemon, and potatoes.
+[579.36s]  So what do I do with this information?
+[581.28s]  Well, I try to follow the correlations.
+[583.40s]  If higher cacao is related
+[584.86s]  to higher levels of B2M,
+[586.32s]  if I reduce it, that should lower.
+[588.22s]  Again, if correlation equals causation,
+[590.38s]  the only way I can find out
+[591.64s]  is by doing the experiment.
+[593.70s]  So to test that, for the next test,
+[595.36s]  I've removed cacao beans.
+[597.38s]  Additionally, what about almonds?
+[599.54s]  So the correlations only tell us
+[601.54s]  whether they're increasing or decreasing,
+[603.26s]  but they don't tell us about amount of food
+[605.24s]  to follow a given correlation.
+[607.20s]  So let's illustrate what the plot
+[609.42s]  for B2M looks like versus almonds,
+[611.44s]  which is what we'll see here.
+[612.88s]  With B2M on the y-axis,
+[614.58s]  plotted against average daily almond intake
+[616.84s]  that corresponds to each one of these blood tests.
+[619.68s]  First, we can see that inverse correlation.
+[622.24s]  And then based on extrapolation of the plot,
+[624.14s]  if I want to bring B2M levels lower,
+[626.54s]  I should aim for somewhere
+[627.74s]  in the 20 to 25 gram of almond range,
+[630.90s]  at least at a minimum per day.
+[633.92s]  So average almond intake,
+[635.30s]  again, because I track diet,
+[636.68s]  I know exactly how much I'm eating for every day.
+[639.98s]  Average almond intake since test number eight,
+[642.26s]  blood test number eight in 2025,
+[644.04s]  is currently 19 grams per day.
+[646.54s]  And you could say, why not go higher?
+[648.34s]  Why not just jack it up to 25, 30, whatever,
+[651.02s]  50 grams of almonds per day?
+[652.72s]  Well, unfortunately in my data,
+[654.54s]  almond, not just almonds,
+[656.02s]  but overall monounsaturated fat containing foods
+[658.84s]  are significantly correlated with higher levels of glucose,
+[662.22s]  which is moving in the wrong direction.
+[663.74s]  And you could say, how does that make any sense?
+[665.70s]  Move for our thought to be heart healthy,
+[667.70s]  why would that be positively correlated with glucose?
+[670.00s]  I have no idea,
+[670.86s]  but that's what the data shows in my case.
+[673.70s]  Additionally, almonds are a rich source of oxalate
+[676.76s]  and potentially more importantly,
+[679.00s]  their oxalate to calcium ratio,
+[681.18s]  they have more oxalate than they do calcium,
+[683.96s]  which suggests that oxalate from almonds
+[685.68s]  will be absorbed and not excreted
+[687.60s]  as oxalate binds to calcium one to one.
+[690.34s]  So those are two main reasons why I haven't gone higher
+[692.90s]  as I have to temper,
+[694.40s]  I have to modulate the amount of almonds
+[695.92s]  that I'm consuming to keep oxalate levels relatively low
+[698.94s]  and to keep my MUFA levels
+[701.00s]  from going towards their highest level,
+[702.92s]  which again, in my case,
+[704.04s]  is significantly correlated
+[705.10s]  with higher levels of glucose.
+[707.20s]  So based on extrapolation
+[708.60s]  of the average of 19 grams per day,
+[710.62s]  currently since the last test,
+[712.62s]  we'd expect that I should see B2M levels
+[714.64s]  somewhere around 1.5 milligrams per liter,
+[717.26s]  which still isn't as low as I'd like to get it to,
+[720.48s]  but on the other hand,
+[721.94s]  it may not be as high as my two highest tests,
+[725.64s]  which you can see were greater
+[726.68s]  than 1.6 milligrams per liter.
+[729.18s]  But remember, this is just part of the story.
+[731.34s]  I've also removed cacopiants.
+[733.36s]  So if both of these foods are somehow involved
+[735.52s]  in mechanisms that impact B2M,
+[737.56s]  the combination of following these two correlations
+[739.88s]  may allow for movement towards lower,
+[742.50s]  you know, towards one or lower than 1.5.
+[746.26s]  But there may be a sneaky food on this list
+[748.74s]  that the correlations don't yet indicate
+[750.90s]  how strong of an impact it may have on B2M,
+[754.44s]  and that's strawberries.
+[755.56s]  You can see that strawberries have a significant
+[757.54s]  or close to significant,
+[758.88s]  that P value is 0.06,
+[760.52s]  just outside of that threshold
+[761.82s]  of P value less than 0.05.
+[764.66s]  So I've been eating a lot of strawberries,
+[766.84s]  more than usual.
+[767.80s]  In fact, since the last test,
+[770.44s]  close to three pounds per day,
+[771.90s]  which is up from around two pounds per day.
+[774.12s]  Now, if strawberries are somehow involved
+[776.18s]  in mechanisms that impact B2M,
+[778.14s]  even if I follow the cacao bean and almond correlations,
+[781.90s]  if those foods aren't actually involved
+[783.82s]  in relatively high levels or low levels of B2M,
+[786.32s]  and it's strawberries that are driving that,
+[788.30s]  I may actually see higher levels of B2M
+[790.26s]  for the next test.
+[791.12s]  Nonetheless, this is data collection.
+[793.66s]  That story is informative
+[795.30s]  because the correlations for cacao and almonds
+[797.76s]  will weaken.
+[798.60s]  The correlation for strawberries will strengthen.
+[801.42s]  And then with that in mind,
+[803.00s]  that'll be more motivation
+[804.16s]  to cut down on my strawberry intake.
+[806.14s]  If B2M is a part of that story
+[808.44s]  where high strawberry intake
+[809.74s]  may be driving B2M higher,
+[811.48s]  I'm going to have no choice
+[812.44s]  but to cut down on strawberry intake,
+[813.80s]  for sure, not from three pounds per day,
+[816.40s]  to something more moderate,
+[818.54s]  two pounds per day,
+[819.22s]  or even a little lower.
+[821.00s]  It's tough for me
+[821.66s]  because I love strawberries
+[822.68s]  and they're satiating.
+[823.92s]  And part of being on a calorie-restricted diet
+[825.46s]  is eating a variety of foods
+[827.46s]  that help keep me satiated,
+[828.78s]  and strawberries are a key component of that.
+[830.76s]  So will it work?
+[831.72s]  Will B2M move lower
+[832.90s]  for test number one in 2026?
+[835.66s]  That test is scheduled for January 30th,
+[837.72s]  and if you're watching this on YouTube,
+[839.00s]  it may have been a month
+[840.04s]  where I've actually done this blood test.
+[842.24s]  If you want to see those data
+[843.44s]  immediately after they came out
+[844.82s]  sometime in the first week of February,
+[846.70s]  check us out on Patreon,
+[848.20s]  where I also offer blood test consults
+[850.38s]  and post at least twice per day
+[852.06s]  in four other Patreon tiers.
+[853.92s]  We've also got a whole bunch of discount
+[855.58s]  and affiliate links
+[856.38s]  that you can use to test yourself
+[857.68s]  that help support the channel,
+[859.42s]  including ultalabtest.com,
+[861.24s]  which is where I go
+[861.94s]  for the majority of my blood tests.
+[863.72s]  But note that ultalabtest.com
+[865.62s]  uses Quest Labs,
+[866.92s]  which is pretty close to me
+[868.20s]  and it's convenient.
+[869.22s]  And that may not be convenient
+[870.48s]  for others who are into blood testing like me.
+[873.20s]  So I recently reached out
+[874.40s]  to get another lab testing affiliate link,
+[876.70s]  this time from Life Extension,
+[878.12s]  which uses LabCorp.
+[879.06s]  So if you have a Quest Lab
+[880.58s]  or a LabCorp in your area
+[882.16s]  and you're into blood testing like me
+[884.06s]  and you'd like to help support the channel,
+[885.64s]  if you use the affiliate links
+[886.96s]  in the video description,
+[887.96s]  you would help out tremendously.
+[889.58s]  At-home metabolomics,
+[890.98s]  any testing with Genfinity,
+[892.88s]  epigenetic testing with True Diagnostic.
+[894.56s]  These are other affiliate links
+[895.68s]  that are in the video description.
+[897.10s]  At-home blood testing with Cy Fox Health,
+[898.68s]  which includes Grim Age.
+[899.60s]  But again, I'd prefer to measure
+[900.88s]  the actual biomarkers
+[902.36s]  relative to the epigenetics.
+[903.88s]  Maybe you disagree
+[904.62s]  and you want the epigenetic test
+[905.92s]  as Grim Age is a very strong test,
+[907.94s]  consistently associated
+[909.12s]  with risk of death for all causes
+[910.60s]  in a multitude of studies.
+[912.28s]  That too is in the video description,
+[913.70s]  affiliate link.
+[914.84s]  Oral microbiome composition,
+[916.52s]  dietracking with chronometer,
+[917.90s]  green tea,
+[918.46s]  which I drink every day,
+[919.80s]  the clearly filtered water filter,
+[921.12s]  which I'm using every day too.
+[922.68s]  Or if you'd like to support the channel,
+[924.08s]  you can do that with the website,
+[925.20s]  buy me a coffee.
+[926.34s]  We've also got merch,
+[927.58s]  including Data is my North Star,
+[929.02s]  which I've got on here.
+[930.56s]  Figuring Stuff Out is my drug,
+[931.88s]  and the Conquer Aging or Dietracking logo.
+[934.46s]  Link in the video's description.
+[935.56s]  Thanks for watching.
+[937.36s]  Hope that you enjoyed the video.
+[938.84s]  Have a great day.
