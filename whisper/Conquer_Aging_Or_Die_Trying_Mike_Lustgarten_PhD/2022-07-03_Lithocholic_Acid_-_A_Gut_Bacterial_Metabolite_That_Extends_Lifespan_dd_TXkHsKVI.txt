@@ -1,0 +1,295 @@
+[0.46s]  Circulating levels of bile acids are elevated in a mouse model of longevity.
+[5.00s]  So first, let's have a look at the mouse model of longevity.
+[8.04s]  Here's survival data for control animals and lit-lit mice, which are in black circles.
+[13.26s]  These are animals that have a mutation in the growth hormone receptor,
+[17.52s]  thereby leading to 99% reduced levels of circulating growth hormone.
+[22.22s]  So when looking at survival, median survival is indicated by 50% survival.
+[26.78s]  This is when half the colony has died, half is still alive.
+[30.22s]  And maximum survival, this is 10% survival.
+[33.56s]  This is when 90% of the colony has died and only 10% is still alive.
+[38.04s]  We can see a significant increase for both median and maximal lifespan in the lit-lit mice,
+[43.82s]  which are otherwise known as dwarf mice or little mice.
+[47.42s]  So we can see that circulating levels of bile acids, as I've written here,
+[50.86s]  are elevated in this mouse model of longevity.
+[53.56s]  And we can see that data there.
+[54.92s]  So here are seven bile acids as contained in blood for the little mice, for wild-type mice,
+[62.38s]  and the ratio between the little mice, the dwarf mice, with wild-type mice.
+[66.86s]  And then to the far right is the p-value for whether these amounts are different between groups.
+[72.64s]  So what we can see is for all of these bile acids, with the exception of one, alpha-murycholic acid,
+[79.02s]  all of them are significantly higher in the dwarf mice when compared with the wild-type mice.
+[83.80s]  And not just a little bit higher, but a lot higher,
+[87.24s]  ranging from 2.8-fold to 5.4-fold higher in the dwarf mice when compared with wild-type.
+[92.88s]  And you can see at the bottom, too, that total levels of these bile acids are 4.2-fold elevated in the dwarf mice
+[99.22s]  when compared with the wild-type.
+[101.28s]  So from this, we can conclude that circulating bile acids are associated with an increased lifespan.
+[106.34s]  Although the primary intervention was the mutation in the growth hormone receptor,
+[110.64s]  bile acids, as we can see by this data, are associated with an increased lifespan.
+[115.40s]  So what about causation?
+[117.06s]  So in an earlier video, we saw that one of these bile acids,
+[119.70s]  the primary bile acid, known as cholic acid, was significantly higher in the dwarf mice,
+[125.22s]  3.5-fold higher in the dwarf mice when compared with wild-type.
+[128.70s]  And cholic acid on its own extends lifespan in a mouse model of accelerated aging,
+[133.40s]  which is what we can see here.
+[135.28s]  So in this study, they used the ZMP-STE24 knockout mice,
+[140.76s]  and this is an accelerated aging model or a mouse model of progeria,
+[145.02s]  which is accelerated aging, a genetic model of accelerated aging.
+[147.92s]  So they split half these mice into control-fed and cholic acid-fed, CA.
+[153.32s]  More specifically, 0.1% cholic acid was supplied in the diet.
+[157.40s]  And what we can see by looking at median, so 50% survival and maximum survival,
+[162.04s]  which was defined as 20% survival.
+[163.98s]  So in this study, it was 80% of the colony had died, only 20% was still alive.
+[168.46s]  We can see a significant increase by 7% for median lifespan
+[171.58s]  and a borderline significant increase for maximum lifespan,
+[175.98s]  with the p-value for maximum lifespan being right at the border.
+[179.66s]  P-value equals 0.054.
+[182.92s]  So what about other bile acids?
+[184.72s]  We see that at least one bile acid can extend lifespan.
+[187.74s]  What about other bile acids?
+[189.56s]  Can they extend lifespan?
+[190.92s]  So I think a good idea is to look at other bile acids on this list
+[195.14s]  and to look into the literature to see if any of them have extended lifespan in other animal models.
+[201.02s]  More specifically, what about lithocholic acid,
+[203.42s]  which was 3.7-fold higher in the dwarf mice when compared with wild type?
+[208.90s]  So first, we can see that lithocholic acid extends lifespan in yeast.
+[212.80s]  So here we're looking at the percentage of alive cells,
+[215.32s]  or alive yeast cells on the Y-axis,
+[217.22s]  against days in culture.
+[218.94s]  So these are yeast cells grown in cell culture.
+[221.82s]  And when looking at the wild type yeast,
+[223.78s]  these yeast were not supplied with bile acids.
+[226.26s]  So that's the black squares as shown there.
+[229.12s]  And when looking at median survival,
+[230.58s]  again, 50% survival,
+[232.08s]  half the yeast cells have died,
+[233.50s]  half are still alive.
+[234.72s]  We can see that median survival for the wild type
+[237.04s]  non-bile acid supplemented yeast was 12 days.
+[240.60s]  Now notice there is a dramatic extension in lifespan,
+[243.76s]  shifting the survival curves to the far right.
+[245.64s]  And as you guessed it, lithocholic acid.
+[248.48s]  So yeast that were supplemented with lithocholic acid,
+[251.02s]  you can see there's a dramatic increase in median lifespan up to 30 days.
+[255.84s]  So that's a 250-fold increase,
+[258.36s]  or 2.5-fold increase for median lifespan
+[260.94s]  in lithocholic acid supplemented yeast.
+[264.22s]  But note that this is when the yeast cells are grown under 0.2% glucose.
+[269.20s]  And these are calorie-restricted conditions,
+[271.62s]  as we'll see in a minute.
+[272.98s]  So does lithocholic acid extend yeast lifespan without calorie restriction?
+[278.52s]  And it does.
+[279.40s]  As we can see by the title,
+[280.54s]  lithocholic acid extends lifespan and yeast under calorie-restricted
+[283.78s]  and non-calorie-restricted conditions.
+[285.82s]  So what are we looking at here?
+[287.16s]  So we've got lifespan on the Y-axis,
+[289.82s]  including both average lifespan on the left
+[291.80s]  and maximum lifespan on the right.
+[293.64s]  And then we've got the glucose concentration that the yeast cells were exposed to,
+[298.42s]  ranging from 0% all the way up to 0.2% glucose,
+[302.54s]  all the way up to 2% glucose.
+[304.00s]  So 10 times higher than the data that I just showed on the previous slide.
+[307.94s]  And then we've got the data for yeast that were not supplemented with lithocholic acid
+[313.40s]  in the open white circles,
+[315.20s]  and then the yeast that were supplemented with lithocholic acid
+[317.88s]  in the black, in the filled circles.
+[319.84s]  So when looking at 0.2% glucose,
+[322.58s]  the data that I just showed on the previous slide,
+[324.56s]  there was that increase in median,
+[326.60s]  but also as we can see here on the left,
+[328.32s]  maximum average lifespan, mean lifespan.
+[331.24s]  But then what I didn't show was
+[332.32s]  there was also a significant increase in maximum lifespan
+[335.26s]  as shown in the right panel.
+[337.26s]  All right, so what about under non-calorie-restricted conditions?
+[340.20s]  So from that, we go from the 0.2% supplemented media that had glucose,
+[345.92s]  glucose in the media at 0.2%,
+[347.50s]  and we go to 2%.
+[349.14s]  So 10 times higher glucose level,
+[352.44s]  what's the effect on lifespan in lithocholic acid
+[354.90s]  versus non-lithocholic acid supplemented yeast?
+[358.02s]  And we can see that even under non-calorie-restricted conditions,
+[361.00s]  2% glucose,
+[362.30s]  lithocholic acid supplemented yeast
+[363.76s]  still had significant increases
+[365.12s]  for both average and maximum lifespan.
+[367.70s]  So that's why we can see
+[368.82s]  LCA lithocholic acid extends lifespan in yeast
+[371.78s]  under both calorie-restricted and non-calorie-restricted conditions.
+[374.72s]  All right, so can lithocholic acid extend lifespan in other animal models?
+[379.76s]  So for that, we go to flies.
+[381.76s]  And lithocholic acid extends lifespan in flies too.
+[384.76s]  So here again, we're looking at survival on the y-axis plotted against the age.
+[388.38s]  So how long did the flies live?
+[390.06s]  And this is data in male W1118 flies.
+[394.44s]  I haven't come across any data for lithocholic acid supplementation on lifespan in female flies.
+[399.06s]  If anybody's seen that data,
+[401.06s]  please leave it in the comments so we can share the information.
+[404.72s]  All right, so when looking at median and maximum lifespan,
+[407.80s]  and this study being 50% survival for median lifespan,
+[410.78s]  10% survival for maximum lifespan,
+[412.64s]  we can see significant increases in flies that were supplemented with lithocholic acid
+[417.00s]  for both median lifespan and maximum lifespan.
+[420.68s]  All right, so what about mice?
+[422.34s]  Can lithocholic acid supplementation extend lifespan in mice?
+[425.88s]  And unfortunately, I haven't come across that data yet.
+[428.36s]  And again, if anyone's come across that data, please leave a comment.
+[431.62s]  I'd be happy to make a video about that in the future.
+[435.58s]  All right, so what about human data?
+[436.92s]  Is there human data that suggests a role for lithocholic acid on longevity in people?
+[441.02s]  So fecal levels of lithocholic acid are higher in centenarians,
+[444.64s]  so people who've lived to older than 100 years
+[446.76s]  when compared with younger age groups.
+[448.76s]  And we can see that data here.
+[450.18s]  So we've got lithocholic acid, LCA,
+[452.90s]  and that's micromoles of lithocholic acid per gram of feces,
+[458.30s]  or how much lithocholic acid was in poop.
+[461.06s]  And then there are four groups on the x-axis.
+[463.48s]  So first, centenarians.
+[464.94s]  In this centenarian group, there were 160 people
+[467.56s]  who had an average age of 107 years.
+[469.90s]  And then there were three younger groups.
+[472.58s]  Older, which had an average age of 86 years,
+[475.62s]  and there were 112 of those subjects.
+[478.16s]  Young, which had an average age of 31 years,
+[480.72s]  41 of those subjects.
+[482.48s]  And then CEL, which are lineal descendants,
+[485.64s]  so offspring of centenarians,
+[487.86s]  that had an average age of 75 years,
+[489.74s]  and there were 22 of those subjects.
+[491.96s]  And what we can see is that centenarians
+[493.50s]  had significantly higher levels of lithocholic acid
+[495.88s]  when compared with all of the other groups.
+[498.26s]  So higher than the older group,
+[500.16s]  higher than the younger group,
+[501.38s]  and higher than their kids.
+[503.02s]  Now, let's take a sidestep as to why this may be important.
+[507.10s]  And that's because relatively higher fecal levels
+[509.30s]  of lithocholic acid suggests a role
+[510.96s]  for gut bacteria on longevity.
+[513.14s]  So why is that the case?
+[515.42s]  So starting from cholesterol in the liver,
+[517.98s]  cholesterol is degraded by a series of enzymatic steps
+[520.56s]  to produce the primary bile acid,
+[522.50s]  chino or kino deoxycholic acid, CDCA,
+[526.74s]  which is then conjugated with either taurine or glycine
+[529.76s]  to form toro-CDCA or glyco-CDCA.
+[533.80s]  Now, those metabolites,
+[535.50s]  those conjugated metabolites,
+[537.06s]  are then released by the gallbladder
+[538.44s]  after a meal into the intestine,
+[541.30s]  where gut bacteria convert it
+[542.96s]  into either ursodeoxycholate, UDCA,
+[546.32s]  or lithocholic acid, LCA.
+[548.22s]  So, in other words,
+[549.66s]  lithocholic acid is exclusively produced
+[551.52s]  by gut bacteria.
+[554.04s]  So, all right, this was one study
+[555.52s]  that I showed you for lithocholic acid levels in poop
+[558.24s]  in human subjects, higher in centenarians.
+[561.18s]  Have other human studies replicated this finding?
+[565.14s]  And there is indeed another study
+[567.00s]  that looked at lithocholic acid levels in centenarians
+[569.10s]  when compared with younger age groups.
+[570.70s]  And that's what we're looking at here,
+[572.22s]  lithocholic acid levels in feces or poop.
+[575.08s]  So the two groups in this study
+[576.66s]  were centenarians or close to centenarians,
+[579.64s]  people in the 94 to 105-year-old age range
+[582.44s]  that had an average age of 97 years,
+[584.90s]  and their kids who had an average age of 67 years,
+[588.18s]  50 to 79-year-olds.
+[590.06s]  And what we can see is that these centenarians
+[592.00s]  or close to centenarians
+[593.08s]  had a 43% higher level of lithocholic acid in feces
+[596.98s]  when compared with their offspring.
+[599.00s]  And this difference was statistically significant,
+[602.02s]  as you can see by the p-value
+[603.28s]  and false discovery rate, FDR,
+[605.34s]  were both less than 0.05.
+[608.08s]  All right, so with the goal of longevity,
+[610.00s]  can levels of lithocholic acid be increased?
+[612.28s]  And if so, how?
+[613.90s]  Well, exercise may be one way to do that.
+[616.38s]  And blood levels of lithocholic acid
+[618.06s]  are increased after exercise.
+[620.36s]  So this is after either one hour of endurance exercise
+[623.86s]  or one hour of resistance exercise or strength training.
+[626.98s]  So let's break down the data.
+[628.58s]  So in this study, it was a very small study.
+[630.32s]  It only included 10 people,
+[632.40s]  and this study only included men.
+[634.12s]  And again, if anyone's come across studies in women,
+[636.44s]  please leave a comment.
+[637.28s]  I'd be happy to share it with the community.
+[639.78s]  So this was young men, 24 years old,
+[642.40s]  lean with a BMI of 23.7,
+[644.40s]  so not overweight or obese.
+[646.58s]  And when I say lean,
+[647.62s]  we can see by the body fat percentage was 12.7%,
+[650.24s]  which is lean.
+[651.14s]  And these were fit subjects
+[652.66s]  that had a VO2 peak of 55.7.
+[655.14s]  So these are not average fitness people.
+[656.92s]  This is a relatively high level of fitness.
+[658.98s]  All right, so what was the endurance training protocol
+[661.94s]  for those who are interested
+[662.92s]  in trying to increase their own lithocholic acid levels
+[665.64s]  or at least reproduce the findings of this study?
+[668.92s]  So there was a 10-minute warmup on the bike,
+[670.98s]  and then it was 50 minutes of biking
+[672.86s]  at 70% of their VO2 peak,
+[674.76s]  so a relatively strenuous 50-minute bike ride,
+[677.48s]  not including the warmup,
+[678.82s]  but one hour of total endurance exercise.
+[681.18s]  All right, so what was the effect
+[682.14s]  of that one hour of endurance exercise
+[683.90s]  on blood levels of lithocholate?
+[686.04s]  So before exercise,
+[688.00s]  lithocholate levels were 0.01 micromolar,
+[690.54s]  and then 60 minutes after exercise,
+[692.90s]  that amount was tripled to 0.03 micromolar,
+[695.44s]  and it still remained elevated up to three hours
+[698.04s]  after exercise at 0.02 micromolar,
+[702.00s]  so doubled when compared with before exercise.
+[704.94s]  So from this, we can see that lithocholic acid levels
+[707.00s]  are increased up to three hours after exercise
+[709.90s]  for endurance exercise.
+[711.86s]  All right, so what about resistance exercise
+[713.40s]  or strength training?
+[714.28s]  So first, what was the strength training protocol?
+[717.60s]  So there was a five-minute warmup on the bike,
+[719.84s]  followed by 15 reps each for squats,
+[722.04s]  push-ups, sit-ups, and back raises,
+[723.60s]  and then the actual strength training protocol,
+[725.62s]  aside from the warmup,
+[726.78s]  was five sets of 10 reps each for knee extension,
+[729.54s]  bench press, hamstring curls,
+[731.30s]  lat pull-downs, and leg press.
+[733.10s]  All right, so what was the effect
+[733.98s]  on lithocholic acid levels in blood?
+[736.10s]  So again, starting from before exercise,
+[738.10s]  they had 0.01 micromolar levels
+[740.42s]  of lithocholic acid in blood,
+[741.82s]  which was then tripled either 60 minutes after exercise
+[745.46s]  and 180 minutes, so three hours after exercise,
+[748.38s]  blood lithocholic acid levels were tripled
+[750.04s]  after this resistance exercise training protocol.
+[753.46s]  So this then raises the question,
+[755.14s]  is lithocholic acid levels,
+[756.80s]  are lithocholic acid levels in blood
+[758.72s]  higher in athletes when compared with sedentary subjects?
+[761.46s]  And that's another one that I haven't come across that data,
+[764.54s]  but if so, it could suggest that that may be one reason
+[767.78s]  why there's an increase in average lifespan
+[770.28s]  for at least in animal models for exercise training
+[774.38s]  when compared with sedentary animals.
+[776.66s]  So if anyone's come across the athlete data
+[779.20s]  and lithocholic acid levels in blood,
+[780.92s]  please leave it in the comments.
+[781.78s]  I'd be happy to share it with the community.
+[784.10s]  All right, that's all for now.
+[785.00s]  If you're interested in more about my attempts
+[786.46s]  to biohack aging, check us out on Patreon.
+[788.96s]  Thanks for watching.
+[789.60s]  I hope that you enjoyed the video.
+[791.16s]  Have a great day.
