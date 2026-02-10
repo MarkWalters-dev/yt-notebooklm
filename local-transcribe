@@ -1,0 +1,24 @@
+#!/usr/bin/env python
+
+from faster_whisper import WhisperModel
+import os
+import multiprocessing
+
+# Use 'cpu' and 'int8' for maximum speed on your processor
+model = WhisperModel("large-v3-turbo", device="cpu", compute_type="int8", cpu_threads=multiprocessing.cpu_count())
+
+def transcribe(file_path):
+    # This will process roughly 5-10x faster than real-time on a modern CPU
+    segments, info = model.transcribe(file_path, beam_size=1) # beam_size=1 is fastest
+    
+    output_file = f"{os.path.splitext(file_path)[0]}.txt"
+    with open(output_file, "w") as f:
+        for segment in segments:
+            f.write(f"[{segment.start:.2f}s] {segment.text}\n")
+    print(f"✅ Finished: {output_file}")
+
+# Walk through your audio folder
+for root, _, files in os.walk("./audio"):
+    for file in files:
+        if file.endswith(".m4a"):
+            transcribe(os.path.join(root, file))
