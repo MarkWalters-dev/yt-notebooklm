@@ -122,7 +122,8 @@ def convert_to_markdown(transcript, file_path, max_retries=3):
                     "3. **Format Protocols as Lists:** If the speaker describes a step-by-step protocol (like exercise routines or study methodology), format it as a clear bulleted list.\n"
                     "4. **Standardize Terms:** Replace 'lit mice' with 'Little (dwarf) mice' throughout. Ensure chemical names are spelled correctly.\n"
                     "5. **Delete Meta-Commentary:** Remove intros, outros, Patreon plugs, or calls to leave comments. Keep only the scientific data.\n"
-                    "6. **Structure:** Use H2 headings (##) for major scientific topics (e.g., 'Mouse Data', 'Human Evidence').\n\n"
+                    "6. **Structure:** Use H2 headings (##) for major scientific topics (e.g., 'Mouse Data', 'Human Evidence').\n"
+                    "7. **Visualizing Processes:** If a complex biological process is described (like a metabolic pathway), create a text-based flowchart using arrows ( -> ) to visualize the steps.\n\n"
                     f"Transcript:\n{transcript}"
                 ]
             )
