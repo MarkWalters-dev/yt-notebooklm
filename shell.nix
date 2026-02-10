@@ -16,6 +16,7 @@ pkgs.mkShell {
     pkgs.ffmpeg
     pkgs.glow
     pkgs.bc
+    pkgs.byobu
     
     (pkgs.python3.withPackages (p: [
       p.google-genai
