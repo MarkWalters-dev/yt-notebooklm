@@ -16,6 +16,10 @@ def transcribe(file_path):
     out_dir = os.path.join("whisper", os.path.dirname(rel_path))
     os.makedirs(out_dir, exist_ok=True)
     output_file = os.path.join(out_dir, f"{os.path.splitext(os.path.basename(file_path))[0]}.txt")
+    # Skip if already transcribed
+    if os.path.exists(output_file):
+        print(f"⏩ Skipping (already transcribed): {output_file}")
+        return
     with open(output_file, "w") as f:
         for segment in segments:
             f.write(f"[{segment.start:.2f}s] {segment.text}\n")
