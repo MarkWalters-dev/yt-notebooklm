@@ -26,6 +26,7 @@ pkgs.mkShell {
     ] ++ lib.optionals isP72 [ 
       p.faster-whisper
       p.deepgram-sdk
+      p.httpx
     ]))
   ] 
   ++ lib.optionals isP72 [ 
