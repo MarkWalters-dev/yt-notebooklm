@@ -40,6 +40,7 @@ pkgs.mkShell {
       p.python-dotenv
       p.tqdm
       p.deprecation
+      p.aenum
     ] ++ lib.optionals isP72 [ 
       p.faster-whisper
       deepgram-sdk
