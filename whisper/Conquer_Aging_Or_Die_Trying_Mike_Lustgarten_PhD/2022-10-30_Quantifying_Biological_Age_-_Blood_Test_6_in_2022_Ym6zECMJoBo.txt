@@ -1,0 +1,59 @@
+[0.00s]  The central premise of this channel is that aging and disease are biochemical processes that happen over many decades.
+[6.86s]  So if we track and optimize well-established biomarkers of organ and systemic health, can aging and disease risk be slowed?
+[14.24s]  So with that in mind, earlier this week I blood tested for the sixth time in 2022.
+[18.72s]  So with that in mind, what's my biological age?
+[21.34s]  So first, when using Dr. Morgan Levine's phenotypic age calculator, which is a metric of biological age,
+[26.92s]  and if you're interested in measuring your own phenotypic age or biological age, that link will be in the video's description.
+[32.94s]  So when using this test, we can see that my biological age is 34.5 years, which is 15.2 years younger than my chronological.
+[40.92s]  Now note that the lab measurement, Quest's high sensitivity C-reactor protein measurement, was less than 0.3 milligrams per liter.
+[48.14s]  So CRP could be lower than 0.3 milligrams per liter, but it can't be higher because that's the limit of their detection.
+[54.32s]  And besides just putting data into a spreadsheet, all of the blood test data, screenshots of the lab report will be included at the end of the video.
+[62.92s]  Now this is just one test.
+[64.74s]  So for more context, let's have a look at biological age results since 2018.
+[68.86s]  And I have 21 blood tests over that time period.
+[72.26s]  And we can see that here.
+[73.70s]  So first, from 2018 to 2019, I only have three measurements.
+[77.84s]  But over those three tests, my average biological age using Levine's test was 36.1 years.
+[83.40s]  Then in 2020, I tested six times with an average age of 35.6 years.
+[89.10s]  Similarly, 35.6 years in 2021.
+[92.28s]  And thus far in 2022, we can see that I've reduced it down to 34.0 years.
+[98.38s]  Now, besides looking at averages from year to year or differences for averages for Levine's test from year to year,
+[104.54s]  we can compare them statistically.
+[106.08s]  And when I use a two-sample t-test for the 2020 to 2021 data, so those 12 blood tests, versus the six blood tests in 2022,
+[114.08s]  I've significantly reduced Levine's biological age with a p-value of 0.04.
+[121.88s]  Now, this is one way to look at the data.
+[124.24s]  Another way is by comparing the chronological age minus biological age.
+[128.94s]  And prior to 2022, that average reduction was about 12 years over 15 tests from 2018 to 2021.
+[136.88s]  Thus far in 2022, we can see that the average chronological age minus biological age, again, CA minus BA,
+[145.10s]  has been better than 12 years for each of the first six tests in 2022,
+[149.72s]  with a low of 13.6 years, but at my best, a reduction of 17.2 years.
+[156.48s]  Nonetheless, the average chronological age minus biological age reduction for the first six tests in 2022 is 15.3 years,
+[164.30s]  which we can see is further reduced when compared with the about 12-year average from 2018 to 2021.
+[171.14s]  So this is one easy-to-use and reliable biological age metric, Levine's test.
+[177.28s]  What about aging.ai?
+[178.42s]  So aging.ai 3.0 is also free to use, and I'm not sponsored by either Dr. Morgan Levine or by aging.ai.
+[186.82s]  I just use it because they're relatively reliable tests for predicting chronological age and free and easy to use.
+[192.66s]  So aging.ai, it's easy.
+[195.14s]  You just type it in, go to the website, and you put your data in.
+[197.78s]  And when entering the 19 variables as shown here, I get a predicted age of 33.0 years.
+[203.48s]  Now, and that's, I should note that that's 16.7 years younger than my chronological.
+[208.78s]  Now, just like we did for Levine's test, for more context, let's have a look at previous data using aging.ai age data.
+[217.68s]  And we can see that here, and I have a lot more data for aging.ai because it doesn't include CRP, which is an add-on test here in the U.S.
+[224.10s]  I just started ordering it for every blood test over the past few years, whereas early on I didn't include it for every test.
+[230.56s]  Nonetheless, aging.ai doesn't include that, so I have a lot more data.
+[234.18s]  So from 2009 to 2013, I only have three tests, but my average aging.ai age over those three tests was 32 years.
+[241.96s]  And then, as you can see, I started a test more often in 2016, such that from 2016 to 2021, I tested 27 times with an average aging.ai age of 29.9 years.
+[253.86s]  All right, so what about 2022?
+[255.18s]  So over the first six tests in 2022, my average aging.ai age is 29.7 years.
+[262.46s]  And when comparing 2016 to 2021 data versus the six tests in 2022, these two groups of data are not significantly different.
+[272.14s]  In other words, my aging.ai age is pretty close to 30 years over the past six-year span or seven-year span, including 2016.
+[281.48s]  And also, going back to 2009, my aging.ai age range is consistently in the 29 to 32-year range, regardless of my chronological age.
+[292.38s]  All right, so what's contributing to these biological age reductions?
+[295.38s]  What about supplements, fitness, and or diet?
+[297.76s]  And over the next few videos, I'll break down each of these specifically to see how they may be contributing to these blood test data.
+[304.82s]  All right, that's all for now.
+[306.10s]  If you're interested in more of my attempts to biohack aging, check us out on Patreon.
+[309.64s]  And we've got some discount links that you may be interested in, including epigenetic testing, oral microbiome composition, at-home blood testing, diet tracking with chronometer,
+[318.58s]  or if you're interested in supporting the channel, you can do that with the website, Buy Me A Coffee.
+[322.98s]  Now, on to the blood test data.
+[324.64s]  All right.

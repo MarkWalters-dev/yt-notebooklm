@@ -1,0 +1,252 @@
+[0.00s]  For blood test number 5 in 2025, we saw that my biological age was 16.5 years younger than the
+[6.68s]  chronological. And if you missed that video, it'll be in the right corner. But does this
+[11.42s]  biological age clock, pheno age, does it have blind spots? So to address that, let's take a look at
+[16.54s]  its nine component biomarkers. Now they include biomarkers of liver health and function, kidney,
+[22.72s]  metabolic, immune, and also red blood cell related measures. But notably absent from this list are
+[29.04s]  cardiovascular disease related biomarkers. And that's potentially important because cardiovascular
+[33.66s]  disease is a top five cause of death. Now a younger biological age using this clock is associated
+[40.08s]  with a lower risk of death from cardiovascular disease. But I think it makes the most sense to
+[45.10s]  not only track these nine biomarkers and say my biological age is this or that, but to track
+[50.00s]  biomarkers of cardiovascular disease risk and a whole bunch of other biomarkers that are related to
+[54.98s]  optimizing organ and systemic function. So with that in mind, today we're going to do a deep dive into
+[60.18s]  cardiovascular disease risk biomarkers. And that's what we'll see here on page one of the blood test
+[65.86s]  report. And note that I don't go to my doctor to order these tests. I go to ultalabtest.com where I
+[71.72s]  pick exactly the tests that I want. I then bring this form to Quest Diagnostics, pay me about $10 blood
+[78.22s]  jaw fee, and then get the results relatively quickly. So we can see that I tested on July 22nd,
+[83.54s]  around seven in the morning, and I had the majority of these results four days later.
+[87.70s]  So if you're into blood testing like me, and you'd like to help support the channel,
+[91.26s]  you can do that by using the affiliate link in the video description.
+[94.82s]  All right, so onto the data, more specifically the lipid panel and starting off with HDL.
+[100.46s]  Now, if we go based on the reference range, which is greater than 40 milligrams per deciliter,
+[105.20s]  my value for the July 22nd test, which was 76 milligrams per deciliter is good.
+[109.66s]  Don't have to worry. But the Luskarden optimal range is more strict. So with that in mind,
+[115.30s]  what's optimal for HDL? So my range is 50 to 69 milligrams per deciliter. And this isn't my range
+[121.28s]  for what my actual data shows over the past 20 years. This range, 50 to 69 milligrams per
+[126.86s]  deciliter is based on a study of actually a meta-analysis of more than 3 million people
+[131.12s]  and a separate study of 16 million people. But this is only part of the story because HDL
+[137.64s]  declines during aging. And if you want to see those data, I have a new Patreon tier dedicated
+[143.30s]  specifically to what's optimal for biomarkers. It currently includes more than two hours of video
+[148.12s]  content from 48 published references. And note that these aren't the reference ranges. This is
+[153.26s]  what may be optimal based on how each of these biomarkers changes during aging and their association
+[157.78s]  with all-cause mortality risk. So if you're interested in seeing those data, check it out.
+[162.46s]  Now, the tier also includes the data for HDL. So let's take that a step further and let's look at
+[169.18s]  all of my data as I have blood test values going back 20 years. And that's what we'll see here.
+[174.80s]  So this is HDL from 2005 to 2025 as I have 73 tests over this 20 year span. So on the y-axis,
+[182.62s]  we've got HDL plotted against age. Now early on pre-2015, we can see that HDL declined. And I wish I could
+[190.74s]  say I knew what I was doing at that time, but I wasn't tracking diet or anything really. I was just
+[195.80s]  going to the doctor once per year and recording that data into a spreadsheet. But then starting in
+[201.10s]  2015, I started tracking my diet using a food scale and then entering that into the diet tracking app
+[206.84s]  chronometer and then pulling that data into a spreadsheet. And then every blood test has a
+[211.78s]  corresponding average dietary intake. And because each blood test has a corresponding average dietary
+[216.48s]  intake, I started looking at correlations and following the correlations with the goal of
+[220.68s]  improving biomarkers. And we can see that since I started that approach, I've been able to increase
+[225.94s]  HDL in two spurs. The first one is shown in the green arrow. And then you can see the slope of the
+[231.52s]  second green arrow is even better. So in terms of that, what's optimal for HDL at 50 to 69 milligrams
+[237.62s]  per deciliter, although my 76 is a bit higher than optimal for the last 18 tests, HDL has been within
+[246.04s]  that range on average with an average of 58 milligrams per deciliter. So again, cumulative
+[252.00s]  exposure. This is an important concept. Now I can't undo all of the other data pre that last 18 tests,
+[259.38s]  but the goal is to keep HDL in that 50 to 69 range and avoid any age-related decline going forward for
+[266.64s]  all tests going forward. All right. So what about APOA1? This is part of the story in terms of
+[272.68s]  cardiovascular disease risk. Another includes APOA1, which may be a better biomarker relative to
+[278.12s]  HDL, but they may actually be about the same. Some studies show that they're the same. And there
+[283.96s]  are studies that exist that show that APOA1 is a better marker relative to HDL, which is somewhat
+[288.46s]  surprising because HDL contains APOA1. But note that APOA1 isn't just contained within HDL. It can be
+[295.12s]  freely floating in plasma. So that's a story for another day. So what's my APOA1? And that's what we'll see
+[302.16s]  here. For this test, it was 166 milligrams per deciliter. Now, again, if we go based on the
+[307.42s]  reference range, which is anything greater than 115 milligrams per deciliter, I'm good. Don't have to
+[312.36s]  worry. But note that the reference that they're using for their reference range is based on a
+[317.30s]  study from 2004. And more specifically, this is the Amoris study. Interestingly, in 2021, data from
+[324.68s]  updated data from the Amoris study was published. So 17 years later, there was more data for this study
+[330.40s]  and the range is actually different from what is shown here. So the reference range is slow to adapt
+[336.36s]  to newly published data. Granted, it's four years old and it still hasn't been updated. Now, since
+[342.26s]  then, there's also all-cause mortality data in a large epidemiological study. And again, these data,
+[347.26s]  the pictures and video, all of that on Patreon, where all-cause mortality risk was evaluated in 2024
+[353.12s]  in association with APOA1. Now, based on those two studies, my optimal range for APOA1
+[358.14s]  is 150 to 180, as that's associated with lowest cardiovascular and lowest all-cause mortality risk.
+[365.30s]  So based on this one test, 166, I'm good. But again, cumulative exposure, what does the data say for
+[372.86s]  all tests? Now, I wish I could say I've been measuring APOA1 for 20 years, but this is not true.
+[378.70s]  I only recently started measuring it, so I only have six tests. But over those six tests,
+[383.00s]  APOA1's average is 146 milligrams per deciliter, which is just below that optimal range
+[387.94s]  of 150 to 180. But when considering the most recent test was 166, I'm confident I can get it
+[394.08s]  into the 150 to 180 and keep it there almost indefinitely. All right, moving on along, we've got
+[400.48s]  next triglycerides, which were 62 milligrams per deciliter for this test. And again, if we go based
+[406.50s]  on the reference range, which is anything less than 150, I should be good. And as a quick note,
+[412.42s]  note that VLDL, so this is a lipoprotein-focused video and lipoprotein-related measures,
+[418.10s]  VLDL, which is a lipoprotein, equals triglycerides or approximately equals triglycerides divided by
+[424.00s]  five. So if we go based on the reference range, anything less than 150, I'm good. 62 is less
+[429.58s]  than 150. But again, my optimal ranges are generally more strict relative to the reference range
+[435.60s]  because I'm focused on studies in terms of age-related change and all-cause mortality risk.
+[440.40s]  So with that in mind, lowest all-cause mortality risk in a meta-analysis for the association for
+[446.94s]  all-cause mortality risk with triglycerides is anything lower than 90 milligrams per deciliter.
+[452.46s]  So okay, I'm good based on that. But then there's more data. And in another study of 4.5 million people,
+[460.04s]  lowest coronary heart disease risk was associated with triglycerides less than 45 milligrams per
+[464.94s]  deciliter. So based on that metric, my 62 is just outside of that. And the goal, my goal, is to
+[470.64s]  consistently get it down to 45 milligrams per deciliter or less. But this is only part of the
+[475.84s]  story. Also note that triglycerides increase during aging. So it's again about getting one's data into the
+[481.82s]  optimal range and resisting age-related change. So with that in mind, how well have I done or not
+[487.80s]  since 2005? So the past 20 years, as I have 71 tests over that span, which is what we'll see here.
+[495.26s]  And then on the Y-axis, we've got triglycerides plotted against age on the X. So for the first 10 years,
+[501.42s]  we can see that I was able to reduce triglycerides. And again, I can't say what I did back then because
+[506.58s]  I wasn't tracking diet or actually anything, fitness metric sleep at that time. So it would be a rough guess.
+[512.78s]  But what I can say is I was doing a lot more cardio back then, and that could be one reason.
+[517.02s]  And to test that on the to-do list sooner rather than later, after I get fully settled here in
+[523.30s]  Austin, is to add more cardio into my approach. And if that's true, I should expect to see my
+[528.44s]  triglycerides come down. But before going to the last 10 years of data, note that I had two data
+[533.42s]  points that look like outliers. And I think it's important to mention those. For the first, I went
+[537.82s]  vegan. Now, this doesn't mean that vegan is going to raise your triglycerides because also as a part
+[542.66s]  of that approach, I was on a very low fat diet. Now, not 10% of all calories, but relative to
+[547.98s]  where I am now, about 40% of calories, it was around 20%. So this demonstrates that being on a
+[553.74s]  lower fat diet in my case was not good for triglycerides. But then over the past 10 years,
+[559.66s]  the data is not as good, even excluding those two data points around 90 milligrams per deciliter.
+[564.90s]  We can see that the data is moving in the wrong direction for triglycerides, which increased during
+[569.76s]  aging. On the other hand, if we look at my 71 test average, again, cumulative exposure over a long
+[575.88s]  period of time, my triglyceride level is relatively low at 61 milligrams per deciliter as an average,
+[581.98s]  still outside of that 45 milligram per deciliter amount that's associated with lowest risk for
+[587.82s]  coronary heart disease. Now, it raises an interesting question, you know, so if 60 is higher than 45 for 20
+[594.40s]  years, what would be my rate of heart disease progression if it was less than 45? Is that a 10% higher
+[601.66s]  progression rate? Is that no progression rate? Is it, you know, so nobody knows, right? So I think the safest bet
+[607.56s]  though, is to keep it below 45 indefinitely. So that's the plan. Can I do it? We'll find out. Stay tuned
+[614.40s]  for those videos in future videos. All right, back to the report. So now we've got LDL, which for this test was
+[621.50s]  86 milligrams per deciliter. Starting again with the reference range, which is less than 100 milligrams
+[626.80s]  per deciliter, I'm good. But then again, what's optimal for LDL? So in a study of 4.5 million people,
+[634.50s]  lowest coronary heart disease risk was associated with LDL in the 65 to 120 range. And as a quick note,
+[640.34s]  and I'm going to give this idea its own video at some point, whether it may be on Patreon or on YouTube,
+[645.72s]  but there is data out there that suggests higher LDL is better and lower LDL is worse, especially in very
+[651.50s]  old people, people older, older than 80. And the long story short there is reverse causation.
+[656.94s]  So LDL is lower in comorbid conditions like cancer, more specifically cancer cachexia.
+[663.46s]  And some of these studies that show lower LDL is worse for survival, don't adjust their models,
+[670.02s]  don't account for this factor, cancer cachexia, impacting the association for LDL with all-cause mortality
+[675.68s]  risk. Nonetheless, I'll do a deep dive into that topic in a future video. So in a study that
+[681.12s]  accounted for comorbidities, more than 11 comorbidities, lowest coronary heart disease risk
+[686.50s]  was 65 to 120. But in terms of the aging trend, note that LDL's trend during aging is an inverse
+[694.36s]  U. So it's low in youth, it peaks in midlife, and then it starts to come down again towards
+[700.04s]  advanced ages. So with that in mind, it can be hard to discern whether one's data is youthful
+[705.56s]  or age, especially when considering those comorbid conditions at advanced older ages.
+[712.42s]  Nonetheless, what's my data as I have 72 tests over the past 20 years, which is what we'll
+[717.68s]  see here. On the y-axis, we've got LDL plotted against age on the X. And interestingly, we can
+[723.64s]  see two inverse U's during my data. Increase, then decrease, and then another increase, and
+[730.56s]  then another decrease. Now, pre-2015, I can't say what caused that increase and decrease.
+[736.24s]  That actually may be aging. On the other hand, the last 10 years where I've tracked rigorously,
+[742.00s]  I've done a whole bunch of diet changes. So my fat intake has ranged from about 60 to 120
+[747.54s]  grams per day, protein intake from about 70 to 150 grams per day. So I've varied my diet
+[753.54s]  and even some supplements with the goal of impacting biomarkers so that I could have a wide enough
+[758.94s]  range to evaluate correlations. So some of that up and then down for this LDL since 2015 is related
+[765.40s]  to diet change. Now, along those lines, you can see that my LDL has been more stable more recently,
+[771.88s]  and that's intentional. As with so much data, I'm finally settling on a diet that may be good for
+[777.68s]  almost all biomarkers rather than having to try to figure out the diet that may be good for more
+[783.16s]  biomarkers than not. So with that in mind, the plan is to keep LDL flat, avoid any age
+[788.90s]  related increase and avoid any age related decrease. Now, as a quick note, that 72 test average for LDL
+[795.32s]  is 82 and a half milligrams per deciliter. And if CHD progression is lowest around 65, I'm not too far
+[803.34s]  from that. Now, there is another question inherent in this, which is, is 82 or 83 really different from
+[808.78s]  65 in terms of CHD progression? Nobody knows. I mean, you could make the argument that that will lower
+[815.06s]  APOB, but even that story, as we'll see coming up in a bit, is maybe a bit more complicated because
+[821.46s]  there are more atherogenic lipoproteins like lipoprotein A and VLDL that may impact APOB levels
+[828.52s]  relative to LDL. So at least in my case, but anyway, a story for another day. So next up is lipoprotein A.
+[836.72s]  And now we can see that my data has been flagged by the lab, which for this test was 91 nanomolar.
+[843.30s]  And if we go by the reference range, that's outside of that at 75 nanomolar, which then raises the
+[848.78s]  question, what's optimal for lipoprotein A? Based on lowest coronary artery disease risk, less than 19
+[855.18s]  milligrams per deciliter or 48 nanomolar is associated with lowest risk. So there too, I'm not even close.
+[861.54s]  91 nanomolar versus 48 nanomolar. So this would suggest bad news. So what's my data? Is this just
+[868.18s]  one data point or is this all data points going back for the past 20 years? So that's what we'll
+[872.90s]  see here. I have 45 tests over the past 20 years. And unfortunately, lipoprotein A isn't measured
+[878.28s]  on a standard chemistry panel. So it's an add-on test. So I have to add it, you know, add it on for every
+[883.56s]  test relative to things like LDL or triglycerides or HDL. On the y-axis, we've got lipoprotein A plotted
+[891.16s]  against age. So for the first 10 years, again, I was only testing about once per year. And that pre-25
+[897.26s]  pre-diet tracking average was 106 nanomolar. If you remember from the last slide, lowest coronary
+[903.78s]  artery disease risk is associated with less than 48 nanomolar. So this is not even close, far away.
+[909.44s]  This is terrible data. But note that I was able to have one data point that was pretty close to lowest
+[915.40s]  risk or at least on the borderline. But this was exogenously impacted. And I did that with very high
+[921.92s]  dose nicotinic acid. So the flush, I mean, I got flushes at 200 milligrams per day. Imagine the flush at
+[928.28s]  2000 to 3000 milligrams per day. So that was exclusively caused back then by very high dose nicotinic acid.
+[935.70s]  Now, one reason I stopped that is because it sent my liver enzymes close to 60, AST and ALT.
+[941.12s]  So I'm not trying to reduce my risk of cardiovascular disease by taking a very high
+[945.34s]  dose of nicotinic acid and then dying from liver disease. That doesn't make any sense.
+[950.24s]  So if we take that data point out as a potential outlier, because it was
+[953.46s]  exclusively because of high dose nicotinic acid, that pre-2015 average is even worse, 112 nanomolar.
+[961.16s]  But starting in 2015, as I started tracking diet and looking at correlations, I've been able to improve
+[967.18s]  my average lipoprotein A over the past 10 years with an average of 90 nanomolar. Rather than just
+[973.86s]  looking at these two groups of data and using a two sample t-test, they are significantly different.
+[979.00s]  So in other words, I've been able to significantly reduce my lipoprotein A over the past 10 years
+[983.68s]  relative to the first 10 years. And I've done that exclusively by following diet. Now, on the other
+[989.38s]  hand, you could say, all right, so you reduced it by 20%. Big deal. 90 nanomolar is still far from
+[994.74s]  48 nanomolar. This is true. But there's a lot more to this story, or at least potentially a lot
+[999.62s]  more to this story. And that's because high sensitivity C-reactive protein modifies the
+[1004.34s]  cardiovascular risk of lipoprotein A, which is what we'll start to see here. In this study, we've
+[1009.94s]  got the cumulative incidence of cardiovascular disease, CBD, plotted on the y-axis. In terms of
+[1015.66s]  what CBD included, it included heart attack, stroke, being diagnosed with coronary heart disease,
+[1021.24s]  having angina, chest pain, having to be resuscitated after having a heart attack, or other
+[1026.56s]  atherosclerotic or cardiovascular disease-related death. And on the x-axis, we've got time. So then
+[1033.04s]  there are three groups. Lipoprotein A less than 50 milligrams per deciliter, and in terms of nanomolar,
+[1038.50s]  that's 125 nanomolar. So technically, I would be in that group, even though that's a relatively high
+[1043.80s]  amount of lipoprotein A. And then the other two lipoprotein A values, 50 to about 100, and then
+[1049.82s]  greater than 100 milligrams per deciliter. And these data are in people who had HSCRP greater than
+[1056.04s]  or equal to 2 milligrams per liter. What we can see is when compared with the lowest lipoprotein A
+[1061.38s]  containing group, that higher lipoprotein A and having higher HSCRP was significantly associated
+[1068.76s]  with an increased risk of having a cardiovascular disease event over that 18-year period. So these
+[1074.54s]  data show that having high lipoprotein A greater than 50 milligrams per deciliter and high HSCRP greater
+[1081.54s]  than 2 milligrams per liter is bad for having a CVD event. Now, based on these data, the question then
+[1089.26s]  is, what about less than 2 milligrams per liter? And also, what's my data? But that will be coming in
+[1093.94s]  a minute. So how does CVD risk look in people who had relatively low or high lipoprotein A and
+[1101.18s]  relatively low HSCRP, which is what we'll see here? And now, when compared with the lowest
+[1107.62s]  lipoprotein A containing group, although you can see that that red line has some separation from the
+[1111.76s]  two other lines, these values were not significantly different. So in other words, HSCRP modifies the
+[1117.32s]  cardiovascular risk of lipoprotein A. And in people who had low, medium, or high levels of lipoprotein A,
+[1123.72s]  as long as their HSCRP values are less than 2 milligrams per liter, CVD risk was approximately the same.
+[1129.78s]  All right. So now, what's my data? Because my lipoprotein A is on the higher side, at least
+[1134.38s]  higher than the reference range. So what's my HSCRP? And that's what we'll see here. For this test,
+[1140.04s]  it was less than 0.2 milligrams per liter. Not less than 2 milligrams per liter, but less than 0.2
+[1146.76s]  milligrams per liter. But this is only one test. For the past 26 tests in a row, HSCRP has been less than
+[1154.82s]  the detection limit, which is 0.3 milligrams per liter. And for the most recent 10 tests,
+[1161.88s]  for whatever reason, Quest's limit of detection has been a bit lower at 0.2 milligrams per liter.
+[1167.84s]  And I've been at that level for all 10 of those tests. Now, taking it a step further, my 46 test
+[1174.86s]  average for HSCRP going back 20 years is 0.37 milligrams per liter, with no test greater than
+[1182.14s]  one milligram per liter. So although my lipoprotein A is higher than the reference range,
+[1187.08s]  which would suggest a higher risk for coronary artery disease, that I've been able to keep my
+[1192.84s]  HSCRP levels chronically low for this 20-year span over these 46 tests could be good news for helping
+[1199.02s]  to keep my cardiovascular diseases relatively low. And that's potentially good news because
+[1203.66s]  my dad's father died at 67 of CBD-related issues. My dad's brother died of a stroke at 51. He had the
+[1209.84s]  stroke at 48. My mom's brother died at 67 of CBD-related issues and other stuff that ended up
+[1215.88s]  being comorbid. So avoiding death from cardiovascular disease is a top priority, in addition to, you know,
+[1221.74s]  living as long as I physically can. So in terms of the study that showed lowest coronary artery disease
+[1228.64s]  risk at less than 19 milligrams per deciliter and or 41 nanomolar, note that that study did not adjust
+[1235.42s]  their models for HSCRP. So would that association still hold after accounting for HSCRP? I don't know.
+[1242.34s]  But fortunately, there are other studies that have looked at both HSCRP and lipoprotein A in
+[1247.18s]  association with CBD risk. All right. So last but not least is ApoB because with a higher, relatively
+[1254.70s]  higher lipoprotein A, one would expect to have relatively high ApoB. Now in terms of ApoB
+[1261.42s]  containing lipoproteins, they don't just contain lipoprotein A, but also VLDL, LDL, and IDL. Most
+[1268.14s]  blood test reports don't report IDL. So I don't have data for that. I can't talk about it.
+[1273.06s]  And you can see that on each of these lipoproteins, they contain the ApoB 100 protein or ApoB for short.
+[1279.28s]  In terms of what my data was for this test, ApoB was 71 milligrams per deciliter. If we go based on the
+[1284.94s]  reference range, which is less than 90, I'm good. But remember, my optimal ranges are generally more
+[1290.40s]  strict than the reference range, not because I want to be, but what's the most available data show
+[1295.88s]  in the largest studies. And the reference range is not always up to date on those studies.
+[1301.28s]  So with that in mind, lowest CBD and all cause mortality risk in two studies combined, again,
+[1306.98s]  these data are on Patreon and the What's Optimal tier is less is associated with less than 70 milligrams
+[1313.18s]  per deciliter for ApoB. So for this test, I'm just outside that, but not too far from that optimal range.
+[1319.24s]  But again, one test versus all tests. So what's my data over the six tests where I've measured ApoB?
+[1326.06s]  And again, I'm going to measure this for every test going forward so I can collect more data over time.
+[1329.94s]  As ApoB, it may be a better measure relative to looking at VLDL, LDL, and lipoprotein A individually.
+[1336.94s]  So my six test average is 67 milligrams per deciliter. So based on that optimal range of less than 70,
+[1343.32s]  I'm good. And again, the goal is to keep it there indefinitely, not have an age-related increase,
+[1348.32s]  or even an age-related decrease. Now, this is just the beginning of this story. I've only shown two
+[1354.14s]  pages of the blood test report. There were four pages. So if you're interested in seeing that,
+[1358.26s]  it's on Patreon. And there's also more to the story because I haven't yet defined what diet,
+[1364.62s]  supplements, and prescription meds correspond to this test where it was a 16 and a half year younger
+[1369.76s]  biological age. So stay tuned for that. It'll either be next week or the week after that.
+[1374.50s]  If you're interested in more about my attempts to biohack aging, check us out on Patreon,
+[1378.94s]  where I offer blood test consoles. And I also post at least twice per day in other Patreon tiers.
+[1385.94s]  We've also got a whole bunch of discount and affiliate links that you can use to test yourself
+[1389.62s]  that help support the channel, including ultalabtest.com, which is where I get the majority
+[1393.80s]  of my blood tests done, the clearly filtered water filter, which I use every day,
+[1398.50s]  at-home metabolomics, we're up to test number 19, oral microbiome composition,
+[1402.32s]  NAD testing with Infinity, which I do at every blood test, epigenetic testing with True Diagnostic,
+[1408.44s]  at-home blood testing with Cyfox Health, which includes Grimmage, the best epigenetic clock
+[1412.86s]  relative to epigenetic clocks, whether they're better than other clocks like Phenowage,
+[1417.78s]  nobody's done that head-to-head matchup. But Cyfox Health includes Grimmage,
+[1421.24s]  so if you're interested in that, check it out. Green tea, drink it every day. Diactrachma
+[1425.32s]  Cronometer, also using it every day. Or if you'd like to support the channel,
+[1428.46s]  you can do that with the website, buy me a coffee. We've also got merch,
+[1432.32s]  including Data is my North Star, Figuring Stuff Out is my Drug, and the channel theme,
+[1437.30s]  Conquer Aging or Dietrachma, which is what I've got on here. So if you're interested in that,
+[1441.20s]  link in the video's description. Thanks for watching. I hope that you enjoyed the video.
+[1445.46s]  Have a great day.

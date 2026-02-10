@@ -1,0 +1,412 @@
+[0.00s]  In my last video, I ended by asking the question, are there weaknesses in my blood test data?
+[4.96s]  And I highlighted a total cholesterol of 133 as a potential problem.
+[8.96s]  So in today's video, let's start off by investigating what's optimal for total cholesterol.
+[13.72s]  And we can see that here. So starting with the hazard ratio for all-cause mortality on the y-axis
+[18.52s]  plotted against blood levels of cholesterol on the x, and this data is in 45 to 54-year-olds,
+[25.10s]  or more specifically, 44 to 55-year-olds, which is what was included in the supplementary data for the paper.
+[31.34s]  And if you're interested in looking at this paper, this and all of the papers in this video will be in the video's description.
+[36.96s]  So note that this is more than 3.3 million subjects in this age range,
+[41.38s]  and my chronological age is within this age range of 44 to 55, so it may be most relevant to me.
+[48.44s]  So starting with the referent, which was defined as 220 to 229 for total cholesterol,
+[53.06s]  and when putting my data into perspective, we can see that a total cholesterol of 133 milligrams per deciliter
+[59.08s]  is associated with a more than two-fold increased all-cause mortality risk.
+[63.84s]  And superficially, this is bad news.
+[65.62s]  So let's take a look at the aging data for a little bit more perspective.
+[69.42s]  And note that low total cholesterol is found in youth, but also in older ages, which is what we can see here.
+[74.56s]  So this is the larger study based on the study on the left,
+[77.74s]  and this includes total cholesterol on the y-axis plotted against age of entry on the x.
+[82.40s]  So this age range goes from 18 to 88 years.
+[86.48s]  So what we can see for both men and women is that low total cholesterol is found in youth,
+[90.38s]  somewhere in the 160 to 170 range, depending on if you're a man or a woman.
+[95.16s]  And then total cholesterol peaks somewhere around 50 for both men and women,
+[98.50s]  and after which we can see then an age-related decline,
+[101.86s]  such that if we extrapolate further to about 100 years old or older,
+[106.46s]  and I covered this in an earlier video, and if you missed that, it'll be in the right corner,
+[110.10s]  we can see that relatively low total cholesterol can also be found in advanced age, including centenarians.
+[117.68s]  So how can we know if low total cholesterol is reflective of youth or aging and increased all-cause mortality risk?
+[124.94s]  So low total cholesterol within the context of other youthful biomarkers
+[128.52s]  is associated with a decreased all-cause mortality risk.
+[131.76s]  And that's what we can see here.
+[132.90s]  So on the y-axis, we've got relative risk for all-cause mortality,
+[136.56s]  and this is in people with total cholesterol less than 160,
+[140.20s]  and with varying levels of albumin, ALB, and HDL cholesterol, HDLC.
+[145.96s]  And note that this data is in a very small study.
+[148.06s]  It only included 393 people.
+[150.14s]  So this may not be what actually ends up being the truth for people who have a relatively low total cholesterol.
+[155.98s]  We'll need more studies in this area.
+[158.04s]  But note, this study was published in 2001, and I haven't come across any other studies,
+[162.20s]  including the study on the left, that adjusted their data for things like albumin, for example.
+[167.20s]  So this is in 79-year-olds, and let's get into the data.
+[171.38s]  So when compared with the hazard ratio of 1,
+[174.00s]  when the brackets or 95% confidence interval is completely below 1,
+[178.82s]  as indicated by the green arrows there,
+[181.20s]  we have a significant effect, statistically significant effect.
+[183.80s]  In contrast, when the 95% confidence interval overlaps with 1, as shown there,
+[189.04s]  that effect is not statistically significant.
+[191.78s]  So let's start off by defining the aged phenotype.
+[194.82s]  And in this case, the referent actually ended up having higher all-cause mortality risk.
+[200.12s]  So in that case, this was people that had a total cholesterol less than 160,
+[204.72s]  and relatively low albumin and HDL.
+[207.38s]  So less than 38 for albumin, and less than 47 for HDL.
+[211.14s]  And the reason that's the aged phenotype is because I showed in the earlier slide
+[214.86s]  that relatively low total cholesterol can be found in advanced age.
+[219.06s]  So we've got total cholesterol less than 160.
+[221.42s]  And then albumin and HDL decline during aging.
+[224.08s]  So we see relatively lower albumin and HDL in people with advanced age.
+[229.18s]  So combined, low total cholesterol, low albumin, low HDL, that's the aged phenotype.
+[235.06s]  So what happens if we have relatively higher HDL within that context?
+[238.64s]  And then as I mentioned, we can see that the 95% confidence interval overlaps with 1.
+[243.88s]  So this is not significantly different from the referent.
+[246.40s]  So we can conclude that higher HDL, relatively higher HDL, doesn't impact all-cause mortality risk
+[250.96s]  when we have relatively low total cholesterol and low albumin.
+[254.98s]  What about when albumin is relatively high, as shown there?
+[258.16s]  And now we have a significant effect, and I've defined this as the close-to-youthful phenotype
+[262.18s]  because relatively low total cholesterol and relatively higher albumin are found in youth.
+[266.82s]  And we can see that 32% decreased all-cause mortality risk as indicated by the green arrow in that group.
+[273.68s]  But the best data of this bunch was for people that had the youthful phenotype of low total cholesterol
+[280.80s]  and relatively high albumin and HDL.
+[284.06s]  And note that, again, those three would be expected to be found in people who are younger,
+[288.36s]  chronologically younger, compared with people of advanced age.
+[292.18s]  So for that group, we can see that we had a 62% decreased all-cause mortality risk.
+[297.40s]  So you can see the hazard ratio in the middle, 0.38.
+[301.08s]  So to get the 62%, you do 1 minus 0.38 and you get 0.62, which would be 62%.
+[306.90s]  A 62% reduction for all-cause mortality risk for people who had relatively low total cholesterol,
+[312.84s]  but high, relatively high albumin and HDL cholesterol,
+[316.02s]  were compared with people who had low total cholesterol, but the aged phenotype with low
+[320.90s]  albumin and low HDL.
+[322.58s]  And that's what we can see there.
+[324.26s]  Relatively low total cholesterol, but relatively high albumin and HDL,
+[327.72s]  those people have a reduced all-cause mortality risk.
+[330.38s]  So before putting my data into perspective, there's another question that must be asked,
+[334.34s]  which is, how does this combination compare with higher total cholesterol for all-cause mortality risk?
+[339.40s]  And they compared that in this same study.
+[341.62s]  So we've got all-cause mortality risk on the y-axis plotted against years of follow-up.
+[346.36s]  And in this case, they re-examined the 79-year-olds up to six years later.
+[351.40s]  So now we have three cholesterol groups, but in this case, it's total cholesterol less than 160,
+[356.40s]  but with the relatively youthful phenotype of higher albumin and higher HDL.
+[362.66s]  And we're comparing these three groups, including the two higher cholesterol groups of 161 to 239
+[367.78s]  and greater than 240.
+[369.04s]  Now there's no significant difference for all-cause mortality risk.
+[372.98s]  So from this, we can conclude that low total cholesterol, but relatively high albumin and HDL,
+[377.94s]  which again would be expected to be found in a youthful age or at a youthful chronological age,
+[384.00s]  there was no all-cause mortality risk difference versus people who had higher total cholesterol.
+[388.92s]  So to put my data into perspective for blood test number five in 2022,
+[392.86s]  my albumin was 48 and HDL was 44,
+[396.52s]  which is the close to the youthful phenotype.
+[398.86s]  If my HDL was just a bit higher at 47, my data would be in the youthful phenotype.
+[404.00s]  So based on this, accordingly, I'm not worried about total cholesterol of 133,
+[408.70s]  but a relatively low DHEA sulfate is a weakness in my data.
+[413.56s]  And we can see that data here.
+[415.04s]  I measured DHEA sulfate on this same blood test where I calculated my biological age.
+[419.72s]  And we can see that, well, first we can see that my DHEA sulfate is 129 micrograms per deciliter.
+[426.94s]  And just as a quick intro, DHEA sulfate is the most abundant circulating steroid in people.
+[432.00s]  Now, a big part of my approach is going after the biggest fish.
+[434.58s]  For example, albumin is the most abundant circulating protein.
+[437.70s]  Red blood cells are one of the most abundant circulating cell types.
+[441.88s]  So I think it makes the most sense to optimize the things that are the most abundant in blood first,
+[446.26s]  while focusing on the things that are lesser abundant second.
+[449.54s]  Now, if I only focused on the reference range, as shown on the right, of 61 to 442 micrograms per deciliter,
+[455.06s]  I would miss this as a potential weakness in my data.
+[457.98s]  So why do I think this is even a weakness in my data?
+[460.94s]  First, DHEA sulfate levels declined during aging.
+[463.78s]  And this is in a study of about 4,700 people.
+[466.18s]  If anybody's come across larger studies, it looked thoroughly for larger studies.
+[470.32s]  And I try to always show data for the largest studies,
+[473.20s]  as they may represent the population averages more accurately relative to smaller studies.
+[479.36s]  So for DHEA sulfate, we can see that it peaks around 20.
+[482.68s]  And then afterwards, it declines very steadily during aging.
+[485.74s]  So putting my data into perspective of 429 micrograms per deciliter,
+[490.18s]  which equals 3.5 micromoles per liter,
+[493.08s]  we can see that I'm relatively low for my chronological age.
+[497.06s]  And note that I'd be low even for younger ages.
+[499.84s]  So that would be young for a 30-year-old.
+[501.46s]  And even worse, this is what I'd expect to see someone who had an older chronological age.
+[505.78s]  This may be common for people in their 60s, 70s, and 80s,
+[508.66s]  based on the aging-related plot.
+[512.86s]  So this is only one data point, though.
+[514.96s]  And as many of you may know, I have up to 39 blood tests since 2015.
+[518.84s]  So is this an anomaly?
+[520.46s]  I mean, is this representative of my actual DHEA sulfate level?
+[524.74s]  So do I have earlier data for DHEA sulfate?
+[527.50s]  And I do.
+[528.30s]  But it's only from 2005.
+[529.68s]  This isn't a commonly performed blood test.
+[531.98s]  So for whatever reason, in 2005, I measured it twice over a two-year span.
+[535.92s]  And my average over those two tests was 300 micrograms per deciliter.
+[539.86s]  And if we put that data on the age-related plot, we can see that it's there.
+[544.00s]  And there's definitely been a decline for my DHEA sulfate levels during aging.
+[548.90s]  Now, going further with DHEA sulfate,
+[552.08s]  having a level at my current level is associated with an increased all-cause mortality risk.
+[556.68s]  And we can see that here.
+[558.06s]  So we've got the cumulative survival rate on the y-axis plotted against follow-up.
+[562.30s]  And in this case, it was a relatively small study, but a very long study.
+[566.46s]  You can see that there was a 27-year follow-up, which is very long for when compared with other
+[571.70s]  studies.
+[572.34s]  And the average age of these subjects was 51, which is pretty close to my chronological age.
+[576.20s]  So it may be directly relevant.
+[577.38s]  So what we can see is that the group that had the lowest DHEA sulfate levels, in this case,
+[583.34s]  129 or less, had the worst survival rate when compared with people who had higher levels
+[589.18s]  of DHEA sulfate, in this case, more than 200 micrograms per deciliter.
+[593.54s]  So my DHEA sulfate seems to be a weakness in my data.
+[597.74s]  Now, as I mentioned, is this one test representative of my actual DHEA sulfate level?
+[603.52s]  So I blood test up to eight times per year.
+[606.22s]  Will this be representative of my year-to-year change for DHEA sulfate?
+[611.32s]  So in earlier videos, I've mentioned that at-home blood testing may be the future of health
+[616.00s]  optimization.
+[617.02s]  And one reason for that is because you can collect a large amount of data in a short period of
+[621.20s]  time.
+[621.94s]  So with that in mind, I've used another at-home blood testing company to accumulate 12 blood
+[627.28s]  tests using Fingerprick in contrast with the venipuncture, which is how I obtained this
+[631.94s]  DHEA sulfate level of 129.
+[634.34s]  So I have 12 blood tests by Fingerprick within the last two months.
+[637.58s]  Now, even with my rigorous testing schedule of up to six to eight times per year, it would
+[643.92s]  take me a year and a half at most just by venipuncture to accumulate 12 blood tests.
+[648.20s]  So at-home blood testing may be, as I mentioned, the future of health optimization.
+[653.38s]  So to get those 12 blood tests, I used a company called Quantify.
+[656.50s]  And as you can see, just with a screenshot from their website, their mission is to radically
+[661.36s]  increase human lifespan.
+[662.84s]  So anybody that's familiar with this channel, my motto is conquer aging or die trying.
+[667.30s]  So I'm happy to use this product and to continue to use it in the future.
+[671.24s]  And if you're interested in using it yourself, I'll have a discount link in the video's description.
+[675.60s]  So what's my data for DHEA sulfate using Fingerprick?
+[679.08s]  So we can see that here.
+[681.56s]  And we can see that this is actually over a seven-week period, July 9th through August
+[685.16s]  27th.
+[685.90s]  And again, 12 blood tests using the test Quantify, from Quantify.
+[689.68s]  And we can see over those 12 tests that my average DHEA sulfate level is 119.8 micrograms
+[694.82s]  per deciliter.
+[695.68s]  So that's pretty close.
+[696.84s]  And in the ballpark of 129.
+[698.74s]  So from this, we can conclude that DHEA sulfate by Fingerprick may be as good as
+[704.24s]  venipuncture for at least DHEA sulfate.
+[707.52s]  So then the big question is, how will I increase DHEA sulfate?
+[710.98s]  And if you remember, I started this video with cholesterol.
+[713.50s]  So what does cholesterol have to do with DHEA sulfate?
+[716.40s]  So DHEA sulfate is produced via cholesterol degradation.
+[719.78s]  And we can see that here.
+[721.06s]  So first, starting with cholesterol, and this would be a process that happens in the adrenal
+[724.42s]  glands, which are located on top of the kidneys.
+[726.64s]  And they happen at three different portions of the adrenal gland, as indicated by that black
+[730.74s]  rectangle.
+[731.78s]  So with cholesterol, after that's degraded into pregnenolone, pregnenolone is hydroxylated
+[738.10s]  into 17-hydroxypregnenolone, which is then converted into DHEA.
+[742.54s]  And then DHEA is sulfated into DHEA sulfated.
+[745.42s]  So the formation of DHEA sulfated is just four enzymatic steps via the degradation of cholesterol.
+[753.98s]  So now note that if relatively low DHEA sulfate is because of low total cholesterol, I would
+[759.74s]  expect that cortisol and testosterone would also be low.
+[762.94s]  And that's because 17-hydroxypregnenolone is converted via two enzymatic steps into cortisol.
+[768.90s]  And DHEA is converted also by two enzymatic steps into testosterone.
+[773.46s]  So what's my data?
+[774.78s]  First, starting off with cortisol to see if that's true.
+[778.06s]  And this blood test quantify, the company quantify also includes cortisol and testosterone.
+[783.46s]  They also have a female panel specific for some female hormones.
+[787.58s]  So if you're interested in that, check it out.
+[789.42s]  So for 12 blood tests using quantify, my cortisol level is 12.5 micrograms per deciliter.
+[795.14s]  So let's put that data into perspective by looking at the age-related changes for cortisol.
+[799.94s]  And this again is from that study of about 47, more than 4,700 to 4,800 people.
+[805.36s]  So cortisol is a little bit different from DHEA sulfate.
+[807.54s]  We can see a small increase for cortisol during aging.
+[811.88s]  And putting my data into perspective, it doesn't look like it's low.
+[814.60s]  It's somewhere in the midpoint of what you'd expect for someone of my chronological age.
+[818.42s]  What about earlier data?
+[819.34s]  Do I have earlier data though for cortisol?
+[821.46s]  And for whatever reason, back in 2005, I measured it twice.
+[825.30s]  And over those two tests, my average was 18.35 micrograms per deciliter.
+[830.50s]  And when putting that data onto this plot, we can see that there too, I've had a reduction
+[836.66s]  for cortisol levels over the past 17 years.
+[840.82s]  Now, whether three data points is actually representative of the true story, I'm going
+[844.58s]  to have to measure this a lot more going forward in the future.
+[847.14s]  So stay tuned for that.
+[848.56s]  So we've got relatively low within my own data, DHEA sulfate and cortisol over the past
+[853.40s]  17 years, despite being on only a few blood tests.
+[857.46s]  What about testosterone?
+[859.06s]  So what's my data?
+[860.50s]  So over those 12 blood tests, so at home blood testing using the company Quantify, my
+[865.30s]  testosterone level is 5.6 nanograms per deciliter.
+[868.46s]  So let's put that into the aging plot as shown there.
+[871.38s]  And the story for testosterone is similar to DHEA sulfate.
+[874.88s]  It peaks around 20 and then declines during aging.
+[877.76s]  And putting my data into perspective, although it's not low based on the overall population,
+[881.98s]  you can see I'm somewhere towards the higher end of the age range for a 50 year old.
+[886.84s]  I do have earlier data, but only one test in 2005.
+[889.92s]  And we can see that I've also experienced a decline for testosterone.
+[894.42s]  Now, what were my levels of cortisol and testosterone optimal in 2005?
+[899.48s]  I don't know.
+[900.52s]  But again, I'm going to continue to measure these biomarkers and see how the story plays
+[904.46s]  out with the specific focus on optimizing DHEA sulfate.
+[907.80s]  So just as a brief summary, we can see that I've had within my own data, age-related declines
+[913.76s]  for these three biomarkers for DHEA sulfate, cortisol, and testosterone.
+[919.68s]  So when considering that these hormones are produced via cholesterol, in my opinion, the
+[923.66s]  first step would be to increase blood levels of cholesterol.
+[926.90s]  So how can I do that?
+[928.12s]  What's the best way to do that?
+[929.10s]  And for those who don't know, I've tracked my diet every day with a food scale since 2015.
+[934.60s]  So I have dietary data that corresponds to each blood test up to 39 blood tests.
+[939.64s]  So I can see within my own data what the best way may be to optimize blood levels of cholesterol.
+[945.32s]  And for me, that may be by increasing dietary cholesterol.
+[948.12s]  Now, I know that I've heard people saying that dietary cholesterol doesn't raise blood cholesterol.
+[953.30s]  But we can see very clearly in my data that a strong correlation with a correlation coefficient of 0.7
+[958.44s]  and a significant p-value, that dietary cholesterol in my case may raise my total blood cholesterol.
+[964.56s]  Now, just for reference for blood test number 5 in 2022,
+[967.92s]  we can see that my average daily dietary cholesterol intake was 24 milligrams per day.
+[972.92s]  And that is in conjunction with a blood cholesterol of 133 milligrams per deciliter.
+[978.12s]  So when considering this correlation for dietary cholesterol with blood cholesterol,
+[982.88s]  it would seem that with the goal of increasing DHEA sulfate,
+[986.08s]  I can easily maximize dietary cholesterol intake, which may optimize blood level or increase blood
+[991.12s]  levels of cholesterol.
+[992.42s]  But will I improve one biomarker, DHEA sulfate, and make others worse?
+[997.06s]  So let's check that out.
+[998.96s]  So here we're going to see correlations for dietary cholesterol intake with big picture biomarkers.
+[1004.34s]  And for those who may not have seen this analysis on my channel, I'll just run through it real quick.
+[1008.12s]  These big picture biomarkers represent many biomarkers of organ and systemic health,
+[1013.66s]  including glucose, which should be in any anti-aging approach,
+[1017.20s]  a marker of methylation, including homocysteine,
+[1019.96s]  three markers of kidney function, three markers of liver function,
+[1023.36s]  all the major lipoproteins, HDL, LDL, VLDL, and lipoprotein A,
+[1027.36s]  immune-related cells and the proteins, including globulins,
+[1032.18s]  red blood cell-related measures,
+[1033.68s]  a marker of inflammation, high sensitivity C-reactive protein,
+[1036.12s]  and overall biological age scores indicated by Levine's phenowage and aging.ai.
+[1041.20s]  So we've also got some other information on this table, in this table.
+[1045.18s]  The little n next to each blood test is how many blood tests that I have data for it.
+[1049.18s]  So for example, for glucose, I have 37 blood tests since 2015.
+[1053.12s]  The r at the top left is the correlation coefficient,
+[1055.92s]  and the p-value at the right,
+[1057.40s]  on the right is the measure of statistical significance,
+[1059.68s]  with less than 0.05 being statistically significant.
+[1063.92s]  So what's significantly correlated for,
+[1066.18s]  or how does dietary cholesterol significantly correlate with these big picture biomarkers?
+[1070.34s]  So a higher dietary cholesterol intake, in my data,
+[1073.30s]  is significantly correlated with higher blood urea nitrogen, BUN,
+[1076.66s]  higher alkaline phosphatase,
+[1078.88s]  higher LDL,
+[1080.06s]  higher levels of neutrophils,
+[1081.36s]  a lower lymphocyte percentage,
+[1083.30s]  higher levels of monocytes,
+[1084.62s]  higher platelets,
+[1087.32s]  higher levels of red blood cells,
+[1089.72s]  and that's it.
+[1090.28s]  So we've got eight significant correlations,
+[1092.02s]  within my own data,
+[1092.96s]  for dietary cholesterol,
+[1094.16s]  with other big picture biomarkers.
+[1095.72s]  And note that once I've got enough data for DHEA sulfate,
+[1098.20s]  I'm going to include that on this list,
+[1099.70s]  as a big picture biomarker.
+[1101.16s]  So we'll expand the list by at least one.
+[1103.52s]  So then the next step is,
+[1104.88s]  to address,
+[1105.92s]  are these significant correlations going in the right or wrong direction,
+[1109.26s]  in terms of aging,
+[1110.32s]  and or all cause mortality risk?
+[1112.02s]  Now I've covered biomarker directionality,
+[1114.88s]  in terms of aging and all cause mortality risk,
+[1116.70s]  in other videos.
+[1117.78s]  But just as a quick review,
+[1119.40s]  for example,
+[1119.96s]  blood urea nitrogen,
+[1120.92s]  alkaline phosphatase,
+[1122.34s]  neutrophils,
+[1122.86s]  and monocytes,
+[1123.56s]  increased during aging.
+[1124.52s]  So that we have positive correlations,
+[1126.22s]  with dietary cholesterol,
+[1127.66s]  suggests that these are going in the wrong direction.
+[1129.64s]  So I've given them red arrows.
+[1131.32s]  If anyone's got questions,
+[1132.40s]  on the other biomarkers,
+[1133.38s]  and why I've given them red arrows,
+[1134.84s]  going in the wrong direction,
+[1136.26s]  just leave a comment,
+[1137.02s]  and I'll be happy to address that.
+[1138.72s]  So now that we've got a net score,
+[1140.60s]  of minus eight,
+[1141.38s]  so eight red arrows,
+[1142.92s]  eight correlations going in the wrong direction,
+[1145.02s]  in terms of aging,
+[1145.70s]  and all cause mortality risk,
+[1147.36s]  what do we do with that information?
+[1149.14s]  So if the net score was positive,
+[1150.88s]  I would eat above my average intake,
+[1152.68s]  for total cholesterol,
+[1153.88s]  for dietary cholesterol.
+[1155.04s]  If the net score was zero,
+[1156.20s]  I would eat my average intake,
+[1157.34s]  since 2015,
+[1158.12s]  for cholesterol.
+[1159.12s]  And in this case,
+[1159.98s]  because the net score is negative,
+[1161.64s]  that suggests that I should eat,
+[1162.76s]  below my average intake,
+[1163.90s]  for dietary cholesterol.
+[1165.54s]  Now since 2015,
+[1166.88s]  my average dietary cholesterol intake,
+[1169.20s]  is 126.4 milligrams per day.
+[1172.76s]  Now just for reference,
+[1173.98s]  we can see that for this most recent test,
+[1176.28s]  a couple weeks ago,
+[1177.10s]  it was 24 milligrams per day.
+[1178.70s]  So to stay within my own rules,
+[1181.02s]  to eat below my average,
+[1182.76s]  I can go from 24 up to 126,
+[1185.72s]  for dietary cholesterol,
+[1187.14s]  in order to follow the correlations.
+[1188.70s]  And I think that following the correlations,
+[1190.20s]  as much as possible,
+[1191.30s]  leads to the best overall biomarker data.
+[1193.42s]  So my current cholesterol intake,
+[1195.94s]  with the aim of increasing it,
+[1197.20s]  but staying below my average intake since 2015,
+[1199.46s]  is now 91.5 milligrams per day,
+[1202.04s]  of dietary cholesterol.
+[1203.22s]  I've done that by adding a couple of eggs per week,
+[1205.98s]  while still sticking to the macros and micros,
+[1208.06s]  that have resulted in this,
+[1210.04s]  biological age profile,
+[1211.40s]  that is somewhere in the 15 to 20 year,
+[1213.16s]  younger range,
+[1213.90s]  when using Levine's,
+[1215.00s]  and aging.ai tests.
+[1217.14s]  So then the big question is,
+[1218.30s]  can going from 24,
+[1219.78s]  to somewhere around 90 milligrams per day,
+[1221.80s]  for dietary cholesterol,
+[1222.80s]  will that increase DHEA sulfate,
+[1225.16s]  but not mess up the other biomarkers?
+[1226.52s]  So stay tuned for that in future videos,
+[1228.52s]  we'll address that data.
+[1230.54s]  All right, that's all for now.
+[1231.60s]  If you're interested in more about my attempts,
+[1233.08s]  to biohack aging,
+[1234.24s]  check us out on Patreon.
+[1235.56s]  And before you go,
+[1236.18s]  we've got a bunch of discount links,
+[1237.64s]  including at-home blood testing,
+[1239.04s]  using Quantify.
+[1239.78s]  And note that these are all companies that I use,
+[1242.04s]  and will continue to use in the future.
+[1243.74s]  So if you're interested in using them yourselves,
+[1246.20s]  feel free to use these discounts.
+[1248.50s]  If you want to test your epigenetic age,
+[1250.66s]  using True Diagnostic,
+[1251.58s]  I've got a discount code for that
+[1252.88s]  in the video's description.
+[1254.18s]  Oral Microbiome Composition,
+[1255.64s]  my second test results
+[1257.70s]  should be coming any day now,
+[1258.82s]  so I'll have an update video coming sooner
+[1260.70s]  rather than later for that.
+[1262.06s]  If you want to track your diet using Cronometer,
+[1263.74s]  which is what I use,
+[1264.72s]  we'll have a discount code for that
+[1266.22s]  in the video's description.
+[1267.34s]  And last but not least,
+[1268.10s]  if you'd like to support the channel,
+[1269.40s]  you can do that with the website,
+[1270.64s]  Buy Me A Coffee,
+[1271.42s]  and that too,
+[1271.98s]  that link will be in the video's description.
+[1273.88s]  Thanks for watching.
+[1274.76s]  I hope that you enjoyed the video.
+[1276.08s]  Have a great day.
+[1277.10s]  Have a great day.

@@ -1,0 +1,136 @@
+[0.88s]  NAD is involved in mechanisms that impact health and function and its levels depend on a balance
+[6.08s]  between factors that increase it or decrease it. Factors that increase NAD include physical
+[11.20s]  activity, supplementation with NMN or NR, calorie restriction, CR, and then inhibitors of CD38.
+[19.68s]  Now factors that decrease NAD include aging, physical inactivity or sedentary behavior,
+[25.28s]  and eating too many calories, caloric excess. So how does NAD impact health and function?
+[31.20s]  Well, one mechanism involves sirtuins. So sirtuins are NAD-dependent proteins that can extend lifespan.
+[38.48s]  More specifically, sirtuins remove acetyl groups from histones and proteins. And there are seven
+[44.48s]  sirtuins as shown in this picture of the cell. Some are found in the nucleus, the cytosol, and
+[50.32s]  others like sirtuins 3, 4, and 5 are found in mitochondria. So my interest is lifespan,
+[56.00s]  which sirtuins extend lifespan. And in this video, I'm going to talk about the data and show the data
+[60.48s]  for SIRT1 and SIRT6. And then SIRT1 is the most popular sirtuin, but is it the best for extending
+[67.36s]  lifespan? And also which interventions increase sirtuins? So let's have a look at the data.
+[72.72s]  So first, brain-specific SIRT1 overexpression, so higher levels of SIRT1 only in the brain,
+[79.92s]  extends lifespan. So what we're looking at here is the survival probability on the y-axis plotted
+[85.44s]  against age in days. And this is combined data for both males and females with wild type, with the
+[91.68s]  black bar, the dark line, and the mice that have higher levels of sirtuins in the brain, TG, transgenic.
+[97.28s]  So when putting up the average survival, this is the point where half of the colony has died and
+[103.28s]  half is still alive. We can see that there's a significant extension in lifespan, average lifespan,
+[108.48s]  for brain-specific SIRT1 overexpression, but not an increase in maximal lifespan. Now, with this in mind,
+[115.92s]  what's, you know, it, some may have, you may have an animal model that's got higher levels of sirt1,
+[121.76s]  but how can we apply this to people? So one way we can do that is with sirt1 activators. And the most
+[127.20s]  popular SIRT1 activator is resveratrol. So resveratrol was initially shown to extend average
+[133.36s]  lifespan, uh, 15 years ago. And that's what we can see here. So when looking at average survival
+[138.88s]  for mice that were fed a high calorie diet, the red line, when compared with mice that were fed the
+[143.60s]  standard diet, the black line, uh, and when compared with, uh, animals that were fed the high calorie
+[149.36s]  diet plus resveratrol, the blue line, we can see that having resveratrol, uh, in the diet on a high
+[154.56s]  calorie diet, uh, extended lifespan when compared with animals that did, did not have resveratrol
+[160.24s]  in their diet. So, uh, the obvious question should be, uh, sure resveratrol was given an
+[165.28s]  extended average lifespan in this mouse model of diet induced obesity, but how do we know that
+[169.60s]  SIRT1 is involved? So, uh, sirtuins remove acetyl groups and a well, uh, known marker of SIRT1 activity
+[177.84s]  is by looking at, uh, acetylation of the PGC1 alpha protein, which is shown on the Y axis here.
+[184.96s]  So, uh, in the situation where the high calorie diet was fed, we can see the black bar is very high,
+[190.24s]  which suggests lower SIRT1 activity, especially when considering that sirtuins remove acetyl groups.
+[195.60s]  However, in the condition where the high calorie diet, HC was, uh, fed with resveratrol, the gray bars,
+[201.92s]  we can see that there's a significant reduction in PGC1 alpha acetylation, which suggests that there's
+[207.76s]  higher SIRT1 activity. In this case, it's about 60 to 70% higher SIRT1 activity in the, uh, mice that
+[213.68s]  were fed resveratrol on that high calorie diet. All right. So, uh, SIRT1 overexpression in brain and
+[219.44s]  SIRT1 activation via resveratrol increased lifespan, but both low and high dose resveratrol have been
+[226.48s]  shown to not extend lifespan. And that's what we're looking at here with data from males on the left,
+[231.20s]  females on the right. And the red arrow in both of these, uh, pictures is when they started resveratrol
+[237.04s]  supplementation. So first notice that a, the low dose was resveratrol at a concentration of 300
+[242.56s]  parts per, parts per million PPM. And then they supplemented the mice with a four fold higher
+[247.84s]  concentration, 1200 PPM. So, uh, as you can see by the P values for both the males on the left and the
+[253.36s]  females for the right, these values are higher than 0.05, which shows that, uh, uh, both low and high
+[259.44s]  dose resveratrol did not significantly extend lifespan in this study. Uh, similarly, SIRT1 overexpression
+[266.00s]  has been shown to not affect lifespan in other studies. And that's what's shown here. So again,
+[270.72s]  we're looking at survival, uh, percentage on the Y axis plotted against, uh, time in months.
+[276.08s]  And in this study, they had two separate lines of SIRT1 overexpressing mice, uh, defined as TG,
+[282.24s]  transgenic, A and B, the two different lines. And then they combined that data. Uh, so we're looking
+[287.92s]  at combined data for males and females on the left, males in the middle and females on the right.
+[292.16s]  And what we can see based on the P values is that, uh, SIRT1 overexpression did not extend lifespan
+[297.92s]  for males and females, males alone or females alone. So with this in mind, how does SIRT1 compare
+[303.84s]  against SIRT6 for lifespan extra extension? And interestingly, a study was just published, uh,
+[309.36s]  last week that compared, uh, these two sirtuins head to head for lifespan. And that's what we can see
+[315.04s]  here. So again, we're looking at survival on the Y axis, uh, plotted against age in days,
+[319.36s]  how long the mice lived. So, uh, looking at the different lines, we can see that the wild type,
+[325.20s]  the normal animals that don't have higher levels of, uh, SIRT1 are the blue lines, uh, mice that have
+[331.36s]  higher levels of SIRT1, uh, SIRT1 are in red, higher SIRT6 in green, and then they overexpressed,
+[338.80s]  overexpressed both SIRT1 and SIRT6 and that's the purple line. So first starting with SIRT1, the red line,
+[345.68s]  when looking at average survival, we can see that there was no significant, significant increase in
+[350.08s]  lifespan average or maximal for SIRT1 overexpressing mice when compared with wild type. But what about
+[355.36s]  SIRT6? And we can see that shift in the lifespan curves to the right. So having higher levels of
+[360.32s]  SIRT6 significantly increased both, both average lifespan and maximal lifespan. And this is in the
+[365.44s]  pool data for males and females. So how does the data look separately in males and females? Is, is this
+[371.60s]  effect driven by one, one gender or the other? Well, we can see that the, uh, this effect is found in
+[377.68s]  both males and females for the SIRT6, uh, overexpressing mice. So average lifespan and maximal
+[383.28s]  lifespan were increased in both the males and in the female mice that had higher levels of SIRT6. So
+[388.88s]  based on this data, we could, uh, conclude that having higher levels of SIRT6 may be better than SIRT1
+[395.12s]  for extending lifespan. Now also, also as an interesting aside, note that the purple curves
+[399.84s]  where they overexpress both one SIRT1 and SIRT6 did not extend lifespan, uh, uh, uh, longer, uh,
+[406.96s]  than SIRT6 alone, which suggests that these, uh, having higher levels of SIRT1 and SIRT6 is not
+[412.40s]  additive that having higher SIRT6 alone, uh, is required for that lifespan extending effect. Now,
+[418.24s]  other studies have shown SIRT6, uh, can improve lifespan. And that's what, that's what's shown here.
+[423.52s]  Uh, and in this, and in this study, they engineered mice to have higher levels of SIRT6
+[427.84s]  in two separate groups of mice defined as line 55 on the, on the left and line 108 on the right.
+[433.84s]  So starting with the, uh, line 55, uh, we can see that, uh, there was an increased average and
+[438.96s]  maximal lifespan in these male mice that had higher levels were engineered to have higher levels of
+[443.68s]  SIRT6. And then for the line 108, there was an increase in average, but not maximal lifespan.
+[449.20s]  But, uh, this isn't a perfect story because for whatever reason, lifespan in the SIRT6
+[453.36s]  SIRT6 transgenic female mice was not extended. So with this in mind, how does SIRT6 extend lifespan?
+[459.92s]  Well, SIRT6 has been shown to positively affect many hallmarks of aging. So starting from SIRT6,
+[465.92s]  uh, we can see that it's involved in mechanisms that, uh, maintain telomere length. And that's
+[471.20s]  important because telomere length, uh, isn't maintained during aging. It shortens. Uh, now,
+[476.64s]  certainly having relatively higher levels of SIRT6 also are involved in mechanisms that reduce
+[481.04s]  oxidative stress, oxidative stress increases during aging. So, uh, by, uh, SIRT6 being able to, uh,
+[487.36s]  be involved in mechanisms that reduce oxidative stress, that's potentially important for aging.
+[492.16s]  Now, uh, SIRT6 is also involved in mechanisms that promote DNA damage repair. And this is whether,
+[497.68s]  this, uh, is whether, uh, uh, SIRT6 is involved in mechanisms that repair single strand DNA breaks
+[504.24s]  and double strand DNA breaks. Uh, SIRT6 is also involved in mechanisms that reduce inflammation,
+[509.84s]  including, uh, reducing pro-inflammatory cytokines such as IL-1 beta, IL-6 and TNF alpha,
+[516.16s]  while increasing expression of the anti-inflammatory cytokine IL-10. And finally, uh, SIRT6 is involved
+[522.88s]  in mechanisms that promote autophagy, which also declines during aging. So can SIRT6 then be increased
+[529.68s]  through diet, exercise, or supplements? You know, having transgenic animals that are engineered to have
+[533.44s]  that as nice, but can we activate SIRT6 to gain some of these benefits on aging and potentially
+[538.40s]  lifespan? So first SIRT6 is increased by calorie restriction. And this is a study done in male mice.
+[544.08s]  If anybody's come across calorie restriction studies in female mice, female mice, please leave a comment.
+[548.64s]  I wasn't able to find that. So we're looking at levels of SIRT6 protein levels of SIRT6 on the y-axis
+[555.52s]  divided by a loading control, a gap DH. So when compared with mice that were able, uh, allowed to eat as
+[562.00s]  much as they want, AL ad lib, we can see that the mice that were fed 30% less calories. And in this
+[567.44s]  case, these were old mice, 20 month, a 24 month old mice, which is equivalent to about a 73 year old
+[572.88s]  person. We can see that there was about a 50% increase in protein levels of SIRT6 in the mice that were
+[578.80s]  30% CR. Now this implicates a role for diet or at least calories on, on SIRT6 levels. Are there more
+[586.32s]  specific dietary components that can increase, uh, dietary components that can increase SIRT6?
+[591.92s]  And one of them is ergothionine. Uh, now ergothionine has been dubbed a longevity vitamin. And if you,
+[597.76s]  and I have a video on it, so if you missed that, I'm going to link to it in the right corner. So in
+[601.76s]  this study, they looked at SIRT6 protein expression, and this was an in vitro study in endothelial cells.
+[607.28s]  So starting with cells that, uh, did not have high glucose, this is a, the control cells. So CTR,
+[612.56s]  adding a, a, a relatively high amount of glucose to these cells to endothelial cells resulted in
+[618.40s]  lower levels of SIRT6 protein. Now adding ergothionine to the control cells didn't impact
+[624.40s]  SIRT6 levels, but in the cells that had high glucose and ergothionine, we can see that SIRT6
+[630.08s]  levels were significantly increased when compared to high glucose alone. So why is this important? What
+[635.04s]  does it have to do with aging? Well, glucose levels, systemic levels, circulating levels of glucose
+[639.68s]  increase during aging, which raises the question, can ergothionine increase SIRT6 in older adults as
+[646.08s]  glucose levels increase during aging, older adults more often than not have higher levels of plasma,
+[650.72s]  higher plasma levels of glucose. So there aren't any randomized control trials, RCTs that have tested
+[655.12s]  this yet, but I'd stay tuned. Uh, hopefully those studies will get done. Now there are many other
+[659.36s]  SIRT6 activators and I've listed them here. And, uh, there are so many of them that I'll probably make
+[664.56s]  another video, uh, in terms of which foods are rich, uh, you know, are rich for each of these metabolites,
+[669.76s]  but a notice that two of them right off the top, quercetin and luteolin are known CD38 inhibitors.
+[675.84s]  So they're involved in mechanisms that increase NAD. So not only may do they increase it involve,
+[681.44s]  not only are they involved in mechanism that mechanisms that increase NAD that they're known
+[685.76s]  SIRT6 activators. They're also involved in mechanisms that activate SIRT6. So you're getting a
+[690.40s]  double whammy of higher NAD, which is potentially good for health and lifespan and also higher SIRT6.
+[697.36s]  So what about exercise? So in this data, we can see that, uh, an acute bout of exercise in this case,
+[702.72s]  this was, uh, 30 minutes of running at 80% of VO2 max. And this is a relatively small study done in 24,
+[708.40s]  24 year old men. Uh, so acute, uh, acute exercise resulted in about a two fold higher expression
+[715.60s]  of SIRT6 levels in white blood cells. So, uh, blood samples were obtained before exercise,
+[721.44s]  immediately after exercise. So post-exercise and then one hour after exercise. And what we can see
+[727.20s]  when compared with both pre-exercise and post-exercise is that the SIRT levels were approximately
+[732.88s]  doubled as a result of 30 minutes of running at 80% of the VO2 max on the treadmill. Now it isn't just
+[738.48s]  aerobic exercise and acute exercise. So one bout of exercise, uh, SIRT6 has also been shown to be
+[744.48s]  increased after 12 weeks of resistance exercise training. So strength training in 66 year old men
+[750.16s]  and also relatively small study, 30 subjects, but nonetheless, it shows an important role for
+[754.64s]  exercise, whether it's cardiovascular training or strength training to potentially increase SIRT6
+[759.28s]  levels in people. All right. That's all I've got for now. If you made it to the end,
+[763.28s]  I hope you enjoyed the video and have a great day.

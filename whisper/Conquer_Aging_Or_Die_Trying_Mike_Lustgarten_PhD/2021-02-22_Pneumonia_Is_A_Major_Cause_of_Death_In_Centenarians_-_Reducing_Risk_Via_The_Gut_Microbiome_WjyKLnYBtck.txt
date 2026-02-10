@@ -1,0 +1,162 @@
+[0.00s]  With the goal of living past 100, it's important to know what centenarians die from so that we can minimize that risk.
+[7.50s]  So what's the number one cause of death in centenarians? Let's have a look at some data.
+[11.82s]  So that's what we can see here, death for all causes for people older than 100 years old,
+[18.40s]  and this is a sample size of about 36,000 centenarians.
+[22.24s]  So first, the major cause of death in centenarians was old age.
+[28.02s]  About 28% of all deaths in the group that was older than 100 years died from what was classified as old age, which can be literally anything.
+[36.44s]  So what about cause-specific mortality like heart disease and cancer?
+[40.38s]  This would be the obvious choice.
+[41.86s]  So we can see that for heart disease, 8.6% of all people who died that were older than 100 died from heart disease,
+[49.04s]  and about 4 out of 100 died from cancer.
+[52.94s]  So these aren't the primary causes of death in people older than 100 years.
+[56.78s]  What is?
+[57.66s]  So we can see that about 18% of the deaths for centenarians was related to pneumonia.
+[64.14s]  So if we're going to live past 100 years, we need to account for pneumonia
+[68.26s]  and optimize strategies to reduce risk of pneumonia at older ages.
+[73.44s]  So is this, in effect, specific to centenarians, or is this also occurring at relatively younger ages?
+[80.88s]  So in this case, I've rectangled starting at 80 years old all the way up to 100 years old.
+[85.76s]  And what we can see is that pneumonia, the incidence of deaths for pneumonia increases during aging.
+[92.50s]  So for the 80-year-old group, pneumonia, the percentage of deaths from pneumonia are only about 6% of all deaths.
+[101.24s]  And then they increase in each 5-year increment all the way up to 100 years.
+[105.36s]  So 6% to 8.3%, 11.5% to 14.6%.
+[111.06s]  And then finally, the centenarians at that about 18% of all deaths related to pneumonia.
+[115.26s]  So interestingly, also during that time, from 80 to 100 plus,
+[120.98s]  there's a reduction in both deaths from heart disease and cancer.
+[125.30s]  So we can see deaths from heart disease go from 19% down to that 9%, around 9% in centenarians.
+[131.70s]  And similarly, for cancer, deaths decreased from about 24.5% in the 80-year-olds to 4.4% in the centenarians.
+[139.94s]  So it looks like centenarians escape death from heart disease and cancer, but then die at an increased rate from pneumonia.
+[147.88s]  So what is pneumonia?
+[149.42s]  So just as a brief overview, it's simply an infection of the lung or lungs,
+[155.04s]  which leads to inflammation, difficulty breathing, and then all the complications that come with that.
+[159.96s]  Now in this study, the pneumonia was designated with the ICD-10 codes, J12 through J118,
+[167.48s]  which includes both viral and bacterial pneumonia.
+[170.94s]  So in today's video, I'm going to talk about strategies to optimize against viral pneumonia,
+[177.46s]  in this case, caused by the influenza A virus, and bacterial pneumonia, in this case, Klebsiella pneumoniae bacteria.
+[187.04s]  So what interventions can we use to improve survival following viral or bacterial lung infection?
+[192.74s]  So first, as we can see by the title, there's improved survival following viral lung infection in mice on a high-soluble fiber diet.
+[201.06s]  So what does that even mean?
+[202.58s]  What's a high-soluble fiber diet?
+[204.08s]  So dietary fiber is comprised of insoluble fiber, which is not fermented by gut bacteria,
+[208.80s]  and soluble fiber, which is fermented by gut bacteria to form the short-chain fatty acids acetate, propionate, and butyrate.
+[215.04s]  So why are they called short-chain fatty acids?
+[217.58s]  So acetate is a 2-carbon fatty acid, CH3COOH, propionate a 3-carbon fatty acid, and butyrate a 4-carbon fatty acid.
+[225.36s]  So relative to other fatty acids in terms of carbon chain length, they are short.
+[231.00s]  So, okay, so improved survival after consumption of a high-soluble fiber diet after influenza A lung infection.
+[238.44s]  So that's what we're looking at here.
+[239.56s]  And this data is in young female mice.
+[241.04s]  For whatever reason, they didn't look at survival in male mice.
+[244.38s]  They only used female mice.
+[245.78s]  So we're looking at survival plotted against time after infection and comparing control-fit animals versus a high-fiber diet.
+[253.66s]  So in this case, the controls consume 30% of their diet from cellulose, which is a poorly fermentable fiber.
+[259.46s]  It's not fermented by gut bacteria.
+[261.94s]  And 30% inulin, which is a soluble fiber, which is fermented by gut bacteria to produce the short-chain fatty acids.
+[267.84s]  So what happened for both these groups?
+[269.90s]  So when looking at average survival, that's the time when half the cohort is alive and half has died.
+[276.58s]  So 50% survival is indicative of that.
+[279.08s]  And we can see that for the animals on the control diet, 50% survival, average survival was at about 9 days.
+[285.48s]  So in contrast, mice that were on the high-soluble fiber diet lived significantly longer, 14 days,
+[292.24s]  which suggests an important role for soluble fiber on improving defense against viral lung infection.
+[299.06s]  So when considering that soluble fiber is fermented by gut bacteria to make short-chain fatty acids,
+[303.94s]  is the improved survival mediated by these short-chain fatty acids?
+[308.06s]  So first, we have to see if the short-chain fatty acids were actually elevated as a result of the high-soluble fiber diet.
+[313.74s]  So that's what we're looking at here.
+[314.78s]  So levels of these short-chain fatty acids in stool samples on the left,
+[320.70s]  and then plasma levels of the short-chain fatty acids on the right.
+[323.62s]  So the gut bacteria are located in the colon or large intestine,
+[326.82s]  and then they would be absorbed into the intestinal epithelial cells,
+[330.96s]  where they then can pass into the blood.
+[332.98s]  That's how they would get into the plasma.
+[334.64s]  So first, on the left, notice that in the fecal samples,
+[338.54s]  the short-chain fatty acids acetate was two-fold higher in the inulin-soluble fiber-fed mice compared to controls,
+[346.20s]  but then butyrate noticed the increase of about 150-fold relative to the control-fed animals.
+[353.22s]  So a similar trend is found for the plasma short-chain fatty acids.
+[356.98s]  So again, acetate in plasma was about two-fold elevated as a result of the high-soluble fiber diet.
+[362.68s]  Propionate was now significantly increasing in plasma,
+[365.86s]  but then again, butyrate was increased almost 150-fold compared to the control diet.
+[371.60s]  And again, this is in the influenza-infected mice.
+[375.88s]  So when considering that butyrate was tremendously increased on the high-soluble fiber diet,
+[381.36s]  and the high-soluble fiber-fed mice had an increased survival after a viral lung infection,
+[388.24s]  this led the authors of this study to ask,
+[390.20s]  can individual short-chain fatty acids impact survival following infection with influenza?
+[395.66s]  And to do that, they looked at butyrate.
+[398.16s]  So what we're looking at here is survival after, again, influenza A infection,
+[402.60s]  lung infection with influenza virus,
+[405.30s]  and again, in young female mice, and we're looking at survival.
+[408.34s]  So in one group, the mice were just given water,
+[410.98s]  and in the other group, they were given butyrate in the water.
+[413.18s]  So they were drinking water that had butyrate in it.
+[415.64s]  And when we look at average survival, we can see that for the mice that only had water,
+[419.80s]  average survival after influenza viral lung infection was about eight days.
+[424.88s]  So in contrast, average survival for butyrate-treated mice was double,
+[430.38s]  you know, 17 or more than double, 17 days after being infected with influenza A.
+[434.74s]  So that suggests that high-soluble fiber diet increased in the gut bacterial production
+[440.30s]  of the short-chain fatty acids, which can then improve our ability to survive after a viral lung infection.
+[449.76s]  So what about survival after a bacterial lung infection?
+[453.38s]  And as I mentioned, I'm going to show data for Klebsiella pneumoniae,
+[457.04s]  and that's what we can see here.
+[458.34s]  So survival after a bacterial infection with Klebsiella bacteria.
+[462.50s]  And first, when looking at the vehicle-treated mice,
+[465.92s]  so mice that were not treated with any of the short-chain fatty acids,
+[468.96s]  we can see that average survival after bacterial lung infection was at about 80 hours.
+[473.60s]  So what about the butyrate-treated mice?
+[475.60s]  And that's the green line, and we can see that all of the butyrate-treated mice
+[479.54s]  were still alive after 80 hours after infection with Klebsiella bacteria,
+[484.34s]  which strongly suggests a protective role for these short-chain fatty acids
+[488.34s]  in the lung's defense against infection.
+[494.50s]  So is there a link?
+[495.82s]  Now, these data are in mice.
+[497.10s]  Is there a link between fiber intake with pneumonia in people?
+[500.44s]  So a relatively higher fiber diet is associated with a reduced risk of death
+[504.40s]  from respiratory diseases.
+[505.96s]  Now, it's important to note that death from respiratory diseases,
+[508.48s]  which I've rectangled here,
+[510.48s]  the ICD codes included J10 through J18,
+[514.06s]  and also J40 to J47, which includes viral and bacterial pneumonia,
+[518.68s]  but also other respiratory diseases too, like COPD.
+[522.56s]  So these data from death from respiratory diseases isn't specific to pneumonia,
+[526.98s]  but from all respiratory-related deaths.
+[530.78s]  So was there a protective role for fiber
+[532.76s]  or association for a protective role for fiber in these studies?
+[537.16s]  So first, in looking at the data for men
+[539.10s]  and looking at the fully adjusted model,
+[541.26s]  we can see that men that consumed the highest amount of fiber in this study,
+[545.60s]  29 grams,
+[546.92s]  had a significantly reduced risk of death from respiratory diseases of 31%
+[552.12s]  when compared with men that consumed the lowest amount of fiber, 12.6 grams.
+[559.42s]  And actually, starting from quintile 4 of fiber intake,
+[562.60s]  so somewhere above 19 grams per day,
+[565.90s]  was associated with a 26% reduced risk of death from respiratory diseases
+[570.18s]  when compared with the lower fiber group.
+[572.72s]  So a similar effect is present for women,
+[574.38s]  only in this case,
+[575.62s]  women that consumed above the 12.6 grams,
+[578.46s]  sorry, 10.8 grams,
+[580.08s]  so that was considered low fiber,
+[581.76s]  in quintile 1.
+[582.78s]  So quintile 2 for fiber consumption,
+[585.04s]  slightly higher than quintile 1,
+[587.02s]  had a 19% reduced risk of death from respiratory diseases.
+[590.38s]  And then every quintile above that
+[592.16s]  had a further reduction in risk of death from respiratory diseases.
+[595.70s]  So quintile 3, 27% down,
+[598.44s]  quintile 4, 42% down,
+[600.56s]  quintile 5, 46% down.
+[602.84s]  So the highest fiber group of 25 grams,
+[605.84s]  about 25 grams per day,
+[607.56s]  versus about 11 grams per day in women,
+[609.90s]  significantly reduced risk of death from respiratory diseases.
+[613.56s]  Now, based on all the data that I've shown you,
+[615.92s]  this suggests that a high fiber diet,
+[617.40s]  and more specifically soluble fiber,
+[619.28s]  may be an important approach for reducing risk of death from respiratory diseases,
+[622.76s]  including pneumonia.
+[624.10s]  Now, it's also important to note
+[625.70s]  that there are no RCTs, randomized controlled trials,
+[628.74s]  that have directly tested this hypothesis in older adults.
+[631.40s]  So the data is yet to be seen
+[633.12s]  if this will actually be proven
+[634.76s]  in studies of older adults that have pneumonia.
+[637.82s]  All right, that's all I've got for now.
+[639.40s]  If you made it to the end,
+[640.16s]  thanks for watching and listening,
+[642.12s]  and have a great day.

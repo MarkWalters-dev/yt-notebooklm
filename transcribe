@@ -24,7 +24,7 @@ BASE_MD_DIR = "md"
 
 # API rate limiting (seconds between API calls)
 API_DELAY = 20  # Used for fallback, but dynamic RPM and daily limit enforced below
-RPM_LIMIT = 13  # Slightly below 15 to avoid bursts
+RPM_LIMIT = 5  # Slightly below 15 to avoid bursts
 DAILY_LIMIT = 1000
 import collections
 import json

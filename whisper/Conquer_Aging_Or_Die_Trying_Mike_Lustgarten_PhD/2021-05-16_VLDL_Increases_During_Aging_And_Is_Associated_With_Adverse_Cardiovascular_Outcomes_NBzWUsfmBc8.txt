@@ -1,0 +1,142 @@
+[0.96s]  When we hear about cholesterol, usually what comes to mind is LDL and HDL as shown here.
+[6.88s]  But there are other forms of cholesterol that impact health.
+[10.00s]  And these include lipoprotein A, so LP little a, but also remnant cholesterol, which is defined
+[17.20s]  in the fasting situation as the combination of intermediate density lipoprotein, IDL,
+[22.96s]  and very low density lipoprotein, VLDL.
+[26.64s]  And again, in the fasting state, this can be calculated by the formula total cholesterol
+[31.36s]  TC minus HDL minus LDL equals remnant cholesterol or IDL plus VLDL.
+[38.80s]  So in this video, I'm going to talk about VLDL.
+[41.52s]  So why is VLDL important?
+[44.16s]  First, it's a marker of fatty liver.
+[46.32s]  So let's walk our way through this data.
+[48.64s]  So in the situation where there's obesity and insulin resistance and, or a hypercaloric diet,
+[55.44s]  these situations trigger an increase in lipolysis.
+[58.88s]  So fat breakdown in adipose tissue, which leads to systemic increases in free fatty acids, FFAs.
+[66.00s]  Now also note that a hypercaloric diet on its own can induce increases in circulating levels of free
+[72.32s]  fatty acids.
+[73.36s]  So increased circulating levels of free fatty acids are then taken up by the liver, where they are
+[77.44s]  packaged into TGs, triglycerides.
+[79.84s]  And then with an increase in triglycerides in the liver, this leads to accumulation of
+[84.64s]  lipid droplets in the liver, which is known as steatosis.
+[88.88s]  Now, additionally, when there's an increase in lipid droplets in a given tissue, in this case,
+[92.72s]  the liver, these lipid droplets are packaged with cholesterol and other membrane proteins into VLDL.
+[99.92s]  So if there are increased circulating levels of VLDL, that can be one measure of a fatty liver.
+[106.80s]  So also note that VLDL increases during aging and higher levels of VLDL are associated with heart
+[113.52s]  disease related outcomes.
+[114.48s]  So let's have a look at that data.
+[116.64s]  So here we can see aging related data for VLDL.
+[120.56s]  VLDL and in youth, defined as men that are 15 to 24 years old, men and women that are 15 to 24 years old,
+[129.60s]  we can see that VLDL less than 20 in men and less than 15 in women is found in youth.
+[134.96s]  And then going through aging, so going from 25 years old up to 79 years old for both men and women,
+[141.52s]  we can see that VLDL levels increase up to about 30 in both men and women.
+[146.88s]  So also note that higher levels of VLDL are associated with an increased cardiovascular disease risk.
+[152.56s]  And in this case, cardiovascular disease was defined as risk for acute myocardial infarction.
+[158.08s]  So heart attack, sudden coronary death and other coronary death.
+[162.32s]  So in this study, when using less than 20 milligrams per deciliter for VLDL, as the reference,
+[167.68s]  we can see that having VLDL in the 20 to 29 range, uh, or, uh, greater than 30 was associated
+[175.20s]  with a significantly increased risk for adverse cardiovascular disease related outcomes. So
+[180.16s]  for, uh, in the 20 to 29 range, it was associated with a 38% increased risk and, uh, VLDL greater
+[186.00s]  than 30 when combined, uh, when compared to less than 20 was associated with a 44% increased risk for
+[191.68s]  these adverse cardiovascular disease related outcomes. Now, other studies independent of the,
+[197.20s]  you know, the association for VLDL with cardiovascular disease risk, other studies have evaluated
+[202.24s]  associations for remnant cholesterol with cardiovascular CBD, uh, cardiovascular disease risk.
+[208.56s]  So, uh, if you remember on the first slide, remnant cholesterol, uh, in the fasting state is defined
+[213.44s]  as the sum of VLDL plus IDL. Now, uh, it may be that remnant cholesterol is almost exclusively VLDL.
+[221.04s]  So here's my, uh, just as an example, my, my data from my last blood test, and it includes total
+[226.88s]  cholesterol, HDL, VLDL, and LDL. And if you remember the calculation for remnant cholesterol,
+[232.48s]  which equals total cholesterol minus LDL minus HDL again, and only in the fasting state,
+[237.76s]  we can see that my VLDL equals 13 and there's no IDL. So from this, I would posit that studies
+[243.28s]  that have reported remnant cholesterol in the fasting state, as I'm going to show these three
+[246.56s]  studies going forward, uh, when they report remnant cholesterol, it's almost exclusively VLDL.
+[251.92s]  So in this study, remnant cholesterol, but not LDL cholesterol was associated with the
+[256.32s]  incidence of cardiovascular disease. And in this case, cardiovascular disease was defined as
+[261.12s]  risk for heart attack, stroke, or, or cardiovascular death. So was, uh, HDL or LDL associated with these
+[268.72s]  adverse cardiovascular disease related outcomes. And this is in the study of about 6,900 subjects.
+[274.16s]  So first HDL was not associated with these adverse cardiovascular disease related outcomes. As you can
+[279.92s]  see, when comparing people who didn't have a cardiovascular event with people who had a cardiovascular event,
+[284.48s]  HDL levels were not significantly different. And then when looking at it as a continuous variable,
+[288.32s]  so higher levels of HDL, are they associated with, uh, risk in, in other words, the hazard ratio, did it increase?
+[294.40s]  Uh, and it didn't, you can see by the P value. Similarly, LDL was not different between the two groups,
+[299.76s]  no event versus event and higher levels of LDL were not associated with a higher risk, a significantly higher risk
+[305.20s]  for any of these cardiovascular disease related outcomes. In contrast, remnant cholesterol,
+[310.48s]  which again, this is data in the fasting state. So it is likely mostly from VLDL. We can see that
+[317.20s]  higher levels of remnant cholesterol were found in people who had a cardiovascular event when compared
+[321.36s]  with no event. And then for every 10 milligrams per deciliter increase for remnant cholesterol,
+[326.08s]  there was a 21% increased risk for having one of these adverse cardiovascular disease related events.
+[332.24s]  Now, while that says that higher is higher for remnant cholesterol is associated with worse
+[337.36s]  cardiovascular disease related outcomes. It doesn't indicate more specific values for what
+[343.12s]  could be bad for, uh, increasing risk. So to assess that the authors of the study then looked at
+[348.08s]  core tiles of remnant cholesterol, uh, in, in association with risk for heart attack,
+[352.24s]  stroke and cardiovascular death or cardiovascular death. And when using less than 17.5 as the
+[358.24s]  reference for remnant cholesterol, we can see that significantly increased risk for one of these
+[362.24s]  adverse cardiovascular disease related outcomes was present only when the, uh, remnant cholesterol
+[367.60s]  was about, uh, 30.95 or around 31 or higher. So just to summarize that remnant cholesterol greater
+[374.64s]  than about 31 milligrams per deciliter is associated with a significantly increased CBD risk when compared
+[379.52s]  with lower values in this case, less than 18. Now, other studies have also shown, uh, uh, higher levels of
+[385.60s]  remnant cholesterol to be associated with atherosclerosis and premature heart attack risk.
+[389.68s]  So for some people that have relatively low weight, low LDL, the progression of atherosclerosis, uh,
+[396.56s]  so fatty streaks in the, in the vasculature is not eliminated. So why is that? So in this case,
+[401.92s]  in this study, uh, the authors looked at risk for the presence of having a significant amount of coronary,
+[408.00s]  uh, atherosclerosis. And this data is in 134 people with an LDL that is purported to be optimal,
+[414.72s]  less than 70 milligrams per deciliter and 110 of these people were taking a statin. So almost
+[419.68s]  all these people were taking a statin and had what's purported to be optimal levels of LDL cholesterol.
+[425.04s]  So, uh, what variables were associated with atherosclerosis in people who have low LDL?
+[431.12s]  So first they looked at diabetes, uh, diabetes and hypertension, and each of these was,
+[435.68s]  were not associated with having a significant amount of coronary atherosclerosis.
+[440.32s]  In contrast, having HDL less than one millimolar, which translates into about 39 milligrams per
+[446.00s]  deciliter. So having low HDL in the presence of low LDL less than 70 was associated with the three
+[452.56s]  fold higher odds for having a significant amount of coronary atherosclerosis, but the highest risk
+[458.08s]  was present for remnant cholesterol. People who had higher levels of remnant cholesterol had about a
+[463.28s]  four fold higher risk for the presence of a significant amount of coronary atherosclerosis.
+[468.80s]  So from this, we can conclude that low LDL combined with high VLDL or low HDL may be bad for the
+[476.08s]  progression of atherosclerosis. Now in another study, there was a higher odds for premature heart
+[481.84s]  attack with higher levels of remnant cholesterol, but note that they also looked at the association
+[487.28s]  for premature heart attack, which is defined usually, uh, as, uh, someone who had a heart attack younger
+[492.64s]  than 55 in men and younger than 65 in women. In this case, the study included 35 year olds. So this is at
+[498.64s]  a much relatively younger age. So not only did they look at, uh, levels of remnant cholesterol in
+[503.76s]  association with premature heart attack risk. They also compared a whole bunch of other variables
+[508.16s]  and variables that were significantly associated with premature heart attack risk were non HDL
+[513.36s]  cholesterol. So the sum of LDL lipoprotein a IDL and VLDL higher levels of that, uh, about a three fold
+[520.56s]  higher risk of a premature heart attack, higher triglycerides, a higher remnant to, uh, divided by
+[526.56s]  HDL cholesterol ratio, higher total cholesterol, a higher LDL to HDL cholesterol ratio, and then higher
+[533.44s]  levels of APO B 100 containing proteins, which is the sum of LDL lipoprotein a IDL and VDL. But notice
+[541.12s]  that the highest risk for having a premature heart attack, 3.87 fold higher risk was present when
+[547.68s]  remnant cholesterol was elevated. So based on the data that I've shown you, uh, uh, it seems that having
+[554.32s]  lower levels of VLDL when considering the aging data and the data for adverse cardiovascular disease
+[560.00s]  related outcomes that lower would be better for VLDL. So, uh, what's my data? I've been tracking VLDL for,
+[566.56s]  uh, since 2005. So how am I doing with this biomarker now from 2005 to 2013, I was tracking my
+[573.52s]  blood test results about once a year and not tracking my diet or, or, uh, or as rigorously as I have been
+[580.24s]  for the past six years. So during the pre diet tracking phase, I measured 10 times VLDL, 10 times.
+[586.16s]  And my average level during those times was, uh, 13.2 milligrams per deciliter. Now in 2015,
+[593.52s]  I started entering all of my data into an online, uh, tool, um, chronometer. Uh, and there are many
+[600.00s]  tools. Anybody can use, uh, uh, uh, any of these online tracking tools, my fitness pal, any of them
+[605.36s]  will work as long as you're, you know, getting the macros and micros and food amounts, which I then took
+[610.00s]  that data and entered it into an Excel file. So then I can look at the average dietary period that
+[614.80s]  corresponds to each of these blood tests. And because I have enough blood tests, I can look for
+[618.72s]  correlations between my diet with each of these biomarkers to see what in my diet can impact the
+[623.44s]  biomarkers. So, uh, when comparing, when looking at my, uh, VLDL data from 2015 to the present,
+[630.00s]  which is 30 blood tests, my VLDL, I've actually been able to reduce it with an, uh, to an average of
+[635.36s]  11 milligrams per deciliter. And when comparing these two groups of data, pre diet tracking versus
+[640.96s]  the 2015 data and beyond. So, uh, during diet tracking, these two groups of data are
+[645.44s]  significantly different based on AT test, but all isn't, uh, fantastic with my VLDL data over
+[651.60s]  the past six measurements. My average VLDL is 13.3, uh, which is significantly higher than the
+[656.80s]  previous 24 measurements from 2015 forward. Uh, and those two groups of data, the six versus the 24
+[662.72s]  are significantly different. So my VLDL over my last six measurements are, are going,
+[666.56s]  is going in the wrong direction. So to get it going back in the right direction towards, uh,
+[671.84s]  relatively lower values, um, are there significant correlations for my diet with VLDL? So, uh,
+[678.88s]  the variables that I considered for correlations with VLDL were mostly macronutrients. So total
+[684.08s]  calories, total carbohydrate intake, uh, my total fructose intake, which includes fructose, but also,
+[689.68s]  uh, one half of sucrose because half of sucrose is, uh, fructose. So total fructose intake,
+[695.60s]  total protein, total fiber, total fat, but then also the individual levels of fats, uh, average,
+[701.20s]  average per day, of course. Uh, so MUFA, monounsaturated fats, omega-3 fats, omega-6 fats,
+[706.48s]  and then saturated fats. So of all these variables, were any of them significantly correlated with VLDL?
+[712.56s]  And of them, the one that was most significantly correlated with VLDL was my average daily calorie
+[718.24s]  intake as shown here. So, uh, um, what we can see is that the higher, this is a significant
+[724.00s]  positive correlation. So if you can see by the correlation coefficient of 0.6, so that's a moderate
+[729.52s]  strength correlation, but the P value is statistically significant. And when it, when, uh, saying that it's
+[735.12s]  a positive correlation, that means that as my calorie intake increases, VLDL correspondingly,
+[740.48s]  correspondingly increases. So, um, with the goal of keeping my VLDL towards the low end of my range,
+[746.96s]  uh, we can see that, uh, I should shoot. And that's what I've been doing over the past, uh,
+[751.84s]  six weeks or so, um, shoot for, uh, about 2,500 calories per day or less.
+[757.76s]  So, uh, that's all I've got for now. If you made it to the end, uh, thanks a lot. And I hope you
+[761.20s]  enjoyed the video and have a great day.

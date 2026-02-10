@@ -1,0 +1,794 @@
+[0.16s]  Two weeks ago, I blood tested for the first time in 2025.
+[4.22s]  And note that this is test number 56 since 2015.
+[8.08s]  So with that in mind, what's my biological age?
+[11.02s]  That's what we'll see here.
+[12.28s]  This is using Dr. Morgan Levine's biological age clock,
+[15.32s]  FenoAge.
+[16.26s]  And an important question to ask is,
+[18.68s]  how good is FenoAge?
+[20.00s]  How good is this biological age clock
+[21.86s]  in terms of its correlation with chronological age
+[24.06s]  and its association with risk of death for all causes?
+[26.84s]  So I posted that video yesterday,
+[28.42s]  and if you missed it, it'll be in the right corner.
+[31.22s]  Also, if you have blood test data
+[32.86s]  and you want to calculate your own biological age
+[35.18s]  using this test, there's a downloadable free,
+[38.22s]  you don't have to put your email in,
+[39.84s]  link for my website in the video's description.
+[42.90s]  All right, so when entering these nine biomarker data
+[45.56s]  for these nine biomarkers,
+[47.28s]  I get a biological age of 32.9 years,
+[50.60s]  which is 19.1 years younger than my chronological.
+[54.32s]  Now note that the theoretical maximum reduction
+[56.60s]  for FenoAge versus biological age in this case
+[59.96s]  is about 20 years.
+[61.10s]  So this is my second best test over 38 tests
+[64.78s]  over the past seven years or so.
+[67.70s]  But note that this is just one test,
+[69.54s]  and I see a lot of people online saying,
+[71.66s]  my biological age is this or that,
+[73.54s]  and it's only based on one test.
+[75.60s]  I find more value in tracking year-to-year changes
+[78.48s]  with multiple tests each year.
+[80.88s]  For me, I think that's a better representation
+[83.04s]  of tracking and trying to optimize age-related changes.
+[87.34s]  So with that in mind,
+[88.30s]  let's take a look at all data for FenoAge since 2018.
+[92.58s]  As again, I have 38 blood tests over that span,
+[95.52s]  which is what we'll see here.
+[97.40s]  So in 2018 to 2019,
+[99.46s]  I only had three blood tests
+[101.04s]  where I could calculate FenoAge,
+[102.98s]  and over those three tests,
+[104.56s]  average biological age was 36.1 years.
+[107.28s]  But note that three tests over a two-year span
+[110.02s]  probably isn't enough data points
+[112.14s]  to assess year-to-year change.
+[114.14s]  So I started tracking more often.
+[116.12s]  With six tests each in 2020 and 2021,
+[119.48s]  so 12 tests total over those two years,
+[122.04s]  average biological age was 35.6 in each year.
+[125.94s]  So that's probably a closer representation
+[127.70s]  of my actual biological age in both of those years.
+[131.96s]  And then in 2022, I had my best data yet,
+[134.92s]  and that's now over seven tests.
+[136.42s]  I started to increase the testing frequency
+[138.34s]  just by a bit to 33.8 years,
+[142.26s]  which got a bit worse in 2023.
+[144.34s]  Again, over seven tests, 34.7 years.
+[147.34s]  About the same in 2024, but now over eight tests.
+[151.12s]  So 34.8 versus 34.7.
+[153.76s]  And now we can put that 32.9,
+[156.04s]  this most recent test two weeks ago, into context
+[158.36s]  as we can see that it's on the right track.
+[161.62s]  Now, if we put all of the data together,
+[163.56s]  we can see that I've avoided
+[165.16s]  an age-related biological age increase.
+[168.36s]  Now, digging deeper, that means that for these nine biomarkers,
+[172.00s]  I've resisted age-related change,
+[173.92s]  at least going back to 2018, 2019.
+[177.24s]  Now, it's also important to note that
+[179.68s]  even if all biomarkers stay the same using this test,
+[183.80s]  phenol age increases by 0.9 years per chronological age
+[187.60s]  for each one year that passes for chronological age.
+[191.18s]  So with that in mind, starting in 2020,
+[194.50s]  0.9 times four, the four years that have passed since then,
+[198.02s]  I should expect to see 35.6 plus 3.6,
+[202.06s]  so 39.2 years for an average value in 2025,
+[206.76s]  not 32.9.
+[208.12s]  So this illustrates that I'm on the right path,
+[210.62s]  that the approach and approaches and correlations
+[213.00s]  and all the things that I'm doing are on the right track.
+[215.22s]  But rather than just entering data into a spreadsheet,
+[218.48s]  let's take a look at the full blood test report,
+[221.00s]  as I do have weak spots in my data,
+[223.04s]  and I think it's important to not just focus on
+[224.94s]  a small subset of biomarkers,
+[227.52s]  which, although they do represent many organ systems in this case,
+[230.90s]  for example, albumin, liver, creatinine, kidney, glucose,
+[234.68s]  metabolic health, inflammation, CRP, and so on,
+[237.36s]  but I think it's important to look at as many biomarkers as possible
+[240.60s]  of as many organ systems as possible,
+[243.20s]  so we leave no stone unturned
+[245.78s]  when trying to slow aging and potentially maximize lifespan.
+[249.00s]  So let's start off with page one of three of the blood test report.
+[252.98s]  And note that I don't go to my doctor to order these blood tests.
+[255.62s]  I go to ultalabtest.com,
+[257.56s]  where I pick the tests exactly that I want.
+[260.30s]  I then bring that to Quest Diagnostics.
+[262.46s]  I pay the $9 blood draw fee,
+[264.46s]  and then I get the majority of these results pretty quickly.
+[267.78s]  So you can see I tested at about 7.30 in the morning,
+[270.36s]  and I had the majority of these results back within 21 hours,
+[273.70s]  which, in my opinion, is great news.
+[275.64s]  So if you're into blood testing like me,
+[277.36s]  and there's a Quest in your area,
+[278.72s]  and you want to help support the channel,
+[280.46s]  there's an affiliate link in the video's description.
+[283.56s]  All right, so let's go through the high points
+[285.24s]  and some low points of the blood test data.
+[287.98s]  So first, HDL at 61.
+[290.24s]  That's good news because it's now 14 tests in a row
+[293.34s]  where HDL is greater than or equal to 50,
+[295.96s]  with an average of 56.3 milligrams per deciliter
+[299.14s]  over those 14 tests.
+[301.74s]  Triglycerides at 58 isn't too far from optimal,
+[304.30s]  which is less than 45 in terms of lowest risk of death
+[307.52s]  from coronary heart disease, CHD.
+[310.66s]  LDL at 77 is within the optimal range
+[313.30s]  for lowest risk of death from CHD mortality,
+[316.30s]  which is 65 to 120.
+[318.12s]  And if you're wondering where I'm getting these ranges from,
+[321.00s]  these quote-unquote optimal ranges,
+[322.80s]  I have a new Patreon tier where I summarize all of those data,
+[326.72s]  40 published papers and a 95-minute video
+[329.14s]  that lives exclusively and will always live exclusively on Patreon,
+[332.72s]  which includes data for these lipoproteins.
+[335.80s]  That's a small subset of the biomarkers there.
+[337.88s]  All of them are shown here.
+[339.22s]  So if you're interested in what's optimal for biomarkers,
+[341.50s]  check it out.
+[342.46s]  All right, moving down on the list,
+[344.04s]  HSCRP is 0.2 milligrams per liter.
+[347.70s]  And that's now 22 tests in a row
+[349.86s]  where HSCRP is less than the detection limit
+[352.92s]  of 0.3 milligrams per liter or less.
+[356.30s]  But then a potential weak spot.
+[358.44s]  Homocysteine at 9.8 micromolar.
+[361.12s]  Sure, it's not higher than the reference range,
+[363.76s]  which you can see is greater than 11 micromolar.
+[366.62s]  But I've had values in the 5 to 6 range about 15 years ago,
+[370.12s]  so it's not a genetic issue.
+[372.30s]  TMG, high dose, 4 grams per day, didn't make a dent.
+[375.22s]  I did that experiment many years ago,
+[376.72s]  and that's on my blog.
+[378.74s]  I've done folate, B6, serine plus B6,
+[382.00s]  B12, methyl B12 does bring it down by about 10%,
+[385.24s]  but going from 11 to 10 isn't a big dent.
+[388.30s]  So for this test, I tried something different.
+[390.52s]  N-acetylcysteine.
+[391.68s]  There are two published studies, two clinical trials,
+[394.42s]  where N-acetylcysteine at 1.5 grams per day,
+[397.38s]  which is what I supplemented with,
+[399.40s]  reduced homocysteine.
+[400.38s]  But in my case, probably not,
+[402.90s]  as 9.8 is within my usual range without any supplements.
+[407.60s]  So I'm still working on that recipe
+[409.34s]  to try to optimize homocysteine and get it back
+[411.60s]  to where I had it about 15 years ago.
+[414.94s]  All right, on to page two.
+[416.58s]  Glucose at 84 superficially seems like great news,
+[419.36s]  especially when considering that it increases during aging,
+[422.72s]  and that my 55 test glucose average since 2015
+[426.36s]  is about 90 milligrams per deciliter.
+[429.20s]  But digging a little deeper,
+[430.78s]  this may not be the good news or great news that I think it is.
+[434.08s]  And that's by looking at HbA1c.
+[436.86s]  Now, 5.4 isn't terribly high,
+[439.52s]  but it's my highest reading since 2015.
+[442.74s]  Now, when considering that I have 55 tests
+[445.22s]  for a lot of, for the majority of blood biomarkers,
+[447.58s]  you might think that I have 55 blood tests for HbA1c,
+[451.36s]  but I don't.
+[452.06s]  I only have five tests.
+[453.18s]  So 5.4 is the highest value of five tests
+[457.00s]  over the past 10 years.
+[458.42s]  With that in mind, for every test going forward,
+[460.80s]  I'm gonna include HbA1c.
+[463.56s]  All right, on to kidney function biomarkers.
+[465.78s]  Creatinine also superficially looks like great news at 0.72.
+[469.78s]  This is my lowest value ever.
+[472.40s]  And it's especially good news
+[474.06s]  when considering my 57 test creatinine average
+[476.54s]  since 2015 is 0.94 milligrams per deciliter.
+[480.22s]  Creatinine levels increase during aging in part,
+[484.16s]  or almost exclusively because of reduced kidney function.
+[487.00s]  So that it's lower than my 57 test average
+[490.22s]  is superficially good news.
+[492.12s]  But the first hint that there may have been some issue
+[494.82s]  with my kidney function,
+[496.02s]  at least moving in the wrong direction,
+[497.48s]  I shouldn't say it's suboptimal or it's terrible,
+[501.34s]  but moving in the wrong direction is blood urea nitrogen.
+[504.54s]  So assuming no increase in protein intake,
+[506.58s]  if bond increases,
+[507.86s]  that could be because of reduced kidney function
+[510.32s]  as it becomes less efficient
+[511.64s]  at removing urea from the blood.
+[513.80s]  So for my last test,
+[514.70s]  it was nine milligrams per deciliter.
+[516.34s]  For this test, it was 11 without an increase
+[518.40s]  in protein intake.
+[520.06s]  So that's the second sign
+[522.72s]  that there may be some issue with suboptimal
+[525.64s]  or a little bit below my best for kidney function.
+[528.82s]  But more directly,
+[529.84s]  and I can hear some of you screaming out there,
+[531.92s]  measure Cystatin C.
+[533.84s]  I did.
+[535.06s]  For the second time,
+[536.16s]  I measured it last year,
+[537.30s]  it was 0.71.
+[538.10s]  So I thought,
+[538.52s]  ah, it's great news.
+[539.40s]  I can just stick to creatinine,
+[540.70s]  bun, and uric acid.
+[542.52s]  But that 0.71
+[544.28s]  is not what we see for this test, 0.79.
+[547.54s]  Cystatin C increases during aging.
+[549.38s]  So that 0.79 has gone
+[551.16s]  or as a part of my normal range
+[553.38s]  is going in the wrong direction.
+[555.00s]  So with that in mind,
+[556.10s]  I'm going to include also Cystatin C
+[558.26s]  for every test going forward.
+[559.72s]  All right, moving on to liver function biomarkers.
+[563.84s]  Albumin at 4.9 is youthful.
+[566.32s]  Alkaline phosphatase is less than 48,
+[568.32s]  which is associated with lowest risk of death
+[570.10s]  for all causes.
+[571.48s]  Similarly, AST and ALT are close to optimal
+[574.54s]  as both of those liver enzymes
+[576.46s]  follow a J-shaped curve
+[577.88s]  for all-cause mortality risk
+[579.38s]  with values in the high teens
+[581.44s]  or low 20s associated with lowest risk.
+[584.00s]  So you can see I'm right there for that too.
+[586.16s]  So liver health and function
+[587.24s]  seems to be good news.
+[588.32s]  All right, so then immunoglobulin G.
+[592.04s]  And if you're familiar with the channel,
+[593.38s]  then you saw the presentation by Dr. Li Chang
+[595.70s]  who reduced IgG
+[598.42s]  and sought an extension in median lifespan.
+[601.32s]  In addition, other interventions
+[602.78s]  that reduce IgG like calorie restriction,
+[605.56s]  exercise training, and parabiosis
+[607.34s]  also reduce IgG.
+[609.92s]  So in my opinion,
+[611.10s]  IgG is an important biomarker to track.
+[613.24s]  I'm going to include it
+[613.94s]  for every blood test going forward.
+[615.54s]  I also have plans to look at biomarker
+[617.68s]  versus biomarker correlations
+[619.00s]  for IgG versus other biomarkers
+[621.34s]  to try to identify
+[622.66s]  where within that normal range may be optimal.
+[625.78s]  IgG levels increase during aging,
+[627.46s]  but there's very little data
+[628.66s]  on all-cause mortality risk.
+[630.90s]  So I'm going to use that biomarker
+[632.52s]  versus biomarker analysis
+[633.62s]  to try to identify within my own data,
+[636.06s]  should it be 1,000?
+[637.40s]  Should it be 1,100?
+[638.62s]  You know, how low may be too low
+[639.96s]  and how high may be too high
+[641.14s]  within that reference range.
+[642.52s]  But then potentially the weakest data
+[644.86s]  in my biomarkers are my thyroid hormones.
+[647.90s]  And that shouldn't be a surprise.
+[648.96s]  I was diagnosed as hypothyroid in my 20s.
+[651.96s]  I've been taking levothyroxine,
+[653.56s]  which is T4,
+[654.86s]  from about half my life.
+[657.24s]  So in terms of thyroid function,
+[659.00s]  I'm tracking free T4 and free T3.
+[661.86s]  Free T4 is inactive.
+[663.98s]  Free T3 is active.
+[666.66s]  So I'd want to have a relatively high
+[668.70s]  FT3 to FT4 ratio.
+[672.16s]  In my case, it's relatively low
+[674.12s]  with a ratio of 0.18.
+[676.40s]  To put that data into context,
+[678.36s]  that's the average value found in 90-year-olds
+[680.78s]  with values about double that
+[682.50s]  found in youth, 20 to 30 years old.
+[685.26s]  So I'm currently in talks
+[686.74s]  with my primary care doctor, PCP,
+[689.06s]  and the endocrinologist
+[690.14s]  to switch my prescription from T4 to T3.
+[693.48s]  That may be a struggle
+[694.58s]  because when I first moved to Boston 15 years ago,
+[697.44s]  I was on T3
+[698.98s]  and they basically made me switch
+[702.22s]  to T4 instead of T3.
+[704.24s]  So now I'm going to have to try
+[705.22s]  to convince them to switch me back
+[706.58s]  to T3,
+[707.92s]  which may be a challenge.
+[709.34s]  So stay tuned for that story
+[710.58s]  in upcoming videos.
+[712.34s]  All right, on to page three.
+[714.06s]  So starting at the top with fibrinogen.
+[715.94s]  Now this may seem like a random test to add,
+[718.84s]  but when considering,
+[720.42s]  when we're looking at what's under the hood,
+[722.62s]  not just focusing on body composition
+[724.32s]  or physical function,
+[725.32s]  when really trying to optimize biomarkers
+[727.82s]  and just specifically blood biomarkers,
+[730.64s]  I think it makes sense to optimize
+[732.54s]  and go after the biggest trees in the forest.
+[735.14s]  So the biggest trees
+[736.28s]  in terms of proteins and blood
+[737.80s]  are albumin, globulins, and fibrinogen.
+[741.30s]  So just to put that into perspective,
+[744.10s]  albumin is five grams per deciliter.
+[746.46s]  We all talk about
+[747.34s]  and you hear about glucose
+[748.84s]  and say LDL,
+[750.46s]  which could be around 80 milligrams per deciliter.
+[753.30s]  But we've got albumin,
+[754.60s]  which is five grams per deciliter
+[756.50s]  or 5,000 milligrams per deciliter,
+[759.46s]  which is 60 times higher
+[761.42s]  in terms of concentration
+[762.86s]  relative to the things we all talk about,
+[765.28s]  glucose and lipoproteins.
+[767.48s]  Similarly, globulins
+[768.90s]  are the second most abundant protein.
+[770.66s]  Just using IgG as an example,
+[772.22s]  that's 1,000 milligrams per deciliter
+[774.44s]  when compared with the 80 for glucose.
+[777.50s]  Now fibrinogen is also
+[778.80s]  the third most abundant protein in blood.
+[781.16s]  And you can see in my case,
+[782.98s]  it's on the lower side,
+[784.00s]  which is good news
+[784.72s]  because fibrinogen levels
+[786.06s]  increase during aging.
+[788.48s]  So just for perspective,
+[789.92s]  258 milligrams per deciliter,
+[791.70s]  that's three times higher
+[793.16s]  than glucose or LDL.
+[795.78s]  So I think it makes,
+[796.84s]  again, it makes the most sense
+[797.90s]  to go after the biggest trees
+[799.46s]  in the forest in terms of proteins,
+[801.42s]  albumin, globulin, IgG,
+[803.92s]  and fibrinogen.
+[805.12s]  Now because fibrinogen
+[806.24s]  is on the lower side
+[807.74s]  and good news,
+[808.90s]  I'm not going to measure it
+[809.84s]  at every test.
+[810.48s]  So this is a one-off.
+[812.14s]  I'll probably measure it again
+[813.06s]  once next year.
+[814.18s]  And if I see some big deviation,
+[816.46s]  then I'll start to include it
+[818.12s]  for every test going forward.
+[820.02s]  But now some weak spots.
+[821.54s]  White blood cells at 3.4,
+[823.00s]  and it's not a weak spot
+[823.88s]  because the lab flagged it.
+[825.04s]  It's a weak spot
+[825.70s]  because as shown in that Patreon video,
+[827.82s]  that 95-minute video,
+[829.76s]  white blood cells
+[830.38s]  that are less than 3.5
+[832.12s]  or 3,500 white blood cells
+[835.66s]  per microliter
+[836.34s]  are associated
+[837.44s]  with a shorter life expectancy
+[838.92s]  relative to 3,500
+[840.48s]  or 3.5 to 6.
+[842.88s]  Now, that's only one part
+[844.60s]  of the story.
+[845.08s]  We can dig deeper
+[845.90s]  because white blood cells
+[847.30s]  aren't a homogeneous group
+[849.52s]  of cells.
+[850.62s]  They include neutrophils
+[851.64s]  and monocytes
+[852.32s]  which increase during aging
+[853.56s]  and lymphocytes
+[854.72s]  which decline during aging.
+[855.92s]  So let's take a look
+[857.50s]  at those data.
+[859.06s]  So neutrophils
+[859.70s]  at 1727
+[860.74s]  are a bit low.
+[862.84s]  Values around 2,000
+[864.02s]  or 3,000
+[864.66s]  are associated
+[865.28s]  with lowest risk
+[866.04s]  of death for all causes.
+[867.68s]  And also,
+[868.90s]  neutrophils
+[869.58s]  increase during aging.
+[870.56s]  So when considering
+[871.10s]  both of those data,
+[872.18s]  I'd prefer to be
+[873.04s]  around 2,000.
+[874.54s]  But,
+[875.30s]  while 1,700
+[876.30s]  isn't terrible,
+[878.06s]  still,
+[878.52s]  around 2,000
+[879.40s]  I'd be happier
+[880.02s]  if that was the case.
+[881.26s]  Now, we can dig
+[881.92s]  a little bit deeper too
+[882.96s]  because if neutrophils
+[884.20s]  and other white blood cells
+[885.32s]  are low
+[885.84s]  in the context
+[886.84s]  of elevated inflammation
+[888.58s]  that could suggest
+[890.22s]  some immune deficiency
+[892.22s]  or an inability
+[893.86s]  to make immune cells
+[895.02s]  in the presence
+[896.10s]  of elevated inflammation
+[897.12s]  could be bad news
+[898.12s]  systemically.
+[899.30s]  So,
+[899.80s]  for more context,
+[900.68s]  I looked at other
+[901.52s]  pro-inflammatory cytokines
+[902.92s]  besides HSCRP
+[904.38s]  including interleukin-6
+[906.68s]  which is important
+[907.94s]  also because it's
+[909.76s]  a senescence-associated
+[911.48s]  secreted protein.
+[912.78s]  So it's produced
+[913.40s]  by senescent cells
+[914.44s]  which increases
+[915.48s]  during aging.
+[916.72s]  So in my case,
+[917.68s]  1.4 is below
+[919.12s]  the detection limit
+[919.90s]  so that's good news.
+[921.50s]  I also measure
+[922.30s]  TNF-alpha
+[922.92s]  which isn't included
+[923.80s]  on this report.
+[924.86s]  I showed that data
+[925.60s]  on Patreon
+[926.20s]  but that too
+[927.14s]  is below
+[927.56s]  the detection limit
+[928.78s]  so that's also good news
+[930.16s]  and that's also
+[930.88s]  a SASP-secreted protein.
+[933.14s]  So keeping those
+[933.80s]  relatively low,
+[934.68s]  IL-6 and TNF-alpha
+[935.80s]  during aging
+[936.44s]  is important
+[938.14s]  especially when
+[938.76s]  considered that
+[939.38s]  senescent cells
+[940.12s]  and these proteins
+[941.16s]  increase during aging.
+[942.26s]  So when considering
+[943.60s]  that neutrophils
+[944.20s]  are a bit on the low side
+[945.58s]  but inflammation
+[946.86s]  is low,
+[947.82s]  I'm not too worried
+[948.52s]  about neutrophils.
+[949.96s]  On the other hand,
+[951.68s]  lymphocytes now
+[952.70s]  are less than 1550
+[954.26s]  for the fourth test
+[955.64s]  out of seven tests
+[956.68s]  and that's important
+[958.14s]  or potentially important
+[959.04s]  because lymphocytes
+[960.00s]  around 2000
+[960.92s]  is associated
+[962.38s]  with lowest risk
+[963.16s]  of death
+[963.46s]  for all causes
+[964.10s]  and they decline
+[965.68s]  during aging.
+[966.80s]  So I'm doing something
+[967.78s]  in my approach
+[968.46s]  that's causing them
+[969.30s]  to be more consistently
+[970.28s]  on the lower side
+[971.50s]  relative to the higher side.
+[973.48s]  Now it's not calorie intake
+[974.86s]  because calorie intake
+[975.92s]  for this test
+[976.52s]  was almost completely
+[977.68s]  identical to the last test
+[979.06s]  and I track all of my food
+[980.62s]  with a food scale
+[981.24s]  for those who don't know.
+[982.58s]  I think it was 2119
+[984.20s]  for the last test
+[985.30s]  and 2120 for this test
+[986.80s]  and I'll have that
+[987.90s]  diet composition analysis
+[989.42s]  coming in the next video
+[990.72s]  next week.
+[991.76s]  So it's not calorie intake
+[993.26s]  which is positively
+[994.70s]  correlated with lymphocytes.
+[995.94s]  In other words,
+[997.10s]  a higher calorie intake
+[998.18s]  is positively correlated
+[999.60s]  with higher lymphocytes
+[1000.60s]  in my data.
+[1001.82s]  So I have other correlations
+[1003.48s]  that I'm going after
+[1004.32s]  to try to get my lymphocytes
+[1006.32s]  more consistently back
+[1007.58s]  to 2000
+[1008.70s]  relative to where they are
+[1010.16s]  for this test,
+[1011.62s]  1300.
+[1013.24s]  Alright,
+[1013.98s]  red blood cell related measures
+[1015.48s]  and when I mention
+[1016.44s]  biggest trees in the forest,
+[1018.12s]  red blood cells
+[1018.62s]  are the most abundant
+[1019.86s]  circulating cell type
+[1021.04s]  in blood.
+[1022.28s]  Now within red blood cells
+[1023.52s]  is hemoglobin
+[1024.42s]  and 14.5
+[1025.90s]  may not superficially
+[1026.90s]  seem like bad news
+[1027.90s]  but my 54 test average
+[1030.26s]  since 2015
+[1031.06s]  is 15 milligrams
+[1033.62s]  per deciliter
+[1034.28s]  or 15 grams
+[1035.16s]  per deciliter.
+[1036.74s]  So 14.5
+[1038.32s]  is going in the wrong direction
+[1039.66s]  especially when considering
+[1040.70s]  it declines during aging.
+[1042.80s]  Additionally,
+[1043.90s]  2024's average
+[1045.02s]  over 8 tests
+[1045.70s]  for hemoglobin
+[1046.24s]  was 14.8.
+[1047.72s]  So in my opinion,
+[1048.80s]  this is how aging starts.
+[1050.26s]  It was 15 for a long time
+[1052.08s]  then it's 14.8,
+[1053.26s]  14.5.
+[1054.20s]  So I try to get
+[1055.84s]  on top of these
+[1056.64s]  biomarkers
+[1058.78s]  as soon as possible
+[1059.52s]  by following the correlations
+[1060.90s]  and bringing it back
+[1062.08s]  to 15
+[1062.70s]  if I can
+[1063.48s]  with various interventions
+[1065.58s]  by following the correlations
+[1066.76s]  as soon as possible.
+[1068.62s]  Right?
+[1068.88s]  Trying to avoid
+[1069.72s]  that age related change
+[1070.62s]  by following the data.
+[1072.54s]  So going further
+[1073.26s]  into red blood cell
+[1074.24s]  related measures
+[1074.88s]  is the MCV,
+[1076.34s]  the mean corpuscular volume,
+[1077.88s]  the average volume
+[1078.82s]  of red blood cells.
+[1080.20s]  So 92.8
+[1081.28s]  is on the higher side
+[1082.54s]  of my range.
+[1083.24s]  It's not my highest though
+[1084.16s]  but it's also not my lowest.
+[1086.28s]  And I'm still not convinced
+[1087.56s]  that this isn't
+[1089.28s]  a calorie restriction effect.
+[1091.88s]  So I've seen a lot of people
+[1093.16s]  on CR
+[1093.60s]  who have relatively high MCVs
+[1095.70s]  actually much higher
+[1097.02s]  than where my data is now
+[1098.10s]  but nonetheless
+[1098.68s]  I've had values
+[1100.18s]  that are lower
+[1100.74s]  in the high 80s
+[1101.66s]  and that's the target.
+[1103.50s]  But potentially
+[1104.04s]  the best news
+[1104.76s]  in my red blood cell data
+[1105.98s]  is the RDW.
+[1107.62s]  Not just because
+[1108.28s]  it's a major predictor
+[1109.54s]  for Levine's
+[1110.50s]  biological age calculator,
+[1111.84s]  phenowage,
+[1112.22s]  but if you're familiar
+[1113.36s]  with the channel
+[1113.90s]  then you saw
+[1114.50s]  Dr. Gary Churchill's
+[1115.94s]  presentation on RDW
+[1117.94s]  being an important
+[1119.14s]  predictor of mouse lifespan
+[1120.82s]  regardless if the mice
+[1122.16s]  were eating a regular diet,
+[1123.80s]  if they fasted,
+[1124.82s]  or they were on calorie restriction.
+[1126.86s]  So having a relatively
+[1127.72s]  low RDW
+[1128.60s]  for as long as possible
+[1129.72s]  may be an important
+[1131.28s]  pro-longevity strategy.
+[1133.28s]  In my case,
+[1134.00s]  11.8 is great news
+[1135.44s]  as it increases during aging
+[1137.16s]  and that's on the lower side.
+[1139.66s]  Alright,
+[1140.00s]  two more biomarkers to go.
+[1141.08s]  I took DHEA sulfate
+[1142.18s]  at 120.
+[1143.76s]  Now,
+[1144.22s]  I had data
+[1144.88s]  about 15 years ago
+[1146.76s]  that were 300.
+[1147.80s]  So it's possible
+[1148.66s]  that this is an age-related decline.
+[1150.50s]  But at that time,
+[1151.96s]  I may have been
+[1152.86s]  taking DHEA sulfate.
+[1154.22s]  I wasn't as rigorous
+[1155.56s]  with tracking
+[1156.22s]  compared to where I am now.
+[1158.48s]  So that could be
+[1159.66s]  a supplementation issue
+[1160.58s]  or it could be
+[1161.24s]  an age-related decline.
+[1162.96s]  In terms of good news though,
+[1164.90s]  my 19 test
+[1166.48s]  DHEA sulfate
+[1167.50s]  average
+[1168.00s]  since 2022
+[1168.98s]  is 125.
+[1170.50s]  So 120
+[1171.08s]  isn't too far
+[1171.92s]  from that.
+[1172.72s]  Now,
+[1172.96s]  I may not be able
+[1173.74s]  to get my
+[1174.26s]  DHEA sulfate
+[1175.32s]  all the way back
+[1176.04s]  to 300
+[1176.62s]  without supplementation,
+[1178.40s]  but at least
+[1179.22s]  avoiding age-related change
+[1180.78s]  is the current target,
+[1182.34s]  the current goal.
+[1183.66s]  And just to add
+[1185.00s]  why I'm measuring
+[1185.76s]  DHEA sulfate,
+[1186.80s]  why specifically
+[1187.48s]  this hormone,
+[1189.52s]  is because
+[1189.96s]  androgens
+[1190.62s]  as a group
+[1191.20s]  decline during aging.
+[1192.42s]  My testosterone
+[1193.02s]  is generally
+[1193.66s]  relatively high,
+[1194.54s]  around 900.
+[1195.68s]  So I haven't experienced
+[1196.52s]  an age-related decline there.
+[1197.94s]  Whereas DHEA sulfate,
+[1199.30s]  I may have experienced
+[1200.12s]  an age-related decline.
+[1201.34s]  So I want to keep an eye
+[1202.36s]  on that for every test
+[1203.24s]  and try to optimize it
+[1204.32s]  if I can.
+[1205.44s]  When considering
+[1206.04s]  that androgens
+[1206.76s]  decline as a group,
+[1207.64s]  I think it's important
+[1208.34s]  to at least include
+[1209.28s]  one member of that group
+[1210.36s]  as a representative,
+[1211.46s]  assuming that DHEA sulfate
+[1212.78s]  is representative,
+[1214.76s]  so that I don't wake up
+[1216.12s]  40 years from now
+[1217.02s]  with all low androgens
+[1218.72s]  because I haven't been
+[1219.46s]  tracking it over time.
+[1221.30s]  And then,
+[1221.68s]  last but not least,
+[1222.50s]  PSA,
+[1223.10s]  prostate-specific antigen,
+[1224.54s]  as a marker of
+[1225.58s]  prostate cancer risk.
+[1227.56s]  So relatively lower
+[1228.62s]  is better.
+[1229.48s]  I've tested it sporadically
+[1230.76s]  over the past
+[1231.42s]  about 10 years,
+[1232.94s]  five tests,
+[1233.84s]  and 0.28
+[1234.78s]  is on the lower side
+[1236.10s]  of that range.
+[1237.04s]  So that's good news.
+[1238.10s]  I won't be testing that
+[1239.00s]  at every test going forward,
+[1240.10s]  but probably about
+[1240.92s]  once per year.
+[1242.44s]  All right,
+[1242.70s]  so as I mentioned,
+[1243.74s]  what I haven't yet showed
+[1244.80s]  is what's the diet
+[1246.26s]  and supplement approach
+[1247.24s]  that corresponds
+[1247.96s]  to this test,
+[1248.84s]  this 19-year
+[1249.70s]  biological age reduction
+[1251.18s]  relative to
+[1251.80s]  chronological age.
+[1253.02s]  And that'll be
+[1253.52s]  in next week's video.
+[1254.54s]  a week from today.
+[1256.82s]  All right,
+[1257.34s]  that's all for now.
+[1258.22s]  If you're interested
+[1258.86s]  in more about my attempts
+[1259.72s]  to biohack aging,
+[1260.74s]  check us out on Patreon.
+[1262.04s]  And before you go,
+[1262.88s]  we've got a whole bunch
+[1263.62s]  of discount and affiliate links
+[1264.94s]  that you can use
+[1265.72s]  to test yourself
+[1267.18s]  while helping to support
+[1268.20s]  the channel.
+[1269.22s]  And these include
+[1269.88s]  ultalabtest.com,
+[1271.16s]  which I mentioned already,
+[1272.62s]  the clearly filtered
+[1273.54s]  water filter,
+[1274.26s]  which I use every day,
+[1275.10s]  and I should mention
+[1275.68s]  all these affiliates
+[1276.60s]  I'm using,
+[1277.42s]  I'm currently using,
+[1278.32s]  or have used in the past.
+[1280.48s]  At-home metabolomics,
+[1282.36s]  oral microbiome composition,
+[1284.22s]  NAD testing with
+[1285.12s]  Ginfinity,
+[1286.16s]  epigenetic testing,
+[1287.60s]  at-home blood testing
+[1288.34s]  with Cyfox Health,
+[1289.22s]  which includes ApoB,
+[1290.22s]  but also the DNA methylation
+[1291.60s]  test Grimmage,
+[1292.96s]  green tea,
+[1294.48s]  diet tracking with
+[1295.06s]  chronometer,
+[1295.78s]  or if you'd like to
+[1296.68s]  support the channel,
+[1297.42s]  you can do that with
+[1298.00s]  the website,
+[1298.68s]  buy me a coffee.
+[1299.82s]  We've also got merch,
+[1301.14s]  so if you're interested
+[1301.70s]  in wearing the
+[1302.28s]  Conquer Aging
+[1302.88s]  or Dietrying brand,
+[1303.92s]  as I've got on here,
+[1305.34s]  that link and all
+[1306.22s]  the other links
+[1306.74s]  will be in the
+[1307.20s]  video's description.
+[1308.54s]  Thanks for watching.
+[1309.72s]  I hope that you
+[1310.26s]  enjoyed the video.
+[1311.28s]  Have a great day.

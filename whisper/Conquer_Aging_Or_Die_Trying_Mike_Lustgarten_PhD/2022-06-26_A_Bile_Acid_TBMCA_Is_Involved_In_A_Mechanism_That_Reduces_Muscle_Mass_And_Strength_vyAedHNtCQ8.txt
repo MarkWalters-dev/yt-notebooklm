@@ -1,0 +1,199 @@
+[0.00s]  Gut bacteria impacts skeletal muscle mass and function.
+[3.52s]  So let's start off by having a look at what antibiotic treatment does
+[6.38s]  to muscle mass and function in young mice.
+[9.04s]  So antibiotics reduce gut bacterial content, and we can see that here,
+[13.22s]  where on the y-axis we've got micrograms of bacterial DNA per gram of feces
+[17.80s]  plotted against time.
+[19.32s]  In this case, this was a four-week study of antibiotic treatment in young mice.
+[23.40s]  And after one week of antibiotics, we can see that gut bacterial DNA content
+[27.04s]  is reduced by 80%.
+[28.92s]  And it stays 80% reduced for the duration of the four-week study.
+[34.12s]  All right, so what's the impact of antibiotic treatment on muscle mass?
+[37.64s]  So we can see that data here.
+[39.06s]  We've got muscle weight on the y-axis plotted against three different muscles,
+[42.90s]  the quadriceps, quad, gastrocnemius, gas, or tibialis anterior TA.
+[49.16s]  Now, these are lower leg muscles.
+[51.06s]  You can see that the quadriceps is located on the upper thigh,
+[53.86s]  the gastrocnemius behind the shin, and the TA, tibialis anterior,
+[57.80s]  in the front of the shin.
+[58.92s]  So for each of these three muscles, we can see that they are reduced.
+[62.60s]  The weight of these three muscles are reduced in antibiotic-treated mice
+[65.94s]  when compared with not treated with antibiotics.
+[69.66s]  So antibiotic treatment in young mice reduces muscle mass.
+[72.70s]  All right, so what about the effect of antibiotic treatment on muscle strength?
+[76.60s]  So we can see that data here.
+[77.80s]  When looking at muscle strength in the non-antibiotic-treated versus antibiotic-treated,
+[81.80s]  we can see that antibiotic-treated had reduced muscle strength, as indicated by grip strength.
+[87.68s]  So from this, we can conclude that antibiotic treatment in young mice reduces both muscle
+[91.64s]  mass and strength.
+[93.46s]  So how can gut bacteria impact muscle mass and strength?
+[97.04s]  So the authors of this study then looked at gut bacterial functions,
+[100.56s]  and this is just a small snapshot, and I'll have a link to the paper in the video's description
+[104.46s]  if you're interested in reading further.
+[106.48s]  So on the left, we've got the untreated mice,
+[108.72s]  and on the right, we've got bacterial gene counts for the antibiotic-treated mice.
+[112.66s]  So orange is indicative of higher levels of bacterial gene counts,
+[117.72s]  and green is indicative of lower levels.
+[120.44s]  And more specifically, you can see how the colors go there.
+[122.96s]  So as you go from orange to green, it's higher gene counts to lower gene counts.
+[127.26s]  So what stands out is that both primary and secondary bile acids,
+[132.02s]  or gene counts or functions, bacterial functions for primary and secondary bile acids,
+[137.00s]  are higher in the non-antibiotic-treated when compared with antibiotic-treated.
+[140.86s]  In other words, there are lower levels of gene counts for bile acids in the antibiotic-treated mice.
+[146.66s]  So that raises the question, could bile acids, BAs,
+[149.76s]  be involved in mechanisms that impact muscle mass and strength?
+[153.22s]  Now, having differences for bacterial functions doesn't always translate into metabolite levels.
+[158.14s]  But the authors of this study looked at total levels of bile acids,
+[161.30s]  the metabolite levels, in the cecum.
+[164.00s]  So the cecum is the beginning of the large intestine, as indicated there.
+[167.70s]  And what we can see is that antibiotic-treated mice have a dramatic reduction in bile acid levels in the cecum.
+[173.84s]  So we've got somewhere around 350 micrograms per gram of bile acids,
+[178.76s]  and it goes to less than 50 in the antibiotic-treated mice.
+[182.40s]  But that doesn't indicate which specific bile acids are decreased.
+[185.72s]  Remember, bile acids are split into primary and secondary.
+[188.86s]  They're not all the same metabolites.
+[190.84s]  So here we're looking at bile acid composition in the antibiotic-treated on the right versus the non-treated.
+[195.54s]  And we can see by the different colors that antibiotics alter bile acid composition.
+[201.30s]  So in the non-treated with antibiotic mice,
+[204.42s]  we can see that the major bile acids are deoxycholic acid, DCA, in purple,
+[209.34s]  and omega-murycholic acid, in orange, omega-MCA.
+[214.34s]  In contrast, when looking at the bile acid composition in the antibiotic-treated mice,
+[218.18s]  you can see a completely different color scheme,
+[220.08s]  with the two major bile acids being taro-cholic acid, TCA, in purple,
+[225.84s]  and taro-beta-murycholic acid, TB-MCA, in light blue.
+[231.80s]  Now, if we only looked at the bile acid composition in this figure,
+[234.52s]  we would think that the levels may be the same.
+[236.84s]  But remember, the bile acid levels in at least the cecum
+[239.98s]  were almost completely wiped out in the antibiotic-treated mice.
+[243.04s]  So are absolute levels of taro-beta-MCA different when comparing the antibiotic-treated
+[249.10s]  with the non-treated mice?
+[250.86s]  And that's what we can see here, levels of taro-beta-murycholic acid in feces,
+[256.42s]  and this is in the cecum.
+[258.54s]  So we can see that taro-beta-MCA is significantly higher.
+[262.62s]  In fact, it's almost 20-fold higher in the antibiotic-treated mice
+[266.16s]  when compared with the non-treated mice,
+[267.98s]  which then raises the question,
+[269.88s]  could taro-beta-murycholic acid negatively impact muscle mass and or strength?
+[274.68s]  So to give away the answer, it may be.
+[277.10s]  And more specifically, taro-beta-murycholic acid, TB-MCA,
+[280.88s]  is involved in a mechanism that reduces muscle mass as shown in the figure here.
+[285.24s]  So when starting with antibiotics,
+[287.22s]  I showed you that gut bacterial content or gut bacterial DNA is reduced by 80%,
+[291.62s]  and in antibiotic-treated mice, muscle mass, and although it's not shown here,
+[295.18s]  grip strength or muscle strength is also reduced.
+[298.76s]  So what's the mechanism?
+[299.76s]  How do you go from having less gut bacterial DNA content to less muscle mass and strength?
+[304.68s]  So we saw that levels of taro-beta-murycholic acid are increased in the cecum.
+[309.68s]  So why is that important?
+[311.46s]  Well, taro-beta-MCA is an inactivator of the pharnasoid X receptor, FXR,
+[317.62s]  as shown there in the intestine.
+[319.42s]  And we can see that more specifically here
+[321.10s]  by looking at the percentage of FXR activation as a function of concentration on the x-axis
+[327.08s]  for two different bile acids, including taro-beta-mCA.
+[330.62s]  So as the taro-beta-mCA concentration increases,
+[333.68s]  we can see that FXR activation decreases.
+[337.06s]  So what's the link, though, for having less FXR with muscle mass or strength?
+[343.20s]  So when intestinal FXR is active, FGF-15 or FGF-19,
+[349.02s]  which is the human version of FGF-15, which is found in mice,
+[352.80s]  is released into the blood.
+[354.62s]  So active intestinal FXR, FGF-15, or FGF-19 released into the blood.
+[361.24s]  So, but note that relatively higher levels of taro-beta-mCA inactivate FXR,
+[366.02s]  which leads to less FGF-15 or FGF-19 in the blood.
+[369.44s]  And we can see that here.
+[370.64s]  So we're looking at plasma levels of FGF-15 in the antibiotic-treated mice
+[375.42s]  versus the non-treated mice.
+[376.90s]  And what we can see is that the antibiotic-treated mice
+[379.00s]  have a significant reduction for plasma levels of FGF-15,
+[383.20s]  which goes in line with this mechanism for less,
+[385.88s]  more toro-beta-mCA, less FXR activation,
+[389.70s]  less FGF-15 being released into the blood.
+[392.24s]  So what's the link for FGF-15 or FGF-19 with muscle?
+[396.34s]  So FGF-19 increases muscle mass and strength in young mice.
+[400.86s]  And that's what we're going to see here.
+[402.28s]  And I apologize for the blurry images.
+[404.24s]  This is exactly a screenshot from the paper.
+[406.42s]  That's how the paper's images look.
+[408.60s]  So here we're looking at muscle weight again for those three muscles,
+[411.52s]  quadriceps, gastrocnemius, and TA.
+[413.56s]  And now we've got three groups.
+[415.12s]  So VP, blue circles, no antibiotic treatment.
+[417.96s]  AP, antibiotic-treated.
+[419.20s]  And if you remember, muscle mass for each of these muscles
+[421.72s]  was significantly reduced in the antibiotic-treated mice
+[423.94s]  when compared with untreated.
+[425.64s]  But now we've got a third group, AF,
+[427.72s]  which is antibiotic-treated FGF-19.
+[430.34s]  Again, this is the human version of FGF-19
+[434.08s]  that was then injected into mice.
+[436.58s]  And it was injected just under the skin subcutaneously.
+[440.64s]  And what we can see is in that AF-treated mice,
+[443.42s]  so mice that were injected with FGF-19,
+[445.76s]  there were significant increases in muscle mass
+[447.98s]  for each of these three muscles in antibiotic-treated mice.
+[450.92s]  All right, so what about muscle strength?
+[453.04s]  So once again, we can see that antibiotics reduced muscle strength
+[456.44s]  when looking at the orange versus the blue circles,
+[459.78s]  antibiotic-treated versus untreated.
+[461.56s]  But in the FGF-19-treated antibiotic-treated mice,
+[467.60s]  there was a small but significant increase in muscle strength
+[470.32s]  as shown there.
+[471.66s]  So from that, we can see that FGF-19 increases muscle mass
+[474.80s]  and strength in young mice.
+[475.98s]  So what about aged mice?
+[478.34s]  FGF-19 also increases muscle mass and strength in aged mice,
+[481.22s]  as we can see here.
+[482.88s]  So now we've got also three groups,
+[484.92s]  and we're looking at muscle weight on the y-axis,
+[487.28s]  plotted against the soleus and the tibialis anterior, TA.
+[491.58s]  So we haven't introduced the soleus yet,
+[493.64s]  but that's a muscle that's located on the back of the shin,
+[496.68s]  just under the gastrocnemius, and it's a long muscle.
+[500.00s]  So again, three groups, six-month-old mice, open circles,
+[504.70s]  black squares, 25-month-old mice, and these are old mice.
+[508.58s]  And what we can see is that during aging,
+[510.34s]  there's reduced muscle mass of the soleus and TA,
+[512.90s]  25-month-old mice versus six-month-old mice.
+[515.62s]  But now we've got that third group again,
+[518.48s]  old mice treated with FGF-19.
+[521.50s]  And what we can see is that there's significantly increased muscle mass
+[524.88s]  for both of these muscles in old mice that were treated with FGF-19.
+[528.64s]  All right, so what about muscle strength?
+[530.66s]  So they looked at grip strength,
+[532.14s]  and first, when looking at the aging effect,
+[533.78s]  we can see that aged mice have about half of the grip strength
+[536.82s]  when compared with young mice, six-month-old mice.
+[539.40s]  And then aged mice that were treated with FGF-19
+[542.06s]  had significantly increased grip strength,
+[544.08s]  as shown there by the green arrow.
+[546.16s]  All right, so this then raises the obvious question.
+[547.86s]  Can FGF-19 treatment improve muscle mass and strength in older adults?
+[552.24s]  And unfortunately, there aren't any RCTs
+[554.32s]  that have evaluated that question yet.
+[556.38s]  All right, so to recap,
+[557.34s]  as a mechanism for decreased muscle mass and strength,
+[560.20s]  at least in antibiotic-treated mice,
+[562.40s]  a bile acid, toro-beta-MCA, reduces FXR activation,
+[566.18s]  thereby reducing FGF-15 slash 19,
+[569.52s]  which then raises the question,
+[570.84s]  can other bile acids increase FGF-19 signaling
+[574.56s]  in contrast with the data we saw in this video
+[576.42s]  where it reduced a specific bile acid
+[579.30s]  led to reductions in FXR activation
+[582.28s]  and FGF-15 slash 19 signaling,
+[584.80s]  are there other bile acids
+[585.90s]  that can increase FGF-19 signaling,
+[588.34s]  thereby increasing muscle mass and strength,
+[590.06s]  or maybe even other pathways
+[591.42s]  that bile acids can impact
+[593.40s]  that could increase muscle mass and strength.
+[595.40s]  So I've got a video in mind,
+[597.02s]  so stay tuned for that data.
+[598.88s]  All right, that's all for now.
+[599.92s]  If you're interested in more about my attempts
+[601.40s]  to biohack aging, check us out on Patreon.
+[603.98s]  Thanks for watching.
+[604.88s]  I hope that you enjoyed the video.
+[606.14s]  Have a great day.
+[607.22s]  Have a great day.
+[608.00s]  Have a great day.
+[609.00s]  Have a great day.

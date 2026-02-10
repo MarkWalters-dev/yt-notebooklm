@@ -1,0 +1,26 @@
+[0.00s]  When you're young, you're healthy, you undergo stress and the stress can cause cells to invoke
+[5.32s]  a number of different cell fates. So a damaged or stressed cell could undergo apoptosis program,
+[11.56s]  cell death, or some other cell death pathway. There is transformation where a stressed out cell
+[17.18s]  or damaged cell could become a cancer cell. And then there's also cellular senescence where the
+[23.58s]  cell becomes senescent. So it's no longer able to typically proliferate. Usually there's a stable
+[30.06s]  cell cycle arrest. And that's great. Maybe you prevented a damaged or stressed out cell from
+[36.34s]  becoming cancerous, but these cells are metabolically active and they take on a secretory phenotype
+[45.22s]  and release these soluble factors in what is known as the senescence associated secretory phenotype or
+[51.00s]  SAS. And a lot of these inflammatory factors are things like interleukins, you know, other chemokines,
+[57.92s]  cytokines, matrix metalloproteases. And what they can do is damage adjacent tissues, sometimes even
+[65.78s]  causing secondary senescence, as well as sort of feeding back on themselves to re-stimulate them.
+[73.16s]  And these SAS factors can hit the bloodstream and sort of act in long distances and almost like an
+[78.72s]  endocrine fashion as well. But these senescent cells, you know, they're, we're learning more and
+[84.94s]  more about them. There's a lot of features that they can take on, whether it's morphological changes,
+[89.96s]  changes in metabolism, we see DNA damage, of course, the cell cycle arrest, they resist apoptosis,
+[96.36s]  the secretory phenotype, and even epigenetic alterations as well. But I will caution people
+[102.60s]  that senescent cells aren't a monolith. They're really heterogeneous. There's quite a mixture.
+[107.98s]  There's no universal cellular senescence marker. And so it takes a lot of work to sort of define what
+[114.34s]  a senescent cell is. But, you know, where they're really damaging is that secretory phenotype.
+[120.62s]  And that secretory phenotype can contribute to this phenomenon that's known as inflammation.
+[128.20s]  And inflammation is, as we get older, there's this increase in low-grade kind of chronic sterile
+[134.62s]  inflammation. It's almost like you have a low-grade infection, but you don't. And so it's quite damaging
+[142.44s]  to your tissues and sort of, you know, it's the thief of vitality, as I like to call it. And so it
+[147.38s]  can help to drive a number of chronic age-related diseases. Or if you have some type of challenge,
+[153.98s]  it can cause an over-response or make things worse. Probably in the case of patients with infections,
+[160.56s]  it can cause these pre-primed immune cells to release cytokine storms. So it can be quite damaging.

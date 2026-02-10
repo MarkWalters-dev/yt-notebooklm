@@ -1,0 +1,142 @@
+[0.64s]  High Sensitivity C Reactor Protein, or HSCRP, increases during aging, and that's what we
+[6.96s]  can see here, with levels of CRP on the y-axis plotted against age, starting with 18 year
+[12.32s]  olds on the left, all the way up through people who are older than 70 on the right.
+[16.88s]  In youth, average CRP levels are 0.8 mg per liter.
+[21.08s]  And then we can see the age-related increase, such that people who are older than 70 have
+[25.36s]  average CRP values that are double that, 1.6 mg per liter.
+[30.04s]  Now the age-related increase for CRP is potentially important because a relatively higher CRP,
+[36.04s]  or level of CRP, is associated with an increased all-cause mortality risk.
+[39.92s]  And that's what we can see here.
+[41.98s]  This is a meta-analysis of 27 studies that included more than 480,000 people for the association
+[48.46s]  between all-cause mortality risk with HSCRP.
+[52.40s]  Now in terms of what's significant, we put up the dashed red line at a hazard ratio of
+[56.44s]  1, and note that when the dashed black lines, that's the 95% confidence interval, when that's
+[62.14s]  completely above or below 1, we have a statistically significant association.
+[67.78s]  Now in this case, we can see that that's true for CRP that's greater than 1 mg per liter.
+[73.72s]  So as CRP increases, we can see that increased association for all-cause mortality risk.
+[79.28s]  Now in youth, you can see that the upper limit of the range for CRP is about 1 mg per liter,
+[86.02s]  which then raises the question, is less than 1 mg per liter optimal for HSCRP?
+[92.06s]  So for that, we go back to the all-cause mortality plot, more specifically within the 0 to 1 mg
+[96.84s]  per liter range.
+[98.38s]  And there, we can see that HSCRP does indeed increase above 0 up until the 1 mg per liter
+[105.12s]  range.
+[106.12s]  And that's a significant increase, as you can see that both of the dashed black lines are
+[110.20s]  completely above 1.
+[111.76s]  In other words, for all-cause mortality risk, as close to 0 as possible may be optimal for
+[117.16s]  HSCRP.
+[118.12s]  Now, with these data in mind, what can reduce HSCRP?
+[123.00s]  So first, let's take a look at which foods are significantly correlated with lower levels
+[127.02s]  of HSCRP.
+[128.84s]  And as a quick side step, in terms of looking at food correlations with HSCRP, let's detail
+[133.74s]  the approach that I'm going to go through in this video.
+[136.52s]  So every day since April of 2015, I've weighed all of my food prior to intake using a food scale.
+[141.80s]  I then entered that data into Chronometer.
+[144.18s]  And if you're interested in using Chronometer, there'll be a discount link in the video's
+[147.36s]  description.
+[148.36s]  And then because each blood test since 2015 has a corresponding average diet composition,
+[153.46s]  I can then calculate correlations for diet, including macro and micronutrients and individual
+[158.56s]  foods with blood biomarkers.
+[160.46s]  I then alter my diet with the goal of improving the blood biomarkers.
+[165.20s]  And then after each blood test, I recalculate these correlations and then starting the process
+[170.04s]  over increasing certain foods, decreasing certain foods based on how the correlations look.
+[174.60s]  All right.
+[175.60s]  So with these data in mind, which foods are significantly correlated with lower HSCRP?
+[180.70s]  Now in my data, that happens to be turmeric.
+[182.92s]  But as a quick again, side step, note that although I've weighed all of my foods since 2015,
+[188.20s]  I only started tracking HSCRP in 2018.
+[191.32s]  So I have 27 blood tests over that five plus year span for HSCRP versus food intake.
+[198.46s]  So the strongest correlation is with turmeric and that's what we can see here.
+[202.46s]  More specifically, we can see that a relatively higher intake of turmeric, average daily turmeric
+[207.48s]  intake is significantly correlated with lower HSCRP.
+[211.50s]  Now in terms of how I get that turmeric into my diet, I use ground powder.
+[216.58s]  And that's in contrast with the whole food, more close to the whole food, which is the
+[221.74s]  turmeric root.
+[222.74s]  For some reason, eating the root tastes like soap to me and ruins anything that it's in.
+[226.70s]  Whereas using the powder, I add that to cooked meals and it doesn't ruin the food.
+[230.06s]  It actually helps with taste and texture.
+[232.74s]  All right.
+[233.74s]  So this is just one example.
+[235.02s]  And arguably this is the strongest correlation for foods with lower HSCRP in my data.
+[239.60s]  What about other foods?
+[240.86s]  Are they significantly correlated with HSCRP?
+[242.74s]  And that's what we can see here.
+[244.74s]  This is a, the list for foods that are nominally significant.
+[247.98s]  That's a P value less than 0.05 that are significantly correlated with lower HSCRP.
+[253.50s]  And for those that are going to say, I haven't calculated a false discovery rate.
+[257.54s]  This is true.
+[258.18s]  I don't want to exclude any data because I don't know if any of these foods are actually causing
+[263.34s]  lower HSCRP.
+[264.30s]  So I try to follow as much of the data as possible.
+[266.58s]  And by including a false discovery rate, I may be excluding data, thereby limiting my ability
+[271.86s]  to potentially lower HSCRP.
+[274.72s]  So when considering these associations with, or sorry, correlations with lower HSCRP, I
+[280.68s]  keep my intake of them relatively high.
+[282.98s]  And for those who want the exact amounts, I'll put the link to the video for my diet composition
+[286.82s]  in terms of the exact amounts for these foods in the right corner.
+[290.54s]  Now, conversely, in terms of foods that are correlated with lower CRP, there are also foods
+[294.98s]  in my data that are significantly correlated with higher CRP as shown here.
+[299.24s]  So with that in mind, the goal here is to minimize intake.
+[302.10s]  So with this approach in mind, try to increase foods or keep relatively high foods that are
+[307.68s]  significantly correlated with lower CRP and minimize foods that are significantly correlated
+[311.96s]  with higher CRP in support of that approach.
+[314.10s]  For the last 10 blood tests, my CRP levels had been less than the detection limit, Quest's
+[319.90s]  detection limit, which is 0.3 milligrams per liter.
+[322.84s]  So that would suggest that I'm on the right track for using this approach.
+[327.10s]  Now, food intake may not be the only thing that's potentially impacting if correlation equals
+[331.34s]  causation HSCRP in my data.
+[333.88s]  So which other factors may be impacting HSCRP?
+[338.40s]  And in my case, a higher daily heart rate, not the resting heart rate, but the higher heart
+[343.22s]  rate for the full day, higher average daily heart rate is significantly correlated with HSCRP
+[348.34s]  in my data.
+[349.34s]  We can see here.
+[350.34s]  So I only had the idea to start tracking the average daily heart rate, even though I've
+[354.34s]  worn a fitness tracker as shown there since 2018.
+[356.96s]  I only had that idea in 2020.
+[359.02s]  So this is three plus years of data.
+[360.72s]  And this is average daily heart rate data for 19 blood tests, 19 HSCRP blood tests.
+[367.12s]  And there we can see a significant positive correlation.
+[370.58s]  In other words, when there's more activity, more physical activity and or stress, because
+[375.04s]  stress, including emotional or work stress can impact the daily heart rate too.
+[381.10s]  When there's more of that in between blood tests, that's significantly correlated with a
+[384.54s]  higher HSCRP.
+[386.58s]  Conversely, when there's relatively lower levels of activity and or stress in between blood
+[391.42s]  tests, the next blood test is more likely to have a lower HSCRP, at least based on this
+[397.08s]  correlation.
+[398.08s]  So when considering these data, it suggests that for me to minimize HSCRP, that suggests
+[403.80s]  an optimal training activity and or stress that, you know, again, because stress can impact
+[409.82s]  the daily heart rate of 55 to 57 beats per minute as the full day average daily heart rate.
+[417.12s]  To put that into perspective, my average resting heart rate, RHR, and that's for the month of May
+[421.42s]  in 2023 was 42.6 beats per minute, which suggests that going 12 to 14 beats per minute above my
+[429.02s]  daily heart rate may be optimal for keeping HSCRP low.
+[433.54s]  And I don't know if it's turmeric.
+[434.66s]  I don't know if it's by minimizing activity while still trying to maximize fitness, but that's
+[440.40s]  the story for HSCRP.
+[442.54s]  But it also raises another question.
+[444.74s]  Is the amount of physical activity that optimizes fitness different from the amount that may optimize
+[449.36s]  longevity?
+[450.36s]  I can definitely train more.
+[451.36s]  And when considering that that's associated or that's significantly correlated with higher
+[454.86s]  HSCRP, that may not be good for systemic health.
+[458.36s]  Conversely, if I undertrain, that may not be good for fitness while potentially being good
+[462.70s]  for HSCRP.
+[464.00s]  So what's that dose that can optimize physical fitness, but then also maximize blood biomarkers
+[470.92s]  and potentially longevity.
+[473.02s]  More on that in a future video.
+[474.02s]  All right.
+[475.02s]  That's all for now.
+[476.02s]  If you're interested in more of my attempts to biohack aging, check us out on Patreon.
+[479.62s]  And before you go, we've got a whole bunch of discount links and merch that you may be
+[482.96s]  interested in, including discount links for at-home metabolomics, NAD quantification,
+[487.66s]  green tea, epigenetic testing, or microbiome composition, at-home blood testing using Cyfox
+[493.48s]  Health.
+[494.48s]  And note that their panel is different from the at-home metabolomics, so they are complimentary
+[498.02s]  measures.
+[499.02s]  Dietracking with chronometer.
+[500.02s]  And if you'd like to support the channel, you can do that with the website, buy me a
+[503.12s]  coffee.
+[504.12s]  We've also got merch.
+[505.26s]  So if you're interested in wearing the Conquer Aging or Dietracking brand, that link
+[508.52s]  and all the other discount links will be in the video's description.
+[511.46s]  Thanks for watching.
+[512.46s]  I hope that you enjoyed the video.
+[513.84s]  Have a great day.

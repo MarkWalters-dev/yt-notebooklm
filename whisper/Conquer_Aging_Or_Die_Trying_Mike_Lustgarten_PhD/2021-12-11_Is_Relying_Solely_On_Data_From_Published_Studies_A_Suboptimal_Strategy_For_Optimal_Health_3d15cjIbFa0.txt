@@ -1,0 +1,163 @@
+[0.40s]  Is relying solely on data from published studies a suboptimal strategy for optimal health?
+[5.98s]  To illustrate what I mean by that, let's have a look at red blood cells.
+[9.14s]  In particular, the reference range, as defined by LabCorp,
+[12.14s]  which is 4.14 to 5.8 million red blood cells per microliter of blood.
+[17.26s]  So, with the goal of optimizing health and longevity,
+[19.96s]  should red blood cells be low, mid-range, or high?
+[22.68s]  Let's have a look at how red blood cells change during aging to try to answer that question.
+[27.36s]  So, starting in youth, we can see that the data for men in green and for women in blue,
+[32.48s]  that red blood cells decline during aging for both men and women.
+[35.66s]  So, starting with the data for men, we can see that clear decline with the green line.
+[39.06s]  And then for the women, the data is a little bit more variable with a decline in red blood cells
+[43.80s]  and then an increase up until about 55 years old,
+[47.24s]  after which red blood cells consistently decline up until 95 years old.
+[51.98s]  So, when considering these data, this suggests that having relatively higher levels of red blood cells is youthful.
+[58.74s]  So, with that in mind, is the higher end of the reference range for red blood cells optimal for health and longevity?
+[64.32s]  So, to try to answer that question, let's have a look at my own red blood cell data since 2008.
+[70.16s]  And I've blood tested 36 times over that time span, so the last 13 years.
+[74.20s]  And from 2008 to 2013, I was measuring about once a year, so annually at my yearly physical,
+[81.00s]  and I wasn't tracking my diet at all.
+[83.00s]  And my average red blood cell level during those six measurements was 4.96.
+[88.16s]  So, when then going back to the data on the left, we can see that I'm higher than the green line,
+[94.46s]  which, based on having relatively higher levels of red blood cells in youth,
+[98.60s]  one would expect that that should be okay or good.
+[102.46s]  And then, in 2015, I started tracking my diet, including weighing all my food,
+[106.46s]  entering that data into chronometer, and then putting all that data into an Excel file
+[110.22s]  so that I could start to look at correlations between my diet with these biomarkers.
+[115.12s]  And during that four-year span, from 2015 to 2019, I blood tested 17 times,
+[120.08s]  and my average red blood cell level during those 17 tests was 4.62.
+[124.72s]  So, then when going back to the curve, or actually before we go back to the curve,
+[129.24s]  so note that these two groups of data from 2008 to 2013 versus the 17 blood tests from 2015 to 2019
+[135.70s]  are significantly different when using a two-sample T-test.
+[139.86s]  So, now going over to the curve back on the left, now we can see I'm on the aging curve,
+[144.16s]  which is bad news.
+[146.42s]  I'm not trying to have red blood cell levels that are characteristic of my chronological age.
+[150.88s]  I want to have red blood cell levels that are characteristic of youth.
+[153.52s]  And to keep them there for as long as I can.
+[157.26s]  So, because I track my diet, I can do interventions,
+[162.12s]  changing various things in my diet to try to improve these biomarkers.
+[166.12s]  And I had success with that, as we can see over the last 13 measurements,
+[169.36s]  from later in 2019 to my last blood test in November of 2021,
+[174.04s]  we can see that my average red blood cell count is 5.1.
+[177.24s]  So, now going back to the curve on the left, we can see that I'm back higher than the curve.
+[184.18s]  And when compared with my data from 2008 to 2013, the recent data, 5.1,
+[190.04s]  is actually significantly higher when compared with the 4.96 for my first six measurements.
+[195.42s]  And also note that from the 2015 to 2019 data, those 17 blood tests, when compared with my last 13 blood tests,
+[202.16s]  I was able to significantly increase those red blood cells when using a two-sample T-test to evaluate statistical significance.
+[210.50s]  So, the assumption is that having relatively higher red blood cells is optimal as they decline during aging.
+[216.16s]  But is that true?
+[217.22s]  Is my 5.1 value for red blood cells too high?
+[222.22s]  So, to help answer that question, evaluating correlations for red blood cells with other systemic biomarkers can help discern what's optimal.
+[230.36s]  So, what are these systemic biomarkers, which I've referred to in recent videos as the big picture biomarkers?
+[237.16s]  And that's what's shown here.
+[238.28s]  There are 23 of them.
+[239.46s]  Usually there are 24, including red blood cells.
+[241.78s]  But because I'm going to look for correlations between red blood cells with these biomarkers,
+[246.56s]  obviously red blood cells, you can't correlate them with themselves.
+[249.52s]  So, just running through this real quick as I've presented them in other videos,
+[252.88s]  what do these big picture biomarkers include?
+[255.80s]  They include glucose and homocysteine, and then three markers of kidney function,
+[260.40s]  four markers of liver function, all the major lipoproteins, all of the major immune cells and platelets,
+[265.74s]  red blood cell-related metrics like the mean corpuscular volume,
+[268.72s]  so the average volume in a red blood cell.
+[270.46s]  So, the red blood cell distribution width, RDW, a marker of inflammation, high sensitivity C-reactive protein,
+[276.38s]  and then the overall biological age score as indicated by Morgan Levine's VenoAge and the aging.ai.
+[282.96s]  So, also note that the little n next to each biomarker is how many blood tests that I have for each biomarker.
+[290.70s]  And then r is little r on the top left column is the correlation coefficient.
+[295.22s]  And then the p-value is the measure for evaluating statistical significance,
+[299.04s]  which in this case is a p-value less than 0.05.
+[302.72s]  And note that this is blood test data from August of 2015 through my last blood test in November.
+[309.24s]  So, when comparing correlations for red blood cells with all these biomarkers,
+[312.86s]  11 of them have a p-value less than 0.05, so 11 significant correlations.
+[318.46s]  So, then the next question becomes, are these significant correlations going in the right or wrong direction
+[323.68s]  in terms of aging and all-cause mortality risk?
+[326.42s]  And then that approach can help to identify what red blood cell amount may be optimal for me
+[331.04s]  rather than relying solely on the published studies and the reference range.
+[335.42s]  Now, there are three scenarios that are possible here.
+[337.98s]  So, if red blood cells are significantly correlated with more biomarkers going in the right direction than wrong,
+[343.02s]  this would suggest that red blood cells higher than my 13-year average, 4.85, may be optimal.
+[348.58s]  Conversely, if red blood cells are significantly correlated with more biomarkers going in the wrong direction than right,
+[353.94s]  this would suggest that red blood cell levels lower than my 13-year average may be optimal.
+[358.92s]  And last, if red blood cells are significantly correlated with the same amount of biomarkers going in the right direction as wrong,
+[364.62s]  this would suggest that my average, my 13-year average red blood cell value may be optimal.
+[370.24s]  So let's see how that goes. So let's start at the top of the list with glucose. And this should be
+[376.78s]  relatively straightforward. And I'm going to try to go through each of these relatively quickly as
+[380.62s]  I've presented this data in many other videos. So glucose levels increase during aging as shown
+[386.18s]  here. And I'm only going to focus on the data for men as that specifically applies to me.
+[390.14s]  So as you can see by the black line, glucose levels increase during aging. And then in
+[394.48s]  terms of all-cause mortality risk, which is shown there on the right, we can see that relatively
+[398.20s]  higher levels of glucose are associated with an increased all-cause mortality risk.
+[402.20s]  So when considering that red blood cells, higher red blood cells are correlated with higher glucose,
+[406.30s]  that's a significant correlation in my data, that black arrow can be changed to a red arrow,
+[411.26s]  indicative of going in the wrong direction. All right. So next up on the list is blood urea nitrogen,
+[416.30s]  BUN. So blood urea nitrogen increases during aging as shown there by the green line. And then
+[421.40s]  relatively higher levels of blood urea nitrogen are associated with an increased all-cause mortality
+[426.44s]  risk. And I presented this data in my last video. So if you missed that, check it out.
+[430.52s]  So when considering those data and the positive correlation for red blood cells being significantly
+[435.50s]  correlated with higher blood urea nitrogen, this is also going in the wrong direction.
+[439.38s]  So we'll put another red arrow there. All right. So next on the list is albumin. So albumin levels
+[445.92s]  for men and women declined during aging, they're relatively high in youth and then declined during
+[450.30s]  aging. And then in terms of all-cause mortality risk, we're looking at data here on the right for
+[455.00s]  85 to 99 year olds, 100 to 104 year olds, and older than 105. And then the HR is the hazard ratio for
+[462.48s]  all-cause mortality. The 95% confidence interval gives you the range where the risk values are present.
+[470.08s]  And what we can see is that for relatively higher levels of albumin, significantly lower all-cause
+[475.42s]  mortality risk was identified for each of these three age groups. And also interestingly, note that
+[480.20s]  for the other biomarkers that are in these on the list, HDL, LDL, HbA1c, creatinine, kidney function
+[488.14s]  by EGFR, but using creatinine and C-reactive protein, albumin is the only one where the magnitude of the
+[496.00s]  all-cause mortality risk reduction is greatest for albumin when compared with these other biomarkers.
+[501.90s]  So when considering the data for albumin, we can then, and when considering that high red blood cells
+[506.98s]  are correlated with higher albumin, which is going in the right direction, we can change that black arrow
+[512.00s]  to now a green arrow. So we've got one going in the right direction for the correlation for red blood
+[516.38s]  cells with albumin. All right. So I'm going to skip past the AST and ALT and LDL for now. We'll come back
+[522.24s]  to that in a second. So what about neutrophils? Higher red blood cells are correlated with higher
+[526.94s]  neutrophils. Is that going in the right direction or wrong? So neutrophils increase during aging.
+[531.66s]  So the green line is the data for men, and we can see that there, they increase during aging.
+[536.48s]  And in terms of all-cause mortality risk, that's what's shown here on the right.
+[540.18s]  So when starting with the referent, which was 2,000 to 3,000 neutrophils per microliter of blood,
+[544.56s]  which is where most of my data usually lies, we can see that higher levels of neutrophils going from
+[549.82s]  3,000 past 7,000 neutrophils per microliter is associated with an increased all-cause mortality
+[556.28s]  risk. So we don't want to have more neutrophils as they increase during aging and are associated
+[561.34s]  with an increased all-cause mortality risk. So we're considering its correlation with red blood
+[565.62s]  cells, higher neutrophils correlated with higher red blood cells. That also is going in the wrong
+[570.42s]  direction. So another red arrow. All right. Monocytes have a similar story. Monocytes increase
+[575.52s]  during aging. And then we're looking at the all-cause mortality data split into
+[579.20s]  cardiovascular disease mortality, CBD mortality, and non-cardiovascular disease mortality. When
+[585.24s]  compared with monocytes of about 400 per microliter, relatively higher monocytes are associated with
+[590.66s]  an increased all-cause mortality risk as shown there. So this too is going in the wrong direction.
+[595.26s]  So another red arrow. How about the percentage of lymphocytes? So here in this case, we see a
+[600.36s]  negative correlation, which means higher red blood cells are correlated with a lower percentage
+[604.92s]  of lymphocytes. So that lymphocyte percentage declines during aging, which is shown here. So you
+[610.84s]  can see that in youth, there's a relatively higher lymphocyte percentage and then relatively lower
+[615.12s]  lymphocyte percentages in advanced age. Now there isn't any all-cause mortality data. I've yet to come
+[620.88s]  across a study that looked at the percentage of lymphocytes and its association with all-cause mortality
+[626.20s]  risk. So if anybody's come across that data, please leave a comment and share. So when considering
+[631.34s]  that lymphocyte percentage of lymphocytes declines during aging, this too is going in the wrong
+[635.48s]  direction as higher red blood cells are correlated with lower, a lower lymphocyte percentage.
+[640.84s]  All right. So in my last video, using a similar analysis of biomarkers versus biomarkers,
+[646.18s]  I presented these correlations for platelets showing that having relatively higher platelets within my 200
+[652.18s]  to 300 range is correlated with more biomarkers going in the wrong direction than right. So I don't want
+[657.00s]  to have relatively higher levels of platelets based on that data. So when considering that higher red
+[661.66s]  blood cells are correlated with higher platelets, that red arrow is there because it's going in the
+[665.66s]  wrong direction. Similarly, in an earlier study, I used the same analysis to evaluate LDL and I'll link
+[672.14s]  to that in the right corner if you're interested in that data. But for me, LDL at the lower end of my
+[678.30s]  range is correlated with more biomarkers going in the right direction than wrong. So because of the
+[682.88s]  positive correlation for red blood cells, meaning higher red blood cells is correlated with higher
+[687.18s]  LDL, that too is going in the wrong direction. So without looking at the last three biomarkers of
+[693.02s]  the 11 significant biomarkers that were correlated with red blood cells, MCV and then AST and ALT,
+[700.56s]  higher red blood cells are significantly correlated with seven of the 11 biomarkers going in the wrong
+[705.90s]  direction. So if you remember the scenario, the three scenarios, this suggests that red blood cells
+[710.78s]  towards the, towards the high end of my range 5.1 may not be optimal. Now going forward, I'll modify
+[717.30s]  my diet and what exactly that I'll modify is, will be the topic of another future video. And I can't say
+[722.00s]  when, because I want to collect more data and get the data there first before presenting how I did it.
+[728.20s]  But going forward, I'll modify my diet with the goal of reducing my red blood cells from their current
+[733.12s]  about 5.1 average to within the 4.6 to 4.85 range. So a little bit below my average over the past 13
+[740.38s]  years. Now, based on the aging data for red blood cells, I could have assumed that my recent red
+[745.42s]  blood cell data was optimal. And I would have missed that the biomarker versus other biomarker
+[750.00s]  approach suggests that they're too high. And I expect that this approach can provide greater
+[755.54s]  specificity for what's optimal for blood biomarkers, rather than solely relying on published
+[760.06s]  studies and the reference range. All right. If you have questions and comments, I'm going to do
+[764.88s]  something different on this channel and let's have an ask me anything AMA. So tomorrow at 12 PM,
+[769.74s]  uh, Sunday, December 12th, 2021. Uh, if you're interested, uh, come to my channel and, uh,
+[775.34s]  let's run through all of this and any other questions that, uh, you might have.
+[779.34s]  If you're interested in more about my attempts to biohack aging, come join us on Patreon.
+[784.30s]  Thanks for watching. I hope that you enjoyed the video. Have a great day.

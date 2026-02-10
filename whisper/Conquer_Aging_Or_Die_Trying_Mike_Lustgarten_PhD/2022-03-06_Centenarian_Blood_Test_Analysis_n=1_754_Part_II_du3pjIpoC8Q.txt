@@ -1,0 +1,239 @@
+[0.04s]  What does centenarian blood test data look like in a relatively large cohort?
+[4.66s]  In part one of this video series, we took a look at blood test data from the Hainan Centenarian Study,
+[9.78s]  which included more than 1,700 people that had a median age of 100 years.
+[14.46s]  So what about that blood test data?
+[16.42s]  Well, that's what's shown here.
+[17.90s]  And in part one, we looked at eight biomarkers and classified them as good based on aging and all-cause mortality data.
+[24.88s]  But there's another eight biomarkers that we didn't cover.
+[27.26s]  So that'll be the focus of this video, going over data for total cholesterol, LDL, red blood cells, hemoglobin, MCV,
+[35.14s]  the liver enzymes, AST and ALT, and HCY homocysteine.
+[38.96s]  So let's jump into the data.
+[40.78s]  So first, total cholesterol, TC, which in the centenarians had a median value of 4.7 millimolar or 182 milligrams per deciliter.
+[49.62s]  So let's put that data into context by looking at the aging related, how it changes with aging.
+[54.86s]  So here we're looking at total cholesterol on the y-axis plotted against age, which goes from 18 to 88 years.
+[60.54s]  And this is in a study of more than 12.8 million people.
+[64.14s]  So we can see that total cholesterol levels increase for men in green and women in red.
+[69.64s]  And then they decrease during aging all the way up to 88 years, as I mentioned, which is the oldest age for this graph.
+[77.20s]  Now to get to 100 years, we'd have to do some extrapolation based on the aging related trends.
+[82.60s]  And when we do that, we can see that centenarians would be expected to have total cholesterol levels in the 172-180 range,
+[90.36s]  which isn't too far from the high non-centenarian data of 182 milligrams per deciliter.
+[95.90s]  So from that data, we can potentially conclude that the centenarian total cholesterol data may be indicative of aged or not youthful.
+[104.98s]  However, we can also see that 182 for total cholesterol can also be found in youth for both men and women, as shown there.
+[111.90s]  So from this data, we can conclude that age-related total cholesterol data can't be used to indicate if 182 milligrams per deciliter is aged or youthful.
+[120.90s]  So what about all-cause mortality data?
+[123.28s]  So that's what's shown here.
+[124.32s]  And this is from the same study.
+[125.58s]  And all of the studies that I'll reference in this video will be in the video's description.
+[130.34s]  So check it out if you're interested.
+[131.54s]  So this is data for 75 to 99-year-olds, and we'd expect that that would have the most relevance to centenarian data for all-cause mortality risk.
+[140.02s]  So first, we can see that lowest all-cause mortality risk, ACM, was present in the 220 to 229 milligrams per deciliter range.
+[148.08s]  So when taking a look at the centenarian median total cholesterol of 182,
+[152.00s]  we can see that all-cause mortality risk in green for men was not significantly increased,
+[156.54s]  but it was significantly increased by 5% for women.
+[159.12s]  Now note that for both men and women, there was a significant increase for all-cause mortality risk when total cholesterol was lower than 170.
+[168.56s]  So in terms of what's good and or bad, the centenarian total cholesterol for men may be neutral but bad for women.
+[177.02s]  So can we be more specific, though, by looking at centenarian levels of LDL?
+[182.22s]  And that's important because in part one of this video series, we looked at HDL and triglycerides.
+[186.78s]  Triglycerides can be used as a proxy for VLDL.
+[189.14s]  So all that's left for that total cholesterol story is LDL.
+[192.22s]  So how does that look in the centenarian data?
+[194.52s]  So the median LDL for the high non-centenarians was 2.8 millimolar, which is equivalent to 108 milligrams per deciliter.
+[202.84s]  So context, let's have a look at aging-related data.
+[205.56s]  That's what's shown here.
+[206.62s]  Average LDL from 18 to 88 years.
+[209.44s]  And this is in a study of more than 14.8, approaching 14.9 people.
+[214.94s]  So similar to the total cholesterol story, once again, we can see that LDL increases for both men in green, women in red,
+[221.88s]  and then it decreases during aging.
+[223.34s]  So to get to 100 years, we'll have to do a little bit of extrapolation based on the aging-related trends.
+[229.68s]  And when we do that, it isn't a far stretch to see that the centenarians would be expected to have a LDL
+[235.20s]  somewhere in the 100 to 110 milligrams per deciliter range,
+[239.00s]  which is pretty close to what we'd expect for the centenarians.
+[243.22s]  So is that indicative of age values?
+[245.68s]  Now, maybe not, because we can also see 108 can be placed on these curves for both men, again, in green and women in red.
+[253.34s]  So from this data, we can conclude that age-related data for HDL can't be used to indicate if that 108 is aged or youthful.
+[260.54s]  So what about all-cause mortality risk?
+[262.34s]  And again, this is data from the same study.
+[263.96s]  Unfortunately, in this study, they didn't break it down by age group.
+[266.16s]  So this is for the whole cohort that included that wide age range.
+[269.62s]  But all of these, well, this association was adjusted for age and other variables, as we'll see in a minute.
+[275.12s]  So it should be okay.
+[276.38s]  So in terms of all-cause mortality risk, lowest risk was present in the 120 to 180 milligram per deciliter range for LDL.
+[283.36s]  And when we put the centenarian data into context of 108, we can see that it's not in the lowest risk range.
+[290.42s]  It's a little bit above that going in the wrong direction.
+[293.62s]  And considering the age-related trends for LDL, we can posit that this is actually going in the wrong direction,
+[298.70s]  as we expect the LDL to further decrease for people that live longer than 100 years.
+[304.04s]  So in terms of what's good and or bad, from this we can conclude that they have suboptimal LDL,
+[310.08s]  a little bit away from the optimal but not optimal, which is going in the wrong direction.
+[314.80s]  That's why I've put it down as leaning towards bad.
+[318.50s]  Now note that this model was adjusted for many variables, as included there.
+[322.74s]  But it wasn't adjusted for malnutrition, which has been defined in some studies as low albumin and low lymphocytes.
+[328.74s]  And that's potentially important because in studies that relatively low LDL, less than 100 milligrams per deciliter,
+[335.32s]  is associated with an increased risk for cardiovascular disease mortality and all-cause mortality risk,
+[341.20s]  it may be because of malnutrition.
+[344.18s]  And I'll go into that a little bit more in a future video, so stay tuned for that.
+[348.20s]  So moving along, red blood cells, RBCs, median value was 4.2 trillion red blood cells per liter.
+[354.46s]  So let's put that data into context.
+[356.16s]  And that's what's shown here by looking at the aging-related data for red blood cells all the way up to 95 years old in this study.
+[362.46s]  So we can see that red blood cells declined during aging with values of about 4.8 in men in green
+[368.02s]  and about 4.3 in youth for women in blue that then declined during aging that reach about 3.9 trillion red blood cells per liter
+[378.38s]  for 95 to 100-year-old.
+[380.92s]  So putting the centenarian, high non-centenarian data into perspective, well, with their data of 4.2,
+[386.44s]  we can see that for men, it could be indicative of a 70-year-old, what we'd expect to see in a 7-year-old,
+[391.64s]  but also it could be found in around a 20-year-old for a woman.
+[394.70s]  Also, it could be found somewhere in the 50 to 60-year range.
+[397.88s]  As you can see, that curve for the women comes very close to 4.2.
+[401.04s]  So from this, we can conclude that the red blood cell levels for the high non-centenarians
+[404.78s]  are up to 30 to 80 years younger than expected based on their 100-year chronological age.
+[410.64s]  So in terms of what's good, we see that these centenarians have relatively youthful red blood cells.
+[415.76s]  However, other red blood cell-related measures are not good.
+[418.92s]  And starting that story off with hemoglobin.
+[421.98s]  Centenary median values were 92.9 grams per liter, and converting that into grams per deciliter, it's 9.29.
+[428.28s]  So that value is important, 9.29, because we can see that all-cause mortality risk is posted there.
+[435.58s]  When the reference was defined as 14 to 14.9,
+[438.54s]  we can see that men that had hemoglobin levels less than 13
+[441.84s]  was associated with about a 50% increased all-cause mortality risk.
+[445.88s]  So we're off to a bad start there for the centenarians based on hemoglobin.
+[449.40s]  So what about data for women?
+[451.86s]  So when compared with the reference of 12 to 12.9 grams per deciliter for hemoglobin,
+[455.94s]  we can see that values less than 11, which these centenarians had,
+[459.70s]  this was associated with an all-cause mortality risk, an increased risk for women in this study.
+[465.20s]  So in terms of what's bad, we can conclude that these centenarians
+[468.08s]  potentially have unhealthy levels of hemoglobin.
+[471.32s]  Now next up on the red blood cell-related measures is the mean corpuscular volume,
+[475.70s]  otherwise known as the MCV.
+[477.48s]  And that's essentially a measure of the size of red blood cells.
+[480.62s]  Small red blood cells can only carry a small volume,
+[483.14s]  whereas larger red blood cells carry a larger volume.
+[485.94s]  And the centenary median data in this study was 120 femtoliters FL as the units.
+[491.80s]  So the MCV increases during aging, as we can see in this plot here.
+[496.18s]  So when going from 20 to up to 100 years old,
+[499.20s]  we can see that MCV increases for men from values of about 86 femtoliters in youth,
+[506.08s]  20 to 30 years old, up to 91.
+[508.38s]  Similarly in women, values around 87 increased to about 89 years
+[512.40s]  as these people approached 100 years.
+[514.90s]  So when considering the centenarian data of 120 and the aging-related data,
+[520.56s]  which is shown there, an MCV of 86 to 87 would be considered youthful in men and women respectively.
+[525.90s]  We can see that these centenarians have a much larger red blood cell and a larger volume.
+[531.06s]  So with an MCV of 120 as shown there.
+[533.22s]  So what's the consequence of having a higher MCV?
+[536.66s]  So to evaluate that, we can look at all-cause mortality risk,
+[539.34s]  as shown here, for both men on the top and women on the bottom.
+[543.22s]  And for some reason, in this study, they used the second quartile.
+[546.16s]  They defined that as the reference.
+[547.70s]  I don't know why they didn't look at relatively lower values in the first quartile as the reference,
+[552.48s]  but nonetheless, using the second quartile as the reference,
+[555.14s]  with somewhat higher MCVs that are a little bit aged,
+[557.38s]  if you look at the aging-related trends on the left.
+[560.10s]  So the second quartile in men was 90.5 to 93% for men and 89.2 to 91.6.
+[567.22s]  And when compared with those values,
+[568.98s]  people in the fourth quartile that had MCVs of greater than 95.8 for men
+[573.14s]  and greater than 94.2 for women,
+[575.30s]  that was associated with significantly increased all-cause mortality risk.
+[578.48s]  Now note that these centenarians had a median MCV of 120.
+[582.84s]  So that would most definitely put them in the fourth quartile.
+[585.60s]  And from that, we can conclude that their MCV was quote-unquote bad
+[589.16s]  as they had aged and unhealthy levels of MCV.
+[593.48s]  All right, next up are two mostly liver enzymes,
+[596.26s]  as they're found in other tissues, but they're found primarily in the liver.
+[599.62s]  AST, aspartate aminotransferase, and ALT, alanine aminotransferase.
+[603.86s]  So let's put these data into perspective by looking at all-cause mortality risk,
+[607.28s]  which is shown here for AST on the top and ALT on the bottom.
+[610.78s]  And this is data from a study of more than 16.6 million people.
+[615.20s]  So first, looking at the centenary median AST of 21.3,
+[618.44s]  that would put them into Q2, which has a similar median value of 21.
+[623.18s]  And when compared with the reference,
+[624.74s]  which was defined as a relatively lower ASTs of 20 or less,
+[629.64s]  these centenarian AST would be the lowest all-cause mortality risk.
+[633.76s]  So what about ALT?
+[634.90s]  So when we look at their ALT of 10.6, that would put them into Q1,
+[638.74s]  that had a median value of 15.
+[640.84s]  But note that for ALT, relatively higher values,
+[644.30s]  somewhere in the 18 to 22 range,
+[646.46s]  were associated with lowest all-cause mortality risk.
+[648.92s]  So from this, we can conclude that these centenarians
+[650.76s]  have an increased all-cause mortality risk based on their ALT levels.
+[654.64s]  So now we've got one biomarker going in the right direction, AST,
+[657.72s]  and one going in the wrong direction, ALT.
+[659.82s]  So how can we make sense of that?
+[662.10s]  And one way is to look at the ratio between AST to ALT,
+[664.94s]  which may provide more value, more informative value.
+[668.88s]  And that's what we can see here.
+[670.10s]  We're looking at all-cause mortality with survival rate and percentage on the y-axis
+[673.78s]  plotted against a 10-year, up to 10-year follow-up period
+[676.66s]  started from the baseline assessment of AST and ALT.
+[679.80s]  And what we can see is that for people that had a low AST to ALT ratio,
+[684.16s]  which had an average of 1.02,
+[686.86s]  people that had higher ratios, which with an average of 1.83 in this study,
+[691.50s]  the higher AST to ALT ratio was associated,
+[694.72s]  significantly associated with an increased all-cause mortality risk.
+[697.88s]  Note that the centenarians had a median AST to ALT of 2.
+[701.38s]  So that would put them at a significantly increased all-cause mortality risk
+[704.66s]  based on their AST and ratio of AST to ALT.
+[707.84s]  So then in terms of what's bad,
+[710.28s]  their AST to ALT ratio is bad going in the wrong direction.
+[714.86s]  All right, next up is homocysteine, HCY.
+[717.72s]  So let's put that data into perspective in terms of aging.
+[720.54s]  So homocysteine levels increased during aging.
+[722.74s]  First, as shown here, homocysteine on the y-axis, plasma levels,
+[726.16s]  plotted against age from 40 to 67 years.
+[729.52s]  And we can see that homocysteine for both men and women
+[732.06s]  increased during that age range.
+[733.98s]  So what about older than 67 as we want to get as close as we can
+[737.16s]  into centenarian data in order to put it into perspective?
+[740.56s]  So that's shown here.
+[742.56s]  Again, looking at plasma levels of homocysteine on the y-axis.
+[745.74s]  And now we've got age ranges that go from 65 up to 80 plus.
+[750.00s]  And once again, when looking at homocysteine data for men in the triangles
+[753.84s]  and the women in the squares, we can see that by the red lines,
+[757.92s]  homocysteine levels increased during aging.
+[759.96s]  Now, if we're going to put the centenarian data on this plot,
+[762.56s]  it would be somewhere here, pretty much off the plot.
+[765.78s]  The highest homocysteine level goes up to 19.
+[768.04s]  They're at 23.1.
+[769.70s]  And even with extrapolation, we'd see that they're still way off the plot,
+[773.56s]  higher levels than expected for their age.
+[775.92s]  So from this, we can conclude that in terms of what's bad,
+[778.44s]  these centenarians have age levels of homocysteine.
+[781.56s]  So what about all-cause mortality risk?
+[783.72s]  So here we're looking at a meta-analysis of six studies
+[786.36s]  that included more than 18,000 participants.
+[789.68s]  So in terms of risk for all-cause mortality based on homocysteine,
+[793.90s]  as low as possible may be optimal.
+[796.02s]  As you can see, the risk is pretty close to one,
+[799.12s]  as close as you get to zero for homocysteine.
+[801.34s]  And then all-cause mortality risk then increases
+[803.94s]  as we go to higher levels of homocysteine,
+[806.88s]  up to 20 micromolar on this plot.
+[809.50s]  But note that the centenarians had even higher than on the plot, 23.1.
+[813.56s]  So note that this is at least 2.5-fold higher,
+[817.30s]  even when looking at a more physiologically relevant
+[819.46s]  as I've yet to see someone who's got homocysteine levels
+[821.82s]  as close to zero as possible.
+[823.60s]  Somewhere in the 5 range is closer to 5 to 10
+[827.26s]  is more physiologically relevant.
+[828.64s]  Nonetheless, for a value of 5 for homocysteine,
+[831.36s]  these centenarians would have 2.5-fold higher
+[833.64s]  all-cause mortality risk when compared with that lower value.
+[836.70s]  So from this, we can conclude these centenarians
+[839.56s]  have age and unhealthy levels of homocysteine.
+[843.40s]  All right, so to wrap it all up,
+[844.64s]  we've now evaluated data for 16 biomarkers
+[847.16s]  in the high non-centenarian study,
+[849.22s]  and we can expand off of part one
+[851.28s]  the group of biomarkers that were what's good,
+[854.58s]  including data for red blood cells and AST.
+[857.20s]  But now we have other biomarkers that may be what's bad
+[859.92s]  based on their aging and all-cause mortality data.
+[862.64s]  So what's the importance of going over these data
+[865.30s]  for these 16 biomarkers?
+[867.04s]  Well, if we understand the biochemistry
+[868.70s]  and or physiology of aging,
+[870.38s]  can we then optimize what's good
+[871.86s]  and minimize what's bad as a strategy for longevity?
+[874.86s]  That's the goal.
+[877.04s]  All right, that's all for now.
+[878.00s]  If you're interested in more about my attempts
+[879.48s]  to biohack aging, check us out on Patreon.
+[882.00s]  Thanks for watching.
+[882.92s]  I hope that you enjoyed the video.
+[884.38s]  Have a great day.

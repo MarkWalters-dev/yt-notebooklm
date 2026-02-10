@@ -1,0 +1,165 @@
+[0.56s]  Uric acid, as shown here, can act as an antioxidant, but also as a pro-oxidant.
+[6.80s]  It's involved in anti-inflammatory mechanisms, but also pro-inflammatory mechanisms.
+[12.76s]  So with that in mind, what's optimal for uric acid?
+[16.04s]  In today's video, we'll take a look at how uric acid changes during aging, what its association
+[21.36s]  is with all-cause mortality risk, and then we'll look at N of 1 data as I have 48 blood
+[27.08s]  tests for uric acid with tracked dietary data.
+[30.96s]  So first, uric acid levels increase during aging, and that's what we can see here.
+[35.66s]  On the y-axis, we've got circulating levels of uric acid plotted against age on the X, and
+[40.64s]  this is from 20 to 80 years old.
+[43.24s]  So first, starting with the data for men, and note that this study included more than 85,000
+[48.36s]  men.
+[49.36s]  If anyone's come across studies with a larger sample size for both men and women, using
+[53.56s]  the aging data and the all-cause mortality data that I'm going to present, please post
+[57.70s]  those studies in the video's comments.
+[59.60s]  I'd be happy to use that in a future video.
+[62.30s]  So for men, we can see with the red arrows that there's a continuous increase for uric
+[66.22s]  acid during aging.
+[68.02s]  For women, the story's a bit less clear.
+[70.68s]  Flat to a small decline up until about 38 years, after which there's a continuous increase
+[76.64s]  for uric acid levels during aging in women.
+[79.18s]  All right, so what about all-cause mortality risk?
+[82.30s]  And that's what we can see here.
+[83.50s]  This study included more than 425,000 people.
+[86.66s]  On the y-axis, we've got the hazard ratio for all-cause mortality, or risk of death for
+[91.38s]  all causes, plotted against circulating levels of uric acid.
+[95.56s]  And in this study, lowest all-cause mortality risk was associated with uric acid levels of 300
+[100.70s]  micromolar, which is equivalent to 5 milligrams per deciliter.
+[104.00s]  So now we can address the question, what's optimal for uric acid, by combining the data
+[109.88s]  from these two studies.
+[111.92s]  300 micromolar would be what we'd expect to find in a 20-year-old man and at lowest all-cause
+[118.82s]  mortality risk.
+[119.90s]  So a good target for men could be 300 micromolar, or 5 milligrams per deciliter.
+[125.80s]  But note that 300 micromolar would be what we'd expect to find in a woman of older age, approximately
+[132.26s]  80 years old, so that may not be a good target for women.
+[135.82s]  In contrast, youthful levels of uric acid in women are around 225 micromolar, or 3.8
+[142.46s]  milligrams per deciliter.
+[144.08s]  So how does that value compare against all-cause mortality risk?
+[147.40s]  And we can see that it's pretty close to lowest risk.
+[150.18s]  It's pretty close on the bottom of that J-shaped curve.
+[153.60s]  So in terms of what's optimal for women, a good target could be right around 225 micromolar,
+[158.98s]  or 3.8 milligrams per deciliter.
+[161.24s]  But regardless if you're a man or a woman, it's important to avoid the age-related increase
+[166.34s]  for uric acid.
+[167.94s]  And that's because when looking at the all-cause mortality data, we can see that values greater
+[172.58s]  than about 375 micromolar are associated with a significantly increased all-cause mortality
+[177.82s]  risk, as indicated by those red arrows.
+[180.76s]  But it is possible to also be too low for uric acid.
+[184.96s]  So for that, we put up a red line at a hazard ratio of zero.
+[188.12s]  And where the 95% confidence interval, that shaded black line, is completely above that,
+[193.74s]  we have a significant association with all-cause mortality risk.
+[197.06s]  And that's true when uric acid is less than 175 micromolar, or 2.9 milligrams per deciliter.
+[203.62s]  So for uric acid, avoid the age-related increase, but also avoid levels that are too low, less
+[208.68s]  than 175 micromolar, or 2.9 milligrams per deciliter.
+[212.38s]  All right, so that brings us to part three, what's my data?
+[216.90s]  So thus far, I've resisted the age-related uric acid increase.
+[221.18s]  And that's what we can see here with data for 48 tests from 2015 to 2024.
+[227.86s]  On the y-axis, we've got uric acid levels in milligrams per deciliter plotted against age.
+[233.44s]  And here we can see that there is a significant inverse correlation
+[236.72s]  between uric acid with age over these 48 blood tests since 2015, with a correlation coefficient
+[243.40s]  of negative 0.51.
+[245.54s]  And at p-value, that's less than 0.05 as the measure of significance.
+[249.64s]  So then the big question is how?
+[252.20s]  So for those who may not be familiar with my approach, since 2015, I've weighed all my food
+[257.44s]  using a food scale.
+[258.76s]  I then enter those food amounts into Cronometer.
+[261.44s]  And if you want to track your own diet, there's a discount link for Cronometer in the video's
+[265.30s]  description.
+[265.58s]  And then I manually enter the Cronometer data into a spreadsheet.
+[270.32s]  So then each blood test has a corresponding average dietary intake.
+[274.08s]  In other words, if there's a 60-day period in between blood tests, because I'm tracking
+[278.16s]  dietary intake, the average of those 60 days corresponds to the latter test.
+[283.22s]  So every blood test then has a corresponding average dietary intake.
+[287.04s]  And with enough track data for both blood tests and diet or supplements, I can look at correlations.
+[292.38s]  And then I calculate those correlations for diet with biomarkers.
+[296.78s]  And then with the goal of improving biomarkers, I follow as many of the significant correlations
+[301.28s]  as possible.
+[302.44s]  And that's the major way that I've been able to resist the age-related decline for uric
+[307.38s]  acid and improve other biomarkers too, if you're familiar with the channel.
+[310.68s]  All right, so now we're going to take a look at 94 comparisons for uric acid with both food
+[316.14s]  and macro and micronutrients.
+[318.52s]  So let's start off with dietary correlations with lower levels of uric acid.
+[323.16s]  And that's what we can see here.
+[324.76s]  On the left, we've got the food or nutrient.
+[327.72s]  Then we've got the p-value.
+[328.94s]  And note that everything on this list has a p-value less than 0.05 as the measure of
+[333.90s]  significance.
+[335.38s]  And this is a partial list.
+[337.40s]  There are actually 21 significant inverse correlations for foods or nutrients with uric
+[342.64s]  acid.
+[343.04s]  So this is a short list.
+[344.18s]  It's too big to fit on the slide.
+[346.56s]  If you're interested in the full list, that data is on the correlations tier on Patreon.
+[351.20s]  And then for the lowercase n to the right, that's the number of tests.
+[354.66s]  So for macros and micronutrients, I have data for 48 tests because I've been tracking that
+[359.76s]  since 2015.
+[361.50s]  It wasn't until 2018 that I decided to start tracking food intake because the macros and
+[366.22s]  micros are a reductionist version of actually tracking food.
+[370.84s]  So starting in 2018, I started tracking food and the macros and micros.
+[374.48s]  But unfortunately, I only have tracked data for 34 tests that correspond to biomarkers.
+[379.74s]  And then we've got the lowercase r, which is the correlation coefficient.
+[383.08s]  And you can see that everything on the list is negative.
+[385.80s]  In other words, relatively higher levels of the nutrient or food is significantly correlated
+[390.76s]  with lower uric acid.
+[393.02s]  And then just going through some of the foods or nutrients on this list, they include black
+[396.60s]  pepper, ginger, turmeric, Brazil nuts, and so on down the list.
+[401.14s]  All right.
+[401.38s]  What about dietary correlations with higher uric acid?
+[404.78s]  And that's what we can see here.
+[406.50s]  So same setup, p-value, all of these on the list, less than 0.05.
+[410.74s]  And then note that this too is a partial list as 23 foods or nutrients were significantly
+[416.56s]  positively correlated with uric acid.
+[419.86s]  And then we've got the correlation coefficient.
+[422.46s]  And again, note that all of the data in that column are positive.
+[425.52s]  In other words, relatively higher levels of foods or nutrients on this list are significantly
+[430.62s]  correlated with higher uric acid.
+[432.62s]  And then in terms of some that are on the list, total fructose, net carbs, vitamin E, oxalate,
+[439.16s]  cacao beans, all of those are significantly correlated with a higher uric acid level in
+[443.44s]  my data over those 48 tests.
+[446.14s]  But that brings us to calorie intake.
+[449.02s]  So are any of these foods or nutrients even making an impact or a potential dent?
+[454.20s]  Is it just calorie intake?
+[455.44s]  Because this data would suggest that relatively higher calories is significantly correlated with
+[460.54s]  higher uric acid.
+[461.44s]  So maybe that's the driving factor behind any or all of these correlations.
+[466.76s]  So is that true?
+[468.28s]  Are any of these correlations significant after adjusting for calorie intake?
+[472.88s]  So to address that, I then created linear regression models adjusted for calorie intake.
+[478.34s]  So let's just go through one as an example for black pepper.
+[482.04s]  And that's what we can see here.
+[483.26s]  So now we've got two variables in the model, black pepper and calories.
+[486.74s]  In other words, is black pepper significantly associated with uric acid after adjusting for
+[491.68s]  calorie intake?
+[493.36s]  And that's what we can see there with the calories in the model.
+[496.66s]  And after doing that, we can see that the coefficient is still negative, 0.5, and the p-value
+[501.44s]  is less than 0.05.
+[502.96s]  In other words, yes.
+[503.94s]  After adjusting for calorie intake, black pepper is still significantly correlated with a
+[508.42s]  lower uric acid.
+[509.24s]  So in this case, calorie intake is not driving that association.
+[513.26s]  So then we put up the calorie adjusted p-values for first for black pepper.
+[518.28s]  And then going through the list, the ones in green are still significant after including
+[523.00s]  calorie intake after adjusting for calorie intake in the model.
+[526.42s]  Just outside significance are pistachios, strawberries, and serrano peppers.
+[530.18s]  As you can see that their calorie adjusted p-value is higher than 0.05, as are mushrooms at 0.19.
+[537.24s]  All right, so using the same approach for the foods or nutrients that were significantly correlated
+[542.10s]  with higher uric acid, a few popped up.
+[546.02s]  So total fructose, net carbs, vitamin E, cacao beans, and vanilla beans were still positively
+[551.74s]  associated with uric acid after adjusting for calorie intake.
+[556.04s]  But others on the list dropped out.
+[559.62s]  So now we can see which foods or nutrients may impact uric acid after accounting for calorie
+[565.22s]  intake, both positively and negatively.
+[567.54s]  And then the goal would be to follow as many of these correlations as possible with the goal
+[571.48s]  of keeping uric acid relatively low.
+[574.68s]  All right, that's all for now.
+[575.84s]  If you're interested in more about my attempts to biohack aging, check us out on Patreon.
+[579.86s]  And before you go, we've got a whole bunch of discount links and merch that you may be
+[583.48s]  interested in, including discount links for epigenetic testing, oral microbiome composition,
+[589.12s]  NAD quantification, at-home metabolomics, at-home blood testing with Cyfox Health, which includes
+[594.30s]  APOB, green tea, dietracking with chronometer, which I mentioned earlier, or if you'd like to
+[600.22s]  support the channel, you can do that with the website, buy me a coffee.
+[602.62s]  We've also got merch, so if you're interested in wearing the Conquer Aging or Dietrang brand
+[607.40s]  as I've got on here, that link and all the other links will be in the video's description.
+[611.86s]  Thanks for watching.
+[612.90s]  I hope that you enjoyed the video.
+[614.36s]  Have a great day.

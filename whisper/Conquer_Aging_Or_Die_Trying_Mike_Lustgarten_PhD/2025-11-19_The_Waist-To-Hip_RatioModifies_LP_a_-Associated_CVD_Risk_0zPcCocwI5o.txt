@@ -1,0 +1,118 @@
+[0.48s]  Lipoprotein A is six times more atherogenic than LDL, and that's what we'll see here.
+[5.72s]  On the y-axis, we've got the genetic effect on CHD, or coronary heart disease risk,
+[11.40s]  and that's plotted against the genetic effect on ApoB, and more specifically,
+[16.08s]  when ApoB is attached to either LDL or lipoprotein A.
+[20.16s]  So when compared with risk when ApoB comes from LDL, as shown there,
+[24.58s]  risk when ApoB comes from lipoprotein A is six times higher relative to LDL,
+[30.20s]  which again goes back to the initial premise of lipoprotein A is six times more atherogenic than LDL.
+[36.98s]  So there may be ways to reduce this risk, and one way may include high-sensitivity C-reactive protein,
+[43.14s]  specifically low levels, as that mediates lipoprotein A-associated CBD risk,
+[49.24s]  and I covered that in an earlier video, and if you missed it, it'll be in the right corner.
+[52.84s]  But there may be another way to reduce lipoprotein A-associated cardiovascular disease risk,
+[59.82s]  and that way involves the waist-to-hip ratio, which modifies lipoprotein A-associated CBD risk,
+[66.56s]  which is what we'll see here.
+[68.36s]  On the y-axis, we've got the cumulative incidence of having an ASCVD event,
+[73.80s]  so atherosclerotic cardiovascular disease event.
+[77.00s]  And for ASCVD events, they included myocardial infarction, so having a heart attack,
+[83.00s]  having to be resuscitated from cardiac arrest, so when the heart stops beating,
+[87.00s]  coronary heart disease, angina, which is chest pain, or stroke.
+[91.12s]  And then that was plotted against follow-up time in years, up to 20 years later,
+[95.72s]  after the initial assessment of lipoprotein A and the waist-to-hip ratio.
+[99.86s]  All right, so now we can ask that question.
+[102.88s]  Is lipoprotein A-associated ASCVD risk higher in people with a relatively low waist-to-hip ratio?
+[109.76s]  We're going to have two groups for lipoprotein A, lower than 50 milligrams per deciliter,
+[114.68s]  which is quote-unquote low in blue, and relatively high lipoprotein A in red,
+[119.36s]  greater than 50 milligrams per deciliter.
+[121.76s]  And in terms of the waist-to-hip ratio,
+[123.62s]  it included people with an average waist-to-hip ratio of 0.83.
+[128.58s]  In terms of the cumulative incident curves, the blue and the red lines,
+[132.40s]  we can see that they overlap,
+[134.18s]  such that there was no significant difference between the cumulative incident rate
+[137.80s]  for people that had high or low lipoprotein A in conjunction with a low waist-to-hip ratio.
+[143.84s]  So from this, we can conclude that CVD risk is not relatively higher in people
+[148.22s]  who have a high lipoprotein A relative to low lipoprotein A and a low waist-to-hip ratio.
+[154.74s]  All right, so these were the lowest waist-to-hip ratios in the study.
+[158.80s]  What about at higher waist-to-hip ratios?
+[161.62s]  So now we're going to take a look at data for people who had an average waist-to-hip ratio of 0.93.
+[167.04s]  Again, same setup, low lipoprotein A in blue, relatively high in red.
+[171.82s]  And then here too, we can see that the cumulative incident rates for AS-CVD events over that 20-year span
+[178.72s]  overlapped.
+[179.96s]  In other words, there was no significant difference between cumulative incident rates
+[183.98s]  whether someone had low or high lipoprotein A and a relatively low waist-to-hip ratio with an average of 0.93.
+[191.72s]  So from this, here too, we can conclude that CVD risk is not relatively higher in people
+[196.66s]  with relatively high lipoprotein A greater than 50 mg per deciliter
+[200.80s]  and an intermediate waist-to-hip ratio.
+[204.42s]  All right, so how high can we go for the waist-to-hip ratio?
+[207.02s]  And is this effect still significant?
+[209.46s]  So now we're going to take a look at data for people who had an average waist-to-hip ratio of 1.0.
+[214.72s]  And when compared with the low lipoprotein A group,
+[217.48s]  now we can see that there is indeed some separation for cumulative incident rates.
+[221.30s]  And you can see by the log rank p-value, they are significantly different.
+[225.98s]  In other words, people who had a relatively high lipoprotein A,
+[229.32s]  greater than 50 mg per deciliter,
+[231.70s]  and for both groups that had a waist-to-hip ratio of 1.0,
+[236.42s]  their cumulative incident rates of having an ASCVD event was significantly higher
+[241.56s]  than people who had low lipoprotein A,
+[243.78s]  less than 50 mg per deciliter,
+[245.84s]  and also that 1.0 average waist-to-hip ratio.
+[248.98s]  So from these data, we can see that CVD risk is indeed higher in people who have a high,
+[254.88s]  relatively high lipoprotein A,
+[256.58s]  greater than or equal to 50 mg per deciliter,
+[258.94s]  and a high waist-to-hip ratio.
+[261.80s]  So what does this all mean?
+[264.00s]  Well, if your lipoprotein A is greater than 50 mg per deciliter,
+[267.90s]  get lean.
+[268.76s]  And what that'll do is it'll reduce waist circumference,
+[272.02s]  which is one part of the waist-to-hip ratio.
+[273.96s]  The other part is hip.
+[276.14s]  So in order to maximize or optimize hip circumference,
+[280.12s]  regular strength training,
+[281.30s]  including squats, deadlifts, and other compound movements,
+[284.50s]  would help resist any age-related decline for hip circumference.
+[288.10s]  And the goal there should then be to get the waist-to-hip ratio to less than 0.93
+[293.22s]  if one has a lipoprotein A value that's greater than 50 mg per deciliter,
+[297.82s]  as waist-to-hip ratio is less than 0.93.
+[300.24s]  We're not associated with an increased ASCVD risk,
+[303.64s]  regardless of lipoprotein A values.
+[306.30s]  If you've ever wondered what's optimal for biomarkers,
+[308.80s]  well, I have a new Patreon tier dedicated specifically to that.
+[311.98s]  It currently includes the 35 biomarkers shown here,
+[315.16s]  more than 2 hours of video content,
+[317.14s]  52 published references,
+[318.88s]  and note that these aren't the reference ranges.
+[321.12s]  It's what may be optimal based on the largest studies that exist
+[324.04s]  for how each of these biomarkers changes during aging
+[326.72s]  and or associations with all-cause mortality risk.
+[329.80s]  So if you're interested in that, check it out.
+[332.46s]  And if you're interested in more of my attempts to biohack aging,
+[335.22s]  check us out on Patreon,
+[336.34s]  where I offer blood test consoles,
+[338.30s]  but also post at least twice per day in four other Patreon tiers.
+[342.64s]  We've also got discount and affiliate links
+[344.90s]  that you can use to test yourself that help support the channel,
+[348.28s]  including ultalabtest.com,
+[349.94s]  which is where I get the majority of my blood testing done,
+[351.90s]  including lipoprotein A,
+[353.48s]  the clearly filtered water filter, which I use every day,
+[356.18s]  at-home metabolomics, I'm up to 21 tests,
+[358.48s]  oral microbiome composition,
+[360.54s]  NAD testing with Ginfinity,
+[362.36s]  epigenetic testing with True Diagnostic,
+[364.64s]  at-home blood testing with Cyfox Health,
+[366.36s]  which includes the best epigenetic clock of epigenetic clocks, Grimmage,
+[370.88s]  green tea, which has a bit of an issue now
+[372.94s]  because of the tariffs impacting Japan
+[374.66s]  to get green tea over here to the States,
+[376.54s]  but I'm still committed to them long-term
+[377.86s]  because I love their tea,
+[379.62s]  dietracking with Coronimeter,
+[380.94s]  or if you'd like to support the channel,
+[382.32s]  you can do that with the website, Buy Me A Coffee.
+[384.06s]  We've also got merch, including Data Is My North Star,
+[387.80s]  Figuring Stuff Out Is My Drug,
+[389.38s]  and the Conquer Aging or Dietrine logo,
+[391.64s]  which I've got on here.
+[393.14s]  Link in the video's description.
+[394.90s]  Thanks for watching.
+[395.98s]  Hope that you enjoyed the video.
+[397.36s]  Have a great day.

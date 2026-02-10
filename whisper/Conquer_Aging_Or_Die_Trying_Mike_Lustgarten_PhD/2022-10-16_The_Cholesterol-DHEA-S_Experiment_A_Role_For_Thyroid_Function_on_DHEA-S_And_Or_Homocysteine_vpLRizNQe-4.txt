@@ -1,0 +1,196 @@
+[0.00s]  In an earlier video, we saw that relatively low DHEA sulfate is a weakness in my data.
+[5.82s]  More specifically, we can see that here.
+[7.74s]  So on my last blood test on August 22nd, DHEA sulfate levels were 129 micrograms per deciliter.
+[14.58s]  Now, if I only focused on the reference range, I would miss this as a potential weakness in my data.
+[19.26s]  So why is that?
+[20.60s]  First, DHEA sulfate levels decline during aging.
+[23.76s]  So they increase up until about 20 years of age.
+[26.64s]  Afterwards, they decline up to 80 years old on this plot.
+[30.72s]  Now, when showing my most recent data of 129 micrograms per deciliter, which is 3.5 micromolar,
+[37.74s]  we can see that I'm low for my chronological age.
+[40.62s]  But potentially more importantly, I have two data points from my early 30s.
+[44.46s]  And when plotting that data, we can see that I was once relatively high, and now I'm relatively lower.
+[49.92s]  And if you look at the two lines, the red line and the black line, it looks like they're somewhat parallel.
+[54.42s]  In other words, it looks like I've experienced an age-related decline for DHEA sulfate,
+[59.02s]  at least based on these three blood tests.
+[61.98s]  So then, how is DHEA sulfate related to all-cause mortality risk, or ACM risk?
+[67.20s]  And we can see that here, we're looking at cumulative survival, or all-cause mortality risk,
+[70.96s]  on the y-axis plotted against follow-up.
+[73.12s]  And this was a long study that had a 27-year follow-up, although it only had about 400 subjects.
+[79.00s]  But note that the average age is pretty close to my chronological age, so this data may be
+[83.54s]  directly relevant to me.
+[85.52s]  So in that study, people that had DHEA sulfate levels that were less than 129 had a significantly
+[90.80s]  increased all-cause mortality risk when compared with people who had higher levels of DHEA sulfate.
+[96.08s]  In this case, it was more than 200 micrograms per deciliter.
+[99.68s]  So from that, we can see that a DHEA sulfate level of 129 micrograms per deciliter puts me
+[104.90s]  at increased all-cause mortality risk.
+[106.70s]  So then, how can I raise DHEA sulfate back to youthful and or healthy levels?
+[112.84s]  And note that DHEA sulfate is produced by cholesterol degradation, and we saw that starting
+[117.48s]  with cholesterol, that's converted into pregnenolone, which is hydroxylated into 17-hydroxypregnenolone,
+[123.08s]  which is then converted into DHEA, and then DHEA sulfated to form DHEA sulfate.
+[128.62s]  So to me, it made the most sense to raise blood levels of a cholesterol, and if blood cholesterol,
+[134.30s]  since that's degraded to form DHEA sulfate, I'd expect that my levels of DHEA sulfate would
+[139.28s]  then increase.
+[140.74s]  So note that I've tracked diet in conjunction with blood biomarkers since 2015, and so then
+[145.54s]  I can see which nutrient is most strongly correlated with blood levels of cholesterol in order to
+[150.70s]  affect DHEA, potentially affect DHEA sulfate levels.
+[154.28s]  So in my data, and I know that there are published studies showing that dietary cholesterol doesn't
+[158.86s]  impact blood levels of cholesterol, but in my data, when comparing those two metrics, dietary
+[164.16s]  cholesterol and blood cholesterol, 39 blood tests since 2015, and we can see that there,
+[169.26s]  blood cholesterol on the y-axis plotted against the average daily dietary cholesterol intake
+[173.26s]  on the X, we can see a significant correlation between those two.
+[177.10s]  In other words, when I've had a higher dietary cholesterol intake, blood levels of cholesterol
+[181.64s]  are also correspondingly higher.
+[184.74s]  And note that, again, this is a correlation that's not causation.
+[188.28s]  So from that, that raises the hypothesis.
+[190.60s]  If I increase dietary cholesterol, I should expect to see an increase in blood cholesterol,
+[194.58s]  and then I'd expect to have relatively higher levels of DHEA sulfate when compared with my
+[199.80s]  last test.
+[200.98s]  So to test that hypothesis, I used at-home blood testing, and I used the company known as
+[205.92s]  Quantify, and one reason is because their mission is to radically increase human lifespan,
+[210.74s]  and if you're familiar with the name of my channel, it's to conquer aging or die trying.
+[215.38s]  So our models align.
+[219.36s]  All right, and if you're interested in measuring your own DHEA sulfate or other biomarkers, I
+[223.38s]  have a discount link for Quantify, and that will be in the video's description.
+[227.20s]  So then I have 16 blood tests.
+[228.98s]  For the first 12 blood tests, dietary cholesterol, my average intake was 22 milligrams per day.
+[234.44s]  And then I added eggs and then measured DHEA sulfate for the next four tests on the next
+[240.38s]  day.
+[240.84s]  So my average dietary cholesterol, I increased it up to about 212 milligrams per day, and
+[246.82s]  we can see that the p-value when comparing those two groups, there was a significant increase
+[251.30s]  for dietary cholesterol when comparing the 12 tests versus the four tests.
+[255.24s]  All right, so then four at-home DHEA sulfate blood tests the day after egg intake.
+[259.36s]  Let's take a look at that data to see if it worked.
+[262.30s]  And we can see that here.
+[263.32s]  So next morning, DHEA sulfate versus dietary cholesterol as shown there.
+[267.70s]  So for the first 12 tests, with that average dietary cholesterol of 22 milligrams per day,
+[272.26s]  my average DHEA sulfate was about 119 micrograms per deciliter.
+[276.70s]  And then after including eggs in my diet and measuring DHEA sulfate on the very next day,
+[282.84s]  we can see that my average DHEA sulfate over those four tests was 105 micrograms per deciliter.
+[288.72s]  Now, besides looking at averages between the two groups, we can compare them statistically
+[292.38s]  with a two-sample t-test.
+[294.10s]  And when I did that, these two groups are not significantly different.
+[296.80s]  In fact, one could argue there's a trend towards lower DHEA sulfate with the inclusion
+[301.08s]  of more dietary cholesterol, but note that those two groups of data aren't significantly
+[305.12s]  different.
+[305.66s]  So there was no effect of a higher dietary cholesterol intake on my DHEA sulfate.
+[311.32s]  But note that the dietary cholesterol increase didn't raise blood levels of cholesterol.
+[315.74s]  And I know that because Quantify also provided that data on the same day that I also have
+[320.70s]  DHEA sulfate data.
+[322.58s]  So blood levels of total cholesterol for the first 12 tests, when compared with the next
+[326.90s]  four tests, was 106 milligrams per deciliter for both.
+[330.68s]  And the p-value was 0.46.
+[332.66s]  So in other words, total cholesterol, blood levels of cholesterol didn't change as a result
+[337.54s]  of having more dietary cholesterol for those four tests.
+[342.40s]  So we can see that there.
+[343.74s]  So in terms of addressing the hypothesis, I did increase dietary cholesterol, but that
+[348.92s]  didn't affect blood levels of cholesterol.
+[351.14s]  And correspondingly, there was no effect on DHEA sulfate.
+[354.58s]  Now, if total cholesterol impacts DHEA sulfate, in my case, it may be different for others.
+[359.22s]  I'd expect a significant correlation between those two, between total cholesterol and DHEA
+[363.70s]  sulfate.
+[364.18s]  If I'm going to continue with this hypothesis, should I just increase cholesterol further
+[367.90s]  or just trash it and go after something else?
+[370.56s]  So note that total cholesterol is not significantly correlated with DHEA sulfate over those 16 tests.
+[376.90s]  So that would argue against going after increasing blood levels of cholesterol as a strategy to increase DHEA sulfate.
+[384.02s]  So note that there may be a more direct way to increase DHEA sulfate.
+[388.46s]  And then I noted, besides supplementation, of course, I can already hear people saying,
+[392.12s]  well, just supplement, fix the problem like that, and problem solve.
+[394.84s]  But that doesn't address why my DHEA sulfate is low, and it doesn't get at the root.
+[399.74s]  And I want to get at the root so that I can potentially improve that situation, you know,
+[404.46s]  improve the root cause rather than put a Band-Aid on the problem.
+[408.58s]  So note that I was diagnosed with hypothyroidism in my 20s.
+[411.88s]  And since then, I've been taking levothyroxine, also known as T4.
+[415.72s]  So my current dose is 137.5 micrograms per day.
+[419.14s]  So is there a link between thyroid function with DHEA sulfate?
+[424.04s]  So there is.
+[424.92s]  DHEA sulfate is decreased in hypothyroidism.
+[427.46s]  And we can see that here.
+[428.40s]  So this is blood levels of DHEA sulfate in people that had an average age of 37 years.
+[433.68s]  And in the hypothyroid cases, people diagnosed as hypothyroid,
+[437.96s]  their average DHEA sulfate was 2.57 micrograms per mil.
+[443.52s]  When compared with relatively healthy controls, which had 3.38,
+[446.72s]  these two groups of data were significantly different.
+[449.44s]  In other words, people that were diagnosed as hypothyroid had significantly lower DHEA sulfate
+[453.98s]  when compared with healthy controls.
+[455.88s]  Now, one study is nice.
+[457.48s]  More studies help to see if this may be a real effect or not.
+[461.02s]  In a second study where they compared hypothyroid patients with healthy controls,
+[465.38s]  and in this case, the age range was closer to my chronological age of about 50,
+[470.06s]  we can again see that the hypothyroid patients had significantly lower levels of DHEA sulfate,
+[474.88s]  red arrow, when compared with the healthy controls, green arrow.
+[479.00s]  Now, note that hypothyroidism doesn't indicate if it's too much TSH,
+[483.90s]  or if TSH is too high, or T4 is low, T3 is low.
+[488.32s]  It doesn't indicate which aspect of being classified as hypothyroid may be related to DHEA sulfate.
+[494.24s]  So relatively higher as a free T3 are significantly correlated with higher levels of DHEA sulfate
+[499.62s]  as one potential factor, one potential mechanism.
+[502.18s]  And we can see that here.
+[503.80s]  So serum levels of DHEA sulfate were significantly correlated with FT3, which is free T3.
+[510.94s]  And we can see the correlation there and the p-value being statistically significant.
+[514.62s]  So in other words, the higher that the levels of free T3 were in this study,
+[521.18s]  DHEA sulfate was also relatively higher.
+[524.60s]  So that then raises the question, what are my levels of thyroid hormones, including free T3?
+[530.48s]  What's my data?
+[532.06s]  So for that, I also used at-home blood testing.
+[534.90s]  And this is from a test on October 3rd, so just a couple of weeks ago.
+[539.04s]  Quantify doesn't currently have a thyroid panel, so I used a different at-home blood testing company.
+[544.34s]  So what's my data?
+[546.46s]  So first, starting with thyroid-stimulating hormone, TSH, and thyroxin, or free T4.
+[552.68s]  Both of those data were within the reference range.
+[555.24s]  Now, note that if you follow my channel and watch a lot of my videos,
+[559.74s]  the reference range is usually not what's optimal for health and longevity.
+[563.26s]  So along those lines, what's optimal for thyroid function, including these three markers of thyroid function,
+[569.14s]  will be in a future video.
+[570.86s]  All right, so what about free T3, as shown there?
+[573.74s]  Well, we can see that my free T3 is low, especially low relative to the reference range,
+[579.40s]  regardless in terms of what's optimal.
+[581.68s]  So if I increase my free T3, when considering data on the last slide,
+[586.50s]  that free T3 was associated with relatively higher levels of DHEA sulfate,
+[590.82s]  if I increase that, will DHEA sulfate also increase?
+[593.70s]  So that's my current goal for increasing DHEA sulfate.
+[597.52s]  I'm going to have to meet with my doctor and probably have to go to the endocrinologist
+[600.82s]  to adjust my thyroid dose, and then we'll have to see how that turns out in terms of DHEA sulfate.
+[605.76s]  Now, interestingly, adjusting my T3 or T4 dose in order to raise my T3 levels may also impact homocysteine,
+[613.92s]  which if you're familiar with my data, my most recent value was 12, which is aged,
+[618.18s]  which is higher than what's expected based on my chronological age.
+[622.12s]  So we can see that data here.
+[623.70s]  When comparing patients, subclinical hypothyroid patients, SCH is shown there.
+[629.98s]  So this is where they've got elevated TSH, but normal T4, and if you look at that data here on this graph or on this plot,
+[636.48s]  you can see that TSH was indeed higher in the people who had subclinical hypothyroidism,
+[640.70s]  but T4 was not different when compared with healthy controls.
+[644.00s]  Nonetheless, when you look at homocysteine levels in the subclinical hypothyroid group,
+[649.26s]  homocysteine was significantly higher when compared with healthy controls.
+[652.86s]  Now, note that this is an observational study, and, you know, again, correlation does improve causation,
+[658.00s]  but we can more directly address whether thyroid function may be related to homocysteine
+[662.88s]  by looking at randomized controlled trials, RCTs, that included hypothyroid patients that were treated with thyroid hormone.
+[670.06s]  And we can see that data here.
+[671.36s]  So homocysteine is indeed reduced in hypothyroid patients that were treated with levothyroxine,
+[676.08s]  again, also known as T4.
+[677.86s]  So on the y-axis, we're looking at plasma levels of homocysteine,
+[681.30s]  and then we've got two groups, or actually one group, but two different situations.
+[686.10s]  In the first, they were hypothyroid, and in this case, they had very poor thyroid function,
+[692.20s]  where their TSH was greater than 25.
+[695.02s]  So in the previous studies, it was greater than 5 for subclinical hypothyroidism.
+[699.08s]  This is like full-blown hypothyroidism where the TSH is dramatically elevated.
+[704.68s]  And then these patients were treated with levothyroxine in order to restore thyroid status,
+[710.48s]  which is known as euthyroid, and that therapy lasted from 3 to 9 months.
+[714.98s]  So in looking at the data from the left compared to the right,
+[718.82s]  we can see that homocysteine values were 14.1 when they were hypothyroid,
+[722.58s]  and after restoration of thyroid status, so now they're euthyroid,
+[727.04s]  their homocysteine levels significantly declined to 8.2.
+[730.76s]  So there's a 44% reduction for homocysteine upon restoration of thyroid hormone status.
+[736.40s]  So that then raises the question,
+[737.96s]  will adjusting my relatively low levels of free T3 increase DHEA sulfate and or decrease homocysteine?
+[745.24s]  And I don't have that data yet, but stay tuned for that data in a future video.
+[749.46s]  All right, that's all for now.
+[751.12s]  If you're interested in more about my attempts to biohack aging, check us out on Patreon.
+[755.26s]  And before you go, we've got some discount links,
+[757.28s]  including at-home blood testing with Quantify,
+[759.64s]  oral microbiome composition with Bristle,
+[762.02s]  epigenetic testing with True Diagnostic,
+[764.28s]  dietracking with Cronometer,
+[765.62s]  or if you'd like to support the channel, you can do that with the website,
+[768.44s]  Buy Me A Coffee, and all of those discount links will be in the video's description.
+[771.58s]  Thanks for watching.
+[773.24s]  I hope that you enjoyed the video.
+[774.64s]  Have a great day.

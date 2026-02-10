@@ -1,0 +1,233 @@
+[0.00s]  When we eat fatty fish or fish oil, we get an initial plasma rise for the fish oil fatty acids, EPA and DHA,
+[9.24s]  which can then be incorporated into red blood cell membranes.
+[12.94s]  When that happens, this is known as the omega-3 index, which measures the percentage of EPA and DHA in red blood cell membranes.
+[21.42s]  Now, the omega-3 index is potentially important because it's associated with cardiovascular disease-related outcomes,
+[27.82s]  such that when the omega-3 index is less than 4%, that's associated with a high risk for CBD-related outcomes.
+[35.44s]  And on the other hand, when the omega-3 index is greater than 8%, that's associated with a lower risk for CBD-related outcomes.
+[42.82s]  Now, others have covered the omega-3 index in this space, so I won't go into it in this video.
+[47.50s]  But what I want to highlight is that there are biomarkers of the omega-3 index.
+[51.92s]  So we don't have to measure the omega-3 index. There are other biomarkers that we can use to evaluate its status.
+[57.86s]  And one of those biomarkers are levels of these two phosphatidylcholines, 36-5,
+[63.52s]  which is a phosphatidylcholine that has 36 carbons and 5 double bonds,
+[67.60s]  and another phosphatidylcholine that has 38 carbons and 6 double bonds, or 38-6.
+[73.14s]  And these two phosphatidylcholines are biomarkers of the omega-3 index.
+[77.06s]  And before jumping into that data, first, let's define what phosphatidylcholines actually are,
+[82.30s]  because this may be a new concept for many people.
+[84.98s]  So phosphatidylcholines are structurally similar to di- and triglycerides,
+[89.92s]  as they have a glycerol backbone, and then they have two fatty acids connected at two of the positions of the glycerol backbone.
+[96.54s]  So that would make them structurally similar to a diglyceride,
+[99.42s]  as a diglyceride has also two fatty acids connected to the glycerol backbone.
+[104.88s]  Now, where it differs from a triglyceride, which would have three fatty acids on the glycerol backbone,
+[110.12s]  phosphatidylcholines have a phosphocholine head group.
+[114.30s]  So phosphatidylcholines, again, have two fatty acids and a phosphocholine head group.
+[118.90s]  And that's what we'll see here.
+[120.70s]  So starting off with the phosphatidylcholine that has 36 carbons and 5 double bonds, or PC-36-5,
+[126.90s]  we can see first the glycerol backbone.
+[130.16s]  And then in the first fatty acid position, it's fatty acid 16-0.
+[133.82s]  That's a fatty acid, saturated fatty acid, that has 16 carbons and no double bonds.
+[139.62s]  This is palmitate, or palmitic acid.
+[142.70s]  In the second position, it has a fatty acid with 20 carbons and 5 double bonds.
+[147.40s]  And this is the fish oil fatty acid, EPA.
+[150.58s]  So PC-36-5, at one of its fatty acid positions, has EPA, or contains EPA.
+[156.84s]  And in the third position, as I mentioned, you can see the PC, or phosphatidylcholine, head group.
+[164.46s]  Or what about PC-38-6, 38-carbon, 6 double bonds?
+[168.66s]  Here we can see in the first position, it has the same saturated fatty acid, palmitate.
+[173.16s]  In the second position, it has a fatty acid with 22 carbons and 6 double bonds.
+[178.06s]  And this is DHA.
+[179.38s]  So these two phosphatidylcholine metabolites, PC-36-5 and 38-6, contain EPA and DHA, respectively.
+[188.84s]  Now, I mentioned that these two phosphatidylcholines are biomarkers of the omega-3 index,
+[193.08s]  and it's not just because they contain EPA and DHA.
+[195.92s]  There's a study that looked at their direct correlation, which is what we can see here.
+[200.68s]  So on the y-axis, we've got the sum in plasma for the levels of those two phosphatidylcholine metabolites,
+[206.26s]  36-5 and 38-6.
+[207.98s]  And that's plotted against the omega-3 index.
+[210.98s]  Again, this is the percentage of EPA and DHA in red blood cell membranes.
+[215.26s]  So one is a plasma measure, and another is a measure of the concentration
+[219.26s]  or the content of these two fish oil fatty acids in the membranes.
+[223.66s]  In terms of the correlation, we can see that there.
+[225.88s]  And this is a strong correlation, as that correlation coefficient is greater than 0.7.
+[231.36s]  Anything greater than 0.7 is considered a strong correlation.
+[234.62s]  And it's a significant correlation, as that p-value is far below a significant threshold of less than 0.05.
+[241.18s]  All right, so then the next obvious question to ask is,
+[244.94s]  when is the sum of these two phosphatidylcholine associated with an omega-3 index greater than 8%
+[251.08s]  as the goal would be to reduce risk for cardiovascular disease outcomes
+[255.26s]  for those that may want to measure levels of these two phosphatidylcholine metabolites?
+[259.54s]  So based on extrapolation of the data here, we can see that when the sum of these two phosphatidylcholine
+[265.62s]  is greater than about 60 micromolar, that's correlated with an omega-3 index greater than 8%.
+[271.62s]  So in terms of what's optimal, that would be my target value,
+[275.04s]  having levels of these two phosphatidylcholine greater than 60 micromolar consistently for every test
+[280.08s]  with the goal of reducing cardiovascular disease outcome-related risk.
+[284.00s]  Now, this isn't just a health and longevity news channel.
+[287.78s]  I'm also focused on health and longevity potentially optimization.
+[292.00s]  So with that in mind, what's my data?
+[294.20s]  So to find out, I've been using at-home metabolomics,
+[297.04s]  which includes levels of these two phosphatidylcholine metabolites,
+[300.54s]  but also more than 600 other metabolites.
+[304.08s]  And if you want to use this kit yourself, which I've covered in many videos on the channel,
+[308.22s]  discount link in the video's description.
+[310.64s]  All right, so on to my data.
+[312.00s]  And we're going to see the sum of these two phosphatidylcholine from 2023,
+[316.52s]  when I first started tracking, to 2025.
+[318.84s]  And I had 19 tests over that about three-year period, which is what we'll see here.
+[323.94s]  On the y-axis, we've got the sum of those two phosphatidylcholine plotted against time.
+[329.04s]  Now, over the first five tests in 2023,
+[331.78s]  average levels of these two phosphatidylcholine was 98 micromolar.
+[335.72s]  In 2024, over nine tests, average was 89 micromolar.
+[339.92s]  And in 2025, after the first five tests, 80 micromolar.
+[344.24s]  So if you remember, what's optimal for the sum of these two phosphatidylcholines,
+[347.96s]  at least based on their correlation with the omega-3 index,
+[350.86s]  it's greater than 60 micromolar.
+[352.96s]  So for almost all of these tests, and when looking at year-to-year change,
+[357.24s]  we can give that a checkmark,
+[358.36s]  as I've consistently been greater than 60 micromolar for almost all tests, except for one.
+[363.26s]  But note that the trend line is going in the wrong direction.
+[367.52s]  And if I'm not trying to get better, at worst, I'll stay the same and potentially get worse.
+[372.18s]  So I want to know what may be underlying keeping levels of these two phosphatidylcholines
+[377.24s]  relatively high, resisting their age-related change.
+[380.32s]  So again, so that I can potentially reduce CBD-related risk, CBD outcome-related risk.
+[386.24s]  So with that in mind, which factors are correlated with higher levels of these two phosphatidylcholines?
+[391.28s]  So first, and the most obvious, would be fish intake.
+[395.58s]  Since 2015, every day I've eaten sardines, at least one can of sardines.
+[400.56s]  So that would be the most obvious place to start.
+[403.78s]  And in terms of which brand that I use, it's shown there.
+[406.14s]  It's the Crown Prince Sardines, skinless and boneless in olive oil.
+[409.72s]  I drained the olive oil before eating the sardines, though.
+[413.10s]  All right, so on to the data.
+[414.54s]  On the y-axis, we've got the sum of those two phosphatidylcholines
+[417.84s]  plotted against my average daily sardine intake.
+[420.70s]  And for those who may wonder how I'm able to calculate correlations,
+[424.16s]  because I've weighed all of my food since 2015,
+[427.42s]  and entered that data into a diet-tracking app, Cronometer,
+[430.92s]  and if you want to use Cronometer yourself, there's a discount link in the video's description,
+[434.70s]  I then pulled the Cronometer data into a spreadsheet,
+[437.90s]  and then every blood test has a corresponding average dietary intake.
+[442.34s]  So for example, if there are 50 days in between tests,
+[445.74s]  because I'm tracking diet in conjunction with blood and other biomarkers,
+[449.20s]  I can take the average of those 50 days, and then it lines up with the latter blood test.
+[453.86s]  And with enough blood tests or other biomarkers,
+[456.08s]  I can look at correlations, which is what we can see here.
+[460.02s]  So there is a positive correlation in my data for sardine intake
+[463.92s]  with higher levels of these two phosphatidylcholines,
+[467.20s]  but note the p-value is outside of that significance threshold of less than 0.05.
+[473.16s]  So technically, and surprisingly, sardine intake,
+[476.70s]  and this is where I get the majority of my fish oil fatty acids from,
+[480.60s]  for almost no tests, maybe one test out of 60 plus tests since 2015,
+[485.30s]  have I supplemented with fish oil,
+[487.28s]  and salmon has made very rare appearances in my diet over the past 10 years.
+[491.50s]  It's almost exclusively from sardines.
+[494.44s]  So with that in mind, and when looking at these data,
+[496.52s]  this would suggest that sardine intake is not significantly correlated
+[499.52s]  with levels of these two phosphatidylcholines that are biomarkers of the omega-3 index,
+[504.32s]  which then raises the question,
+[505.98s]  what is significantly correlated with the sum of these two phosphatidylcholines?
+[509.98s]  So to address that, I looked at correlations for 53 foods
+[513.30s]  versus the sum of these two phosphatidylcholines.
+[516.68s]  And first, we'll start off with foods that were positively correlated.
+[520.14s]  In other words, higher levels of the food are correlated
+[522.44s]  with higher levels of the sum of these two phosphatidylcholines.
+[525.66s]  And I have 19 tests.
+[526.94s]  Again, I have 19 tests over that about three-year period.
+[530.76s]  So that's what we'll see here.
+[532.72s]  And starting off with sardines, just to put it into perspective,
+[536.44s]  I included sardines so that we can see where it ranks compared to other foods.
+[541.64s]  Atop the list, though, we can see that it's not sardines,
+[544.00s]  and it's three other foods that meet that statistical significance threshold
+[547.58s]  of less than 0.05, cloves, corn, and bananas.
+[551.46s]  So these data suggest that when my intake of these three foods is relatively higher,
+[556.60s]  that's significantly correlated, for whatever reason,
+[559.60s]  with higher levels of these two phosphatidylcholines
+[562.26s]  that are biomarkers of the omega-3 index.
+[564.42s]  And if you remember earlier, I mentioned that when we eat fish,
+[567.90s]  fatty fish or fish oil, that can lead to an initial rise for EPA and DHA.
+[573.08s]  But that's only one half of the equation.
+[575.34s]  The other half of the equation is EPA and DHA can be degraded and metabolized
+[580.16s]  in other metabolic pathways.
+[581.56s]  So sure, we can increase intake, but if degradation is also high,
+[585.52s]  we won't see a relatively high omega-3 index.
+[588.68s]  And that there are other foods that are more strongly correlated relative to sardines,
+[592.52s]  again, the major source of my fish oil fatty acids.
+[595.26s]  It suggests that maybe cloves, corn, and banana may be involved in mechanisms
+[598.90s]  that help keep levels of these two phosphatidylcholines high.
+[603.50s]  But this is only half of the story.
+[605.50s]  What about foods that are negatively correlated with the sum of these two phosphatidylcholines?
+[609.70s]  A given biomarker may be impacted not just by foods or nutrients that can increase it,
+[615.22s]  but also foods or nutrients that may decrease it.
+[618.32s]  So I also included the top portion of that list here using 0.13,
+[622.72s]  which is the significance threshold for sardines.
+[625.48s]  And if you want to see the full correlation list,
+[627.86s]  that's in the correlations tier on Patreon.
+[631.32s]  Atop the list, we can see that there are two foods that mean a statistical significance threshold
+[635.56s]  less than 0.05, tomato and eggs.
+[638.22s]  And these data suggest that when tomato and eggs are on the higher side of my intake range,
+[643.82s]  that's significantly correlated with lower levels of these two phosphatidylcholines.
+[647.46s]  Again, for whatever reason, I don't know what mechanism that they would be involved in.
+[651.80s]  All right, so what do I then do with this information?
+[653.96s]  I've got foods that are associated with higher levels of these two phosphatidylcholines
+[658.28s]  and foods that are correlated with lower levels.
+[660.46s]  So for the most recent test, which I took in mid-September,
+[665.04s]  I aimed for higher levels of cloves and corn.
+[668.58s]  And if correlation equals causation,
+[670.70s]  and if these foods are involved in mechanisms that help keep levels of these phosphatidylcholines high,
+[675.64s]  keeping them towards the higher end of my range should help keep these metabolites relatively high.
+[680.42s]  On the other hand, I didn't follow the correlation with the banana
+[683.80s]  as I tried to reduce my fructose intake to try to push RDW down
+[688.48s]  based on a correlation for total fructose with RDW.
+[692.02s]  Also note that sardines were on the lower side of my range.
+[695.56s]  Again, I haven't taken them out, but on the lower side of my range.
+[698.70s]  So we'll have to see if following two correlations and not following two correlations
+[703.02s]  that are positively correlated with these metabolites
+[705.18s]  can make a dent or make a positive impact
+[707.78s]  on levels of these fish oil fatty acid containing phosphatidylcholines.
+[712.30s]  On the other hand, for the foods that were negatively correlated
+[715.74s]  with the sum of these two phosphatidylcholines,
+[717.94s]  I also didn't follow the tomato correlation
+[720.06s]  as tomatoes are significantly correlated with a lot more biomarkers
+[723.32s]  going in the right direction than wrong.
+[725.10s]  Aside from their correlation, its correlation with phosphatidylcholines.
+[728.86s]  But I did follow the correlation with eggs
+[731.02s]  as I kept that on the lower side of my range.
+[733.84s]  So collectively, I followed three correlations
+[735.94s]  and I didn't follow three correlations.
+[737.92s]  In terms of how the data will look for test number 20,
+[740.60s]  we'll have to wait about a month
+[741.72s]  because that's how long it takes for the metabolomic data to arrive.
+[745.42s]  If you've ever wondered what's optimal for biomarkers,
+[748.28s]  well, I have a new Patreon tier dedicated specifically to that.
+[751.58s]  It currently includes the 35 biomarkers here
+[753.86s]  with more than two hours of video content, 52 published references.
+[758.18s]  And these aren't the reference ranges.
+[760.04s]  This is what may be optimal for each of these biomarkers
+[762.62s]  based on how they change during aging
+[764.50s]  and or their associations with all cause mortality risk
+[767.72s]  in the largest published studies that I can find.
+[770.48s]  So if you're interested in that, check it out.
+[772.74s]  And if you're interested in more of my attempts to biohack aging,
+[775.74s]  check us out on Patreon,
+[776.82s]  where I post at least twice per day in five Patreon tiers.
+[780.60s]  We've also got discount and affiliate links
+[782.66s]  that you can use to test yourself that help support the channel,
+[785.60s]  including ultalabtest.com,
+[787.24s]  which is where I get the majority of my blood tests done,
+[789.66s]  the clearly filtered water filter, which I use every day,
+[792.32s]  at-home metabolomics, which I mentioned in the video,
+[794.70s]  or a microbiome composition,
+[796.26s]  NAD testing with Genfinity,
+[798.04s]  epigenetic testing with True Diagnostic,
+[800.24s]  at-home blood testing with Cyfox Health,
+[801.88s]  which includes the best epigenetic clock of epigenetic clocks,
+[804.96s]  Grimmage,
+[805.88s]  green tea, which I drink every day,
+[807.82s]  diet tracking with chronometer,
+[808.98s]  or if you'd like to support the channel,
+[810.44s]  you can do that with the website, buy me a coffee.
+[812.60s]  We've also got merch,
+[813.96s]  including Data is My North Star,
+[815.92s]  Figuring Stuff Out is My Drug,
+[817.26s]  which I've got on here,
+[818.50s]  and the Conquer Aging or Dietrying logo,
+[821.34s]  as shown there.
+[822.42s]  So if you're interested in any of that,
+[823.82s]  link in the video's description.
+[825.44s]  Thanks for watching.
+[826.62s]  I hope that you enjoyed the video.
+[828.06s]  Have a great day.

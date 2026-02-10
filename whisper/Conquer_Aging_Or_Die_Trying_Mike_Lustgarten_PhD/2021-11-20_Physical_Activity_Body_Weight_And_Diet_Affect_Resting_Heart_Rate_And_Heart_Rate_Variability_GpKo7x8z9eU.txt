@@ -1,0 +1,434 @@
+[0.32s]  Resting heart rate and heart rate variability.
+[2.56s]  How are they impacted by physical activity, body weight, and diet?
+[6.14s]  So first, let's define a few terms.
+[8.18s]  So the resting heart rate, or RHR, is the heart rate in beats per minute, BPM, while at rest.
+[14.52s]  And the heart rate variability, HRV, is the variability for the time in between heartbeats.
+[19.84s]  So if your heart rate is 60 beats per minute, the assumption is that it beats once every second.
+[24.28s]  But there's variability in how often the heart beats.
+[26.84s]  It may be once every 0.9 seconds, every 1 second, 1.1 seconds, etc.
+[32.12s]  So that variability is the heart rate variability.
+[34.78s]  All right, so how does the resting heart rate change during aging?
+[37.72s]  So this is a study of 90,000 plus people.
+[40.26s]  We've got average resting heart rate on the y-axis plotted against age from 20 to 85 years.
+[45.54s]  And what we can see is that for both women in green and men in blue,
+[49.40s]  the resting heart rate increases up until about 50 years,
+[52.22s]  after which it then decreases all the way up to 85.
+[54.90s]  What about HRV?
+[56.54s]  How does that change during aging?
+[58.08s]  So this is from a much larger study of 8.2 million plus subjects.
+[62.46s]  And here we're looking at the RMSSD.
+[64.92s]  That's the root mean squared of successive differences.
+[67.60s]  That's one metric for measuring heart rate variability plotted against age.
+[71.72s]  And in this case, it's going from 20 to 60 years.
+[74.18s]  And what we can see is when delineating the line for men in blue, but the data for women is similar,
+[80.10s]  we can see that heart rate variability is somewhere in the 70s for a 20-year-old,
+[85.98s]  and then it declines to about half that in 60-year-olds for both men and women.
+[90.26s]  And note, that's for heart rate variability measured in the morning at 6 in the morning.
+[93.14s]  For people that measured at 6 o'clock at night, we can see a similar trend in the dashed blue and red lines.
+[99.40s]  So in advanced age, on both of these graphs, we can see that that's characterized by relatively low resting heart rate
+[107.20s]  and also a low heart rate variability.
+[109.66s]  In contrast, youth is characterized by relatively low resting heart rate,
+[113.26s]  at least when compared with 50-year-olds, but also a high heart rate variability.
+[117.30s]  So with the goal of being chronologically old, but biologically young,
+[121.22s]  which factors can impact resting heart rate and heart rate variability?
+[124.62s]  And as mentioned in the opening, today I'm going to go through data for physical activity, body weight, and diet.
+[130.48s]  So in terms of a measure of daily physical activity, the fitness tracker that I use also gives me data
+[136.54s]  not just for resting heart rate and heart rate variability, but the average daily heart rate,
+[140.76s]  so the heart rate for the whole day, not just at rest while I'm sleeping in the morning.
+[144.62s]  So is the average daily heart rate significantly correlated with resting heart rate or heart rate variability?
+[151.08s]  And that's what we can see here.
+[152.42s]  So the resting heart rate on the y-axis plotted against my average daily heart rate for each day on the X.
+[158.44s]  And what we can see is that the more active that I am on each day,
+[161.68s]  that's significantly correlated with a higher next day resting heart rate, significantly correlated.
+[166.96s]  Conversely, the more active that I am, as indicated by the average daily heart rate,
+[171.06s]  we can see that heart rate variability is significantly lower.
+[173.60s]  Now, this raises the interesting idea, you know, about the optimal physical activity dose
+[178.72s]  that can minimize next day variations in heart rate variability and resting heart rate,
+[183.00s]  while also maximizing fitness.
+[184.64s]  And that's beyond the scope of this video.
+[186.18s]  I'll probably address that in a future video.
+[188.44s]  Actually, I'll investigate it in my data first and then present it in a future video.
+[193.08s]  All right, so what about body weight?
+[194.34s]  Is that correlated with heart rate variability and resting heart rate?
+[197.02s]  So that data is here.
+[197.98s]  And I should mention that the data for physical activity, I only had the idea to measure or to start tracking,
+[203.10s]  recording and tracking my average daily heart rate in March of 2020.
+[206.62s]  Although my fitness tracker has provided that since I started tracking in August of 2018,
+[211.32s]  I didn't have the idea to record that.
+[213.20s]  I didn't see the usefulness of it until, unfortunately, March of last year.
+[216.98s]  But I've been tracking and recording my resting heart rate and heart rate variability since August of 2018.
+[222.20s]  So I have almost 1,200 days of data that correspond to my body weight, my morning body weight,
+[227.80s]  which I've been measuring every day in the morning since 2015.
+[231.32s]  So again, I've got about 1,200 days of data for correlations between resting heart rate on the y-axis
+[236.32s]  against body weight on the x.
+[238.30s]  And what we can see is that the higher my body weight,
+[241.02s]  that's significantly correlated with a higher resting heart rate.
+[243.68s]  And remember, youth is characterized by relatively lower resting heart rates,
+[247.32s]  but also higher heart rate variability.
+[249.04s]  Conversely, we can see now that the higher my body weight,
+[254.74s]  the lower my heart rate variability,
+[256.68s]  significantly lower as shown there by the p-value and the correlation coefficient, little r.
+[262.14s]  So this also raises a question, you know,
+[263.92s]  what body weight optimizes both resting heart rate and heart rate variability?
+[267.62s]  And as we can see for both data,
+[270.32s]  somewhere around 151 pounds results or is correlated with my lowest resting heart rate,
+[276.02s]  but also my highest heart rate variability.
+[277.70s]  So I'm currently around 155 and slowly working towards getting back towards 150, 151,
+[283.52s]  and even, you know, lower if I can get there and sustain it.
+[287.62s]  Now, note that for a given average daily heart rate,
+[290.62s]  having a higher body weight on that day would result in a more daily exertional strain.
+[295.50s]  In other words, if my average daily heart rate is 60 beats per minute,
+[298.12s]  and I weigh 150 pounds versus weighing 160 pounds,
+[301.40s]  because I'm carrying 10 pounds more weight,
+[303.10s]  that's an overall greater daily exertion or daily strain
+[306.44s]  when compared with only using the average daily heart rate.
+[309.92s]  So we can combine both those metrics,
+[312.74s]  body weight and the average daily heart rate,
+[314.46s]  into a daily strain or a daily exertion metric by multiplying them both
+[318.50s]  and then comparing them against resting heart rate and heart rate variability.
+[321.88s]  So that's what's shown here.
+[323.04s]  So on the y-axis, we've got resting heart rate plotted against this metric of daily exertion or daily strain.
+[328.56s]  And we can see that the higher my daily strain,
+[330.62s]  that's significantly correlated with a higher next day resting heart rate,
+[333.84s]  again, going in the wrong direction.
+[335.50s]  And also going in the wrong direction with a higher daily exertion or a higher daily strain
+[339.82s]  is my heart rate variability,
+[341.86s]  where we can also see significantly lower HRV for a higher daily strain or daily exertion.
+[347.94s]  So let's put that data aside for now.
+[351.00s]  We'll come back to it in a minute.
+[352.22s]  I'm going to show some data where we adjust our models for this exertion metric,
+[356.40s]  but also with some dietary variables.
+[358.82s]  So shifting over to diet,
+[360.20s]  how does diet correlate with resting heart rate and heart rate variability?
+[363.74s]  So the first obvious metric for diet would be calorie intake.
+[368.66s]  And that's what's plotted here.
+[369.96s]  So we've got resting heart rate on the y-axis plotting as my daily calorie intake.
+[373.78s]  And for those who don't know, I've been weighing all my food since 2015
+[376.14s]  and then tracking it and logging it into an Excel file.
+[379.42s]  So I have lots of dietary data over the past three plus years
+[382.52s]  that I've been tracking my fitness metrics,
+[384.20s]  as we can see by almost 1200 days of data.
+[386.90s]  So now we can see the strongest data of all the data I presented so far.
+[390.46s]  The higher my calorie intake,
+[392.20s]  that's significantly correlated with a higher resting heart rate.
+[396.06s]  And also conversely,
+[397.56s]  a higher calorie intake is significantly correlated with a lower heart rate variability.
+[402.10s]  So when considering all the data I just presented,
+[404.34s]  this suggests that physical activity, body weight, and calorie intake
+[407.40s]  can be specifically titrated to optimize both resting heart rate and heart rate variability.
+[412.12s]  And I'll go more into depth in future videos
+[413.80s]  to actually see what may be optimal for me.
+[417.18s]  Now, more specifically in terms of diet,
+[419.62s]  what about diet composition?
+[420.96s]  Just calorie intake says nothing about whether it's higher fat,
+[423.82s]  higher carbs, higher fiber, et cetera.
+[425.84s]  So what about correlations and associations for diet composition with these metrics?
+[430.18s]  So first, I'm going to present the data for heart rate variability with dietary macronutrients
+[435.10s]  because the strongest associations were present for that
+[438.42s]  with lesser but still significant associations for resting heart rate,
+[441.84s]  which I'll show next.
+[443.20s]  Now, note that in previous videos,
+[445.04s]  although I've shown unadjusted correlations between diet with blood-based biomarkers,
+[449.34s]  in this case, when considering that we know that physical activity,
+[452.48s]  body weight, and also calorie intake
+[453.96s]  are significantly associated with resting heart rate and heart rate variability,
+[457.24s]  they should be in any model that looks at potential associations
+[461.26s]  or significant associations for macronutrients with these metrics.
+[465.94s]  So in this case, I created linear regression models
+[469.04s]  that were adjusted for or that included daily exertion,
+[472.44s]  so that body weight times average daily heart rate,
+[474.88s]  and also calorie intake,
+[476.32s]  and then also each individual macronutrient.
+[480.14s]  So there are eight different models.
+[482.12s]  Each of them have these daily exertion and calorie intake variables,
+[485.72s]  but then each of the respective macronutrients.
+[489.50s]  And note that daily exertion and calorie intake on their own,
+[493.70s]  when associated with heart rate variability,
+[496.16s]  account for a small but significant amount of the variance in HRV,
+[499.66s]  so 5.7%.
+[500.78s]  Now, that may not seem like much,
+[502.30s]  especially when we look at how that relates to resting heart rate.
+[505.66s]  We'll see that daily exertion and calorie intake
+[507.22s]  actually explain more of the variance in resting heart rate,
+[510.08s]  but it's 6%, you know, and the data is what it is.
+[513.36s]  All right, so what's the data for macronutrients
+[516.08s]  and how they relate to heart rate variability
+[517.72s]  after adjusting for daily exertion and calorie intake?
+[520.04s]  That's what's shown here.
+[521.32s]  The N, starting on the left, it's 593 days of data.
+[526.48s]  So there's a lot to unpack here.
+[528.00s]  Let's just walk through it step by step.
+[529.56s]  So in terms of macronutrients,
+[531.14s]  I looked at carbohydrates,
+[532.88s]  and I split carbohydrates into two different fractions,
+[535.72s]  non-fructose carbohydrates and fructose.
+[538.02s]  So I've been tracking both of those, you know, since 2015,
+[541.00s]  so I have data for that, each of the fatty acids,
+[543.90s]  so monounsaturated, MUFA, omega-3, omega-6,
+[546.56s]  saturated fatty acids, SFA,
+[548.24s]  and then also protein and fiber intake.
+[550.36s]  And then we've got the beta coefficient,
+[551.94s]  plus or minus the standard error.
+[553.24s]  So that's, you know, are these macronutrients
+[555.56s]  associated with higher or lower HRV?
+[559.12s]  The P value for whether those associations
+[560.80s]  are statistically significant.
+[562.44s]  The significance F, so whether or not,
+[565.56s]  in this case, they are,
+[566.86s]  whether each of these linear regression models,
+[569.26s]  the eight different models for the eight different macronutrients
+[571.44s]  after adjusting for exertion and calorie intake
+[573.68s]  are significantly associated with HRV.
+[575.58s]  And as we can see, they're all less than 0.05,
+[577.90s]  so they're all statistically significant.
+[579.88s]  The adjusted R-squared,
+[580.90s]  how much of the variance is explained in total
+[583.42s]  by the three variables.
+[585.30s]  The percent explained relative to the base model,
+[587.78s]  so how much additional variance in HRV
+[589.94s]  is explained by the addition
+[591.16s]  of each of the respective macronutrients.
+[593.28s]  And then average daily intake,
+[594.58s]  which we can use to guide
+[596.46s]  how much or how little of these foods
+[598.86s]  may be able to optimize heart rate variability.
+[601.68s]  And in the next slide, resting heart rate.
+[604.32s]  So what's significantly associated with higher HRV?
+[607.32s]  And in this case, we can see
+[608.40s]  monounsaturated fatty acids, omega-6,
+[610.68s]  and protein intake.
+[612.26s]  Now, how much additional variance in HRV
+[615.00s]  do they explain?
+[615.72s]  Now, it may not seem like much
+[617.08s]  as protein, for example,
+[618.80s]  seems to contribute or contributes
+[620.32s]  the most explanatory,
+[622.16s]  you know, 2.5%.
+[624.78s]  In addition, it explains an additional 2.5%
+[627.30s]  in addition to the 5.7%
+[628.94s]  that daily exertion and calorie intake
+[630.72s]  explained in HRV.
+[632.02s]  And then relatively smaller amounts
+[633.42s]  is explained by the addition of,
+[635.18s]  by the association for omega-6
+[636.76s]  and monounsaturated fatty acids.
+[639.20s]  All right, so then in terms of nutrients
+[640.52s]  that were associated with lower HRV,
+[642.90s]  fructose, higher fructose,
+[644.64s]  lower HRV,
+[645.88s]  saturated fatty acids,
+[647.82s]  higher saturated fatty acids,
+[649.00s]  lower HRV,
+[649.48s]  and then also higher fiber,
+[650.76s]  lower HRV.
+[652.16s]  And in terms of how much additional
+[653.78s]  percentage of the variance in HRV
+[656.38s]  that they explain,
+[657.40s]  the strongest negative,
+[659.22s]  you know, strongest contributor
+[660.14s]  was fiber,
+[661.02s]  explaining an additional 2.1%,
+[663.64s]  bringing the total for that model
+[665.30s]  up to 7.8%.
+[666.40s]  And then with lesser amounts
+[667.92s]  for saturated fatty acids,
+[669.44s]  1.1%,
+[670.74s]  and fructose, 0.8%.
+[672.54s]  And also note that although
+[674.74s]  non-fructose carbohydrates
+[675.92s]  were very close to statistical significance,
+[678.28s]  0.06,
+[678.98s]  it's technically not statistically significant,
+[682.16s]  and then omega-3 intake
+[683.16s]  is not statistically,
+[684.60s]  significantly associated with HRV.
+[687.20s]  So that summarizes the data
+[689.10s]  that I just presented,
+[690.00s]  which then raises the interesting question,
+[691.94s]  can diet be personalized,
+[693.62s]  can this diet be personalized
+[694.98s]  to optimize next day heart rate variability
+[697.34s]  after a workout?
+[698.10s]  So when considering my average daily intake data,
+[702.08s]  assuming for a typical amount of calories
+[704.34s]  on a workout day,
+[706.34s]  and looking at my average daily intake
+[708.20s]  for each of these blue and,
+[709.64s]  sorry, green and red macronutrients,
+[711.76s]  this suggests that eating
+[712.96s]  more than 20 grams per day
+[714.22s]  of monounsaturated fatty acids,
+[715.82s]  more than 11 grams per day of omega-6,
+[718.24s]  more than 120 grams of protein,
+[720.30s]  but then correspondingly
+[721.30s]  less than 79 grams per day for fructose,
+[723.98s]  less than 38 grams per day
+[725.36s]  for saturated fatty acids,
+[726.54s]  and less than 91 grams per day for fiber
+[729.44s]  may optimize my next day of HRV.
+[731.68s]  And I intend on,
+[732.82s]  you know,
+[733.40s]  following this path
+[734.42s]  and then reevaluating my data
+[736.06s]  at a future point
+[736.88s]  to see if it actually
+[738.14s]  is still strongly
+[739.54s]  or significantly correlated with HRV.
+[741.98s]  All right,
+[742.22s]  so what about the data
+[742.82s]  for resting heart rate?
+[743.94s]  And as you can see by the title,
+[745.32s]  there are weaker
+[745.88s]  but statistically significant associations
+[747.64s]  for these dietary components
+[749.04s]  with resting heart rate.
+[750.46s]  So note that
+[751.76s]  whereas the combination
+[753.30s]  of daily exertion
+[754.30s]  and calorie intake
+[755.18s]  accounted for 5.7
+[756.74s]  of the variants
+[757.70s]  explained in heart rate variability,
+[759.96s]  which is relatively small,
+[761.16s]  now those two variables
+[762.26s]  explain a much larger amount
+[763.58s]  of the variants
+[764.08s]  in resting heart rate,
+[764.82s]  44.4%.
+[766.14s]  All right,
+[767.24s]  so what's significantly associated
+[768.44s]  with lower resting heart rate?
+[770.60s]  So going in the right direction,
+[771.46s]  and again,
+[772.12s]  we can see higher
+[773.12s]  monounsaturated fatty acids
+[774.72s]  and higher omega-6
+[775.72s]  is correlated,
+[777.16s]  associated after adjusting
+[778.46s]  for daily exertion
+[779.36s]  and calorie intake
+[780.12s]  are associated
+[781.38s]  with lower HRV
+[782.48s]  and they were also associated
+[783.86s]  with high,
+[784.46s]  sorry,
+[785.00s]  lower resting heart rate
+[786.10s]  and they were also associated
+[787.08s]  with higher HRV.
+[788.90s]  And then in terms
+[789.80s]  of the percentage
+[790.56s]  that is explained
+[791.70s]  by these macronutrients
+[793.44s]  relative to the base model,
+[795.08s]  note that these
+[795.68s]  are relatively smaller effects
+[796.80s]  with the exception
+[797.32s]  of monounsaturated fatty acids
+[798.70s]  as it explains
+[800.08s]  an additional 1.3%
+[801.56s]  of the variants
+[802.12s]  in resting heart rate,
+[803.54s]  but then relatively smaller effects
+[805.24s]  for omega-6,
+[805.88s]  0.3%,
+[806.78s]  you know,
+[807.46s]  compared to the
+[808.14s]  macronutrient associations
+[809.86s]  for heart rate variability,
+[810.72s]  these are relatively smaller
+[812.26s]  explanations,
+[814.20s]  additional explanations
+[815.04s]  in resting heart rate.
+[816.66s]  All right,
+[816.92s]  so in terms of the nutrients
+[817.84s]  that are associated
+[818.50s]  with higher resting heart rates,
+[820.24s]  so carbohydrate intake,
+[821.60s]  whether non-fructose
+[822.38s]  or fructose,
+[823.20s]  and then also higher fiber
+[824.38s]  is associated
+[824.88s]  with higher resting heart rate.
+[827.70s]  And in terms
+[828.20s]  of how much they explain
+[829.16s]  the additional amount
+[831.32s]  of the variance
+[832.38s]  explained in resting heart rate,
+[833.70s]  again,
+[833.98s]  we can see relatively
+[834.70s]  small amounts,
+[836.08s]  0.4%
+[837.00s]  for either
+[837.80s]  of the two
+[838.20s]  carbohydrate divisions
+[839.04s]  and only 0.2%
+[840.94s]  additionally explained
+[841.74s]  for fiber.
+[843.58s]  Now,
+[843.94s]  also note
+[844.66s]  that omega-3,
+[845.72s]  saturated fatty acids,
+[846.76s]  and protein
+[847.16s]  were not significantly
+[847.88s]  associated with
+[848.76s]  resting heart rate.
+[850.06s]  Now,
+[850.54s]  this diet,
+[852.04s]  you know,
+[852.24s]  having relatively
+[853.18s]  higher levels
+[853.80s]  of amufa
+[854.54s]  and omega-6,
+[855.30s]  but lower carbohydrate
+[856.16s]  and fiber intake,
+[858.32s]  this would suggest
+[859.00s]  that I could potentially
+[859.66s]  increase my
+[860.48s]  heart rate variability
+[861.60s]  and resting heart rate
+[862.48s]  to a much lesser degree,
+[864.36s]  but will optimizing
+[866.56s]  or getting as much
+[868.18s]  bang for my buck
+[868.90s]  through diet
+[869.50s]  and its impact
+[870.84s]  on cardiovascular-related
+[872.92s]  metrics,
+[873.36s]  is that good
+[874.04s]  for my overall
+[875.12s]  systemic health
+[875.82s]  in terms of
+[876.82s]  big-picture
+[877.70s]  biomarkers
+[878.22s]  that I presented
+[878.70s]  in other videos.
+[879.74s]  In other words,
+[880.24s]  do I optimize
+[880.82s]  CV metrics
+[881.44s]  but then make
+[882.10s]  the net effect
+[883.02s]  worse on my
+[883.94s]  overall health?
+[884.60s]  So,
+[885.04s]  I haven't
+[885.38s]  investigated that.
+[886.26s]  Once I do that analysis,
+[887.56s]  I'll present that data
+[888.38s]  in another video,
+[889.52s]  so stay tuned
+[890.50s]  for that data.
+[891.56s]  Alright,
+[891.86s]  if you're interested
+[892.28s]  in more about my
+[893.02s]  attempts to biohack aging,
+[894.18s]  including daily data
+[894.96s]  for resting heart rate
+[895.98s]  and heart rate variability,
+[897.28s]  and my daily
+[898.10s]  dietary data,
+[898.88s]  come check us out
+[899.62s]  on Patreon.
+[900.56s]  Thanks for watching.
+[901.48s]  I hope that you
+[901.96s]  enjoyed the video.
+[902.84s]  Have a great day.
