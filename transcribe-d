@@ -4,10 +4,12 @@ import asyncio
 import httpx
 import time
 import random
-from deepgram import DeepgramClient, PrerecordedOptions, FileSource, DeepgramClientOptions
+import sys
+from deepgram import DeepgramClient, DeepgramClientOptions, PrerecordedOptions, FileSource
 
-# Lowered to 3 for better stability across 1,700 files
-semaphore = asyncio.Semaphore(3)
+# Processing one at a time is mandatory for 100MB+ files on standard uploads
+semaphore = asyncio.Semaphore(1)
+SIZE_LIMIT_MB = 200
 
 # Deepgram 2026 Rates
 BASE_RATE_PER_MIN = 0.0058
@@ -17,8 +19,7 @@ TOTAL_RATE_PER_SEC = (BASE_RATE_PER_MIN + DIARIZE_ADDON) / 60
 async def get_balance(api_key):
     PROJECT_ID = "d4ca0521-f43d-4694-8042-57f54eb57031"
     try:
-        # Increased timeout for the balance check too
-        async with httpx.AsyncClient(timeout=10.0) as client:
+        async with httpx.AsyncClient(timeout=15.0) as client:
             headers = {"Authorization": f"Token {api_key}"}
             b_resp = await client.get(f"https://api.deepgram.com/v1/projects/{PROJECT_ID}/balances", headers=headers)
             return b_resp.json()["balances"][0]["amount"]
@@ -28,20 +29,24 @@ async def get_balance(api_key):
 async def transcribe_file(client, in_path, out_path, idx, total, api_key):
     async with semaphore:
         filename = os.path.basename(in_path)
-        
+        file_size_bytes = os.path.getsize(in_path)
+        file_size_mb = file_size_bytes / (1024 * 1024)
+
+        # SIZE LIMIT CHECK
+        if file_size_mb > SIZE_LIMIT_MB:
+            print(f"⏩ Skipping: {filename} ({file_size_mb:.1f} MB exceeds {SIZE_LIMIT_MB} MB limit)")
+            with open("skipped_large_files.log", "a") as log:
+                log.write(f"{in_path} | {file_size_mb:.1f} MB\n")
+            return
+
         for attempt in range(1, 4):
             try:
-                # print(f"🚀 [{idx}/{total}] Starting: {filename} (Attempt {attempt})")
-                start_time = time.time()
+                print(f"🚀 [{idx}/{total}] Uploading: {filename} ({file_size_mb:.1f} MB)")
                 
                 with open(in_path, "rb") as file:
                     buffer_data = file.read()
                     payload: FileSource = { "buffer": buffer_data }
-                    options = PrerecordedOptions(
-                        model="nova-2", 
-                        smart_format=True, 
-                        diarize=True
-                    )
+                    options = PrerecordedOptions(model="nova-2", smart_format=True, diarize=True)
                     
                     response = await client.listen.asyncrest.v("1").transcribe_file(payload, options)
                     
@@ -53,38 +58,29 @@ async def transcribe_file(client, in_path, out_path, idx, total, api_key):
                         f.write(response.results.channels[0].alternatives[0].transcript)
                     
                     print(f"✅ Finished: {filename} (${cost:.4f})")
-                    
-                    # Check balance every 5 files now that it works
-                    if idx % 5 == 0:
-                        bal = await get_balance(api_key)
-                        if bal: print(f"💰 BALANCE: ${bal:.2f}")
-                    
-                    return
+                    return 
 
             except Exception as e:
-                # Improved error reporting: gets the type (e.g., 'ConnectError') 
-                # even if the message is blank
                 error_type = type(e).__name__
-                error_msg = getattr(e, 'message', getattr(e, 'body', str(e)))
-                full_error = f"{error_type}: {error_msg}".strip(": ")
-
                 if attempt < 3:
-                    wait = (5 * (2 ** (attempt - 1))) + random.uniform(0, 1)
-                    print(f"⚠️  {full_error} on {filename}. Retrying in {wait:.1f}s...")
+                    wait = 5 * attempt
+                    print(f"⚠️  {error_type} on {filename}. Retry {attempt}/3 in {wait}s...")
                     await asyncio.sleep(wait)
                 else:
-                    print(f"❌ FINAL FAILURE: {filename}: {full_error}")
+                    print(f"❌ FINAL FAILURE: {filename}: {error_type}")
                     with open("deepgram_errors.log", "a") as log:
-                        log.write(f"{in_path}: {full_error}\n")
+                        log.write(f"{in_path} | {error_type}\n")
 
 async def main():
     api_key = os.environ.get("DEEPGRAM_API_KEY")
-    config = DeepgramClientOptions(
-        options={
-            "timeout": 300, # 5 minutes instead of the default 30-60s
-        }
-    )
+    if not api_key:
+        print("❌ Error: DEEPGRAM_API_KEY not found.")
+        sys.exit(1)
+
+    # 10-minute timeout for the massive uploads
+    config = DeepgramClientOptions(options={"timeout": 600})
     client = DeepgramClient(api_key, config)
+    
     audio_root, out_root = "./audio", "./deepgram"
     file_queue = []
 
@@ -97,17 +93,19 @@ async def main():
                 if not os.path.exists(out_p):
                     file_queue.append((in_p, out_p))
 
-    total = len(file_queue)
-    print(f"📂 Found {total} files. Balance: ${await get_balance(api_key) or '???'}")
+    print(f"📂 Queue: {len(file_queue)} files. Balance: ${await get_balance(api_key) or '???'}")
 
-    # STAGGERED START: Launch files with a 1-second gap
-    for i, (in_p, out_p) in enumerate(file_queue, 1):
-        asyncio.create_task(transcribe_file(client, in_p, out_p, i, total, api_key))
-        await asyncio.sleep(1) # This prevents the initial "burst" crash
+    try:
+        for i, (in_p, out_p) in enumerate(file_queue, 1):
+            await transcribe_file(client, in_p, out_p, i, len(file_queue), api_key)
+            if i % 2 == 0:
+                bal = await get_balance(api_key)
+                if bal: print(f"💰 CURRENT BALANCE: ${bal:.2f}")
 
-    # Keep main alive until all tasks finish
-    while len([t for t in asyncio.all_tasks() if t.get_name().startswith('Task-')]) > 1:
-        await asyncio.sleep(5)
+    except KeyboardInterrupt:
+        print("\n\n🛑 User interrupted. Shutting down gracefully...")
+        # Closing the client explicitly if possible
+        sys.exit(0)
 
 if __name__ == "__main__":
     asyncio.run(main())
