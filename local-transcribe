@@ -41,7 +41,7 @@ def transcribe(file_path):
             if prob < 0.6:  # Threshold for "potentially bad"
                 low_confidence_segments.append(f"{segment.start:.2f}s: {segment.text}")
             pbar.update(round(segment.end - last_t))
-                last_t = segment.end
+            last_t = segment.end
 
             f.write(f"[{segment.start:.2f}s] {segment.text}\n")
 
