@@ -44,7 +44,7 @@ async def transcribe_file(client, in_path, out_path, idx, total, api_key):
                 
                 # FIX: In v3.x, use the 'await' keyword with the standard client.
                 # This is the line that was likely failing your execution.
-                response = await client.listen.rest.v("1").transcribe_file(payload, options)
+                response = await client.listen.asyncrest.v("1").transcribe_file(payload, options)
                 
                 duration_sec = response.metadata.duration
                 cost = duration_sec * TOTAL_RATE_PER_SEC
