@@ -1,0 +1,611 @@
+[0.32s]  Surgical fat removal in rats extends lifespan, and that's what we'll see here.
+[5.88s]  On the y-axis, we've got percent survival, and that's plotted against age on the x.
+[10.62s]  In terms of survival, let's put up a red line at median survival.
+[14.48s]  This is the time when half of the colony has died and half is still alive.
+[18.50s]  And when compared with the control group, animals that had their visceral fat surgically removed
+[23.00s]  had a significant extension for median lifespan.
+[26.32s]  But note that this isn't the longest lifespan on this curve.
+[29.36s]  And that was for 40% calorie restriction.
+[32.68s]  Interestingly, note that calorie restriction reduces visceral fat,
+[36.42s]  which suggests that the lifespan extension that's caused by visceral fat removal
+[40.38s]  contributes to the overall lifespan extending effect for calorie restriction.
+[45.62s]  All right, so what about maximal lifespan?
+[47.64s]  That's what we'll see there at 20% survival.
+[50.30s]  Now 80% of the colony has died, and only 20% is still alive.
+[54.48s]  But the story is similar.
+[55.88s]  So, this is the only test that I have.
+[57.26s]  Visceral fat removal extended maximal lifespan.
+[59.48s]  But note that the longest lifespan increase was for calorie restriction.
+[63.50s]  So, taken together, we can see that visceral fat removal extends both median and maximal lifespan.
+[69.10s]  Okay, what's my data?
+[70.70s]  This isn't just a health and longevity news channel.
+[73.82s]  This is a health and longevity news optimization channel too.
+[76.90s]  So, how am I doing on this journey?
+[79.76s]  So, to find out, I had DEXA performed as shown there in the right corner.
+[83.56s]  And this isn't the only test that I have.
+[85.50s]  I have data going back to previous years.
+[87.68s]  So, a total of three tests over that three-year period.
+[90.72s]  First, in looking at the big picture.
+[93.04s]  And this picture is color-coded, which includes bone, lean mass, and fat mass, which is in blue.
+[98.84s]  In terms of the demographics.
+[100.56s]  So, for this test, I was almost 53 years old.
+[104.16s]  In terms of my height, 5'7 or 1.7 meters.
+[108.48s]  In terms of my body weight, even though it says 140 pounds.
+[111.40s]  That's what the DEXA technician asked me how much I weighed on that day.
+[115.32s]  But my body weight scale fasted first thing in the morning was 138.8 pounds, which is 62.7 kilograms.
+[122.26s]  And this is for a December 2025 test.
+[125.28s]  And note that these data have been on Patreon for about a month.
+[127.58s]  So, if you're interested in seeing the data as soon as they come out, check us out over there.
+[131.94s]  Alright, so in terms of visceral fat, on this day, it was 0.28 pounds or 127 grams.
+[138.26s]  But this is just the number.
+[139.68s]  Let's put that number into perspective by comparing it against age-expected data.
+[144.66s]  Which is what we'll see here.
+[146.12s]  And this is data in men.
+[147.62s]  And note that visceral fat mass, VFM, levels in women.
+[151.24s]  I covered that in an earlier video.
+[152.68s]  And if you missed it, I'll link to it in the right corner.
+[154.72s]  So, for this plot, we've got VFM, or visceral fat mass, in grams, plotted against age on the X.
+[162.24s]  And then we can see that visceral fat mass increases during aging from 25 to around 65 years of age.
+[168.50s]  Which then plateaus after 65.
+[171.56s]  Okay, so now we can put my 0.28 pounds or 127 grams into perspective by comparing it against the population-based medians or averages.
+[180.60s]  And for that, we can see that 127 grams is below the age-expected chronological age median.
+[187.66s]  And if you look at the lowest level, the gray line, I would be at the lowest level for visceral fat for any age group.
+[194.94s]  Going all the way back to 20 years of age.
+[197.46s]  So, this is good news.
+[199.18s]  In terms of what's expected based on chronological age, we can see that that's somewhere around 1300 grams.
+[204.92s]  So, my chronological age being around 53, median values for visceral fat around 1300 grams.
+[212.44s]  So, for this test, I'm about 10 times lower than what's expected based on chronological age.
+[218.58s]  So, this is good news.
+[220.18s]  But note that this is just one test.
+[222.42s]  And when considering the animal data, the goal is to keep visceral fat as low as possible for as long as possible.
+[228.20s]  So, with that in mind, the longevity goal when it comes to visceral fat is to avoid an age-related increase.
+[234.08s]  So, how well am I doing relative to that goal?
+[236.48s]  As I have, again, data going back now to 2 plus years.
+[240.12s]  Which is what we'll see here.
+[242.04s]  So, for a December 2023 test.
+[244.24s]  And note that I've decided to test at the same time of year every year.
+[248.52s]  And just to be consistent.
+[249.80s]  There's no special magical reason why I picked December.
+[252.46s]  The first test was in December of 2023.
+[254.42s]  So, for consistency, I'll do it in December of 2023.
+[258.14s]  Around the 20th.
+[259.12s]  So, 15th to the 20th.
+[260.52s]  For all tests going forward.
+[262.26s]  Also note that I standardized the conditions under which I'm measuring.
+[266.40s]  Almost all food intake is consumed by 8 a.m.
+[269.36s]  So, I've got about a 3-hour window.
+[271.40s]  3-4 hour window.
+[272.60s]  If I stop by 7 a.m.
+[274.14s]  3-4 hour window where there's no food, no water.
+[277.32s]  I've done that for each of these 3 tests.
+[279.20s]  In order to standardize how much food I have in the system.
+[282.18s]  And how hydrated I am prior to testing.
+[284.72s]  So, for the first test in December of 2023.
+[287.72s]  Visceral fat mass was 0.58 pounds or 263 grams.
+[292.14s]  And then I measured in December or December 18th, 2024.
+[295.88s]  And we can see two measurements.
+[297.74s]  Now, I was able to convince the DEXA technician.
+[300.60s]  To measure immediately one after the other DEXA scans.
+[304.64s]  And that's because I wanted to see what's the test to test variability.
+[308.02s]  For measuring immediately one right after the other.
+[310.52s]  And we can see that there is significant variability.
+[313.86s]  On the first measurement, it was 0.8 pounds.
+[316.28s]  And on the second measurement, 0.59 pounds.
+[318.74s]  So, a 0.21 pound difference.
+[321.06s]  Which is a pretty big gap.
+[322.92s]  So, how I handle that is I've taken the average.
+[325.90s]  Now, this applies to almost all measurements.
+[328.68s]  If I'm measuring fasting morning glucose using finger prick.
+[331.54s]  Two measurements.
+[332.30s]  In the past, I used three.
+[333.40s]  But that burns a lot of test strips.
+[335.50s]  So, at least two measurements.
+[337.40s]  And then taking the average.
+[338.38s]  Also, for ketosis, measuring beta-hydroxybutyrate.
+[341.94s]  Also in the morning, I'm using two test strips.
+[344.10s]  And then taking the average.
+[345.40s]  And this will help minimize test-to-test variability.
+[348.44s]  As we're taking the average of at least two measurements for every test.
+[352.72s]  So, visceral fat in 2024 moved in the wrong direction.
+[355.76s]  316 grams.
+[357.70s]  Then, putting the most recent test into perspective.
+[360.60s]  For the December 2025 test.
+[362.68s]  We can see that 0.28 pounds and 127 grams.
+[365.74s]  Is my best data to date.
+[367.60s]  Over these three tests.
+[369.14s]  Over this three-year period.
+[370.76s]  So, in terms of that longevity goal.
+[372.78s]  At least for this year.
+[374.00s]  This is good news.
+[375.06s]  As I've pretty much reversed that age-related trend.
+[377.74s]  Moving in the wrong direction.
+[378.82s]  But again, this is just three tests.
+[380.54s]  This is just a three-year span.
+[382.12s]  I'm in this for the long game.
+[383.36s]  70 plus years and beyond.
+[385.20s]  So, the goal is to keep it at 127 grams or lower.
+[388.74s]  For every test going forward.
+[390.56s]  So, then the big question is how.
+[392.08s]  How was I able to reduce visceral fat?
+[394.38s]  First insight comes from body weight.
+[396.46s]  For the first test in 2023.
+[398.24s]  Body weight on the morning of testing.
+[399.96s]  Was 140.5 pounds.
+[402.22s]  And again, that's at home.
+[403.36s]  Using my body weight scale.
+[404.82s]  Which I measure every day.
+[405.92s]  I measure body weight every day.
+[407.00s]  Going back for 10 years.
+[409.04s]  Alright, so in 2024.
+[410.34s]  On the morning of the test.
+[411.32s]  It was about one pound heavier.
+[413.98s]  141.4 pounds.
+[415.92s]  Now, that might not seem like a big difference.
+[418.42s]  Just 0.9 pounds.
+[419.88s]  But we can see that visceral fat moved.
+[421.72s]  In the wrong direction.
+[423.40s]  For just a one pound increase.
+[425.20s]  Year over year.
+[426.78s]  Alright, so for the most recent test.
+[428.42s]  In 2025.
+[429.44s]  We can see that my body weight.
+[430.62s]  On the morning of the test.
+[431.68s]  Was the lowest.
+[432.64s]  Over this three-year period.
+[434.28s]  138.8 pounds.
+[435.62s]  And that's in association.
+[437.66s]  With my lowest visceral fat.
+[439.48s]  Over that three-year period.
+[440.54s]  So now note this interesting trend.
+[443.62s]  When my body weight was at its lowest.
+[445.34s]  I saw my lowest visceral fat.
+[446.96s]  Not by little.
+[447.64s]  By a lot.
+[448.32s]  Cutting visceral fat by more than half.
+[450.84s]  Relative to 140.5 pounds.
+[453.96s]  140.5 pounds is intermediate.
+[456.74s]  And we can also see that visceral fat is intermediate.
+[459.48s]  263.
+[460.38s]  Relative to the highest visceral fat here.
+[462.56s]  316 grams.
+[463.80s]  Which is also in conjunction with my highest body weight.
+[466.32s]  Now note that this is only a three pound range.
+[469.74s]  In order to see visceral fat.
+[471.58s]  That's about a third relative to my highest values.
+[474.82s]  So it suggests that even within being relatively lean.
+[477.94s]  Getting even slightly leaner.
+[479.70s]  Within a three pound range.
+[481.12s]  Can potentially make a big dent on visceral fat.
+[483.84s]  But this may be only part of the story.
+[486.00s]  We can also take a look at body fat.
+[488.10s]  As body fat percentage.
+[489.36s]  BF percentage.
+[490.52s]  Is associated with visceral fat.
+[492.34s]  Which is what we'll see here.
+[493.52s]  This is the population based average for visceral fat mass.
+[496.94s]  Plotted against body fat percentage on the X.
+[499.98s]  And for both men in blue.
+[501.42s]  And women in red.
+[502.36s]  We can see that as the body fat percentage increases.
+[505.06s]  That's significantly associated with a higher level of visceral fat mass.
+[509.22s]  Or VFM.
+[510.64s]  So for very low levels of body fat.
+[513.36s]  That would be associated with very low visceral fat mass.
+[516.68s]  Okay.
+[517.18s]  What's my data?
+[518.50s]  So now let's pull up that table from before.
+[520.48s]  And now we're going to take a look at body fat percentage.
+[522.60s]  For each of these three tests.
+[524.60s]  For the first test.
+[525.48s]  It was 14%.
+[526.68s]  For the second test.
+[527.98s]  The average of those two tests.
+[529.34s]  It was 15.45%.
+[531.08s]  And I should mention.
+[532.04s]  I tried to get the DEXA technician to measure twice.
+[534.54s]  For the 2025 test.
+[536.54s]  But no luck.
+[538.26s]  They said I'd have to come back the next day.
+[540.16s]  And I wasn't interested in doing that.
+[541.52s]  I wanted to get test to test immediately right after.
+[544.42s]  All right.
+[544.64s]  Nonetheless.
+[545.22s]  Body fat percentage on the most recent test.
+[547.70s]  Was my lowest over this three year span.
+[549.90s]  11.9%.
+[550.94s]  So just like the body weight data.
+[553.16s]  Note again.
+[553.70s]  An interesting trend.
+[555.22s]  When my body fat percentage was at its lowest over these three tests.
+[558.20s]  11.9%.
+[559.24s]  I saw my lowest visceral fat.
+[561.54s]  When my body fat percentage was at its highest level over these three tests.
+[565.30s]  15.45%.
+[566.54s]  That was associated with my highest visceral fat mass.
+[570.16s]  316 grams.
+[571.44s]  And for an intermediate level of body fat percentage.
+[574.56s]  14%.
+[575.52s]  I saw an intermediate level of visceral fat mass.
+[578.24s]  263 grams.
+[580.52s]  So if the goal is to reduce visceral fat.
+[582.98s]  Weight loss.
+[583.96s]  And specifically reducing body fat percentage.
+[586.42s]  Is important.
+[586.98s]  But this may only be part of the story.
+[588.60s]  Although this is probably the big major guts of the story.
+[591.86s]  What about diet?
+[592.70s]  How does diet factor into this story?
+[595.00s]  Now before going into that.
+[596.70s]  You could say.
+[597.82s]  The diet that helps you get to your lowest body fat percentage.
+[600.46s]  May be a part of seeing you achieve.
+[602.46s]  Your lowest visceral fat mass.
+[604.22s]  But there may be specific foods.
+[606.94s]  Or nutrients.
+[607.86s]  And or nutrients.
+[608.84s]  That can help contribute to lowering visceral fat mass.
+[611.44s]  I'm only going to cover a few of them here.
+[613.12s]  There may be a very long list.
+[614.86s]  And I don't know about causation.
+[616.46s]  All I know is what's been published in studies of others.
+[618.90s]  And then what my data looks like.
+[620.86s]  So first let's start off with walnut consumption.
+[624.10s]  In this study.
+[624.98s]  People who reported high intakes of walnut consumption.
+[627.70s]  That was associated with a 90% reduction for visceral fat mass.
+[631.78s]  Throughout the duration of the study.
+[633.20s]  All right.
+[634.12s]  So rather than just assuming that eating walnuts.
+[636.62s]  Will be beneficial for visceral fat mass.
+[638.88s]  For those who don't know.
+[640.02s]  I've tracked dietary intake with a food scale.
+[642.44s]  Weighing almost all of my food.
+[644.30s]  More than 99%.
+[645.54s]  For 10 years.
+[647.52s]  And for those who are unfamiliar.
+[648.94s]  This is no joke.
+[649.64s]  Literally I have 10 years of Chronometer.
+[652.00s]  Which is a diet tracking app.
+[653.44s]  If you want to use Chronometer.
+[654.56s]  There's a discount link in the video description.
+[656.58s]  I've tracked my own diet for 10 years.
+[658.68s]  And then I have all of that data in a spreadsheet.
+[660.68s]  I've manually entered it for all of those days.
+[663.94s]  All right.
+[664.12s]  Nonetheless.
+[664.84s]  I have walnut intake.
+[666.46s]  Full year average walnut intake.
+[668.64s]  For each of these three tests.
+[670.92s]  14, 7, and 18 grams per day.
+[673.78s]  On average.
+[674.60s]  In 2023.
+[675.74s]  2024.
+[676.72s]  2025.
+[677.48s]  And again.
+[677.80s]  Those are full year averages.
+[679.84s]  Now here.
+[680.80s]  Note the interesting trend.
+[682.34s]  For the most recent test.
+[683.74s]  Average walnut intake in 2025.
+[685.60s]  Was at my highest.
+[686.90s]  And that was associated.
+[687.90s]  Or that may be a part of the story.
+[690.02s]  For seeing my lowest visceral fat.
+[692.12s]  When walnut intake was at its lowest.
+[694.50s]  7 grams per day.
+[695.68s]  On average.
+[696.16s]  In 2024.
+[697.08s]  I saw my highest visceral fat mass.
+[699.54s]  And then.
+[700.12s]  For the intermediate level of walnuts.
+[701.78s]  14 grams per day.
+[702.78s]  In 2023.
+[703.80s]  I saw an intermediate level.
+[705.24s]  Of visceral fat mass.
+[706.24s]  Now again.
+[706.66s]  These are just correlations.
+[708.26s]  Or association.
+[709.08s]  I don't know about causation.
+[711.20s]  But walnuts are a current staple.
+[712.94s]  In the approach.
+[713.58s]  And I have no plans.
+[714.28s]  To take them out anytime soon.
+[715.60s]  Especially if they may lower visceral fat mass.
+[718.32s]  In my case.
+[718.92s]  Maybe others.
+[719.56s]  Maybe for others too.
+[720.50s]  We'd all have to do the experiment.
+[721.82s]  To find out.
+[722.96s]  Alright.
+[723.12s]  So there may be two other foods.
+[724.50s]  That could impact visceral fat mass.
+[726.30s]  At least in my case.
+[727.94s]  And one of them.
+[728.70s]  Is a relatively higher fiber intake.
+[731.24s]  So in this study.
+[732.26s]  People who are in the highest tertile.
+[734.16s]  Of increasing fiber intake.
+[735.80s]  Throughout the duration of the study.
+[737.22s]  They saw about a 15% reduction.
+[739.48s]  For visceral fat mass.
+[740.98s]  Okay.
+[741.36s]  What's my data over this three year span.
+[743.32s]  So average fiber intake.
+[745.40s]  Full year average.
+[746.64s]  Was 85, 84, and 82 grams per day.
+[749.68s]  In each of those three years.
+[751.32s]  Now here.
+[751.92s]  I don't see any specific trends.
+[754.68s]  For example.
+[755.38s]  For the most recent test.
+[756.78s]  82 grams per day.
+[758.04s]  Is not a part.
+[759.00s]  Does not seem to be a part.
+[760.12s]  Of seeing my lowest visceral fat mass.
+[762.36s]  And then for the 85 grams per day.
+[764.04s]  That's not a part of seeing.
+[765.48s]  Also my lowest visceral fat mass.
+[767.44s]  So it seems that in my case.
+[769.50s]  That dietary fiber intake.
+[770.86s]  Is not a part of the story.
+[772.20s]  Or at least within these three tests.
+[774.58s]  Is not a part of the story.
+[775.90s]  For lowering visceral fat mass.
+[777.46s]  Or at least getting it to my lowest level.
+[779.46s]  For the most recent test.
+[781.04s]  And then a third possibility.
+[782.62s]  Is green tea consumption.
+[784.34s]  People in this study.
+[785.18s]  Who reported more green tea consumption.
+[787.26s]  Throughout the duration of the study.
+[788.72s]  Saw about a 13% reduction.
+[790.48s]  For visceral fat mass.
+[791.84s]  Okay.
+[792.16s]  What about me?
+[793.32s]  So over this three year span.
+[794.72s]  It's been pretty much a constant.
+[796.26s]  I use loose leaf green tea.
+[798.76s]  Organic loose leaf green tea.
+[800.08s]  Sourced from Japan.
+[800.80s]  There too.
+[801.54s]  If you want to use it.
+[802.24s]  There's a discount link.
+[803.06s]  In the video's description.
+[804.54s]  So over this three year span.
+[805.58s]  It's pretty much a constant.
+[806.56s]  I've used that 10 grams per day.
+[808.02s]  In a stainless steel ball.
+[809.24s]  And I drink about two and a half cups.
+[810.82s]  Around 20 ounces per day.
+[812.28s]  So that it's a constant.
+[813.58s]  It suggests that.
+[814.42s]  That may not been a part of.
+[816.18s]  The story.
+[816.72s]  For why I was able to reduce.
+[818.14s]  Visceral fat mass.
+[819.00s]  From 263 and around 300 grams.
+[821.62s]  To the most recent test.
+[822.74s]  127 grams.
+[825.10s]  All right.
+[825.28s]  So note that.
+[826.24s]  For this test.
+[826.90s]  Visceral fat mass of 127 grams.
+[829.18s]  Is the lowest amongst 50 year olds.
+[831.30s]  In the health and longevity YouTube space.
+[833.40s]  And I don't generally make clickbait claims.
+[836.30s]  But for this.
+[837.14s]  For once.
+[837.88s]  Let's follow this rabbit hole.
+[839.78s]  So our good friend.
+[840.98s]  Brian Johnson.
+[841.54s]  At 48 years old.
+[843.30s]  For a test that he took.
+[844.28s]  In August of 2025.
+[845.80s]  Had a visceral fat mass.
+[847.20s]  Of 0.56 liters.
+[848.90s]  When multiplied.
+[849.76s]  By the density of fat.
+[851.22s]  That yields a total visceral fat mass.
+[853.36s]  Of 504 grams.
+[855.06s]  Which is about four times higher.
+[856.56s]  Than where I was.
+[857.34s]  For this most recent test.
+[859.00s]  Now I don't know.
+[859.56s]  If this is directly comparable.
+[860.78s]  Because Brian used MRI.
+[862.32s]  And nonetheless.
+[863.20s]  504 grams.
+[864.02s]  Is still really low.
+[865.34s]  But.
+[865.94s]  I'm sorry to say.
+[866.84s]  Brian.
+[867.10s]  I've got you beat.
+[867.76s]  For at least this one test.
+[869.54s]  Next up.
+[870.32s]  Is Paul Saladino.
+[871.54s]  When Paul was 46.
+[873.00s]  On his YouTube channel.
+[874.06s]  For a December 1st post.
+[875.84s]  He reported having 0.3 pounds.
+[877.98s]  Of visceral fat.
+[878.68s]  Or 136 grams.
+[880.66s]  So here too.
+[881.68s]  I've got Paul beat.
+[882.64s]  At 127 grams.
+[884.10s]  Now if we're being totally honest.
+[886.02s]  127 grams.
+[886.92s]  Is probably not different.
+[888.24s]  From 136 grams.
+[890.06s]  But what I do want to highlight.
+[891.56s]  Is that Brian is vegan.
+[893.38s]  And Paul is not.
+[895.00s]  Now I'm not trying to say.
+[896.12s]  That going vegan.
+[896.78s]  Is not optimal for visceral fat.
+[898.12s]  By no means am I saying that.
+[899.78s]  But what I would like to highlight.
+[901.08s]  Is that we can see.
+[902.00s]  That having relatively low levels.
+[903.60s]  Of visceral fat.
+[904.64s]  Regardless if you're vegan.
+[906.02s]  Or if you're far from vegan.
+[907.90s]  I mean Paul's diet.
+[908.58s]  Is more.
+[909.42s]  A lot more meat.
+[910.40s]  Granted he's got a ton of fruit now.
+[911.88s]  But they're total.
+[912.78s]  Two totally different diets.
+[914.48s]  And very low visceral fat.
+[916.08s]  In both of these guys.
+[917.42s]  And then there's me.
+[918.54s]  With less hair.
+[919.72s]  Compared to both of these guys.
+[920.88s]  And a goofy smile.
+[922.34s]  At 53 years old.
+[923.44s]  For this test.
+[923.98s]  Or close to 53.
+[925.82s]  127 grams.
+[926.58s]  I've got them both beat.
+[927.80s]  For now.
+[928.50s]  I'm not saying.
+[929.30s]  It'll be like this forever.
+[930.20s]  I'm planning on keeping mine.
+[931.74s]  As low as I can.
+[932.64s]  And I'm sure both of these guys.
+[933.92s]  Will probably be lower than me.
+[935.60s]  At some point.
+[936.22s]  But it's just fun to compare.
+[937.82s]  For this video.
+[939.34s]  Now.
+[939.66s]  I may actually be.
+[940.72s]  In third place.
+[941.42s]  Relatively soon.
+[942.20s]  For the over 50 year olds.
+[943.82s]  And that's because.
+[944.54s]  Our good friend Dave Pasco.
+[946.02s]  Three years ago.
+[946.96s]  On his website.
+[948.12s]  He posted having 0.31 pounds.
+[950.40s]  Of visceral fat.
+[951.22s]  Or 141 grams.
+[952.96s]  Now Dave is lean.
+[954.08s]  All year round.
+[955.12s]  So I'd be shocked.
+[955.88s]  If his data.
+[956.48s]  Isn't consistently around.
+[957.74s]  130 grams.
+[958.80s]  Or lower.
+[959.92s]  And when Dave posts.
+[960.98s]  His most recent DEXA data.
+[962.36s]  That I'd be shocked.
+[963.08s]  To see that it isn't.
+[963.90s]  Better than mine.
+[964.92s]  But the person.
+[965.70s]  Who may have us all beat.
+[966.76s]  Is Tony Ruggia.
+[967.90s]  On the I Am Longevity channel.
+[970.04s]  So Tony is currently.
+[971.02s]  62 years old.
+[971.98s]  And super ripped.
+[973.06s]  Probably more ripped.
+[973.80s]  Than everybody.
+[974.80s]  Regardless of.
+[975.68s]  Chronological age.
+[976.58s]  And he's posted.
+[977.86s]  On his channel.
+[978.44s]  That he's going to have.
+[979.04s]  Full body DEXA done.
+[980.36s]  Very soon.
+[981.48s]  Maybe even.
+[982.28s]  If you're watching this video.
+[983.14s]  He's already had it done.
+[984.20s]  I'd be shocked.
+[984.78s]  If his data.
+[985.48s]  Isn't below.
+[986.58s]  127 grams.
+[987.62s]  For visceral fat.
+[988.74s]  And the person.
+[989.34s]  Who's got us all beat.
+[990.56s]  At least for now.
+[991.38s]  Is Seamland.
+[992.46s]  On his channel.
+[993.38s]  He posted.
+[993.88s]  Having only.
+[994.66s]  54 grams.
+[995.72s]  Of visceral fat.
+[996.56s]  If you've ever wondered.
+[997.74s]  What's optimal.
+[998.28s]  For biomarkers.
+[999.22s]  Well I have a new.
+[999.94s]  Patreon tier.
+[1000.98s]  Dedicated specifically.
+[1001.94s]  To that.
+[1002.66s]  It currently.
+[1003.24s]  Includes the.
+[1003.80s]  35 biomarkers.
+[1004.84s]  Shown here.
+[1005.66s]  More than.
+[1005.96s]  Two hours.
+[1006.46s]  Of video content.
+[1007.60s]  52 published references.
+[1009.14s]  And note.
+[1009.40s]  That these aren't.
+[1010.10s]  The LLM.
+[1010.96s]  Generated reference ranges.
+[1012.56s]  This is what may be optimal.
+[1013.84s]  Based on how.
+[1014.46s]  Each of these.
+[1015.22s]  Biomarkers.
+[1015.70s]  Changes during aging.
+[1016.92s]  And or.
+[1017.68s]  Associations with.
+[1018.48s]  All cause mortality risk.
+[1019.66s]  In the largest.
+[1020.40s]  Published studies that exist.
+[1021.92s]  So if you're interested in that.
+[1023.18s]  Check it out.
+[1023.66s]  If you're interested in more.
+[1025.22s]  About my attempts to biohack aging.
+[1026.62s]  Check us out on Patreon.
+[1027.70s]  Where I offer blood test consults.
+[1029.70s]  And I also post.
+[1030.58s]  At least twice per day.
+[1031.74s]  In four other Patreon tiers.
+[1033.66s]  We've also got a whole bunch.
+[1034.80s]  Of discount.
+[1035.44s]  And affiliate links.
+[1036.08s]  That you can use.
+[1036.70s]  To test yourself.
+[1037.82s]  That help support the channel.
+[1039.26s]  Including.
+[1040.04s]  Ultolabtest.com.
+[1040.96s]  Which is where I get.
+[1041.76s]  The majority of my blood tests done.
+[1043.26s]  The clearly filtered water filter.
+[1044.68s]  Which I'm still using every day.
+[1046.38s]  At home metabolomics.
+[1047.72s]  Oral microbiome composition.
+[1049.38s]  NED testing with Genfinity.
+[1051.36s]  Epigenetic testing with True Diagnostic.
+[1052.90s]  At home blood testing.
+[1054.38s]  With Cyfox Health.
+[1055.10s]  Which includes the best.
+[1056.08s]  Epigenetic clock.
+[1056.90s]  Of epigenetic clocks.
+[1058.36s]  Grimmage.
+[1059.34s]  Green tea.
+[1059.98s]  As I mentioned in the video.
+[1061.42s]  Dietracking with Chronometer.
+[1062.66s]  Or if you'd like to support the channel.
+[1064.02s]  You can do that with the website.
+[1065.12s]  Buy me a coffee.
+[1066.26s]  We've also got merch.
+[1067.50s]  Including Data is my North Star.
+[1069.36s]  Figuring stuff out is my drug.
+[1070.70s]  Which I've got on here.
+[1071.94s]  And the Conquer Agent.
+[1072.98s]  Or Dietrion logo.
+[1074.32s]  Link in the video's description.
+[1076.28s]  Thanks for watching.
+[1077.50s]  I hope that you enjoyed the video.
+[1079.06s]  Have a great day.

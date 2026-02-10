@@ -1,0 +1,100 @@
+00:00 longevity extending interventions including rapamycin, a carbos, 17 alpha estradiol, canigliflozin, and caloric restriction, extend lifespan in mice anywhere from 12 to 32%. 
+00:14 Is there a common metabolomic signature across all five longevity interventions? 
+00:20 And if so, can we use that data to potentially improve human health and longevity? 
+00:25 Specific triglycerides are downregulated in all five longevity promoting interventions. 
+00:31 And that's what we'll see here. And apologies for the blurriness of the image, this is a screenshot from a preprint that was recently posted online. And if you're interested in checking out that preprint, it'll be in the video's description. 
+00:43 On the left, we've got levels of triglyceride 48-3. So that's 48 carbons and three double bonds. And triglycerides can contain three fatty acids. 
+00:52 For TG 48-3, it includes the triglyceride 14-0, which is maristic acid or maristate, 16-1, which is palmitoleic acid, and 18-2, which is linoleic acid. 
+01:06 Similarly on the right, we've got TG 53, 50 carbons and three double bonds. And it has the same two latter fatty acids, but the first fatty acid is different, as that's palmitate. 
+01:18 On the Y axis, we've got the log two-fold change when compared with controls, so relative levels for each of the five interventions when compared with controls. And then each of the five interventions are color coded on the X axis. 
+01:31 In terms of what's significant, we put up that black line at zero. And then we can see that for each of the five longevity promoting interventions, levels of each of these triglycerides, 48-3 and 53, were significantly reduced. 
+01:45 This is just an association, because their levels were lower as a result of these longevity promoting interventions, doesn't mean that they themselves promote longevity. 
+01:54 Future studies would have to test if specifically reducing these two triglycerides would impact longevity. 
+02:01 With that in mind, is reducing levels of these triglycerides related to longevity? 
+02:05 So let's take a look at human data. 
+02:08 And that's what we'll see here. And again, if you're interested in checking out the papers on your own, it'll be in the video's description. 
+02:14 In this study, they looked at various metabolite groups and their association with all cause mortality risk and longevity. 
+02:22 And you can see that at the top of the list are triglycerides that had less than 56, less than or equal to 56 carbons and less than or equal to three double bonds. 
+02:31 So TG 48-3 and TG 53, or triacylglycerol, would fall into this category as they both have less than 56 carbons and they have three double bonds. 
+02:41 But this is a potentially wide group. It doesn't just include these two triglycerides, which were associated with an increased all cause mortality risk and a decreased odds of reaching 85 years, which was defined as longevity in this study. 
+02:54 Fortunately though, we can be more specific, because in the supplementary data, they looked at associations for these individual metabolites with all cause mortality risk. 
+03:04 So starting with the metabolites TG 48-3 and TG 53 or TAG triacylglycerol. 
+03:10 We can see that both were significantly associated with an increased risk of death for all causes, as the hazard ratio for each is greater than one, and the data in parentheses, the 95% confidence interval is completely to the right of one. So these are significant associations. 
+03:26 Relatively higher levels of TG 48-3 were associated with a 5% higher risk of death for all causes, and an 8% higher risk of death for all causes for TG 53. 
+03:39 So can these triglycerides be tracked? 
+03:41 It's one thing to show that these triglycerides may be important for longevity in mice, but the goal of this channel isn't just to report on longevity news, it's to potentially optimize these biomarkers so that we can maximize our own health and longevity. 
+03:55 So first, can these triglycerides be tracked? And then second, is there a low hanging fruit in this equation? 
+04:01 If we track total triglycerides, is that a proxy measure of levels of TG 48-3 and TG 53? In other words, if total triglycerides are low, would we even need to measure levels of these two specific triglycerides? 
+04:08 And that's what we'll see here. And again, if you're interested in checking out the papers on your own, it'll be in the video's description. 
+04:14 In this study, they looked at various metabolite groups and their association with all cause mortality risk and longevity. 
+04:22 And you can see that at the top of the list are triglycerides that had less than 56, less than or equal to 56 carbons and less than or equal to three double bonds. 
+04:30 So TG 48-3 and TG 53 would fall into this category as they both have less than 56 carbons and they have three double bonds. 
+04:39 But this is a potentially wide group. It doesn't just include these two triglycerides, which were associated with an increased all cause mortality risk and a decreased odds of reaching 85 years, which was defined as longevity in this study. 
+04:53 So total triglycerides as obtained by venipuncture are not significantly correlated with plasma levels of 48-3. 
+05:00 With similar data obtained for TG 53. You can see that the P value is far away from that P less than 0.05 significance threshold. 
+05:04 So, if the goal is to optimize and reduce plasma levels of these two triglycerides, just keeping our triglycerides low, at least for me, maybe it's different for others, I'd encourage others to track their own data to see if this may be true. 
+05:07 At least in my case, keeping levels relatively low may not be significantly correlated with lower levels of either TG 48-3 or TG 53. 
+05:15 But I still want to keep levels of these triglycerides low. What can I do? 
+05:20 One thing that we can do is by looking for factors that may help keep them low. 
+05:25 And to do that, I've calculated correlations for diet with each of these two triglycerides. So how am I doing that? 
+06:30 Since 2015, I've weighed almost all of my food, literally almost all of my food, this is more than 99% of all food has been measured with a food scale. 
+06:38 I then enter that data into Chronometer, pulled the Chronometer data, which is a diet tracking app, and again, discount link in the video's description, if you want to use it yourself. I then pulled that data and put it into a spreadsheet. 
+06:49 And then each blood test has a corresponding average dietary intake. 
+06:53 And then I can look at correlations with enough tests. So that's what I've done. 
+06:57 And in looking at that data, we'll see that Niacin intake is significantly correlated with higher levels of TG 48-3 and TG 53. 
+07:05 So if you want to see the full list, that's in the correlations tier on Patreon. 
+07:09 So onto the data. First starting with TG 48-3 versus Niacin intake. 
+07:13 On the Y axis, we've got TG 48-3 and on the X axis, we've got my average Niacin intake. From one test until the next. 
+07:22 And then we can see that they are not significantly correlated. In other words, plasma levels of triglycerides total levels as obtained by venipuncture are not significantly correlated with plasma levels of 48-3. 
+07:29 With similar data obtained for TG 53. You can see that the P value is far away from a P less than 0.05 significance threshold. 
+07:39 So, if the goal is to optimize and reduce plasma levels of these two triglycerides, just keeping our triglycerides low, at least for me, maybe it's different for others, I'd encourage others to track their own data to see if this may be true. 
+07:43 At least in my case, keeping levels relatively low may not be significantly correlated with lower levels of either TG 48-3 or TG 53. 
+07:54 But when considering these data and with the all tests, 19 tests, not removing the potential outlier, I think it's fair to say that even very low doses of Niacin, although it raises NAD, may be bad for other biomarkers, specifically for these triglycerides that may be in longevity related mechanisms. 
+08:15 So this then raises the question, is low dose supplemental Niacin bad for longevity mechanisms, at least in my case? 
+08:35 Whether this is an actual outlier, to properly test that, I'd have to have Niacin intakes, 200 milligrams per day, 300 milligrams per day, a whole bunch of tests that correspond to those intakes. And then would we fill in the plot that would still stay on that trend line? 
+08:51 So without doing that, let's take the outlier out for now. And then see what the data looks like. 
+08:57 So now we've got 18 tests. I've removed the outlier for TG 48-3 on the left and TG 53 on the right. 
+09:05 We can see that there's still correlated, so relatively higher Niacin is correlated with higher levels of TG 48-3, but it's just outside of statistical significance, as the P value is 0.07. 
+09:17 On the other hand, TG 53 is a bit farther away from statistical significance, as that P value is 0.17. 
+09:25 But also note that the data is still a positive trend line. Higher Niacin being correlated with higher levels of both of these triglycerides, which again are linked with longevity in mice, and longevity promoting interventions in mice, and associated with increased all cause mortality risk in people. 
+09:34 So, when considering these data and with the 18 tests, not removing the potential outlier, I think it's fair to say that Niacin intake is correlated with higher levels of TG 48-3 and TG 53. 
+09:57 So, it's important to mention that above about 40 milligrams per day of Niacin, any anytime I go higher than that, it's been almost exclusively with Niacin. 
+10:05 So these data would suggest that even up to 100 milligrams per day, maybe bad for plasma levels of these triglycerides, which again are linked with longevity in mice and longevity promoting interventions in mice, and associated with increased all cause mortality risk in people. So the Niacin data would be bad news. 
+10:29 But there may be two outliers in both of these plots. And I say maybe outliers because in a large epidemiological study where someone would qualify as an outlier for whatever reason, I intentionally increased Niacin for one of these tests to test the effect of nicotinic acid supplementation on any. 
+10:53 So calling this an outlier may be a bit of a stretch because this was an intentional thing that I did. 
+10:57 So now we've got 18 tests. I've removed the outlier for TG 48-3 on the left and TG 53 on the right. 
+11:06 So starting on the left, we can see that they're still correlated, so relatively higher Niacin is correlated with higher levels of TG 48-3, but it's just outside of statistical significance as the P value is 0.07. 
+11:18 On the other hand, TG 53 is a bit farther away from statistical significance, as that P value is 0.17. 
+11:26 But also note that the data is still a positive trend line. Higher Niacin being correlated with higher levels of both of these triglycerides, which again are linked with longevity in mice and longevity promoting interventions in mice, and associated with increased all cause mortality risk in people. 
+11:31 If you've ever wondered what's optimal for biomarkers, well I have a new Patreon tier dedicated specifically to that. 
+11:37 Currently includes the 35 biomarkers shown here, more than two hours of video content, 52 published references. And these aren't the reference ranges. This is what may be optimal based on how each of these biomarkers changes during aging and or their associations with risk of death. 
+11:51 So if you're interested in that, check it out. 
+11:54 We've also got merch, including data is my North Star. 
+11:55 Figuring stuff out is my drug. 
+11:57 And the conquer aging or diet trying channel theme that I've got on here. 
+11:58 So if you're interested in that, link in the video description. 
+12:01 We've also got merch, including data is my North Star. Figuring stuff out is my drug. And the conquer aging or diet trying channel theme that I've got on here. So if you're interested in that, link in the video description. 
+12:05 We've also got merch, including data is my North Star. Figuring stuff out is my drug. And the conquer aging or diet trying channel theme that I've got on here. So if you're interested in that, link in the video description. 
+12:05 We've also got merch, including data is my North Star. Figuring stuff out is my drug. And the conquer aging or diet trying channel theme that I've got on here. So if you're interested in that, link in the video description. 
+12:06 Discount affiliate links that you can use to test yourself that helps support the channel. 
+12:06 Discount affiliate links that you can use to test yourself that helps support the channel. 
+12:09 Including Ultalabtest.com, which is where I get the majority of my blood test done. 
+12:11 The clearly filtered water filter I use it every day. 
+12:12 At home metabolomics is referenced in the video. 
+12:13 Or microbiome composition. 
+12:14 ED testing with GenInfinity. 
+12:15 Epigenetic testing with true diagnostic. 
+12:16 At home blood testing with Sci-Fox, which includes. 
+12:18 Gritge, the best epigenetic clock. 
+12:19 Green tea. 
+12:20 Diet tracking with Chronometer. 
+12:21 Or if you'd like to support the channel, you can do that with the website. 
+12:22 I buy me a coffee. 
+12:32 We've also got merch. 
+12:33 Including data is my North Star. 
+12:34 Figuring stuff out is my drug. 
+12:35 And the conquer aging or diet trying channel theme that I've got on here. 
+12:36 So if you're interested in that, link in the video description. 
+12:42 Thanks for watching. 
+12:43 Hope that you enjoyed the video. 
+12:44 Have a great day.
