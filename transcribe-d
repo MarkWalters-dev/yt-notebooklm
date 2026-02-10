@@ -9,7 +9,7 @@ from deepgram import DeepgramClient, DeepgramClientOptions, PrerecordedOptions, 
 
 # Processing one at a time is mandatory for 100MB+ files on standard uploads
 semaphore = asyncio.Semaphore(1)
-SIZE_LIMIT_MB = 200
+SIZE_LIMIT_MB = 50
 
 # Deepgram 2026 Rates
 BASE_RATE_PER_MIN = 0.0058
