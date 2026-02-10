@@ -27,7 +27,7 @@ pkgs.mkShell {
     ]))
   ] 
   ++ lib.optionals isP72 [ 
-    pkgs.openai-whisper-cpp
+    pkgs.whisper-cpp
     pkgs.openblas 
   ];
 
