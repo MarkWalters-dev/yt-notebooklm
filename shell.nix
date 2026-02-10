@@ -13,13 +13,13 @@ let
   # STABLE 2026 DEEPGRAM SDK
   deepgram-sdk = pkgs.python3Packages.buildPythonPackage rec {
     pname = "deepgram-sdk";
-    version = "5.3.1"; 
+    version = "3.7.0"; # Or 5.3.1 if you switched
     format = "setuptools";
     
-    # Using fetchurl with the direct PyPI source link to avoid 404s
     src = pkgs.fetchurl {
       url = "https://files.pythonhosted.org/packages/source/d/deepgram-sdk/deepgram_sdk-${version}.tar.gz";
-      sha256 = "sha256-R8YlI2mS2WfD3nB1vN1fJ6XmZ2p8Xl3X1b9Xl3X1b9Xl3="; # Placeholder: Update this!
+      # This is a valid-length 'dummy' hash that forces Nix to compute the real one
+      sha256 = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="; 
     };
 
     doCheck = false;
