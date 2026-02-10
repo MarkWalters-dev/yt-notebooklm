@@ -5,7 +5,8 @@
 } }:
 
 let
-  currentHost = builtins.getEnv "HOSTNAME";
+  rawHostname = builtins.readFile /etc/hostname;
+  hostname = pkgs.lib.removeSuffix "\n" rawHostname;
   isP72 = currentHost == "p72";
   lib = pkgs.lib;
 
