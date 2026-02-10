@@ -23,7 +23,43 @@ BASE_SUBS_DIR = "subs"
 BASE_MD_DIR = "md"
 
 # API rate limiting (seconds between API calls)
-API_DELAY = 2  # Adjust this value based on your API tier
+API_DELAY = 12  # Used for fallback, but dynamic RPM and daily limit enforced below
+RPM_LIMIT = 13  # Slightly below 15 to avoid bursts
+DAILY_LIMIT = 1500
+import collections
+import json
+from datetime import datetime, timedelta
+
+# Track API request times for RPM
+_api_request_times = collections.deque()
+
+# Track daily request count and persist it
+DAILY_COUNT_FILE = ".transcribe_daily_count.json"
+def get_local_day():
+    # Returns YYYY-MM-DD for local time, with day starting at 1am
+    now = datetime.now()
+    if now.hour == 0:
+        # Before 1am, count as previous day
+        return (now - timedelta(days=1)).strftime("%Y-%m-%d")
+    return now.strftime("%Y-%m-%d")
+
+def load_daily_count():
+    if not os.path.exists(DAILY_COUNT_FILE):
+        return {"date": get_local_day(), "count": 0}
+    try:
+        with open(DAILY_COUNT_FILE, "r") as f:
+            data = json.load(f)
+        # Reset if new day
+        if data.get("date") != get_local_day():
+            return {"date": get_local_day(), "count": 0}
+        return data
+    except Exception:
+        return {"date": get_local_day(), "count": 0}
+
+def save_daily_count(count):
+    data = {"date": get_local_day(), "count": count}
+    with open(DAILY_COUNT_FILE, "w") as f:
+        json.dump(data, f)
 
 # Setup logging
 logging.basicConfig(
@@ -56,7 +92,36 @@ def transcribe_file_simple(file_path, max_retries=3):
     ext = Path(file_path).suffix.lower()
     mime_type = mime_types.get(ext, 'application/octet-stream')
 
+    global _api_request_times
+    daily_data = load_daily_count()
     for attempt in range(1, max_retries + 1):
+        # --- Daily quota enforcement ---
+        if daily_data["count"] >= DAILY_LIMIT:
+            print(f"[DAILY LIMIT] {DAILY_LIMIT} requests reached for {daily_data['date']}. Waiting for reset at 1am local time.")
+            logging.warning(f"[DAILY LIMIT] {DAILY_LIMIT} requests reached. Waiting for reset at 1am local time.")
+            # Sleep until 1:01am local time
+            now = datetime.now()
+            tomorrow = now + timedelta(days=1)
+            reset_time = datetime(year=tomorrow.year, month=tomorrow.month, day=tomorrow.day, hour=1, minute=1)
+            wait_seconds = (reset_time - now).total_seconds()
+            print(f"Sleeping for {int(wait_seconds)} seconds until quota reset...")
+            time.sleep(wait_seconds)
+            daily_data = {"date": get_local_day(), "count": 0}
+            save_daily_count(0)
+
+        # --- Dynamic RPM limiting ---
+        now = time.time()
+        # Remove timestamps older than 60 seconds
+        while _api_request_times and now - _api_request_times[0] > 60:
+            _api_request_times.popleft()
+        if len(_api_request_times) >= RPM_LIMIT:
+            wait_time = 65 - (now - _api_request_times[0])
+            wait_time = max(wait_time, 0)
+            print(f"[Rate Limit] {len(_api_request_times)} requests in last 60s. Waiting {wait_time:.1f} seconds...")
+            logging.info(f"[Rate Limit] Waiting {wait_time:.1f} seconds to avoid exceeding RPM limit.")
+            time.sleep(wait_time)
+        # Record this request
+        _api_request_times.append(time.time())
         msg = f"Transcribing {file_path} (Attempt {attempt})..."
         print(msg)
         logging.info(msg)
@@ -86,8 +151,9 @@ def transcribe_file_simple(file_path, max_retries=3):
             msg = f"Transcription successful for {file_path}"
             print(msg)
             logging.info(msg)
-            # Add delay to respect API rate limits
-            time.sleep(API_DELAY)
+            # Increment and persist daily count
+            daily_data["count"] += 1
+            save_daily_count(daily_data["count"])
             return response.text.strip()
         except Exception as e:
             err_msg = f"Error transcribing {file_path} on attempt {attempt}: {e}"
@@ -129,7 +195,36 @@ def convert_to_markdown(transcript, file_path, max_retries=3):
         else:
             title_text = base_name
     
+    global _api_request_times
+    daily_data = load_daily_count()
     for attempt in range(1, max_retries + 1):
+        # --- Daily quota enforcement ---
+        if daily_data["count"] >= DAILY_LIMIT:
+            print(f"[DAILY LIMIT] {DAILY_LIMIT} requests reached for {daily_data['date']}. Waiting for reset at 1am local time.")
+            logging.warning(f"[DAILY LIMIT] {DAILY_LIMIT} requests reached. Waiting for reset at 1am local time.")
+            # Sleep until 1:01am local time
+            now = datetime.now()
+            tomorrow = now + timedelta(days=1)
+            reset_time = datetime(year=tomorrow.year, month=tomorrow.month, day=tomorrow.day, hour=1, minute=1)
+            wait_seconds = (reset_time - now).total_seconds()
+            print(f"Sleeping for {int(wait_seconds)} seconds until quota reset...")
+            time.sleep(wait_seconds)
+            daily_data = {"date": get_local_day(), "count": 0}
+            save_daily_count(0)
+
+        # --- Dynamic RPM limiting ---
+        now = time.time()
+        # Remove timestamps older than 60 seconds
+        while _api_request_times and now - _api_request_times[0] > 60:
+            _api_request_times.popleft()
+        if len(_api_request_times) >= RPM_LIMIT:
+            wait_time = 65 - (now - _api_request_times[0])
+            wait_time = max(wait_time, 0)
+            print(f"[Rate Limit] {len(_api_request_times)} requests in last 60s. Waiting {wait_time:.1f} seconds...")
+            logging.info(f"[Rate Limit] Waiting {wait_time:.1f} seconds to avoid exceeding RPM limit.")
+            time.sleep(wait_time)
+        # Record this request
+        _api_request_times.append(time.time())
         msg = f"Converting to markdown for {file_path.name} (Attempt {attempt})..."
         print(msg)
         logging.info(msg)
@@ -153,8 +248,9 @@ def convert_to_markdown(transcript, file_path, max_retries=3):
             msg = f"Markdown conversion successful for {file_path}"
             print(msg)
             logging.info(msg)
-            # Add delay to respect API rate limits
-            time.sleep(API_DELAY)
+            # Increment and persist daily count
+            daily_data["count"] += 1
+            save_daily_count(daily_data["count"])
             return response.text.strip() + '\n'
         except Exception as e:
             err_msg = f"Error converting to markdown for {file_path} on attempt {attempt}: {e}"
