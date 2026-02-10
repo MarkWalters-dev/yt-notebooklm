@@ -239,6 +239,8 @@ def convert_to_markdown(transcript, file_path, max_retries=3):
     
     global _api_request_times
     daily_data = load_daily_count()
+    # Use the first model by default for markdown conversion
+    MODEL_NAME = MODEL_NAMES[0]
     for attempt in range(1, max_retries + 1):
         # --- Daily quota enforcement ---
         if daily_data["count"] >= DAILY_LIMIT:

@@ -1,0 +1,65 @@
+#!/usr/bin/env python
+import subprocess
+import re
+import os
+import csv
+
+# CONFIGURATION
+AUDIO_DIR = "./audio"
+REPORT_FILE = "silence_report.csv"
+NOISE_THRESHOLD = "-50dB"  # Lower is more sensitive (e.g., -60dB)
+MIN_SILENCE_DURATION = 5   # In seconds
+
+def get_dead_air(file_path):
+    """Runs ffmpeg silencedetect and parses the output."""
+    # We use -vn (no video) and -f null - (no output file) for speed
+    cmd = [
+        "ffmpeg", "-i", file_path,
+        "-af", f"silencedetect=noise={NOISE_THRESHOLD}:d={MIN_SILENCE_DURATION}",
+        "-f", "null", "-"
+    ]
+    
+    # ffmpeg sends silencedetect info to stderr, not stdout
+    process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    _, stderr = process.communicate()
+    
+    # Regex to find: [silencedetect @ 0x...] silence_start: 10.5
+    # and: [silencedetect @ 0x...] silence_end: 15.2 | silence_duration: 4.7
+    starts = re.findall(r"silence_start: ([\d.]+)", stderr)
+    ends = re.findall(r"silence_end: ([\d.]+)", stderr)
+    durations = re.findall(r"silence_duration: ([\d.]+)", stderr)
+    
+    gaps = []
+    for i in range(len(durations)):
+        gaps.append({
+            "start": starts[i],
+            "end": ends[i],
+            "duration": durations[i]
+        })
+    return gaps
+
+def main():
+    print(f"🔍 Scanning {AUDIO_DIR} for dead air (>{MIN_SILENCE_DURATION}s)...")
+    
+    with open(REPORT_FILE, "w", newline="") as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(["File", "Total Dead Air (s)", "Number of Gaps", "Gap Details"])
+
+        for root, _, files in os.walk(AUDIO_DIR):
+            for f in files:
+                if f.lower().endswith(('.m4a', '.mp3', '.wav')):
+                    path = os.path.join(root, f)
+                    gaps = get_dead_air(path)
+                    
+                    if gaps:
+                        total_silence = sum(float(g["duration"]) for g in gaps)
+                        details = "|".join([f"{g['start']}-{g['end']}({g['duration']}s)" for g in gaps])
+                        writer.writerow([f, f"{total_silence:.2f}", len(gaps), details])
+                        print(f"🔴 {f}: Found {total_silence:.2f}s of silence.")
+                    else:
+                        print(f"✅ {f}: No significant dead air.")
+
+    print(f"\n📝 Report saved to {REPORT_FILE}")
+
+if __name__ == "__main__":
+    main()

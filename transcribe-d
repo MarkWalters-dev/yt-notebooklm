@@ -1,0 +1,111 @@
+#!/usr/bin/env python
+import os
+import asyncio
+import httpx
+import time
+from deepgram import AsyncDeepgramClient, PrerecordedOptions, FileSource
+
+# Concurrency: 10 files at once is safe for your p72's memory
+semaphore = asyncio.Semaphore(5)
+
+# Deepgram 2026 Pay-As-You-Go Rates
+# Nova-2 is ~$0.0058/min. Diarization is usually a +$0.0020/min add-on.
+BASE_RATE_PER_MIN = 0.0058
+DIARIZE_ADDON = 0.0020
+TOTAL_RATE_PER_SEC = (BASE_RATE_PER_MIN + DIARIZE_ADDON) / 60
+
+async def get_balance(api_key):
+    """Fetches real-time project balance from Deepgram API."""
+    try:
+        async with httpx.AsyncClient() as client:
+            headers = {"Authorization": f"Token {api_key}"}
+            # 1. Get Project ID
+            p_resp = await client.get("https://api.deepgram.com/v1/projects", headers=headers)
+            project_id = p_resp.json()["projects"][0]["project_id"]
+            # 2. Get Balance
+            b_resp = await client.get(f"https://api.deepgram.com/v1/projects/{project_id}/balances", headers=headers)
+            amount = b_resp.json()["balances"][0]["amount"]
+            return amount
+    except:
+        return None
+
+async def transcribe_file(client, in_path, out_path, idx, total, api_key):
+    async with semaphore:
+        filename = os.path.basename(in_path)
+        print(f"🚀 [{idx}/{total}] Starting: {filename}")
+        
+        try:
+            start_time = time.time()
+            with open(in_path, "rb") as file:
+                buffer_data = file.read()
+                payload: FileSource = { "buffer": buffer_data }
+                options = PrerecordedOptions(
+                    model="nova-2", 
+                    smart_format=True, 
+                    diarize=True
+                )
+                
+                # Async API Call
+                response = await client.listen.rest.v("1").transcribe_file(payload, options)
+                
+                # Metrics Calculation
+                duration_sec = response.metadata.duration
+                cost = duration_sec * TOTAL_RATE_PER_SEC
+                process_time = time.time() - start_time
+                
+                # Save Transcript
+                os.makedirs(os.path.dirname(out_path), exist_ok=True)
+                with open(out_path, "w") as f:
+                    f.write(response.results.channels[0].alternatives[0].transcript)
+                
+                print(f"✅ Finished: {filename}")
+                print(f"   📊 Length: {duration_sec/60:.1f}m | Cost: ${cost:.4f} | Speed: {duration_sec/process_time:.1x}x")
+
+                # Periodic Balance Check (Every 10 files)
+                if idx % 10 == 0:
+                    bal = await get_balance(api_key)
+                    if bal is not None:
+                        print(f"💰 REMAINING CREDIT: ${bal:.2f}")
+
+        except Exception as e:
+            print(f"❌ Error on {filename}: {e}")
+            with open("transcription_errors.log", "a") as log:
+                log.write(f"{in_path}: {str(e)}\n")
+
+async def main():
+    api_key = os.environ.get("DEEPGRAM_API_KEY")
+    if not api_key:
+        print("❌ Error: DEEPGRAM_API_KEY not found in environment.")
+        return
+
+    client = AsyncDeepgramClient(api_key)
+    audio_root, out_root = "./audio", "./deepgram"
+    file_queue = []
+
+    # Initial Balance Check
+    initial_bal = await get_balance(api_key)
+    print(f"💳 Starting Credit: ${initial_bal if initial_bal else '???'}")
+
+    # Build queue (Recursive search for all audio files)
+    for root, dirs, files in os.walk(audio_root):
+        for f in files:
+            if f.lower().endswith(('.m4a', '.mp3', '.wav', '.ogg')):
+                in_p = os.path.join(root, f)
+                # Mirror the directory structure in the output folder
+                rel_path = os.path.relpath(root, audio_root)
+                out_p = os.path.join(out_root, rel_path, os.path.splitext(f)[0] + ".txt")
+                
+                if not os.path.exists(out_p):
+                    file_queue.append((in_p, out_p))
+
+    total = len(file_queue)
+    print(f"📂 Found {total} new files to transcribe.")
+
+    tasks = [transcribe_file(client, in_p, out_p, i, total, api_key) 
+             for i, (in_p, out_p) in enumerate(file_queue, 1)]
+    
+    await asyncio.gather(*tasks)
+    print("\n🏁 ALL TASKS COMPLETE.")
+
+if __name__ == "__main__":
+    asyncio.run(main())

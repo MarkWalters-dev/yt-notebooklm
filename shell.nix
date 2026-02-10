@@ -24,7 +24,8 @@ pkgs.mkShell {
       p.python-dotenv
       p.tqdm # Add this for progress bars
     ] ++ lib.optionals isP72 [ 
-      p.faster-whisper 
+      p.faster-whisper
+      p.deepgram-sdk
     ]))
   ] 
   ++ lib.optionals isP72 [ 
