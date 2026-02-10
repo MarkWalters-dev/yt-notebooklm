@@ -23,9 +23,9 @@ BASE_SUBS_DIR = "subs"
 BASE_MD_DIR = "md"
 
 # API rate limiting (seconds between API calls)
-API_DELAY = 12  # Used for fallback, but dynamic RPM and daily limit enforced below
+API_DELAY = 20  # Used for fallback, but dynamic RPM and daily limit enforced below
 RPM_LIMIT = 13  # Slightly below 15 to avoid bursts
-DAILY_LIMIT = 1500
+DAILY_LIMIT = 1000
 import collections
 import json
 from datetime import datetime, timedelta
@@ -74,7 +74,7 @@ client = genai.Client(api_key=API_KEY)
 # MODEL_NAME = "gemini-2.5-flash"
 
 # NEW (Standard limit ~1,500/day)
-MODEL_NAME = "gemini-1.5-flash-002"
+MODEL_NAME = "gemini-2.5-flash-lite"
 
 def transcribe_file_simple(file_path, max_retries=3):
     """
