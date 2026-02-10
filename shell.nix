@@ -10,16 +10,16 @@ let
   isP72 = hostname == "p72";
   lib = pkgs.lib;
 
-  # STABLE 2026 DEEPGRAM SDK
+  # STABLE DEEPGRAM SDK
   deepgram-sdk = pkgs.python3Packages.buildPythonPackage rec {
     pname = "deepgram-sdk";
-    version = "3.7.0"; # Or 5.3.1 if you switched
+    version = "3.7.0"; 
     format = "setuptools";
     
     src = pkgs.fetchurl {
       url = "https://files.pythonhosted.org/packages/source/d/deepgram-sdk/deepgram_sdk-${version}.tar.gz";
-      # This is a valid-length 'dummy' hash that forces Nix to compute the real one
-      sha256 = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="; 
+      # USE THE REAL HASH HERE:
+      sha256 = "sha256-PBgX5M7IYyxOR7Ti4xI85HpRZKAVcrkPNvimdXNlHaM="; 
     };
 
     doCheck = false;
