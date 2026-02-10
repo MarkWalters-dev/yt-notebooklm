@@ -25,36 +25,44 @@ def transcribe(file_path):
     rel_path = os.path.relpath(file_path, "audio")
     out_dir = os.path.join("whisper", os.path.dirname(rel_path))
     os.makedirs(out_dir, exist_ok=True)
-    output_file = os.path.join(out_dir, f"{os.path.splitext(os.path.basename(file_path))[0]}.txt")
+    base_name = os.path.splitext(os.path.basename(file_path))[0]
+    output_file = os.path.join(out_dir, f"{base_name}.txt")
+    temp_file = os.path.join(out_dir, f"{base_name}.txt.tmp")
     # Skip if already transcribed
     if os.path.exists(output_file):
         print(f"⏩ Skipping (already transcribed): {output_file}")
         return
-    with open(output_file, "w") as f:
-        for segment in segments:
-            # Whisper segments have a 'avg_logprob' attribute
-            # We convert logprob to a 0-1 probability scale
-            prob = math.exp(segment.avg_logprob)
-            
-            total_score += prob
-            segment_count += 1
-            
-            if prob < 0.6:  # Threshold for "potentially bad"
-                low_confidence_segments.append(f"{segment.start:.2f}s: {segment.text}")
-            pbar.update(round(segment.end - last_t))
-            last_t = segment.end
-
-            f.write(f"[{segment.start:.2f}s] {segment.text}\n")
-
-    pbar.close()        
-
-    # Generate the QA Report
-    avg_quality = (total_score / segment_count) if segment_count > 0 else 0
-    if avg_quality < 0.75:
-        with open("qa_report.log", "a") as log:
-            log.write(f"ALERT: {file_path} has low quality ({avg_quality:.2%}). Check these: {low_confidence_segments[:3]}\n")
-
-    print(f"✅ Finished: {output_file}")
+    # If temp file exists, overwrite it
+    if os.path.exists(temp_file):
+        os.remove(temp_file)
+    try:
+        with open(temp_file, "w") as f:
+            for segment in segments:
+                # Whisper segments have a 'avg_logprob' attribute
+                # We convert logprob to a 0-1 probability scale
+                prob = math.exp(segment.avg_logprob)
+                total_score += prob
+                segment_count += 1
+                if prob < 0.6:  # Threshold for "potentially bad"
+                    low_confidence_segments.append(f"{segment.start:.2f}s: {segment.text}")
+                pbar.update(round(segment.end - last_t))
+                last_t = segment.end
+                f.write(f"[{segment.start:.2f}s] {segment.text}\n")
+        pbar.close()
+        # Move temp file to final output file
+        os.replace(temp_file, output_file)
+        # Generate the QA Report
+        avg_quality = (total_score / segment_count) if segment_count > 0 else 0
+        if avg_quality < 0.75:
+            with open("qa_report.log", "a") as log:
+                log.write(f"ALERT: {file_path} has low quality ({avg_quality:.2%}). Check these: {low_confidence_segments[:3]}\n")
+        print(f"✅ Finished: {output_file}")
+    except Exception as e:
+        # Clean up temp file if error occurs
+        if os.path.exists(temp_file):
+            os.remove(temp_file)
+        pbar.close()
+        print(f"❌ Error transcribing {file_path}: {e}")
 
 
 # Process by channel (subdirectory of audio/)
