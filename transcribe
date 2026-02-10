@@ -18,6 +18,9 @@ BASE_AUDIO_DIR = "audio"
 BASE_SUBS_DIR = "subs"
 BASE_MD_DIR = "md"
 
+# API rate limiting (seconds between API calls)
+API_DELAY = 2  # Adjust this value based on your API tier
+
 # Setup logging
 logging.basicConfig(
     filename="transcribe.log",
@@ -74,14 +77,25 @@ def transcribe_file_simple(file_path, max_retries=3):
             msg = f"Transcription successful for {file_path}"
             print(msg)
             logging.info(msg)
+            # Add delay to respect API rate limits
+            time.sleep(API_DELAY)
             return response.text.strip()
         except Exception as e:
             err_msg = f"Error transcribing {file_path} on attempt {attempt}: {e}"
             print(err_msg)
             logging.error(err_msg)
-            if attempt < max_retries:
+            
+            # Check for rate limit errors
+            error_str = str(e).lower()
+            if 'rate limit' in error_str or 'quota' in error_str or '429' in error_str:
+                wait_time = 60  # Wait 60 seconds for rate limit errors
+                print(f"Rate limit detected. Waiting {wait_time} seconds...")
+                logging.warning(f"Rate limit hit. Waiting {wait_time} seconds.")
+                time.sleep(wait_time)
+            elif attempt < max_retries:
                 time.sleep(5)
-            else:
+            
+            if attempt >= max_retries:
                 logging.error(f"Max retries reached for {file_path}. Skipping.")
                 print(f"Max retries reached for {file_path}. Skipping.")
     return None
@@ -130,14 +144,25 @@ def convert_to_markdown(transcript, file_path, max_retries=3):
             msg = f"Markdown conversion successful for {file_path}"
             print(msg)
             logging.info(msg)
+            # Add delay to respect API rate limits
+            time.sleep(API_DELAY)
             return response.text.strip() + '\n'
         except Exception as e:
             err_msg = f"Error converting to markdown for {file_path} on attempt {attempt}: {e}"
             print(err_msg)
             logging.error(err_msg)
-            if attempt < max_retries:
+            
+            # Check for rate limit errors
+            error_str = str(e).lower()
+            if 'rate limit' in error_str or 'quota' in error_str or '429' in error_str:
+                wait_time = 60  # Wait 60 seconds for rate limit errors
+                print(f"Rate limit detected. Waiting {wait_time} seconds...")
+                logging.warning(f"Rate limit hit. Waiting {wait_time} seconds.")
+                time.sleep(wait_time)
+            elif attempt < max_retries:
                 time.sleep(5)
-            else:
+            
+            if attempt >= max_retries:
                 logging.error(f"Max retries reached for {file_path}. Skipping.")
                 print(f"Max retries reached for {file_path}. Skipping.")
     return None
