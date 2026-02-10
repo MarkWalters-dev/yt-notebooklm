@@ -18,11 +18,22 @@ async def get_balance(api_key):
     try:
         async with httpx.AsyncClient() as client:
             headers = {"Authorization": f"Token {api_key}"}
+            # Get project list
             p_resp = await client.get("https://api.deepgram.com/v1/projects", headers=headers)
-            project_id = p_resp.json()["projects"][0]["project_id"]
+            p_data = p_resp.json()
+            
+            # Use the first active project ID
+            project_id = p_data["projects"][0]["project_id"]
+            
+            # Get balance
             b_resp = await client.get(f"https://api.deepgram.com/v1/projects/{project_id}/balances", headers=headers)
-            return b_resp.json()["balances"][0]["amount"]
-    except:
+            b_data = b_resp.json()
+            
+            # Deepgram returns a list of balances; we want the 'amount' from the first one
+            return b_data["balances"][0]["amount"]
+    except Exception as e:
+        # This will now tell you WHY the balance check failed
+        # print(f"DEBUG: Balance check failed: {e}") 
         return None
 
 async def transcribe_file(client, in_path, out_path, idx, total, api_key):
@@ -55,16 +66,24 @@ async def transcribe_file(client, in_path, out_path, idx, total, api_key):
                     f.write(response.results.channels[0].alternatives[0].transcript)
                 
                 print(f"✅ Finished: {filename} (${cost:.4f})")
-
-                if idx % 10 == 0:
-                    bal = await get_balance(api_key)
-                    if bal is not None:
-                        print(f"💰 REMAINING CREDIT: ${bal:.2f}")
+                
+                bal = await get_balance(api_key)
+                if bal is not None:
+                    print(f"💰 REMAINING CREDIT: ${bal:.2f}")
 
         except Exception as e:
-            print(f"❌ Error on {filename}: {e}")
+            # SDK v3 hides the message in different attributes depending on the error type
+            error_detail = "Unknown Error"
+            if hasattr(e, 'message'):
+                error_detail = e.message
+            elif hasattr(e, 'body'):
+                error_detail = e.body
+            else:
+                error_detail = str(e)
+
+            print(f"❌ Error on {filename}: {error_detail}")
             with open("deepgram_errors.log", "a") as log:
-                log.write(f"{in_path}: {str(e)}\n")
+                log.write(f"{in_path}: {error_detail}\n")
 
 async def main():
     api_key = os.environ.get("DEEPGRAM_API_KEY")
