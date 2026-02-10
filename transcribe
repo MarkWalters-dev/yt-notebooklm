@@ -70,14 +70,16 @@ def transcribe_file(file_path, max_retries=3):
             )
             transcript = response.text.strip()
             return transcript
-        def transcript_to_markdown(transcript, file_stem):
-            import re
-            video_id_pattern = re.compile(r'^[A-Za-z0-9_-]{11}$')
-            tokens = file_stem.split()
-            if tokens and video_id_pattern.match(tokens[-1]):
-                title_text = ' '.join(tokens[:-1])
-            else:
-                base_name_no_underscore = file_stem.replace('_', '')
+    # ...existing code...
+
+def transcript_to_markdown(transcript, file_stem):
+    import re
+    video_id_pattern = re.compile(r'^[A-Za-z0-9_-]{11}$')
+    tokens = file_stem.split()
+    if tokens and video_id_pattern.match(tokens[-1]):
+        title_text = ' '.join(tokens[:-1])
+    else:
+        base_name_no_underscore = file_stem.replace('_', '')
                 if video_id_pattern.match(base_name_no_underscore[-11:]):
                     title_text = file_stem[:-12].rstrip()
                 else:
