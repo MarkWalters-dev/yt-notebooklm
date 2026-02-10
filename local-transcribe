@@ -51,7 +51,7 @@ def transcribe(file_path):
     avg_quality = (total_score / segment_count) if segment_count > 0 else 0
     if avg_quality < 0.75:
         with open("qa_report.log", "a") as log:
-            log.write(f"ALERT: {file_path} has low quality ({avg_quality:.2%). Check these: {low_confidence_segments[:3]}\n")
+            log.write(f"ALERT: {file_path} has low quality ({avg_quality:.2%}). Check these: {low_confidence_segments[:3]}\n")
 
     print(f"✅ Finished: {output_file}")
 
