@@ -107,20 +107,6 @@ def transcript_to_markdown(transcript, file_stem):
         transcript_md = transcript_md[len(title.strip()):].lstrip('\n')
     markdown = title + transcript_md + '\n'
     return markdown
-    # ...existing code...
-
-                time.sleep(5)
-    import re
-    video_id_pattern = re.compile(r'^[A-Za-z0-9_-]{11}$')
-    tokens = file_stem.split()
-    if tokens and video_id_pattern.match(tokens[-1]):
-        title_text = ' '.join(tokens[:-1])
-    else:
-        base_name_no_underscore = file_stem.replace('_', '')
-            else:
-                logging.error(f"Max retries reached for {file_path}. Skipping.")
-                print(f"Max retries reached for {file_path}. Skipping.")
-    return None
 
 def main():
     audio_extensions = {'.mp3', '.wav', '.m4a', '.aac', '.flac', '.ogg'}
