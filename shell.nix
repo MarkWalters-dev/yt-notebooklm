@@ -7,7 +7,7 @@
 let
   rawHostname = builtins.readFile /etc/hostname;
   hostname = pkgs.lib.removeSuffix "\n" rawHostname;
-  isP72 = currentHost == "p72";
+  isP72 = hostname == "p72";
   lib = pkgs.lib;
 
 in
@@ -34,12 +34,12 @@ pkgs.mkShell {
   shellHook = ''
     export PATH="$PWD:$PATH"
     
-    if [ "${currentHost}" = "p72" ]; then
+    if [ "${hostname}" = "p72" ]; then
       echo "🚀 p72 detected: Faster-Whisper and Whisper.cpp are both loaded."
-    elif [ -z "${currentHost}" ]; then
+    elif [ -z "${hostname}" ]; then
       echo "⚠️ Hostname not detected. Run: export HOSTNAME=\$HOSTNAME; nix-shell"
     else
-      echo "💻 Host: ${currentHost} (Whisper tools skipped)"
+      echo "💻 Host: ${hostname} (Whisper tools skipped)"
     fi
   '';
 }
