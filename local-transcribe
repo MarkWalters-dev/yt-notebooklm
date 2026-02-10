@@ -56,8 +56,32 @@ def transcribe(file_path):
 
     print(f"✅ Finished: {output_file}")
 
-# Walk through your audio folder
-for root, _, files in os.walk("./audio"):
+
+# Process by channel (subdirectory of audio/)
+from pathlib import Path
+import re
+
+audio_root = Path("audio")
+date_pattern = re.compile(r"^(\d{4}-\d{2}-\d{2})_")
+
+for channel_dir in sorted(audio_root.iterdir()):
+    if not channel_dir.is_dir():
+        continue
+    print(f"\n=== Channel: {channel_dir.name} ===")
+    files = [f for f in channel_dir.iterdir() if f.is_file() and f.suffix == ".m4a"]
+
+    def extract_date(file):
+        m = date_pattern.match(file.name)
+        if m:
+            try:
+                from datetime import datetime
+                return datetime.strptime(m.group(1), "%Y-%m-%d")
+            except Exception:
+                return None
+        return None
+
+    # Sort files newest first
+    files.sort(key=lambda f: extract_date(f) or f.stat().st_mtime, reverse=True)
+
     for file in files:
-        if file.endswith(".m4a"):
-            transcribe(os.path.join(root, file))
+        transcribe(str(file))

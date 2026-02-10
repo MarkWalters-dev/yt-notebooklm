@@ -70,9 +70,32 @@ logging.basicConfig(
 
 client = genai.Client(api_key=API_KEY)
 
-# MODEL_NAME = "gemini-2.5-flash"
-MODEL_NAME = "gemini-2.5-flash-lite"
-# MODEL_NAME = "gemini-flash-lite-latest"
+
+# List of models to try in order
+MODEL_NAMES = [
+    "gemini-2.5-flash-lite",
+    "gemini-2.5-flash",
+    "gemini-flash-lite-latest",
+]
+
+MODEL_STATE_FILE = ".transcribe_model_state.json"
+
+def load_model_state():
+    if not os.path.exists(MODEL_STATE_FILE):
+        return {"index": 0, "failures": [False, False, False]}
+    try:
+        with open(MODEL_STATE_FILE, "r") as f:
+            data = json.load(f)
+        # Defensive: ensure correct length
+        if "failures" not in data or len(data["failures"]) != len(MODEL_NAMES):
+            return {"index": 0, "failures": [False]*len(MODEL_NAMES)}
+        return data
+    except Exception:
+        return {"index": 0, "failures": [False]*len(MODEL_NAMES)}
+
+def save_model_state(state):
+    with open(MODEL_STATE_FILE, "w") as f:
+        json.dump(state, f)
 
 def transcribe_file_simple(file_path, max_retries=3):
     """
@@ -91,86 +114,107 @@ def transcribe_file_simple(file_path, max_retries=3):
     mime_type = mime_types.get(ext, 'application/octet-stream')
 
     global _api_request_times
-    daily_data = load_daily_count()
-    for attempt in range(1, max_retries + 1):
-        # --- Daily quota enforcement ---
-        if daily_data["count"] >= DAILY_LIMIT:
-            print(f"[DAILY LIMIT] {DAILY_LIMIT} requests reached for {daily_data['date']}. Waiting for reset at 1am local time.")
-            logging.warning(f"[DAILY LIMIT] {DAILY_LIMIT} requests reached. Waiting for reset at 1am local time.")
-            # Sleep until 1:01am local time
-            now = datetime.now()
-            tomorrow = now + timedelta(days=1)
-            reset_time = datetime(year=tomorrow.year, month=tomorrow.month, day=tomorrow.day, hour=1, minute=1)
-            wait_seconds = (reset_time - now).total_seconds()
-            print(f"Sleeping for {int(wait_seconds)} seconds until quota reset...")
-            time.sleep(wait_seconds)
-            daily_data = {"date": get_local_day(), "count": 0}
-            save_daily_count(0)
+    model_state = load_model_state()
+    for model_try in range(len(MODEL_NAMES)):
+        model_idx = model_state["index"]
+        if model_state["failures"][model_idx]:
+            # Already failed for this model, skip
+            model_state["index"] = (model_state["index"] + 1) % len(MODEL_NAMES)
+            continue
+        MODEL_NAME = MODEL_NAMES[model_idx]
+        daily_data = load_daily_count()
+        for attempt in range(1, max_retries + 1):
+            # --- Daily quota enforcement ---
+            if daily_data["count"] >= DAILY_LIMIT:
+                print(f"[DAILY LIMIT] {DAILY_LIMIT} requests reached for {daily_data['date']} on model {MODEL_NAME}. Switching model...")
+                logging.warning(f"[DAILY LIMIT] {DAILY_LIMIT} requests reached for {MODEL_NAME}. Switching model.")
+                model_state["failures"][model_idx] = True
+                save_model_state(model_state)
+                break  # Try next model
 
-        # --- Dynamic RPM limiting ---
-        now = time.time()
-        # Remove timestamps older than 60 seconds
-        while _api_request_times and now - _api_request_times[0] > 60:
-            _api_request_times.popleft()
-        if len(_api_request_times) >= RPM_LIMIT:
-            wait_time = 65 - (now - _api_request_times[0])
-            wait_time = max(wait_time, 0)
-            print(f"[Rate Limit] {len(_api_request_times)} requests in last 60s. Waiting {wait_time:.1f} seconds...")
-            logging.info(f"[Rate Limit] Waiting {wait_time:.1f} seconds to avoid exceeding RPM limit.")
-            time.sleep(wait_time)
-        # Record this request
-        _api_request_times.append(time.time())
-        msg = f"Transcribing {file_path} (Attempt {attempt})..."
-        print(msg)
-        logging.info(msg)
-        try:
-            with open(file_path, "rb") as f:
-                audio_data = f.read()
-            
-            audio_part = types.Part(
-                inline_data=types.Blob(
-                    mime_type=mime_type,
-                    data=audio_data
-                )
-            )
-            
-            msg = f"Processing transcription for {file_path.name}..."
-            print(msg)
-            logging.info(msg)
-            
-            response = client.models.generate_content(
-                model=MODEL_NAME,
-                contents=[
-                    audio_part,
-                    "Transcribe this audio file accurately."
-                ]
-            )
-            
-            msg = f"Transcription successful for {file_path}"
-            print(msg)
-            logging.info(msg)
-            # Increment and persist daily count
-            daily_data["count"] += 1
-            save_daily_count(daily_data["count"])
-            return response.text.strip()
-        except Exception as e:
-            err_msg = f"Error transcribing {file_path} on attempt {attempt}: {e}"
-            print(err_msg)
-            logging.error(err_msg)
-            
-            # Check for rate limit errors
-            error_str = str(e).lower()
-            if 'rate limit' in error_str or 'quota' in error_str or '429' in error_str:
-                wait_time = 60  # Wait 60 seconds for rate limit errors
-                print(f"Rate limit detected. Waiting {wait_time} seconds...")
-                logging.warning(f"Rate limit hit. Waiting {wait_time} seconds.")
+            # --- Dynamic RPM limiting ---
+            now = time.time()
+            # Remove timestamps older than 60 seconds
+            while _api_request_times and now - _api_request_times[0] > 60:
+                _api_request_times.popleft()
+            if len(_api_request_times) >= RPM_LIMIT:
+                wait_time = 65 - (now - _api_request_times[0])
+                wait_time = max(wait_time, 0)
+                print(f"[Rate Limit] {len(_api_request_times)} requests in last 60s. Waiting {wait_time:.1f} seconds...")
+                logging.info(f"[Rate Limit] Waiting {wait_time:.1f} seconds to avoid exceeding RPM limit.")
                 time.sleep(wait_time)
-            elif attempt < max_retries:
-                time.sleep(20)
-            
-            if attempt >= max_retries:
-                logging.error(f"Max retries reached for {file_path}. Skipping.")
-                print(f"Max retries reached for {file_path}. Skipping.")
+            # Record this request
+            _api_request_times.append(time.time())
+            msg = f"Transcribing {file_path} (Attempt {attempt}) with model {MODEL_NAME}..."
+            print(msg)
+            logging.info(msg)
+            try:
+                with open(file_path, "rb") as f:
+                    audio_data = f.read()
+
+                audio_part = types.Part(
+                    inline_data=types.Blob(
+                        mime_type=mime_type,
+                        data=audio_data
+                    )
+                )
+
+                msg = f"Processing transcription for {file_path.name}..."
+                print(msg)
+                logging.info(msg)
+
+                response = client.models.generate_content(
+                    model=MODEL_NAME,
+                    contents=[
+                        audio_part,
+                        "Transcribe this audio file accurately."
+                    ]
+                )
+
+                msg = f"Transcription successful for {file_path} using {MODEL_NAME}"
+                print(msg)
+                logging.info(msg)
+                # Increment and persist daily count
+                daily_data["count"] += 1
+                save_daily_count(daily_data["count"])
+                # Reset model state to start with first model next time
+                model_state["index"] = 0
+                save_model_state(model_state)
+                return response.text.strip()
+            except Exception as e:
+                err_msg = f"Error transcribing {file_path} on attempt {attempt} with {MODEL_NAME}: {e}"
+                print(err_msg)
+                logging.error(err_msg)
+
+                # Check for rate limit or quota errors
+                error_str = str(e).lower()
+                if 'rate limit' in error_str or 'quota' in error_str or '429' in error_str:
+                    wait_time = 60  # Wait 60 seconds for rate limit errors
+                    print(f"Rate/quota limit detected for {MODEL_NAME}. Waiting {wait_time} seconds...")
+                    logging.warning(f"Rate/quota limit hit for {MODEL_NAME}. Waiting {wait_time} seconds.")
+                    time.sleep(wait_time)
+                    if 'quota' in error_str or 'daily' in error_str:
+                        # Mark this model as failed for quota
+                        model_state["failures"][model_idx] = True
+                        save_model_state(model_state)
+                        break  # Try next model
+                elif attempt < max_retries:
+                    time.sleep(20)
+
+                if attempt >= max_retries:
+                    logging.error(f"Max retries reached for {file_path} with {MODEL_NAME}. Switching model.")
+                    print(f"Max retries reached for {file_path} with {MODEL_NAME}. Switching model.")
+                    model_state["failures"][model_idx] = True
+                    save_model_state(model_state)
+                    break  # Try next model
+        # Move to next model
+        model_state["index"] = (model_state["index"] + 1) % len(MODEL_NAMES)
+        save_model_state(model_state)
+    # If all models failed
+    if all(model_state["failures"]):
+        print("All models have exceeded their daily quota. Stopping.")
+        logging.error("All models have exceeded their daily quota. Stopping.")
+        sys.exit(1)
     return None
 
 def convert_to_markdown(transcript, file_path, max_retries=3):
