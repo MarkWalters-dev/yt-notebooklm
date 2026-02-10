@@ -178,20 +178,8 @@ def transcribe_file_markdown(file_path, max_retries=3):
     return None
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: ./transcribe <mode>")
-        print("Modes:")
-        print("  simple    - Simple transcription saved to subs/ folder")
-        print("  markdown  - Structured markdown saved to md/channel_name/ folder")
-        sys.exit(1)
-    
-    mode = sys.argv[1].lower()
-    if mode not in ['simple', 'markdown']:
-        print(f"Error: Invalid mode '{mode}'. Use 'simple' or 'markdown'")
-        sys.exit(1)
-    
     audio_extensions = {'.mp3', '.wav', '.m4a', '.aac', '.flac', '.ogg'}
-    msg = f"Scanning '{BASE_AUDIO_DIR}' for audio files (mode: {mode})..."
+    msg = f"Scanning '{BASE_AUDIO_DIR}' for audio files..."
     print(msg)
     logging.info(msg)
     processed_one = False
@@ -202,32 +190,50 @@ def main():
             if file_path.suffix.lower() in audio_extensions:
                 relative_path = file_path.relative_to(BASE_AUDIO_DIR)
                 
-                if mode == 'simple':
-                    output_path = Path(BASE_SUBS_DIR) / relative_path.with_suffix('.txt')
-                    transcribe_func = transcribe_file_simple
-                else:  # markdown
-                    output_path = Path(BASE_MD_DIR) / relative_path.with_suffix('.md')
-                    transcribe_func = transcribe_file_markdown
+                # First, create simple transcription in subs/ folder
+                subs_output_path = Path(BASE_SUBS_DIR) / relative_path.with_suffix('.txt')
+                subs_output_path.parent.mkdir(parents=True, exist_ok=True)
                 
-                output_path.parent.mkdir(parents=True, exist_ok=True)
-                
-                if output_path.exists():
-                    msg = f"Skipping {file_path.name} (Transcript already exists)"
-                    print(msg)
-                    logging.info(msg)
-                    continue
-                
-                transcript = transcribe_func(file_path)
-                if transcript:
-                    with open(output_path, "w", encoding="utf-8") as f:
-                        f.write(transcript)
-                    msg = f"Saved: {output_path}"
-                    print(msg)
-                    logging.info(msg)
+                if not subs_output_path.exists():
+                    transcript = transcribe_file_simple(file_path)
+                    if transcript:
+                        with open(subs_output_path, "w", encoding="utf-8") as f:
+                            f.write(transcript)
+                        msg = f"Saved simple transcription: {subs_output_path}"
+                        print(msg)
+                        logging.info(msg)
+                    else:
+                        err_msg = f"Failed to transcribe {file_path}"
+                        print(err_msg)
+                        logging.error(err_msg)
+                        processed_one = True
+                        break
                 else:
-                    err_msg = f"Failed to transcribe {file_path}"
-                    print(err_msg)
-                    logging.error(err_msg)
+                    msg = f"Simple transcription already exists for {file_path.name}"
+                    print(msg)
+                    logging.info(msg)
+                
+                # Second, create markdown version in md/ folder
+                md_output_path = Path(BASE_MD_DIR) / relative_path.with_suffix('.md')
+                md_output_path.parent.mkdir(parents=True, exist_ok=True)
+                
+                if not md_output_path.exists():
+                    markdown = transcribe_file_markdown(file_path)
+                    if markdown:
+                        with open(md_output_path, "w", encoding="utf-8") as f:
+                            f.write(markdown)
+                        msg = f"Saved markdown: {md_output_path}"
+                        print(msg)
+                        logging.info(msg)
+                    else:
+                        err_msg = f"Failed to create markdown for {file_path}"
+                        print(err_msg)
+                        logging.error(err_msg)
+                else:
+                    msg = f"Markdown already exists for {file_path.name}"
+                    print(msg)
+                    logging.info(msg)
+                
                 processed_one = True
                 break
         if processed_one:
