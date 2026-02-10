@@ -4,7 +4,7 @@ import asyncio
 import httpx
 import time
 import random
-from deepgram import DeepgramClient, PrerecordedOptions, FileSource
+from deepgram import DeepgramClient, PrerecordedOptions, FileSource, DeepgramClientOptions
 
 # Lowered to 3 for better stability across 1,700 files
 semaphore = asyncio.Semaphore(3)
@@ -24,7 +24,7 @@ async def get_balance(api_key):
             return b_resp.json()["balances"][0]["amount"]
     except:
         return None
-        
+
 async def transcribe_file(client, in_path, out_path, idx, total, api_key):
     async with semaphore:
         filename = os.path.basename(in_path)
