@@ -69,7 +69,7 @@ async def transcribe_file(client, in_path, out_path, idx, total, api_key):
 
         except Exception as e:
             print(f"❌ Error on {filename}: {e}")
-            with open("transcription_errors.log", "a") as log:
+            with open("deeepgram_transcription_errors.log", "a") as log:
                 log.write(f"{in_path}: {str(e)}\n")
 
 async def main():
