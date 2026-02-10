@@ -63,50 +63,61 @@ def transcribe_file(file_path, max_retries=3):
             msg = f"Processing transcription for {file_path.name}..."
             print(msg)
             logging.info(msg)
-            # Request exact transcript (verbatim)
+            # Prepare markdown title (exclude video_id)
+            import re
+            # Remove trailing video_id if present (last token after space or underscore is likely video_id)
+            base_name = file_path.stem.replace('_', ' ')
+            video_id_pattern = re.compile(r'^[A-Za-z0-9_-]{11}$')
+            tokens = base_name.split()
+            # Remove last token if it matches video_id pattern
+            if tokens and video_id_pattern.match(tokens[-1]):
+                title_text = ' '.join(tokens[:-1])
+            else:
+                # Also check if last token after removing underscores matches
+                base_name_no_underscore = file_path.stem.replace('_', '')
+                if video_id_pattern.match(base_name_no_underscore[-11:]):
+                    title_text = base_name[:-12].rstrip()
+                else:
+                    title_text = base_name
+            title = f"# {title_text}\n\n"
+            # Prompt Gemini to format transcript with paragraphs and markdown, using only the cleaned title
             response = client.models.generate_content(
                 model=MODEL_NAME,
-                contents=[audio_part, {"Transcribe this audio file verbatim. No formatting, just the raw transcript."}]
+                contents=[
+                    audio_part,
+                    {
+                        f"Transcribe this audio file into a clean, structured Markdown study note. ",
+                        f"Use the title: '# {title_text}'.\n\n",
+                        "**Strict Editing Rules for AI Optimization:**\n",
+                        "1. **Executive Summary:** Start with a bulleted 'Executive Summary' of the 3-5 key scientific findings.\n",
+                        "2. **Remove Visual References:** Delete phrases like 'black circles', 'as shown in the right panel', or 'you can see here'. Describe the data trend directly instead (e.g., 'The data shows a 50% increase').\n",
+                        "3. **Format Protocols as Lists:** If the speaker describes a step-by-step protocol (like exercise routines or study methodology), format it as a clear bulleted list.\n",
+                        "4. **Standardize Terms:** Replace 'lit mice' with 'Little (dwarf) mice' throughout. Ensure chemical names are spelled correctly.\n",
+                        "5. **Delete Meta-Commentary:** Remove intros, outros, Patreon plugs, or calls to leave comments. Keep only the scientific data.\n",
+                        "6. **Structure:** Use H2 headings (##) for major scientific topics (e.g., 'Mouse Data', 'Human Evidence')."
+                    }
+                ]
             )
+            msg = f"Transcription successful for {file_path}"
+            print(msg)
+            logging.info(msg)
+            # Only add the title once, and ensure transcript does not repeat it
             transcript = response.text.strip()
-            return transcript
-    # ...existing code...
-
-def transcript_to_markdown(transcript, file_stem):
-    import re
-    video_id_pattern = re.compile(r'^[A-Za-z0-9_-]{11}$')
-    tokens = file_stem.split()
-    if tokens and video_id_pattern.match(tokens[-1]):
-        title_text = ' '.join(tokens[:-1])
-    else:
-        base_name_no_underscore = file_stem.replace('_', '')
-        if video_id_pattern.match(base_name_no_underscore[-11:]):
-            title_text = file_stem[:-12].rstrip()
-        else:
-            title_text = file_stem
-    title = f"# {title_text}\n\n"
-    prompt = [
-        transcript,
-        {
-            f"Format this transcript into a clean, structured Markdown study note. Use the title: '# {title_text}'.\n\n",
-            "**Strict Editing Rules for AI Optimization:**\n",
-            "1. **Executive Summary:** Start with a bulleted 'Executive Summary' of the 3-5 key scientific findings.\n",
-            "2. **Remove Visual References:** Delete phrases like 'black circles', 'as shown in the right panel', or 'you can see here'. Describe the data trend directly instead (e.g., 'The data shows a 50% increase').\n",
-            "3. **Format Protocols as Lists:** If the speaker describes a step-by-step protocol (like exercise routines or study methodology), format it as a clear bulleted list.\n",
-            "4. **Standardize Terms:** Replace 'lit mice' with 'Little (dwarf) mice' throughout. Ensure chemical names are spelled correctly.\n",
-            "5. **Delete Meta-Commentary:** Remove intros, outros, Patreon plugs, or calls to leave comments. Keep only the scientific data.\n",
-            "6. **Structure:** Use H2 headings (##) for major scientific topics (e.g., 'Mouse Data', 'Human Evidence')."
-        }
-    ]
-    response = client.models.generate_content(
-        model=MODEL_NAME,
-        contents=prompt
-    )
-    transcript_md = response.text.strip()
-    if transcript_md.startswith(title.strip()):
-        transcript_md = transcript_md[len(title.strip()):].lstrip('\n')
-    markdown = title + transcript_md + '\n'
-    return markdown
+            # Remove duplicate title if Gemini includes it
+            if transcript.startswith(title.strip()):
+                transcript = transcript[len(title.strip()):].lstrip('\n')
+            markdown = title + transcript + '\n'
+            return markdown
+        except Exception as e:
+            err_msg = f"Error transcribing {file_path} on attempt {attempt}: {e}"
+            print(err_msg)
+            logging.error(err_msg)
+            if attempt < max_retries:
+                time.sleep(5)
+            else:
+                logging.error(f"Max retries reached for {file_path}. Skipping.")
+                print(f"Max retries reached for {file_path}. Skipping.")
+    return None
 
 def main():
     audio_extensions = {'.mp3', '.wav', '.m4a', '.aac', '.flac', '.ogg'}
@@ -119,26 +130,18 @@ def main():
             file_path = Path(root) / file
             if file_path.suffix.lower() in audio_extensions:
                 relative_path = file_path.relative_to(BASE_AUDIO_DIR)
-                subs_output_path = Path(BASE_SUBS_DIR) / relative_path.with_suffix('.txt')
-                subs_output_path.parent.mkdir(parents=True, exist_ok=True)
-                md_output_path = Path('md') / relative_path.parent / relative_path.with_suffix('.md')
-                md_output_path.parent.mkdir(parents=True, exist_ok=True)
-                if subs_output_path.exists() and md_output_path.exists():
-                    msg = f"Skipping {file_path.name} (Both transcript and markdown exist)"
+                output_path = Path(BASE_SUBS_DIR) / relative_path.with_suffix('.md')
+                output_path.parent.mkdir(parents=True, exist_ok=True)
+                if output_path.exists():
+                    msg = f"Skipping {file_path.name} (Transcript already exists)"
                     print(msg)
                     logging.info(msg)
                     continue
                 transcript = transcribe_file(file_path)
                 if transcript:
-                    with open(subs_output_path, "w", encoding="utf-8") as f:
+                    with open(output_path, "w", encoding="utf-8") as f:
                         f.write(transcript)
-                    msg = f"Saved exact transcript: {subs_output_path}"
-                    print(msg)
-                    logging.info(msg)
-                    markdown = transcript_to_markdown(transcript, file_path.stem)
-                    with open(md_output_path, "w", encoding="utf-8") as f:
-                        f.write(markdown)
-                    msg = f"Saved markdown transcript: {md_output_path}"
+                    msg = f"Saved: {output_path}"
                     print(msg)
                     logging.info(msg)
                 else:
