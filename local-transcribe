@@ -10,7 +10,15 @@ model = WhisperModel("large-v3-turbo", device="cpu", compute_type="int8", cpu_th
 def transcribe(file_path):
     # This will process roughly 5-10x faster than real-time on a modern CPU
     segments, info = model.transcribe(file_path, beam_size=1) # beam_size=1 is fastest
-    
+
+    pbar = tqdm(total=round(info.duration), unit="sec", desc=f"   File: {os.path.basename(file_path)[:20]}", leave=False)
+    results = []
+    last_t = 0
+
+    total_score = 0
+    segment_count = 0
+    low_confidence_segments = []
+
     # Build output path in whisper/ with same structure as audio/
     rel_path = os.path.relpath(file_path, "audio")
     out_dir = os.path.join("whisper", os.path.dirname(rel_path))
@@ -22,7 +30,29 @@ def transcribe(file_path):
         return
     with open(output_file, "w") as f:
         for segment in segments:
+            # Whisper segments have a 'avg_logprob' attribute
+            # We convert logprob to a 0-1 probability scale
+            import math
+            prob = math.exp(segment.avg_logprob)
+            
+            total_score += prob
+            segment_count += 1
+            
+            if prob < 0.6:  # Threshold for "potentially bad"
+                low_confidence_segments.append(f"{segment.start:.2f}s: {segment.text}")
+            pbar.update(round(segment.end - last_t))
+                last_t = segment.end
+
             f.write(f"[{segment.start:.2f}s] {segment.text}\n")
+
+    pbar.close()        
+
+    # Generate the QA Report
+    avg_quality = (total_score / segment_count) if segment_count > 0 else 0
+    if avg_quality < 0.75:
+        with open("qa_report.log", "a") as log:
+            log.write(f"ALERT: {file_path} has low quality ({avg_quality:.2%). Check these: {low_confidence_segments[:3]}\n")
+
     print(f"✅ Finished: {output_file}")
 
 # Walk through your audio folder

@@ -22,6 +22,7 @@ pkgs.mkShell {
     (pkgs.python3.withPackages (p: [
       p.google-genai
       p.python-dotenv
+      p.tqdm # Add this for progress bars
     ] ++ lib.optionals isP72 [ 
       p.faster-whisper 
     ]))
