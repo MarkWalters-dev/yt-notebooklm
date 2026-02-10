@@ -15,24 +15,27 @@ DIARIZE_ADDON = 0.0020
 TOTAL_RATE_PER_SEC = (BASE_RATE_PER_MIN + DIARIZE_ADDON) / 60
 
 async def get_balance(api_key):
+    # Hardcoded Project ID to stop the guessing
+    PROJECT_ID = "d4ca0521-f43d-4694-8042-57f54eb57031"
     try:
         async with httpx.AsyncClient() as client:
             headers = {"Authorization": f"Token {api_key}"}
-            p_resp = await client.get("https://api.deepgram.com/v1/projects", headers=headers)
-            project_id = p_resp.json()["projects"][0]["project_id"]
-            b_resp = await client.get(f"https://api.deepgram.com/v1/projects/{project_id}/balances", headers=headers)
-            return b_resp.json()["balances"][0]["amount"]
-    except:
+            b_resp = await client.get(f"https://api.deepgram.com/v1/projects/{PROJECT_ID}/balances", headers=headers)
+            b_data = b_resp.json()
+            # Deepgram returns a list; we want the first 'amount'
+            return b_data["balances"][0]["amount"]
+    except Exception as e:
+        # If it fails now, we'll know exactly why
+        # print(f"Balance Debug: {type(e).__name__}") 
         return None
 
 async def transcribe_file(client, in_path, out_path, idx, total, api_key):
     async with semaphore:
         filename = os.path.basename(in_path)
         
-        # RETRY LOOP: 3 Attempts per file
         for attempt in range(1, 4):
             try:
-                print(f"🚀 [{idx}/{total}] Starting: {filename} (Attempt {attempt})")
+                # print(f"🚀 [{idx}/{total}] Starting: {filename} (Attempt {attempt})")
                 start_time = time.time()
                 
                 with open(in_path, "rb") as file:
@@ -55,26 +58,29 @@ async def transcribe_file(client, in_path, out_path, idx, total, api_key):
                     
                     print(f"✅ Finished: {filename} (${cost:.4f})")
                     
-                    # Periodic balance check
+                    # Check balance every 5 files now that it works
                     if idx % 5 == 0:
                         bal = await get_balance(api_key)
                         if bal: print(f"💰 BALANCE: ${bal:.2f}")
                     
-                    return # Success - exit retry loop
+                    return
 
             except Exception as e:
-                error_detail = getattr(e, 'message', getattr(e, 'body', str(e)))
-                
+                # Improved error reporting: gets the type (e.g., 'ConnectError') 
+                # even if the message is blank
+                error_type = type(e).__name__
+                error_msg = getattr(e, 'message', getattr(e, 'body', str(e)))
+                full_error = f"{error_type}: {error_msg}".strip(": ")
+
                 if attempt < 3:
-                    # Exponential backoff: 5s, 10s, 20s... with jitter
                     wait = (5 * (2 ** (attempt - 1))) + random.uniform(0, 1)
-                    print(f"⚠️  Error on {filename}: {error_detail}. Retrying in {wait:.1f}s...")
+                    print(f"⚠️  {full_error} on {filename}. Retrying in {wait:.1f}s...")
                     await asyncio.sleep(wait)
                 else:
-                    print(f"❌ FINAL FAILURE: {filename}: {error_detail}")
+                    print(f"❌ FINAL FAILURE: {filename}: {full_error}")
                     with open("deepgram_errors.log", "a") as log:
-                        log.write(f"{in_path}: {error_detail}\n")
-
+                        log.write(f"{in_path}: {full_error}\n")
+                        
 async def main():
     api_key = os.environ.get("DEEPGRAM_API_KEY")
     client = DeepgramClient(api_key)
