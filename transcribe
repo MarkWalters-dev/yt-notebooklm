@@ -145,17 +145,15 @@ def transcribe_file_markdown(file_path, max_retries=3):
                 model=MODEL_NAME,
                 contents=[
                     audio_part,
-                    {
-                        f"Transcribe this audio file into a clean, structured Markdown study note. ",
-                        f"Use the title: '# {title_text}'.\n\n",
-                        "**Strict Editing Rules for AI Optimization:**\n",
-                        "1. **Executive Summary:** Start with a bulleted 'Executive Summary' of the 3-5 key scientific findings.\n",
-                        "2. **Remove Visual References:** Delete phrases like 'black circles', 'as shown in the right panel', or 'you can see here'. Describe the data trend directly instead (e.g., 'The data shows a 50% increase').\n",
-                        "3. **Format Protocols as Lists:** If the speaker describes a step-by-step protocol (like exercise routines or study methodology), format it as a clear bulleted list.\n",
-                        "4. **Standardize Terms:** Replace 'lit mice' with 'Little (dwarf) mice' throughout. Ensure chemical names are spelled correctly.\n",
-                        "5. **Delete Meta-Commentary:** Remove intros, outros, Patreon plugs, or calls to leave comments. Keep only the scientific data.\n",
-                        "6. **Structure:** Use H2 headings (##) for major scientific topics (e.g., 'Mouse Data', 'Human Evidence')."
-                    }
+                    f"Transcribe this audio file into a clean, structured Markdown study note. "
+                    f"Use the title: '# {title_text}'.\n\n"
+                    "**Strict Editing Rules for AI Optimization:**\n"
+                    "1. **Executive Summary:** Start with a bulleted 'Executive Summary' of the 3-5 key scientific findings.\n"
+                    "2. **Remove Visual References:** Delete phrases like 'black circles', 'as shown in the right panel', or 'you can see here'. Describe the data trend directly instead (e.g., 'The data shows a 50% increase').\n"
+                    "3. **Format Protocols as Lists:** If the speaker describes a step-by-step protocol (like exercise routines or study methodology), format it as a clear bulleted list.\n"
+                    "4. **Standardize Terms:** Replace 'lit mice' with 'Little (dwarf) mice' throughout. Ensure chemical names are spelled correctly.\n"
+                    "5. **Delete Meta-Commentary:** Remove intros, outros, Patreon plugs, or calls to leave comments. Keep only the scientific data.\n"
+                    "6. **Structure:** Use H2 headings (##) for major scientific topics (e.g., 'Mouse Data', 'Human Evidence')."
                 ]
             )
             msg = f"Transcription successful for {file_path}"
