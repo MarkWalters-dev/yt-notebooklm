@@ -15,20 +15,16 @@ DIARIZE_ADDON = 0.0020
 TOTAL_RATE_PER_SEC = (BASE_RATE_PER_MIN + DIARIZE_ADDON) / 60
 
 async def get_balance(api_key):
-    # Hardcoded Project ID to stop the guessing
     PROJECT_ID = "d4ca0521-f43d-4694-8042-57f54eb57031"
     try:
-        async with httpx.AsyncClient() as client:
+        # Increased timeout for the balance check too
+        async with httpx.AsyncClient(timeout=10.0) as client:
             headers = {"Authorization": f"Token {api_key}"}
             b_resp = await client.get(f"https://api.deepgram.com/v1/projects/{PROJECT_ID}/balances", headers=headers)
-            b_data = b_resp.json()
-            # Deepgram returns a list; we want the first 'amount'
-            return b_data["balances"][0]["amount"]
-    except Exception as e:
-        # If it fails now, we'll know exactly why
-        # print(f"Balance Debug: {type(e).__name__}") 
+            return b_resp.json()["balances"][0]["amount"]
+    except:
         return None
-
+        
 async def transcribe_file(client, in_path, out_path, idx, total, api_key):
     async with semaphore:
         filename = os.path.basename(in_path)
@@ -80,10 +76,15 @@ async def transcribe_file(client, in_path, out_path, idx, total, api_key):
                     print(f"❌ FINAL FAILURE: {filename}: {full_error}")
                     with open("deepgram_errors.log", "a") as log:
                         log.write(f"{in_path}: {full_error}\n")
-                        
+
 async def main():
     api_key = os.environ.get("DEEPGRAM_API_KEY")
-    client = DeepgramClient(api_key)
+    config = DeepgramClientOptions(
+        options={
+            "timeout": 300, # 5 minutes instead of the default 30-60s
+        }
+    )
+    client = DeepgramClient(api_key, config)
     audio_root, out_root = "./audio", "./deepgram"
     file_queue = []
 
