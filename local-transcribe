@@ -2,7 +2,9 @@
 
 from faster_whisper import WhisperModel
 import os
+import math
 import multiprocessing
+from tqdm import tqdm
 
 # Use 'cpu' and 'int8' for maximum speed on your processor
 model = WhisperModel("large-v3-turbo", device="cpu", compute_type="int8", cpu_threads=multiprocessing.cpu_count())
@@ -32,7 +34,6 @@ def transcribe(file_path):
         for segment in segments:
             # Whisper segments have a 'avg_logprob' attribute
             # We convert logprob to a 0-1 probability scale
-            import math
             prob = math.exp(segment.avg_logprob)
             
             total_score += prob
