@@ -38,7 +38,7 @@ client = genai.Client(api_key=API_KEY)
 # MODEL_NAME = "gemini-2.5-flash"
 
 # NEW (Standard limit ~1,500/day)
-MODEL_NAME = "gemini-1.5-flash"
+MODEL_NAME = "gemini-flash-latest"
 
 def transcribe_file_simple(file_path, max_retries=3):
     """
