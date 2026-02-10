@@ -47,6 +47,7 @@ pkgs.mkShell {
       p.deprecation
       p.aenum
       p.dataclasses-json
+      p.aiofiles
     ]))
   ] 
   ++ lib.optionals isP72 [ 
