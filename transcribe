@@ -86,66 +86,35 @@ def transcribe_file_simple(file_path, max_retries=3):
                 print(f"Max retries reached for {file_path}. Skipping.")
     return None
 
-def transcribe_file_markdown(file_path, max_retries=3):
+def convert_to_markdown(transcript, file_path, max_retries=3):
     """
-    Uploads an audio file to Gemini, requests a structured markdown transcription,
-    and returns the formatted text. Retries on failure.
+    Converts a plain transcript to structured markdown format using Gemini.
     """
-    # Map file extensions to mime types
-    mime_types = {
-        '.mp3': 'audio/mpeg',
-        '.wav': 'audio/wav',
-        '.m4a': 'audio/mp4',
-        '.aac': 'audio/aac',
-        '.flac': 'audio/flac',
-        '.ogg': 'audio/ogg',
-    }
-    ext = Path(file_path).suffix.lower()
-    mime_type = mime_types.get(ext, 'application/octet-stream')
-
+    import re
+    # Prepare markdown title (exclude video_id)
+    base_name = file_path.stem.replace('_', ' ')
+    video_id_pattern = re.compile(r'^[A-Za-z0-9_-]{11}$')
+    tokens = base_name.split()
+    # Remove last token if it matches video_id pattern
+    if tokens and video_id_pattern.match(tokens[-1]):
+        title_text = ' '.join(tokens[:-1])
+    else:
+        # Also check if last token after removing underscores matches
+        base_name_no_underscore = file_path.stem.replace('_', '')
+        if video_id_pattern.match(base_name_no_underscore[-11:]):
+            title_text = base_name[:-12].rstrip()
+        else:
+            title_text = base_name
+    
     for attempt in range(1, max_retries + 1):
-        msg = f"Transcribing {file_path} (Attempt {attempt})..."
+        msg = f"Converting to markdown for {file_path.name} (Attempt {attempt})..."
         print(msg)
         logging.info(msg)
         try:
-            # Read audio file and create Part directly
-            with open(file_path, "rb") as f:
-                audio_data = f.read()
-            
-            # Create Part with inline data
-            audio_part = types.Part(
-                inline_data=types.Blob(
-                    mime_type=mime_type,
-                    data=audio_data
-                )
-            )
-            
-            msg = f"Processing transcription for {file_path.name}..."
-            print(msg)
-            logging.info(msg)
-            # Prepare markdown title (exclude video_id)
-            import re
-            # Remove trailing video_id if present (last token after space or underscore is likely video_id)
-            base_name = file_path.stem.replace('_', ' ')
-            video_id_pattern = re.compile(r'^[A-Za-z0-9_-]{11}$')
-            tokens = base_name.split()
-            # Remove last token if it matches video_id pattern
-            if tokens and video_id_pattern.match(tokens[-1]):
-                title_text = ' '.join(tokens[:-1])
-            else:
-                # Also check if last token after removing underscores matches
-                base_name_no_underscore = file_path.stem.replace('_', '')
-                if video_id_pattern.match(base_name_no_underscore[-11:]):
-                    title_text = base_name[:-12].rstrip()
-                else:
-                    title_text = base_name
-            title = f"# {title_text}\n\n"
-            # Prompt Gemini to format transcript with paragraphs and markdown, using only the cleaned title
             response = client.models.generate_content(
                 model=MODEL_NAME,
                 contents=[
-                    audio_part,
-                    f"Transcribe this audio file into a clean, structured Markdown study note. "
+                    f"Convert this transcript into a clean, structured Markdown study note. "
                     f"Use the title: '# {title_text}'.\n\n"
                     "**Strict Editing Rules for AI Optimization:**\n"
                     "1. **Executive Summary:** Start with a bulleted 'Executive Summary' of the 3-5 key scientific findings.\n"
@@ -153,21 +122,16 @@ def transcribe_file_markdown(file_path, max_retries=3):
                     "3. **Format Protocols as Lists:** If the speaker describes a step-by-step protocol (like exercise routines or study methodology), format it as a clear bulleted list.\n"
                     "4. **Standardize Terms:** Replace 'lit mice' with 'Little (dwarf) mice' throughout. Ensure chemical names are spelled correctly.\n"
                     "5. **Delete Meta-Commentary:** Remove intros, outros, Patreon plugs, or calls to leave comments. Keep only the scientific data.\n"
-                    "6. **Structure:** Use H2 headings (##) for major scientific topics (e.g., 'Mouse Data', 'Human Evidence')."
+                    "6. **Structure:** Use H2 headings (##) for major scientific topics (e.g., 'Mouse Data', 'Human Evidence').\n\n"
+                    f"Transcript:\n{transcript}"
                 ]
             )
-            msg = f"Transcription successful for {file_path}"
+            msg = f"Markdown conversion successful for {file_path}"
             print(msg)
             logging.info(msg)
-            # Only add the title once, and ensure transcript does not repeat it
-            transcript = response.text.strip()
-            # Remove duplicate title if Gemini includes it
-            if transcript.startswith(title.strip()):
-                transcript = transcript[len(title.strip()):].lstrip('\n')
-            markdown = title + transcript + '\n'
-            return markdown
+            return response.text.strip() + '\n'
         except Exception as e:
-            err_msg = f"Error transcribing {file_path} on attempt {attempt}: {e}"
+            err_msg = f"Error converting to markdown for {file_path} on attempt {attempt}: {e}"
             print(err_msg)
             logging.error(err_msg)
             if attempt < max_retries:
@@ -218,7 +182,7 @@ def main():
                 md_output_path.parent.mkdir(parents=True, exist_ok=True)
                 
                 if not md_output_path.exists():
-                    markdown = transcribe_file_markdown(file_path)
+                    markdown = convert_to_markdown(transcript, file_path)
                     if markdown:
                         with open(md_output_path, "w", encoding="utf-8") as f:
                             f.write(markdown)
