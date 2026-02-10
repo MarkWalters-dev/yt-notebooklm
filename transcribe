@@ -80,30 +80,33 @@ def transcript_to_markdown(transcript, file_stem):
         title_text = ' '.join(tokens[:-1])
     else:
         base_name_no_underscore = file_stem.replace('_', '')
-                if video_id_pattern.match(base_name_no_underscore[-11:]):
-                    title_text = file_stem[:-12].rstrip()
-                else:
-                    title_text = file_stem
-            title = f"# {title_text}\n\n"
-            prompt = [
-                transcript,
-                {
-                    f"Format this transcript into a clean, structured Markdown study note. Use the title: '# {title_text}'.\n\n",
-                    "**Strict Editing Rules for AI Optimization:**\n",
-                    "1. **Executive Summary:** Start with a bulleted 'Executive Summary' of the 3-5 key scientific findings.\n",
-                    "2. **Remove Visual References:** Delete phrases like 'black circles', 'as shown in the right panel', or 'you can see here'. Describe the data trend directly instead (e.g., 'The data shows a 50% increase').\n",
-                    "3. **Format Protocols as Lists:** If the speaker describes a step-by-step protocol (like exercise routines or study methodology), format it as a clear bulleted list.\n",
-                    "4. **Standardize Terms:** Replace 'lit mice' with 'Little (dwarf) mice' throughout. Ensure chemical names are spelled correctly.\n",
-                    "5. **Delete Meta-Commentary:** Remove intros, outros, Patreon plugs, or calls to leave comments. Keep only the scientific data.\n",
-                    "6. **Structure:** Use H2 headings (##) for major scientific topics (e.g., 'Mouse Data', 'Human Evidence')."
-                }
-            ]
-            response = client.models.generate_content(
-                model=MODEL_NAME,
-                contents=prompt
-            )
-            transcript = response.text.strip()
-            return transcript
+        if video_id_pattern.match(base_name_no_underscore[-11:]):
+            title_text = file_stem[:-12].rstrip()
+        else:
+            title_text = file_stem
+    title = f"# {title_text}\n\n"
+    prompt = [
+        transcript,
+        {
+            f"Format this transcript into a clean, structured Markdown study note. Use the title: '# {title_text}'.\n\n",
+            "**Strict Editing Rules for AI Optimization:**\n",
+            "1. **Executive Summary:** Start with a bulleted 'Executive Summary' of the 3-5 key scientific findings.\n",
+            "2. **Remove Visual References:** Delete phrases like 'black circles', 'as shown in the right panel', or 'you can see here'. Describe the data trend directly instead (e.g., 'The data shows a 50% increase').\n",
+            "3. **Format Protocols as Lists:** If the speaker describes a step-by-step protocol (like exercise routines or study methodology), format it as a clear bulleted list.\n",
+            "4. **Standardize Terms:** Replace 'lit mice' with 'Little (dwarf) mice' throughout. Ensure chemical names are spelled correctly.\n",
+            "5. **Delete Meta-Commentary:** Remove intros, outros, Patreon plugs, or calls to leave comments. Keep only the scientific data.\n",
+            "6. **Structure:** Use H2 headings (##) for major scientific topics (e.g., 'Mouse Data', 'Human Evidence')."
+        }
+    ]
+    response = client.models.generate_content(
+        model=MODEL_NAME,
+        contents=prompt
+    )
+    transcript_md = response.text.strip()
+    if transcript_md.startswith(title.strip()):
+        transcript_md = transcript_md[len(title.strip()):].lstrip('\n')
+    markdown = title + transcript_md + '\n'
+    return markdown
     # ...existing code...
 
                 time.sleep(5)
