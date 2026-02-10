@@ -105,3 +105,45 @@
 2026-02-09 17:31:59,006 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
 2026-02-09 17:31:59,010 [INFO] Markdown conversion successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-07-03_Lithocholic_Acid_-_A_Gut_Bacterial_Metabolite_That_Extends_Lifespan_dd_TXkHsKVI.m4a
 2026-02-09 17:31:59,011 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-07-03_Lithocholic_Acid_-_A_Gut_Bacterial_Metabolite_That_Extends_Lifespan_dd_TXkHsKVI.md
+2026-02-09 17:44:02,346 [INFO] Scanning 'audio' for audio files...
+2026-02-09 17:44:02,360 [INFO] Found 1743 audio files.
+2026-02-09 17:44:02,360 [INFO] Processing Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-07-03_Lithocholic_Acid_-_A_Gut_Bacterial_Metabolite_That_Extends_Lifespan_dd_TXkHsKVI.m4a (1/1743)
+2026-02-09 17:44:02,360 [INFO] Simple transcription already exists for 2022-07-03_Lithocholic_Acid_-_A_Gut_Bacterial_Metabolite_That_Extends_Lifespan_dd_TXkHsKVI.m4a
+2026-02-09 17:44:02,360 [INFO] Markdown already exists for 2022-07-03_Lithocholic_Acid_-_A_Gut_Bacterial_Metabolite_That_Extends_Lifespan_dd_TXkHsKVI.m4a
+2026-02-09 17:44:02,360 [INFO] Processing Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-07-17_NMN_Improves_Aerobic_Capacity_in_Runners_gi3vWDovF0Y.m4a (2/1743)
+2026-02-09 17:44:02,360 [INFO] Transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-07-17_NMN_Improves_Aerobic_Capacity_in_Runners_gi3vWDovF0Y.m4a (Attempt 1)...
+2026-02-09 17:44:02,365 [INFO] Processing transcription for 2021-07-17_NMN_Improves_Aerobic_Capacity_in_Runners_gi3vWDovF0Y.m4a...
+2026-02-09 17:44:02,365 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 17:44:19,049 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-09 17:44:19,053 [INFO] Transcription successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-07-17_NMN_Improves_Aerobic_Capacity_in_Runners_gi3vWDovF0Y.m4a
+2026-02-09 17:44:21,057 [INFO] Saved simple transcription: subs/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-07-17_NMN_Improves_Aerobic_Capacity_in_Runners_gi3vWDovF0Y.txt
+2026-02-09 17:44:21,058 [INFO] Converting to markdown for 2021-07-17_NMN_Improves_Aerobic_Capacity_in_Runners_gi3vWDovF0Y.m4a (Attempt 1)...
+2026-02-09 17:44:21,058 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 17:44:34,086 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-09 17:44:34,159 [INFO] Markdown conversion successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-07-17_NMN_Improves_Aerobic_Capacity_in_Runners_gi3vWDovF0Y.m4a
+2026-02-09 17:44:36,161 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-07-17_NMN_Improves_Aerobic_Capacity_in_Runners_gi3vWDovF0Y.md
+2026-02-09 17:44:36,162 [INFO] Processing Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-06-26_A_Bile_Acid_TBMCA_Is_Involved_In_A_Mechanism_That_Reduces_Muscle_Mass_And_Strength_vyAedHNtCQ8.m4a (3/1743)
+2026-02-09 17:44:36,162 [INFO] Transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-06-26_A_Bile_Acid_TBMCA_Is_Involved_In_A_Mechanism_That_Reduces_Muscle_Mass_And_Strength_vyAedHNtCQ8.m4a (Attempt 1)...
+2026-02-09 17:44:36,166 [INFO] Processing transcription for 2022-06-26_A_Bile_Acid_TBMCA_Is_Involved_In_A_Mechanism_That_Reduces_Muscle_Mass_And_Strength_vyAedHNtCQ8.m4a...
+2026-02-09 17:44:36,166 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 17:44:52,138 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-09 17:44:52,144 [INFO] Transcription successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-06-26_A_Bile_Acid_TBMCA_Is_Involved_In_A_Mechanism_That_Reduces_Muscle_Mass_And_Strength_vyAedHNtCQ8.m4a
+2026-02-09 17:44:54,145 [INFO] Saved simple transcription: subs/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-06-26_A_Bile_Acid_TBMCA_Is_Involved_In_A_Mechanism_That_Reduces_Muscle_Mass_And_Strength_vyAedHNtCQ8.txt
+2026-02-09 17:44:54,146 [INFO] Converting to markdown for 2022-06-26_A_Bile_Acid_TBMCA_Is_Involved_In_A_Mechanism_That_Reduces_Muscle_Mass_And_Strength_vyAedHNtCQ8.m4a (Attempt 1)...
+2026-02-09 17:44:54,146 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 17:45:17,858 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-09 17:45:17,914 [INFO] Markdown conversion successful for audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-06-26_A_Bile_Acid_TBMCA_Is_Involved_In_A_Mechanism_That_Reduces_Muscle_Mass_And_Strength_vyAedHNtCQ8.m4a
+2026-02-09 17:45:19,915 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2022-06-26_A_Bile_Acid_TBMCA_Is_Involved_In_A_Mechanism_That_Reduces_Muscle_Mass_And_Strength_vyAedHNtCQ8.md
+2026-02-09 17:45:19,915 [INFO] Processing Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-03-20_Rewild_Your_Life_-_Jack_Gilbert_PhD_Clip_KIXIlCP57Jw.m4a (4/1743)
+2026-02-09 17:45:19,915 [INFO] Transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-03-20_Rewild_Your_Life_-_Jack_Gilbert_PhD_Clip_KIXIlCP57Jw.m4a (Attempt 1)...
+2026-02-09 17:45:19,916 [INFO] Processing transcription for 2025-03-20_Rewild_Your_Life_-_Jack_Gilbert_PhD_Clip_KIXIlCP57Jw.m4a...
+2026-02-09 17:45:19,916 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 17:45:20,459 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-09 17:45:20,461 [ERROR] Error transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-03-20_Rewild_Your_Life_-_Jack_Gilbert_PhD_Clip_KIXIlCP57Jw.m4a on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 39.637237261s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '39s'}]}}
+2026-02-09 17:45:20,462 [WARNING] Rate limit hit. Waiting 60 seconds.
+2026-02-09 17:46:20,462 [INFO] Transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-03-20_Rewild_Your_Life_-_Jack_Gilbert_PhD_Clip_KIXIlCP57Jw.m4a (Attempt 2)...
+2026-02-09 17:46:20,463 [INFO] Processing transcription for 2025-03-20_Rewild_Your_Life_-_Jack_Gilbert_PhD_Clip_KIXIlCP57Jw.m4a...
+2026-02-09 17:46:20,464 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-09 17:46:21,182 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-09 17:46:21,185 [ERROR] Error transcribing audio/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2025-03-20_Rewild_Your_Life_-_Jack_Gilbert_PhD_Clip_KIXIlCP57Jw.m4a on attempt 2: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 38.910040972s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '38s'}]}}
+2026-02-09 17:46:21,185 [WARNING] Rate limit hit. Waiting 60 seconds.
