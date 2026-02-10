@@ -39,13 +39,14 @@ pkgs.mkShell {
       p.google-genai
       p.python-dotenv
       p.tqdm
-      p.deprecation
-      p.aenum
     ] ++ lib.optionals isP72 [ 
       p.faster-whisper
       deepgram-sdk
       p.httpx
       p.backoff
+      p.deprecation
+      p.aenum
+      p.dataclasses_json
     ]))
   ] 
   ++ lib.optionals isP72 [ 
