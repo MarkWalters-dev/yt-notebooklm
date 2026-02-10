@@ -3,11 +3,11 @@ import os
 import asyncio
 import httpx
 import time
-# FIX: Only import these 3. DeepgramClient handles the rest.
+import random
 from deepgram import DeepgramClient, PrerecordedOptions, FileSource
 
-# Concurrency: 5 files at once is safe
-semaphore = asyncio.Semaphore(5)
+# Lowered to 3 for better stability across 1,700 files
+semaphore = asyncio.Semaphore(3)
 
 # Deepgram 2026 Rates
 BASE_RATE_PER_MIN = 0.0058
@@ -18,80 +18,65 @@ async def get_balance(api_key):
     try:
         async with httpx.AsyncClient() as client:
             headers = {"Authorization": f"Token {api_key}"}
-            # Get project list
             p_resp = await client.get("https://api.deepgram.com/v1/projects", headers=headers)
-            p_data = p_resp.json()
-            
-            # Use the first active project ID
-            project_id = p_data["projects"][0]["project_id"]
-            
-            # Get balance
+            project_id = p_resp.json()["projects"][0]["project_id"]
             b_resp = await client.get(f"https://api.deepgram.com/v1/projects/{project_id}/balances", headers=headers)
-            b_data = b_resp.json()
-            
-            # Deepgram returns a list of balances; we want the 'amount' from the first one
-            return b_data["balances"][0]["amount"]
-    except Exception as e:
-        # This will now tell you WHY the balance check failed
-        # print(f"DEBUG: Balance check failed: {e}") 
+            return b_resp.json()["balances"][0]["amount"]
+    except:
         return None
 
 async def transcribe_file(client, in_path, out_path, idx, total, api_key):
     async with semaphore:
         filename = os.path.basename(in_path)
-        print(f"🚀 [{idx}/{total}] Starting: {filename}")
         
-        try:
-            start_time = time.time()
-            with open(in_path, "rb") as file:
-                buffer_data = file.read()
-                # Ensure the payload is formatted exactly as the SDK expects
-                payload: FileSource = { "buffer": buffer_data }
-                options = PrerecordedOptions(
-                    model="nova-2", 
-                    smart_format=True, 
-                    diarize=True
-                )
+        # RETRY LOOP: 3 Attempts per file
+        for attempt in range(1, 4):
+            try:
+                print(f"🚀 [{idx}/{total}] Starting: {filename} (Attempt {attempt})")
+                start_time = time.time()
                 
-                # FIX: In v3.x, use the 'await' keyword with the standard client.
-                # This is the line that was likely failing your execution.
-                response = await client.listen.asyncrest.v("1").transcribe_file(payload, options)
-                
-                duration_sec = response.metadata.duration
-                cost = duration_sec * TOTAL_RATE_PER_SEC
-                process_time = time.time() - start_time
-                
-                os.makedirs(os.path.dirname(out_path), exist_ok=True)
-                with open(out_path, "w") as f:
-                    f.write(response.results.channels[0].alternatives[0].transcript)
-                
-                print(f"✅ Finished: {filename} (${cost:.4f})")
-                
-                bal = await get_balance(api_key)
-                if bal is not None:
-                    print(f"💰 REMAINING CREDIT: ${bal:.2f}")
+                with open(in_path, "rb") as file:
+                    buffer_data = file.read()
+                    payload: FileSource = { "buffer": buffer_data }
+                    options = PrerecordedOptions(
+                        model="nova-2", 
+                        smart_format=True, 
+                        diarize=True
+                    )
+                    
+                    response = await client.listen.asyncrest.v("1").transcribe_file(payload, options)
+                    
+                    duration_sec = response.metadata.duration
+                    cost = duration_sec * TOTAL_RATE_PER_SEC
+                    
+                    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+                    with open(out_path, "w") as f:
+                        f.write(response.results.channels[0].alternatives[0].transcript)
+                    
+                    print(f"✅ Finished: {filename} (${cost:.4f})")
+                    
+                    # Periodic balance check
+                    if idx % 5 == 0:
+                        bal = await get_balance(api_key)
+                        if bal: print(f"💰 BALANCE: ${bal:.2f}")
+                    
+                    return # Success - exit retry loop
 
-        except Exception as e:
-            # SDK v3 hides the message in different attributes depending on the error type
-            error_detail = "Unknown Error"
-            if hasattr(e, 'message'):
-                error_detail = e.message
-            elif hasattr(e, 'body'):
-                error_detail = e.body
-            else:
-                error_detail = str(e)
-
-            print(f"❌ Error on {filename}: {error_detail}")
-            with open("deepgram_errors.log", "a") as log:
-                log.write(f"{in_path}: {error_detail}\n")
+            except Exception as e:
+                error_detail = getattr(e, 'message', getattr(e, 'body', str(e)))
+                
+                if attempt < 3:
+                    # Exponential backoff: 5s, 10s, 20s... with jitter
+                    wait = (5 * (2 ** (attempt - 1))) + random.uniform(0, 1)
+                    print(f"⚠️  Error on {filename}: {error_detail}. Retrying in {wait:.1f}s...")
+                    await asyncio.sleep(wait)
+                else:
+                    print(f"❌ FINAL FAILURE: {filename}: {error_detail}")
+                    with open("deepgram_errors.log", "a") as log:
+                        log.write(f"{in_path}: {error_detail}\n")
 
 async def main():
     api_key = os.environ.get("DEEPGRAM_API_KEY")
-    if not api_key:
-        print("❌ Error: DEEPGRAM_API_KEY not set.")
-        return
-
-    # Initialize the standard Client (it handles async internally)
     client = DeepgramClient(api_key)
     audio_root, out_root = "./audio", "./deepgram"
     file_queue = []
@@ -106,13 +91,16 @@ async def main():
                     file_queue.append((in_p, out_p))
 
     total = len(file_queue)
-    print(f"📂 Found {total} files. Initial Balance: ${await get_balance(api_key) or '???'}")
+    print(f"📂 Found {total} files. Balance: ${await get_balance(api_key) or '???'}")
 
-    tasks = [transcribe_file(client, in_p, out_p, i, total, api_key) 
-             for i, (in_p, out_p) in enumerate(file_queue, 1)]
-    
-    await asyncio.gather(*tasks)
-    print("\n🏁 ALL TASKS COMPLETE.")
+    # STAGGERED START: Launch files with a 1-second gap
+    for i, (in_p, out_p) in enumerate(file_queue, 1):
+        asyncio.create_task(transcribe_file(client, in_p, out_p, i, total, api_key))
+        await asyncio.sleep(1) # This prevents the initial "burst" crash
+
+    # Keep main alive until all tasks finish
+    while len([t for t in asyncio.all_tasks() if t.get_name().startswith('Task-')]) > 1:
+        await asyncio.sleep(5)
 
 if __name__ == "__main__":
     asyncio.run(main())
