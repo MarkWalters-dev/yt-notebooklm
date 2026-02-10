@@ -13,6 +13,10 @@ load_dotenv()
 API_KEY = os.getenv("GEMINI_API_KEY")
 if not API_KEY:
     raise ValueError("Error: GEMINI_API_KEY not found in .env file.")
+    API_DELAY = 0   # No fixed delay; dynamic based on RPM
+    RPM_LIMIT = 15  # Requests per minute
+    import collections
+    _api_request_times = collections.deque()
 
 BASE_AUDIO_DIR = "audio"
 BASE_SUBS_DIR = "subs"
@@ -29,7 +33,12 @@ logging.basicConfig(
 )
 
 client = genai.Client(api_key=API_KEY)
-MODEL_NAME = "gemini-2.5-flash"
+
+# OLD (Restricted to 20/day)
+# MODEL_NAME = "gemini-2.5-flash"
+
+# NEW (Standard limit ~1,500/day)
+MODEL_NAME = "gemini-2.0-flash"
 
 def transcribe_file_simple(file_path, max_retries=3):
     """
