@@ -3,3 +3,4 @@ audio/
 .direnv
 transcribe.log
 merged/
+*.tmp

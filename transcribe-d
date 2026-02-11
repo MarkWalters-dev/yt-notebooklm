@@ -3,52 +3,64 @@ import os
 import asyncio
 import httpx
 import time
-import random
 import sys
+import subprocess
 from deepgram import DeepgramClient, DeepgramClientOptions, PrerecordedOptions, FileSource
 
-# Processing one at a time is mandatory for 100MB+ files on standard uploads
+# Processing one at a time ensures total stability for these problematic files
 semaphore = asyncio.Semaphore(1)
-SIZE_LIMIT_MB = 80
 
-# Deepgram 2026 Rates
-BASE_RATE_PER_MIN = 0.0058
-DIARIZE_ADDON = 0.0020
-TOTAL_RATE_PER_SEC = (BASE_RATE_PER_MIN + DIARIZE_ADDON) / 60
+# Deepgram 2026 Rates (Nova-2 + Diarization)
+TOTAL_RATE_PER_SEC = (0.0058 + 0.0020) / 60
 
-async def get_balance(api_key):
-    PROJECT_ID = "d4ca0521-f43d-4694-8042-57f54eb57031"
+def compress_audio(in_path):
+    """Compresses audio to a small 32kbps mono MP3 to guarantee upload success."""
+    temp_path = f"/tmp/dg_temp_{int(time.time())}_{random.randint(1000,9999)}.mp3"
+    filename = os.path.basename(in_path)
+    print(f"📦 Compressing: {filename}...")
+    
+    # -ac 1 (mono), -ar 16000 (16khz), -b:a 32k (low bitrate)
+    # This turns ~100MB files into ~15MB files.
+    cmd = [
+        "ffmpeg", "-y", "-i", in_path, 
+        "-ac", "1", "-ar", "16000", "-b:a", "32k", 
+        temp_path
+    ]
+    
     try:
-        async with httpx.AsyncClient(timeout=15.0) as client:
-            headers = {"Authorization": f"Token {api_key}"}
-            b_resp = await client.get(f"https://api.deepgram.com/v1/projects/{PROJECT_ID}/balances", headers=headers)
-            return b_resp.json()["balances"][0]["amount"]
-    except:
+        # Run ffmpeg; hide the messy output unless it fails
+        subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
+        return temp_path
+    except Exception as e:
+        print(f"❌ FFmpeg error on {filename}: {e}")
         return None
 
-async def transcribe_file(client, in_path, out_path, idx, total, api_key):
+async def transcribe_file(client, in_path, out_path, idx, total):
     async with semaphore:
         filename = os.path.basename(in_path)
-        file_size_bytes = os.path.getsize(in_path)
-        file_size_mb = file_size_bytes / (1024 * 1024)
-
-        # SIZE LIMIT CHECK
-        if file_size_mb > SIZE_LIMIT_MB:
-            print(f"⏩ Skipping: {filename} ({file_size_mb:.1f} MB exceeds {SIZE_LIMIT_MB} MB limit)")
-            with open("skipped_large_files.log", "a") as log:
-                log.write(f"{in_path} | {file_size_mb:.1f} MB\n")
+        
+        # 1. COMPRESS: Every file in the queue gets compressed to bypass network errors
+        active_path = compress_audio(in_path)
+        if not active_path:
+            print(f"❌ Skipping {filename} due to compression failure.")
             return
 
+        # 2. TRANSCRIBE: Use the compressed temp file
         for attempt in range(1, 4):
             try:
-                print(f"🚀 [{idx}/{total}] Uploading: {filename} ({file_size_mb:.1f} MB)")
+                print(f"🚀 [{idx}/{total}] Uploading: {filename} (Compressed)")
                 
-                with open(in_path, "rb") as file:
+                # Force httpx to wait up to 15 mins for the response
+                custom_timeout = httpx.Timeout(900.0, connect=60.0, read=900.0, write=900.0)
+                
+                with open(active_path, "rb") as file:
                     buffer_data = file.read()
                     payload: FileSource = { "buffer": buffer_data }
                     options = PrerecordedOptions(model="nova-2", smart_format=True, diarize=True)
                     
-                    response = await client.listen.asyncrest.v("1").transcribe_file(payload, options)
+                    response = await client.listen.asyncrest.v("1").transcribe_file(
+                        payload, options, timeout=custom_timeout
+                    )
                     
                     duration_sec = response.metadata.duration
                     cost = duration_sec * TOTAL_RATE_PER_SEC
@@ -58,32 +70,36 @@ async def transcribe_file(client, in_path, out_path, idx, total, api_key):
                         f.write(response.results.channels[0].alternatives[0].transcript)
                     
                     print(f"✅ Finished: {filename} (${cost:.4f})")
-                    return 
+                    break # Success!
 
             except Exception as e:
                 error_type = type(e).__name__
                 if attempt < 3:
-                    wait = 5 * attempt
-                    print(f"⚠️  {error_type} on {filename}. Retry {attempt}/3 in {wait}s...")
+                    wait = 10 * attempt
+                    print(f"⚠️ {error_type} on {filename}. Retry {attempt}/3 in {wait}s...")
                     await asyncio.sleep(wait)
                 else:
                     print(f"❌ FINAL FAILURE: {filename}: {error_type}")
                     with open("deepgram_errors.log", "a") as log:
                         log.write(f"{in_path} | {error_type}\n")
 
+        # 3. CLEANUP: Delete the temp MP3 immediately
+        if os.path.exists(active_path):
+            os.remove(active_path)
+
 async def main():
     api_key = os.environ.get("DEEPGRAM_API_KEY")
     if not api_key:
         print("❌ Error: DEEPGRAM_API_KEY not found.")
-        sys.exit(1)
+        return
 
-    # 10-minute timeout for the massive uploads
-    config = DeepgramClientOptions(options={"timeout": 1200})
-    client = DeepgramClient(api_key, config)
+    # Client config for long-lived connections
+    client = DeepgramClient(api_key, DeepgramClientOptions(options={"timeout": 1200}))
     
     audio_root, out_root = "./audio", "./deepgram"
     file_queue = []
 
+    # Build the queue of missing files
     for root, _, files in os.walk(audio_root):
         for f in files:
             if f.lower().endswith(('.m4a', '.mp3', '.wav', '.ogg')):
@@ -93,18 +109,16 @@ async def main():
                 if not os.path.exists(out_p):
                     file_queue.append((in_p, out_p))
 
-    print(f"📂 Queue: {len(file_queue)} files. Balance: ${await get_balance(api_key) or '???'}")
+    # Add random to imports if not there
+    import random
+
+    print(f"📂 Processing {len(file_queue)} remaining files with FFmpeg compression...")
 
     try:
         for i, (in_p, out_p) in enumerate(file_queue, 1):
-            await transcribe_file(client, in_p, out_p, i, len(file_queue), api_key)
-            if i % 2 == 0:
-                bal = await get_balance(api_key)
-                if bal: print(f"💰 CURRENT BALANCE: ${bal:.2f}")
-
+            await transcribe_file(client, in_p, out_p, i, len(file_queue))
     except KeyboardInterrupt:
-        print("\n\n🛑 User interrupted. Shutting down gracefully...")
-        # Closing the client explicitly if possible
+        print("\n\n🛑 User interrupted. Cleaning up and exiting.")
         sys.exit(0)
 
 if __name__ == "__main__":
