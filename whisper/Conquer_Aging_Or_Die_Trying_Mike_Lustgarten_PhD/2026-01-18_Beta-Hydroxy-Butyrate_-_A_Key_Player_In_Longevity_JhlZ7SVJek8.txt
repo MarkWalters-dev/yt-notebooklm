@@ -1,0 +1,236 @@
+[0.00s]  Beta-hydroxybutyrate impacts many age-related phenotypes.
+[4.26s]  But first, what is beta-hydroxybutyrate?
+[7.02s]  That's what we'll see here.
+[8.18s]  This is its chemical structure.
+[9.98s]  And as its name suggests, it includes the short-chain fatty acid butyrate, as shown there.
+[15.90s]  And then, to the left of the COOH functional group, it includes three other carbons,
+[21.78s]  at the alpha, beta, and gamma positions.
+[24.94s]  At the beta position, it has that OH group, or a hydroxyl group.
+[29.02s]  So, putting it all together, we've got beta-hydroxybutyrate.
+[33.32s]  Alright, so I mentioned that beta-hydroxybutyrate impacts many age-related phenotypes.
+[38.02s]  And that's what we'll see here.
+[39.68s]  So, beta-hydroxybutyrate has been shown to reduce inflammation, oxidative stress, and insulin resistance,
+[45.84s]  which collectively have been shown to be good for the brain, heart, fat, muscle, kidney, and the pancreas.
+[52.64s]  Additionally, beta-hydroxybutyrate is increased in animal models of longevity,
+[57.18s]  which is what we'll start to see here.
+[59.64s]  First, starting off with data for mice on a ketogenic diet.
+[63.24s]  On the y-axis, we've got beta-hydroxybutyrate circulating levels.
+[66.74s]  And apologies that the image is a bit blurry.
+[68.98s]  This is a screenshot from the paper.
+[70.48s]  And if anyone's interested in the paper, I'll link to it in the video's description.
+[74.44s]  And then, on the x-axis, we can see that these mice were relatively old, 26 months.
+[78.66s]  And then, we've got three groups.
+[80.62s]  C for the control diet, LC for low-carb.
+[83.32s]  And as we'll see in a minute, that was actually high-fat, just not as high-fat as the ketogenic group in K.
+[89.84s]  And then, we can see for the ketogenic diet-fed mice,
+[92.92s]  they had approximately two-fold higher circulating levels of beta-hydroxybutyrate when controlled with the control diet.
+[99.12s]  And that's potentially important because, in this study, a ketogenic diet extended lifespan,
+[104.80s]  which is what we'll see here.
+[106.08s]  On the y-axis, we've got percent survival plotted against age in days.
+[111.10s]  And then, in terms of those three groups, again, there were the control diet, ketogenic, and low-carb.
+[116.60s]  More specifically, the control diet was 17% fat, 89% fat for the ketogenic diet,
+[122.74s]  and then that low-carb diet, in quotes, was 70% fat.
+[126.30s]  Still a relatively high-fat diet, just not as high-fat as the ketogenic-fed diet.
+[131.58s]  But note that these were isocaloric diets.
+[134.20s]  And that's potentially important because when mice are fed a ketogenic diet, they become obese.
+[140.12s]  So, in order to minimize that occurrence, all of the groups were isocaloric,
+[144.48s]  meaning they ate the same amount of calories.
+[146.88s]  In terms of the effect on lifespan, first, let's put up a red line at 50% survival.
+[152.84s]  This is median survival.
+[154.56s]  This is the time when half of the mice have died, and half are still alive.
+[158.08s]  So, first, at that point, 50% survival for the control diet, we can see that median lifespan was about 900 days.
+[165.64s]  And this is good news because in many lifespan studies, the control strain is relatively short-lived, shorter than 900 days.
+[172.96s]  And then the intervention may get the animals to 900 days.
+[176.56s]  But is that really a lifespan-extending effect if the controls are supposed to have a median lifespan of 900 days?
+[183.70s]  So, in this study, it's good news that the controls lived a median of 900 days.
+[188.68s]  And then the ketogenic diet significantly increased or pushed lifespan out to the right, with a median lifespan of 1,000 days.
+[196.20s]  Here, too, this beats the 900-day rule.
+[198.56s]  And if you want more information on the 900-day rule and its importance in lifespan studies in mice, I'll link to that video in the right corner.
+[206.74s]  But note that this isn't the only lifespan-extending intervention that also has an increase for circulating levels of beta-hydroxybutyrate.
+[213.82s]  That's also present in calorie-restricted mice.
+[217.10s]  First, starting off with the data for beta-hydroxybutyrate circulating levels, which is what we've got on the y-axis.
+[222.68s]  And then we've got two different diets.
+[224.88s]  RD is the regular diet, and CR is calorie-restricted mice.
+[229.28s]  And here, too, just like the ketogenic diet-fed mice, we can see that calorie-restricted mice had about a two-fold increase for circulating levels of beta-hydroxybutyrate.
+[238.42s]  Now, it's well known that calorie restriction extends lifespan, which is one example as shown here.
+[244.38s]  And note that these data aren't from the same study.
+[246.62s]  The beta-hydroxybutyrate data is from a different study relative to this CR study that I'm showing here.
+[252.90s]  And if anyone's come across a study where they measured both beta-hydroxybutyrate and lifespan in the same study,
+[258.58s]  please post it in the comments, and I'd be happy to give you a shout-out in a future video.
+[262.60s]  Nonetheless, let's take a look at the lifespan data for calorie-restricted mice.
+[266.34s]  On the y-axis, we've got survival probability.
+[268.64s]  Once again, percent survival.
+[270.44s]  Plotted against age, let's put up that red line at median lifespan, or 50% survival, the time when half of the mice had died and half were still alive.
+[278.20s]  And then we've got our two calorie-restricted groups, 20% and 40% CR.
+[282.68s]  And we can see those significant increases for lifespan for the first, for the 20% calorie-restricted mice, and then for the 40% calorie-restricted mice.
+[290.84s]  But note that these are just associations.
+[293.46s]  In other words, we've got data that a ketogenic diet and a calorie-restricted diet extend lifespan in association for circulating levels of beta-hydroxybutyrate.
+[302.24s]  Can we get closer to causation?
+[304.90s]  In other words, is beta-hydroxybutyrate related to CR's lifespan-extending effect?
+[310.20s]  And in order to get closer to answering that question, we need to see that beta-hydroxybutyrate is produced by glucagon signaling, which is what we'll see here.
+[317.46s]  So glucagon, starting at the top, binds to its receptor, the GCG, glucagon receptor, R, GCGR, glucagon receptor.
+[326.88s]  And when it does that, it triggers an intracellular signaling cascade that leads to the production of beta-hydroxybutyrate.
+[333.30s]  And this is particularly important because glucagon signaling is required for the lifespan-extending effect of calorie-restriction, which is what we'll see here.
+[340.76s]  On the y-axis, we've got percent survival, and this is plotted against days alive.
+[345.80s]  Let's put up that red line at median survival, 50% survival, the time when half the mice have died and half are still alive.
+[352.76s]  And then we can see that for one of those groups, all of the mice were still alive.
+[357.36s]  And that's calorie restriction, 15% calorie restriction.
+[360.10s]  All of the mice were still alive after 550 days.
+[363.58s]  And then we can also see for one of those groups that half of the mice had died.
+[367.54s]  And this is the GCGR, or the glucagon receptor knockout mice.
+[372.58s]  So these are calorie-restricted mice that had their glucagon receptor knocked out.
+[376.78s]  And then correspondingly, there should be no intracellular glucagon signaling.
+[381.16s]  And within this situation, we'd expect to see no or very low levels of beta-hydroxybutyrate.
+[386.52s]  Note that calorie-restricted mice are not on a ketogenic diet, which is known to produce beta-hydroxybutyrate by increasing glucagon levels.
+[394.04s]  Calorie-restricted mice, in this case, on a standard high-carb diet, in order for calorie-restricted mice to have higher levels or increased levels of beta-hydroxybutyrate,
+[403.86s]  they fast for up to 22 hours a day, eating the majority of their food within a very short window, two hours.
+[410.88s]  So then this raises the question of how does beta-hydroxybutyrate vary during that up to 22-hour fast?
+[417.48s]  And that's a particularly important question because then it suggests that there may be an optimal fasting window or an optimal fasting duration for mice on a calorie-restricted diet
+[427.26s]  to potentially gain some of the health and or longevity promoting benefits of a calorie-restricted diet.
+[433.34s]  So to address that, let's take a look at how beta-hydroxybutyrate changes throughout the day in mice on a calorie-restricted diet,
+[440.02s]  with circulating levels of beta-hydroxybutyrate on the y-axis.
+[442.86s]  And then this is in mice that have just eaten or following mice that had just eaten at 6 in the morning.
+[450.00s]  At that time, beta-hydroxybutyrate levels are relatively low, around 0.2 millimolar or 200 micromolar.
+[457.20s]  And then for the first 8 hours after fasting, after completing their eating,
+[461.82s]  we can see that beta-hydroxybutyrate levels still stay around 0.2 millimolar.
+[466.06s]  But then they start to increase 12 hours after fasting, with a peak at 16 hours after fasting.
+[473.62s]  At that time, beta-hydroxybutyrate levels are about threefold, or three to three and a half times higher than where they started, around 0.2 millimolar.
+[482.82s]  So around 0.6 to 0.7 millimolar relative to around 0.2 millimolar.
+[487.58s]  And then interestingly, beta-hydroxybutyrate levels don't stay relatively high as the fasting window continues, up to 20 hours.
+[494.88s]  And then we can see actually the beta-hydroxybutyrate levels in blood start to decline.
+[499.28s]  But nonetheless, at that point, they're still up 1.5 to 2 times higher than where they started, around 0.2 millimolar.
+[506.66s]  So when it comes to the optimal fasting duration in people, if we use the mouse data,
+[511.90s]  beta-hydroxybutyrate increases from 12 to 20 hours of fasting, which then raises the question,
+[517.82s]  is that an optimal fasting window in people, 12 to 20 hours, in order to get that systemic rise for circulating levels of beta-hydroxybutyrate?
+[526.26s]  So to try to find out, I've been tracking it.
+[528.86s]  And I'm not going to show data in this video because I have less than a week's worth of data for now,
+[532.84s]  but I'm going to collect at least a month of data.
+[535.56s]  And I've been using a ketone meter, as shown there.
+[537.62s]  I'm not sponsored or affiliated. This is just what I'm using.
+[540.52s]  I don't know which one is best.
+[542.04s]  This ketone meter does have some publications behind it.
+[544.52s]  How well it compares to venipuncture, I'm not sure, but this is what I'm using for now.
+[549.74s]  And in doing this experiment, I'm going to see if I can play around with the fasting window,
+[553.92s]  going from 16 to 20 hours per day, but then also messing with fat intake.
+[559.26s]  Now, I'm not on a ketogenic diet.
+[560.92s]  And I know some of you will say, just go keto, cut out all carbs.
+[564.22s]  But if you see my biomarkers, that may not necessarily be a good thing.
+[569.74s]  Plus, I'm a volume eater.
+[571.50s]  So my current iteration of the diet, which contains around 40% fat,
+[575.86s]  maybe a bit higher if you include fat that's generated from fiber fermentation.
+[579.88s]  That is best for my satiety and long-term calorie restriction adherence.
+[585.38s]  But can I go higher for fat intake from 40 to 45%, maybe to 50 or 55%?
+[591.78s]  Now, if I do that, one thing to consider is when I've gone higher fat,
+[595.36s]  up to about 120 grams per day in the past,
+[597.96s]  that's led to an increase for plasma levels of glucose.
+[602.00s]  So it doesn't make sense that I want to increase glucose levels,
+[604.74s]  but also increase circulating levels of beta-hydroxybutyrate.
+[607.74s]  And I know that may seem counterintuitive.
+[610.26s]  Cut carbs, increase fat, see a higher levels of glucose.
+[614.02s]  But in my case, for whatever reason,
+[616.10s]  the correlations suggest that higher levels of saturated fat
+[619.48s]  and higher levels actually of what most people think of
+[622.34s]  as a quote-unquote hard healthy fat,
+[624.34s]  monounsaturated fat is significantly correlated with higher glucose in my data.
+[629.14s]  And that's in more than 60 blood tests since 2015.
+[632.24s]  So more recently, I haven't increased MUFA or sat fat,
+[636.36s]  keeping them relatively low or towards the lower end of my range
+[639.56s]  instead of increased omega-6 intake,
+[642.40s]  not from seed oils, but exclusively from walnuts.
+[645.00s]  So for now, glucose levels are relatively low.
+[648.02s]  And last night I saw a trend upwards
+[650.42s]  for circulating levels of beta-hydroxybutyrate,
+[652.88s]  which suggests that I may be on the right track
+[655.10s]  for keeping glucose relatively low
+[657.10s]  and getting a small but potentially significant spike
+[659.98s]  or increase for beta-hydroxybutyrate
+[662.02s]  from around 0.2 millimolar to something higher.
+[664.66s]  How much is optimal in people?
+[665.94s]  Very debatable.
+[666.90s]  But if I can get at least to 0.4 millimolar,
+[669.56s]  even that two eggs doubling,
+[671.34s]  based on the data in calorie-restricted mice,
+[673.44s]  it may be potential for health and or longevity.
+[676.44s]  But the key variable there again is,
+[678.86s]  what's the impact on other biomarkers?
+[680.64s]  I'm not interested in improving glucose,
+[683.62s]  beta-hydroxybutyrate,
+[684.64s]  and having other biomarkers move in the wrong direction.
+[687.76s]  Now, as one note of potential good news,
+[690.00s]  more recently in my blood test,
+[691.92s]  when I've increased fat intake
+[693.12s]  just by about 15 grams per day,
+[695.08s]  from 85 to 100 grams per day,
+[697.16s]  that may be associated with a better CVD biomarker profile
+[700.86s]  as triglycerides come down and lipoprotein A comes down,
+[704.34s]  which would be expected to be contributing
+[705.90s]  to a lower atherogenic risk.
+[708.08s]  But here too, I'm not just interested in improving glucose,
+[711.76s]  circulating levels of beta-hydroxybutyrate,
+[713.54s]  which is what ketone meters are essentially measuring,
+[716.10s]  and then the lipid profile or lipoprotein profile.
+[718.74s]  What do other biomarkers show within this context,
+[721.56s]  including kidney, liver, immune, red blood cells, et cetera.
+[725.42s]  So I'm planning on doing this experiment
+[727.14s]  until the next blood test at the beginning of February,
+[729.72s]  so stay tuned for that data.
+[731.36s]  But then there's also an additional question
+[733.52s]  that we may want to consider here.
+[734.92s]  Is beta-hydroxybutyrate, is that spike
+[737.36s]  in the middle of the night,
+[738.86s]  is that optimal for slowing brain aging?
+[741.50s]  And the reason I'm raising that question
+[742.90s]  is because there's emerging data
+[744.54s]  that beta-hydroxybutyrate may improve glymphatic function,
+[748.40s]  which is the brain's waste clearance system
+[750.96s]  that's active during sleep.
+[752.66s]  Those data are just more recently being published,
+[755.36s]  so it's an emerging story.
+[756.94s]  I don't have a video planned for it yet,
+[759.32s]  but that's on the radar,
+[760.74s]  so stay tuned for that video
+[761.68s]  at some point in the near future.
+[763.48s]  If you've ever wondered what's optimal for biomarkers,
+[766.86s]  we'll have a new Patreon tier
+[768.24s]  dedicated specifically to that.
+[770.26s]  It currently includes the 35 biomarkers shown here,
+[773.14s]  more than two hours of video content,
+[775.18s]  52 published references,
+[776.78s]  and these aren't the reference ranges
+[778.24s]  which you can get from any LLM these days.
+[780.70s]  This is what may be optimal
+[781.80s]  based on how each of these biomarkers
+[783.40s]  changes during aging
+[784.30s]  and or associations with all-cause mortality risk
+[787.24s]  in the largest published studies that exist.
+[789.92s]  So if you're interested in that, check it out.
+[791.60s]  If you're interested in more about my attempts
+[794.10s]  to biohack aging, check us out on Patreon,
+[796.42s]  where I offer blood test consults
+[798.08s]  and also post at least twice per day
+[800.08s]  in four other Patreon tiers.
+[802.16s]  We've also got a whole bunch of discount
+[803.86s]  and affiliate links that you can use to test yourself
+[806.04s]  that help support the channel,
+[807.58s]  including ultalabtest.com,
+[809.46s]  which is where I get the majority of my blood tests done,
+[811.70s]  the clearly filtered water filter,
+[813.02s]  which I use every day,
+[814.50s]  ad-home metabolomics, I'm up to 22 tests,
+[817.10s]  oral microbiome composition,
+[818.82s]  NED testing with Genfinity,
+[820.14s]  epigenetic testing with True Diagnostic,
+[822.76s]  at-home blood testing with Cyfox Health,
+[824.42s]  which includes Grimmage,
+[825.34s]  the best epigenetic clock of epigenetic clocks,
+[828.22s]  green tea, dietracking with chronometer,
+[830.58s]  or if you'd like to support the channel,
+[831.88s]  you can do that with the website, buy me a coffee.
+[834.20s]  We've also got merch, including Data is My North Star,
+[837.52s]  Figuring Stuff Out is My Drug,
+[838.88s]  which I've got on here,
+[840.26s]  and the Conquer Aging or Dietrion logo,
+[842.48s]  link in the video's description.
+[844.14s]  Thanks for watching.
+[844.96s]  I hope that you enjoyed the video.
+[846.78s]  Have a great day.

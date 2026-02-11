@@ -1,0 +1,292 @@
+[0.36s]  Last month, I blood tested for the 7th time in 2025.
+[4.16s]  And note that this is blood test number 65 since 2015.
+[8.40s]  So with that in mind, what's my biological age?
+[11.28s]  That's what we'll see here.
+[12.48s]  This is using Dr. Morgan Levine's biological age calculator, PhenoAge.
+[16.80s]  And when entering the data for its 9 component biomarkers, I get a biological age of 37.5
+[22.48s]  years, which is 15.7 years younger than the chronological.
+[26.76s]  Now at this point in the video, many people often ask, how good is this biological clock?
+[31.28s]  If you want to see how good this biological age clock is or isn't, I made a video specific
+[35.92s]  to that so it'll be in the right corner.
+[37.92s]  All right, so where can I improve?
+[40.16s]  Because if I'm not trying to get better, at worst, I'll stay the same or get worse.
+[44.98s]  So in the last video in this series, blood test number six, I focused on the MCV, which unfortunately
+[49.58s]  got worse for this test.
+[51.00s]  So I won't go over the strategy again on how to fix that.
+[53.84s]  I have made some changes that I think will impact MCV for the next test.
+[57.16s]  So stay tuned for that story in another video.
+[60.04s]  But for this video, I want to focus on glucose, which at 102 milligrams per deciliter is my
+[64.46s]  highest value ever.
+[66.40s]  63 tests going back to 2015.
+[69.16s]  But before jumping into that story, let's take a look at more data because this is just
+[73.62s]  one test.
+[74.62s]  It's important to look at the net of all tests over a given period of time as a true pace
+[79.74s]  of aging.
+[80.74s]  So with that in mind, for more context, I have 44 blood tests using this biological
+[85.02s]  age clock since 2018, which is what we'll see here.
+[89.12s]  This is year to year change for biological age, more specifically using Dr. Morgan Levine's
+[94.08s]  biological age calculator, FenoAge.
+[96.36s]  And this is from 2018 to 2025.
+[98.72s]  And again, those 44 tests.
+[100.92s]  Now when I first started measuring in 2018 to 2019, and note that I've been collecting
+[104.70s]  blood test data since 2015, but I wasn't measuring HSCRP at every test.
+[109.64s]  So I started that in 2018 to 2019.
+[112.68s]  So over three tests in a two year period, average biological age was 34.3 years.
+[118.14s]  So then I started including HSCRP at every test with six tests each in 2020 and 2021 for
+[125.02s]  an average of 33.9 years in each of those two years.
+[128.70s]  I then had my best data ever in 2022 at 32.1 years.
+[133.14s]  And I also increased the testing frequency to seven tests per year.
+[137.16s]  Over another seven tests per year in 2023, the average got a bit worse to 32.9 years.
+[142.48s]  And then I increased the testing frequency to eight times per year in 2024 with an average
+[146.74s]  of 33.1 years going in the wrong direction, albeit slowly.
+[151.54s]  And then after the first seven tests in 2025, we can see that average biological age is currently
+[156.28s]  33.7 years, which includes the most recent test of 37.5 years.
+[162.38s]  So this is a true pace of aging.
+[164.24s]  I know that there are other tests out there that claim to be a pace of aging, but a singular
+[168.58s]  test may not represent a full year average, which then raises the question, how many tests
+[173.52s]  per year do we need to have a true full year average?
+[176.82s]  Maybe eight tests isn't enough, but I think that's closer to the truth than one or a couple
+[181.42s]  of tests per year.
+[182.80s]  And this is how I'm defining a pace of aging.
+[185.54s]  So with that in mind, there's good news and bad news.
+[188.44s]  The good news is that I've resisted an age-related biological age increase using this test as that
+[194.48s]  collection of nine biomarkers that represent different organ systems.
+[198.62s]  And that's important because even if all biomarkers stay the same, biological age using
+[202.90s]  this test will increase by 0.9 years for every year of chronological age, such that my expected
+[209.14s]  biological age using this test should be 39.7 years in 2025, whereas it's currently 33.7 years.
+[216.34s]  So that's a six-year reduction.
+[218.44s]  So this is good news.
+[219.76s]  On the other hand, I mentioned there's also some bad news.
+[222.76s]  And first, we can see that all six tests after the first test in 2025 have moved in the wrong
+[228.92s]  direction, which is not good news.
+[231.26s]  Additionally, if we start the clock from 2022 at my best data, we can also see the trend line
+[236.68s]  moving in the wrong direction, going with an age-related biological age increase.
+[241.78s]  But here too, note that there's an expected biological age increase of 0.9 years per year,
+[247.14s]  such that in 2025, starting in 2022, expected biological age using this test should be
+[252.56s]  34.8 years.
+[253.74s]  So I'm currently one year below that.
+[255.30s]  So the aging rate for these nine biomarkers is still a bit slower, even though this is not my
+[260.94s]  best data.
+[262.24s]  All right.
+[262.66s]  So let's review another example for studying the pace of aging and using glucose as an
+[267.22s]  example, because that's emerged as a major weak spot.
+[270.34s]  And if I'm not trying to make that better, if I'm not trying to improve it, it's potentially
+[273.68s]  going to get even worse.
+[274.62s]  Also, how can I reduce glucose?
+[276.62s]  And I'm going to show some data, but that's coming up just in a minute.
+[279.14s]  So let's take a look at all glucose data for those 63 tests since 2015, with glucose
+[285.56s]  plotted on the y-axis against chronological age on the x.
+[288.92s]  So first, what's optimal?
+[290.82s]  My reading of the literature is that 80 to 94 for blood glucose fasting levels of blood
+[295.52s]  glucose may be optimal, but that's only part of the story.
+[298.88s]  The other, and as I'm sure we all know, is that glucose levels increase during aging.
+[303.36s]  So it's not just about getting your data into the optimal range, but also resisting glucose's
+[308.12s]  age-related increase is the other half of that story.
+[311.18s]  So where am I getting these data from?
+[312.98s]  Well, I have a new Patreon tier dedicated specifically to what's optimal for biomarkers, including
+[318.08s]  fasting levels of glucose.
+[320.06s]  Besides glucose, it currently includes the 34 other biomarkers shown here, more than two
+[324.86s]  hours of video content, 52 published references, and note that these aren't the reference
+[329.72s]  ranges.
+[330.04s]  This is what may be optimal based on my reading of the literature in the largest studies that
+[334.02s]  exist.
+[334.82s]  So if you're interested in that, check it out.
+[337.10s]  All right, so back to the data.
+[338.52s]  And if we look at all of my data over those 63 tests, average glucose is within optimal,
+[344.02s]  90 milligrams per deciliter.
+[345.52s]  So technically I could stop there, just give it a check mark and it's all good.
+[348.92s]  But there's more to the story.
+[350.74s]  When I run the correlation for glucose versus chronological age, we can see that there is
+[354.96s]  a significant correlation with a correlation coefficient of 0.33 and the p-value
+[359.88s]  at less than 0.05 at 0.008.
+[363.32s]  So here we can see I've been unable to resist the age-related increase for glucose.
+[368.02s]  So we give that an X.
+[369.14s]  If I stopped it just looking at the average, that would only be part of the story.
+[372.60s]  It's important to look at all of the data within its full context.
+[376.00s]  And here we can see that glucose is increasing within my data.
+[378.62s]  So I've got to try to flip this sooner rather than later.
+[381.18s]  And in terms of that flipping it sooner rather than later, we can see that four of the most
+[385.78s]  recent tests have moved out of optimal.
+[388.52s]  So I've got to find a way to move it back into the optimal and also resist the age-related
+[393.62s]  change for fasting blood levels of glucose.
+[396.68s]  Which then brings us to how can I reverse the glucose increase?
+[400.56s]  So now we're going to take a look at diet versus glucose correlations.
+[403.76s]  So how am I able to do this?
+[405.42s]  For people who don't know, I've weighed almost all of my food since 2015 with a food scale.
+[409.70s]  I then enter that data into a diet tracking app, Chronometer.
+[413.12s]  And if you want to use Chronometer yourself, there's a discount link in the video's description.
+[416.86s]  I then pull the Chronometer data into a spreadsheet.
+[419.66s]  And then every blood test has a corresponding average dietary intake.
+[423.42s]  Such that if there's 50 days in between blood tests, by taking the average dietary intake
+[428.04s]  over those 50 days and then lining it up with the blood test, every blood test now has a
+[433.12s]  corresponding dietary intake.
+[434.58s]  So I can look at correlations.
+[435.88s]  With that in mind, let's take a look at the top of the correlations list, which is shown
+[439.64s]  here.
+[440.20s]  In the middle, we've got the correlation coefficient, lowercase r.
+[443.34s]  And then to the right, we've got the p-value.
+[445.88s]  And note that the threshold for statistical significance that I generally use is less than
+[449.86s]  0.05.
+[450.70s]  So this is even more strict.
+[452.12s]  This is the top of the list, less than 0.01.
+[454.80s]  And if you want to see the full list, that's in the biomarker correlations tier on Patreon,
+[459.10s]  which doesn't just include glucose, but all of the other biomarkers and their correlations
+[463.18s]  with diet that I'm tracking.
+[464.26s]  So if you're interested in that, check it out.
+[465.98s]  So let's take a look at the list to see what I can potentially do to reduce blood levels
+[470.20s]  of glucose.
+[471.18s]  Well, atop the list is total fat.
+[473.48s]  And I get that this may be opposite of what most people expect.
+[477.14s]  Increased fat, lower carbs, and you'll end up with lower glucose.
+[480.40s]  For that situation, generally most people eat high carb diets, are eating pastries and cookies.
+[485.42s]  And I understand that in those situations, glucose levels may improve.
+[489.76s]  In my case, the diet is almost exclusively whole food based, with only cheap meals immediately
+[494.62s]  following blood tests for one or two or three days, and then no cheap, no junk for 45, 50
+[500.40s]  days after blood testing.
+[502.20s]  Nonetheless, let's take a look at the correlation for total fat with blood glucose levels as shown
+[506.66s]  here.
+[507.40s]  With glucose on the y-axis, plotted against the average daily fat intake that corresponds to
+[511.66s]  each blood test on the X.
+[513.04s]  And then when looking at the correlation, we can see that it's positive.
+[516.26s]  So when my fat intakes have been relatively higher, that's been significantly correlated
+[519.70s]  with higher glucose.
+[520.84s]  And the opposite of that, when total fat intakes have been relatively low, that's been correlated
+[525.28s]  with relatively low glucose.
+[527.32s]  Now, for the most recent test, average fat intake was about 100 grams per day.
+[531.56s]  And we can see where that data point lays on this plot.
+[534.78s]  To get my data closer to that average of 90 that I've been able to maintain historically
+[540.14s]  since 2015, the data suggests going closer to 88 or so, just below 90 grams per day, based
+[547.30s]  on extrapolation of the trend line.
+[549.12s]  So that's the plan for test number eight, which will be in December.
+[552.28s]  So how well am I progressing on that goal?
+[554.88s]  So average fat intake since the October 27th test, it's been about three weeks since the
+[559.34s]  test, is currently 92 grams per day.
+[562.06s]  So I'm not too far away from my 88 gram per day target.
+[566.38s]  But note that total fat includes monounsaturated fat or MUFA, omega-3, omega-6, and sat fat.
+[572.88s]  So that doesn't really, just because I have a correlation with total fat, it doesn't tell
+[575.94s]  me which of the fats that I should potentially reduce to potentially improve blood glucose
+[580.20s]  levels.
+[581.36s]  So sat fat is indeed on the list.
+[583.70s]  And in my case, sat fat has been on the lower side of my range, almost close to the
+[587.96s]  lowest side, as I've been testing the effect of lower sat fat on cystatin C and B2M.
+[593.80s]  Both of those came down.
+[594.98s]  So lower sat fat in my case may be a part of keeping those two biomarkers low.
+[599.92s]  But when considering it was already on the lower side, it may not be a significant contributor
+[604.30s]  to why glucose levels were 102 for this test and 96 for the test before that.
+[609.24s]  But then note that monounsaturated fatty acids or MUFA are also on this list and a positive
+[614.62s]  correlation.
+[615.20s]  So let's take a look at those data, which is what we'll see here.
+[618.86s]  With again, glucose on the y-axis plotted against the average daily MUFA intake on the X.
+[623.86s]  Now for test number seven, we can see that my MUFA intake was actually the highest it's
+[629.14s]  been over the past 10 years, around 42 grams per day.
+[633.14s]  And note that in terms of where I'm getting my MUFAs from, the major source for this test
+[637.82s]  was avocado, 8.5 grams per day.
+[640.54s]  Olives, not olive oil.
+[641.66s]  I'm a whole food and no oils type.
+[644.40s]  So I'm eating olives, not olive oil.
+[646.72s]  8 grams of MUFA per day for this last test.
+[649.90s]  Almonds, 6 grams per day.
+[651.32s]  And sardines, 4.5 grams per day.
+[653.42s]  So this is the majority of my MUFA intake for this test.
+[656.00s]  So based on extrapolation of the trend line to get me closer to that 90 milligram per
+[659.90s]  deciliter average target.
+[660.98s]  And I get it.
+[662.22s]  Some people are probably saying you should go even lower and go to 85 or 80.
+[665.40s]  I agree with that.
+[666.22s]  But progress first, albeit not perfection.
+[669.60s]  So based on extrapolation of the trend line, having MUFA intakes closer to 20 grams per
+[673.72s]  day may get me to that 90 milligram per deciliter target.
+[677.34s]  So how well am I doing to that means, to that end?
+[680.62s]  Well, average MUFA intake since the last test on October 27th is currently 27 grams per day.
+[686.36s]  I'm not at the 20 gram per day target yet.
+[688.68s]  I'm working my way there.
+[690.00s]  But 27 grams is a big cut relative to 42 grams.
+[693.02s]  So here too, progress, albeit not perfection.
+[696.66s]  But when it comes to the correlations, I try not to just follow one or two, but as many
+[700.42s]  as possible, as I don't know the recipe for impacting the biomarkers.
+[703.78s]  I may have to move the needle for diet with 5, 6, 7, 8 correlations in order to get an effect
+[709.36s]  on a given biomarker.
+[710.90s]  So with that in mind, note that protein intake is also on this list.
+[714.62s]  So let's take a look at that plot.
+[716.56s]  That's what we'll see here.
+[717.56s]  So on the y-axis, we've got glucose.
+[719.20s]  And then on the x-axis, now it's average daily protein intake.
+[722.02s]  We can see the trend line.
+[723.56s]  So here too, higher protein, that's significantly correlated with higher glucose and vice versa.
+[728.96s]  Now for this test, average protein intake was 125 grams per day.
+[732.60s]  And we can see where that data point lays on the overall plot.
+[736.16s]  But to get me closer to 90 milligrams per deciliter based on extrapolation of the trend line,
+[741.18s]  these data suggest that being closer to about 108 grams per day may be what I should be doing
+[746.38s]  for test number eight.
+[747.76s]  So with that in mind, average protein intake since the October 27th test is currently
+[752.02s]  109 grams per day, not too far away from the target.
+[755.58s]  But I'm not stopping there in terms of following the correlations.
+[758.34s]  I intend on following all of the correlations on this list.
+[761.30s]  I want to get my glucose levels back to optimal sooner rather than later.
+[765.22s]  In terms of the other correlations, note that sodium is there.
+[768.40s]  That's a positive correlation, which suggests that I should cut my sodium intake.
+[771.96s]  And note that I've been doing the sodium experiment to see if it impacts HRV and resting heart rate,
+[776.50s]  but also potentially hair graying.
+[778.30s]  And if you missed that video, I'll link to it in the right corner.
+[780.90s]  So for test number eight, thus far, I've cut sodium intake by 400 milligrams per day,
+[785.62s]  which follows the correlation.
+[787.52s]  Positive correlation suggests that too high may be bad for glucose.
+[791.10s]  So I've made a cut, which should be potentially good for glucose.
+[794.68s]  How good for glucose?
+[795.60s]  We'll find out.
+[796.74s]  I've also cut calcium intake.
+[798.52s]  That too has a positive correlation, 80 milligrams per day, but that's a relatively minor cut.
+[803.06s]  May not make much of a dent.
+[804.24s]  I've also increased fiber intake.
+[806.50s]  We see that that's a significant inverse correlation.
+[809.08s]  So that suggests that when fiber intakes are at the higher end of my range,
+[812.36s]  that's significantly correlated with lower glucose.
+[814.84s]  And thus far, it's only about a five gram per day higher intake of total fiber.
+[819.38s]  And I'll be trying to push that a bit higher over the next few weeks before the next test.
+[823.52s]  We can also see vitamin D is on the list there too, an inverse correlation,
+[827.20s]  but I'm not following that correlation, at least not yet,
+[829.84s]  because I've been getting the majority of my vitamin D production from sunlight.
+[832.98s]  With 20 minutes per day of whole body sun exposure,
+[835.66s]  as I now live in a warm weather climate, Austin, Texas, where I can do that almost daily.
+[840.44s]  But we're almost towards the end of November, and it's going to get very difficult to do that.
+[844.00s]  So I'll probably have to start vitamin D supplementation,
+[846.38s]  at least 1,000 I use per day, maybe 2,000 like I was doing in Boston.
+[850.86s]  So stay tuned for that to see how it impacts circulating levels of vitamin D.
+[854.78s]  We can also see a significant inverse correlation for net carbs.
+[857.68s]  So to follow that correlation, I've increased it by 46 grams per day.
+[861.62s]  So a bit less fat and a bit more carbs following the correlations.
+[865.44s]  And then last but not least on this list is beta-cryptoxanthin,
+[868.56s]  which I get almost exclusively from red bell pepper, but also more recently, butternut squash,
+[872.82s]  a small amount of butternut squash per day.
+[875.00s]  And to follow this inverse correlation, I've increased it by 700 micrograms per day,
+[879.46s]  which is about a 50% increase over where it's been historically.
+[883.04s]  So whether the net effect of all of these following all of these biomarker correlations
+[887.76s]  will impact glucose, we'll have to wait to see for the next test.
+[891.94s]  In terms of when that test will be, it'll be on December 15th, 2025.
+[895.52s]  That's the scheduled date.
+[896.94s]  So if you want to see those data, I post it immediately on Patreon.
+[899.62s]  And then it takes me a few weeks to make the video there too.
+[902.66s]  First post it on Patreon before posting it on YouTube about a month later.
+[906.76s]  So this is just part one of this video series after every blood test.
+[910.90s]  Next, we'll take a look at the full blood test report.
+[913.86s]  And then in the video after that, we'll take a look at diet, supplements, and prescription meds
+[917.94s]  that correspond to this 16 year younger biological age.
+[921.62s]  If you're interested in more about my attempts to buy high aging, check us out on Patreon,
+[925.62s]  where I offer blood test consults and also post at least twice per day in four other Patreon tiers.
+[931.26s]  We've also got a whole bunch of discount and affiliate links that you can use to test yourself
+[934.84s]  that help support the channel, including ultalabtest.com,
+[938.12s]  which is where I get the majority of my blood tests done,
+[939.78s]  the clearly filtered water filter, which I use every day,
+[942.82s]  at-home metabolomics, oral microbiome composition,
+[945.78s]  NAD testing with Genfinity, epigenetic testing with TrueDiagnostic,
+[949.84s]  at-home blood testing with Cyfox Help, which includes Grimage,
+[952.36s]  the best epigenetic clock of epigenetic clocks,
+[955.40s]  green tea, diet tracking with chronometer,
+[957.92s]  or if you'd like to support the channel, you can do that with the website, buy me a coffee.
+[961.78s]  We've also got merch, including Data Is My North Star,
+[964.82s]  Figuring Stuff Out Is My Drug,
+[966.06s]  and the Conquer Aging or Dietrying logo, as shown here.
+[969.62s]  Link in the video's description.
+[971.34s]  Thanks for watching.
+[972.40s]  Hope that you enjoyed the video.
+[973.82s]  Have a great day.

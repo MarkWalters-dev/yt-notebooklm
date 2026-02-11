@@ -1,0 +1,28 @@
+[0.00s]  For white blood cells, I find no value in looking at the absolute number because they're not a
+[5.50s]  homogeneous group of cells. In other words, up to about 97%, 95% or more for white blood cells are
+[13.80s]  neutrophils, monocytes, and lymphocytes. Neutrophils and monocytes increase during aging,
+[18.44s]  lymphocytes decrease during aging. So your white blood cell counts could be stable and you could
+[22.54s]  have divergent things going on at the same time. So I find no value in looking at the absolute
+[27.78s]  number of white blood cells. But if we did, 3.5 to 6 would be my optimal. So Brian's would be a bit
+[34.94s]  too low, but then we could take it even a step further because people often say like, your
+[41.60s]  optimal ranges are based on sick populations. Well, first of all, I'm looking at the studies
+[46.30s]  that have millions of people, if they exist, if not millions and thousands, hundreds of thousands of
+[50.30s]  people, the biggest studies that exist, large population-based averages. Could you make a case
+[54.26s]  that less than my quote-unquote optimal range 3.5 to 6 is optimal at the individual level for certain
+[59.66s]  people? Yeah, potentially. So could Brian's 3.1 be optimal even though it's a bit lower than the 3.5?
+[66.06s]  It could be, but you know, it goes back to this division of the neutrophils, monocytes, and lymphocytes.
+[73.20s]  If for example, his, his lymphocytes are less than a thousand, so that would be 1.0 of the 3.1.
+[79.66s]  And then his neutrophils and monocytes are say 2,000. Neutrophils and monocytes would be pretty
+[84.46s]  close to optimal in that context, but his lymphocytes being a thousand would be far away from
+[90.10s]  optimal. And we could even, I know we talked about this a bit before, but you could even subdivide the
+[94.82s]  lymphocytes into CD4, CD8, which is what's known as an immune health grade. So 1,000 lymphocytes will
+[101.80s]  be subdivided into T-cell, and I know I'm going to lose people here because of lost me. We get into the
+[107.18s]  weeds, but this is where the beauty is. We've got to really understand that the depths and the
+[111.58s]  mechanism of our biomarkers. So the lymphocytes getting further subdivided into T-cells, B-cells,
+[116.46s]  and K-cells. If you don't have enough of certain of those cell types to fight off infection,
+[121.30s]  you're going to be more likely to get infections, stay infected for longer, increase your risk of
+[126.16s]  death from infectious mortality, and all cause mortality risk is a part of that story. So even
+[131.24s]  if his neutrophils and monocytes were quote unquote optimal, but lymphocytes were too low leading to a worse
+[136.78s]  immune health grade based on CD4, CD8, 3.1 may not be optimal. So we would need more context to really
+[142.88s]  properly evaluate if that's quote unquote optimal. But in terms of the Lusk Garden definition of
+[148.68s]  optimal, Seam in your data would probably be closer to optimal than Bryant's.

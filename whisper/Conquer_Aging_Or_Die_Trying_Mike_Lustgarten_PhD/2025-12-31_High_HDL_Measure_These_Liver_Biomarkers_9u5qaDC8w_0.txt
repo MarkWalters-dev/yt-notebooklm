@@ -1,0 +1,28 @@
+[0.00s]  how would you know when HDL is indeed too high? So if you look at the all-cause mortality data,
+[5.28s]  it's a J or a U-shaped curve, actually probably closer to a U-shape, whereas you mentioned less
+[9.96s]  than 40, higher risk. Then once you get above 70, also higher risk. So APOA1 tracks with the HDL
+[17.78s]  story because APOA1 is found almost exclusively on HDL. It can be freely floating in plasma,
+[22.84s]  but if it's in blood, it's almost exclusively coming from HDL. And I know that not just because
+[29.28s]  of the published mechanism in that it's found on HDL, but I've measured APOA1 and HDL and looked at
+[36.72s]  the correlation over seven tests and the correlation coefficient is greater than 0.9. So I actually
+[41.70s]  stopped measuring APOA1 and just I'm only focused on HDL. There's no need to measure them both. So
+[46.70s]  if you look at the quote unquote optimal range for HDL, 50 to 69 men and women, this is a study of like
+[52.50s]  12 million people or more. I don't remember the exact actual number. It was greater than 10 million,
+[57.60s]  but so, okay, let's bypass that. Let's look at APOA1. Well, in a small study, I think the study was
+[62.34s]  about 300,000 people. All cause mortality risk for APOA1 was lowest for 150 to 180 milligrams per
+[68.08s]  deciliter. All right. What about greater than 180? Well, although lowest risk was that 150 to 180,
+[73.12s]  all cause mortality risk went away at greater than 180. So you essentially lost the lowering of all
+[81.34s]  cause mortality risk at values greater than 180. So in your case, I'd say that's the best case scenario.
+[86.62s]  I don't think your HDL is going to be associated with a higher all cause mortality risk when
+[90.36s]  considering APOA1, but there's another factor to consider. So HDL, high HDL, you know, cardio,
+[96.78s]  cardio protective. So then why, or in within what context with high HDL be potentially bad for
+[103.26s]  health and or longevity? Well, we're considering that, as you mentioned, alcohol can raise it
+[107.58s]  and knowing that, and I'm not saying you're an alcoholic by no means. I'm not saying that I'm sure
+[110.90s]  you're not moderate alcohol intake, but for people who are alcoholics, HDL is dramatically high. And
+[117.34s]  within that context, they've got damage to liver enzymes. GGT is relatively high, AST, ALT. So could
+[123.68s]  that be a part of your story where maybe you wouldn't die from cardiovascular disease, but maybe some
+[128.90s]  liver related issues? Could you clean up your liver related issues with train, you know, not blood
+[133.66s]  testing the day before the hard workout. And now GGT is less than 12, AST, ALT closer to the low twenties.
+[140.62s]  And then the HDL story doesn't become a liver health story. It's just, okay, well, it's maybe
+[146.02s]  it's a bit too much wine where I'm losing the lowering of all cause mortality risk, just being
+[150.74s]  outside of that 180. So, so that would be the context for that.

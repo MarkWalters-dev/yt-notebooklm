@@ -1,0 +1,454 @@
+[0.00s]  For blood test number 7 in 2025, using Dr. Morgan Levine's biological age calculator, PhenoAge,
+[6.30s]  we saw that my biological age was 15 years younger than the chronological.
+[10.36s]  And if you missed that video, it'll be in the right corner.
+[13.14s]  But what might be contributing to these data?
+[15.60s]  So let's start off with prescription meds.
+[17.66s]  And for those who are familiar with the channel, you already know this story,
+[20.32s]  so apologies, I'll have to go through it again for people who may be new.
+[23.48s]  I was diagnosed with hypothyroidism in my 20s,
+[25.96s]  so I've been taking thyroid hormone medication for about 30 years.
+[29.58s]  With the most recent iteration, including levothyroxine, 75 micrograms per day,
+[34.86s]  and 20 micrograms per day of cytomel.
+[37.72s]  Which then brings us to supplements.
+[39.90s]  And for this test, I specifically targeted supplements for NAD,
+[43.48s]  including nicotinic acid, nicotinamide, and NMN,
+[46.28s]  and not all at the same time, on separate days, one at a time.
+[49.96s]  But also homocysteine, including riboflavin, betaine, or trimethylglycine, which is TMG, and zinc.
+[56.36s]  Now note that none of these supplements were specifically aimed at lowering biological age.
+[61.46s]  And for those who may not know, this biological age calculator is a blood-based biomarker calculator
+[66.22s]  that includes nine clinical chemistry biomarkers.
+[69.74s]  This isn't an epigenetic test.
+[71.96s]  So none of these supplements were directly aimed at improving biological age.
+[76.30s]  And when considering this most recent test of 15 years younger,
+[80.48s]  it's actually my worst data thus far over seven tests.
+[83.62s]  One could make the argument that all these supplements didn't do anything
+[86.42s]  for improving my biomarker data,
+[89.76s]  and potentially maybe even made some of the biological age metrics worse.
+[94.16s]  But that's a story and analysis for another day.
+[97.46s]  So for now, let's dig into the details in terms of how much of each of these supplements
+[101.50s]  that I supplemented with for this blood test.
+[103.68s]  So first, I supplemented with nicotinic acid an average of 17 milligrams per day.
+[108.96s]  And that number may seem strange as you can't get supplements in 17 milligrams per day.
+[113.98s]  So I've mentioned this in earlier videos.
+[115.54s]  I make my own stock solution of nicotinic acid, but also riboflavin,
+[119.28s]  and then take an aliquot of that every day,
+[121.58s]  or when I'm taking it, 20 milliliters or 50 milliliters,
+[124.72s]  and I get my daily dose of those two supplements by making that stock solution.
+[129.14s]  And I know I have to make a video on both of those at some point,
+[132.44s]  so stay tuned for that video at some point in the future.
+[135.48s]  So I averaged 17 milligrams per day,
+[137.76s]  which means I didn't take it for every day during the 40-day period
+[141.04s]  that corresponded to this blood test.
+[143.00s]  And in terms of that 41-day period,
+[145.66s]  it started immediately after September 16th,
+[148.24s]  which was on the day of test number 6.
+[150.72s]  And it lasted until the day before test number 7 on October 26th.
+[154.74s]  So there were 41 days in between blood tests,
+[157.20s]  so I'm looking at 41-day averages from one test until the next.
+[160.92s]  So again, I only supplemented with nicotinic acid for a few days during this period.
+[165.10s]  And that's because I also supplemented with nicotinamide on separate days
+[168.52s]  with an average of 98 milligrams per day for that 41-day average.
+[172.68s]  Now, note that nicotinamide comes in 500 milligram capsules.
+[176.76s]  So this is approximately one day of supplementation with nicotinamide for every 5 days.
+[181.98s]  So I wasn't taking that every day either.
+[183.76s]  And that's because the primary NAD intervention included NMN.
+[188.56s]  And for NMN, I supplemented with an average of 1,000 milligrams per day
+[192.10s]  from October 10th through October 26th,
+[195.12s]  so the 17-day period before measuring NAD and all of the other blood test biomarkers.
+[201.30s]  Now, note that NAD levels are, in my case, sensitive to change very quickly
+[205.40s]  with just 2-3 days of supplementation or taking supplements out.
+[209.10s]  So with that in mind, although NMN's average over that 17-day period was 1,000 milligrams per day,
+[215.82s]  for the 4 days before testing, it was less, 375 milligrams per day,
+[220.32s]  as I supplemented with 3 of the 4 days with 500 milligrams per day of NMN.
+[224.96s]  And I did that because I don't generally get headaches.
+[227.76s]  And I don't know if the two are related, but for some reason,
+[230.66s]  I started to get headaches on days using more than 500 milligrams per day of either NMN or, in the past, nicotinamide,
+[236.96s]  which is strange because when I supplemented with NMN for earlier blood tests,
+[241.06s]  I've supplemented now with 3 or 4 blood tests using NMN,
+[244.40s]  the headaches weren't present.
+[245.20s]  So I don't know if this is a phenomenon that's caused by nicotinamide or NMN,
+[250.28s]  as NMN contains nicotinamide, or something else.
+[254.04s]  But to be safe, I cut the dose down of both nicotinamide and NMN for this period when I supplemented with it.
+[261.04s]  So what was the impact on NAD of supplementing with NMN for this 17-day period,
+[265.92s]  but more specifically for the 4-day period with a lower dose before testing?
+[269.86s]  So to find out, I sent blood to Genfinity for NAD analysis.
+[273.08s]  And if you want to measure your own NAD levels using this test,
+[276.08s]  there's a discount link in the video's description.
+[278.70s]  So on October 27th, the same day as testing everything else,
+[281.96s]  NAD levels were about 48 micromolar.
+[284.48s]  And you can see it's highlighted in green.
+[286.66s]  Genfinity flags that as good news, as anything for them greater than 40 is considered quote-unquote optimal.
+[291.86s]  I'm not yet sure what's optimal for NAD, whether it's 40 or above 40, 40 to 60.
+[296.90s]  In my case, based on metabolomic analysis, data closer to 30 may be optimal,
+[300.82s]  as my data tends to be on the lower side without any NAD precursors.
+[305.42s]  And I'm using metabolomic correlations, so correlations for NAD with other metabolites,
+[310.20s]  to try to get a more complete picture of what may be optimal for NAD in my case.
+[314.66s]  For direct comparison, for the previous test, for test number 6,
+[318.44s]  NAD levels were 21 micromolar.
+[321.22s]  And note that that was using nicotinamide exclusively.
+[324.44s]  So this is an interesting comparison.
+[325.82s]  NMN is nicotinamide mononucleotide.
+[329.20s]  And obviously, we've got nicotinamide by itself.
+[331.92s]  So the inclusion of that mononucleotide is sufficient to get a big boost for NAD levels
+[336.76s]  relative to only looking at nicotinamide by itself.
+[340.04s]  48 micromolar versus 21 micromolar.
+[342.86s]  Now, in terms of why I got such a big jump at a relatively low dose of NMN,
+[347.50s]  just 4 days, 4 days before testing, 375 milligrams per day,
+[350.98s]  it's possible that the average of 1,000 milligrams per day for that 17-day period
+[355.44s]  is what drove the higher NAD level.
+[358.62s]  Alright, so I also mentioned that I'm taking supplements aimed at lowering homocysteine.
+[362.84s]  So first, why is homocysteine important?
+[365.44s]  So it's directly neurotoxic, at least in cells, in neurons.
+[369.52s]  And it causes endothelial cell senescence.
+[372.42s]  So these are two major reasons why I'm measuring homocysteine for every test.
+[377.20s]  So, with that in mind, let's take a look at my data, which is what we'll see here.
+[381.72s]  So for this test, on the same day as testing everything else, not just biological age,
+[385.68s]  homocysteine was 9.3 micromolar, which then raises the question, what's optimal?
+[390.56s]  So based on the reference range, anything greater than 15 micromolar would be flagged as high.
+[395.26s]  So technically, my data, in comparison to the reference range, would be quote-unquote good.
+[399.46s]  But I have more specific targets, and that's based on the published literature.
+[403.68s]  This isn't just me making up numbers out of nowhere, out of thin air.
+[407.20s]  So for homocysteine, lower is better, and I have a 5 micromolar target.
+[411.24s]  But that's only part of the story.
+[412.92s]  And that's because homocysteine increases during aging.
+[415.74s]  So that 5 micromolar target and avoiding an age-related increase for homocysteine are what I consider as optimal.
+[422.36s]  And besides homocysteine, if you're interested in what's optimal for biomarkers,
+[426.00s]  I have a new Patreon tier dedicated specifically to that.
+[428.60s]  It doesn't yet include homocysteine, but it includes 35 other biomarkers that are shown here,
+[433.38s]  more than 2 hours of video content, 52 published references that are also on this tier.
+[438.66s]  And these aren't the reference ranges, which you can get from any LLM these days.
+[442.52s]  This is what may be optimal based on how each of these biomarkers changes during aging,
+[446.90s]  and or their associations with all-cause mortality risk.
+[449.64s]  So if you're interested in that, check it out.
+[451.76s]  All right, so back to the data.
+[453.00s]  And based on that less than 5 micromolar target, we can see that 9.3 is higher than that.
+[457.66s]  So we give that an X, a red X.
+[459.54s]  Bad news.
+[460.48s]  And in terms of avoiding the age-related increase for homocysteine, there too, red X.
+[464.88s]  And I covered that in the last video in this series, blood test number 6 analysis.
+[468.76s]  And I'll link to that video in the right corner in case you missed it.
+[471.66s]  So for now, though, let's do a direct test-to-test comparison
+[474.36s]  as I want to illustrate supplemental changes that I made test over test
+[478.94s]  that didn't make a dent on lowering homocysteine,
+[481.56s]  including betaine, increasing betaine supplementation.
+[485.16s]  So first note that homocysteine was 8.8 for the September test,
+[488.22s]  and it actually moved a bit in the wrong direction for this test, 9.3 micromolar.
+[492.06s]  So for the previous test, 8.8, to this most recent test,
+[496.16s]  I increased trimethylglycine supplementation to almost 5 grams per day.
+[500.14s]  And I know a lot of people think that this is the best way to lower homocysteine,
+[503.62s]  but we can see that in my case, increasing it by 3.5x didn't move the needle downward.
+[509.04s]  In fact, it moved a bit in the other direction, a small amount in the other direction,
+[513.20s]  albeit it's probably about the same, 8.8, 9.3, probably the same.
+[517.20s]  But the big take-home message here is that high-dose betaine in my case,
+[521.50s]  and this isn't the only data point that I have,
+[523.54s]  I've done this experiment in the past two pre-YouTube video days on my blog
+[527.64s]  where I supplemented with 5 grams per day, up to 5 grams per day of betaine,
+[531.50s]  and it didn't make a dent on my homocysteine.
+[533.16s]  But another part of the story is that I removed a singular supplement
+[537.06s]  that contains methyl B12, methylfolate, and B6,
+[540.72s]  with 1,000 micrograms of methyl B12, 400 micrograms of methylfolate,
+[544.38s]  and 1.5 milligrams per day of B6.
+[547.02s]  So why did I take out that supplement?
+[549.00s]  And could that be the reason why homocysteine may have moved slightly in the wrong direction?
+[553.22s]  And additionally, if this is the best that I can do with high-dose betaine,
+[556.58s]  and even with the methylfolate, methyl B12, and B6 supplement in the approach,
+[560.40s]  only getting to, say, 8.8, what can I do to further decrease homocysteine
+[564.80s]  and get back to that 5 micromolar target,
+[567.40s]  which I've achieved only a couple of times in the past 20 years?
+[571.12s]  So for that story, we're going to do a deep dive into homocysteine metabolism.
+[574.30s]  And I should say, this is where the most fun that I have on the channel is.
+[577.38s]  It's doing deep dives into the biochemistry of trying to optimize biomarkers.
+[581.22s]  So starting with dietary intake of folic acid,
+[584.20s]  that's converted into serum folate by MTHFR,
+[587.74s]  methylene tetrahydrofolate reductase.
+[589.86s]  That's a protein.
+[591.04s]  Now, enzymatic activity of that protein requires FAD,
+[594.68s]  and synthesis of FAD requires vitamin B2 or riboflavin.
+[599.36s]  So with that in mind, in terms of the supplemental approach for decreasing homocysteine,
+[604.14s]  supplementing with riboflavin an average of 12 milligrams per day
+[607.26s]  for this 41-day period in between tests, that's what I included.
+[610.54s]  And as I mentioned, you can't get 12 milligrams per day in a riboflavin capsule or supplement.
+[615.08s]  I make my own stock solution and then drink a small amount of that every day
+[618.66s]  to get a daily riboflavin dose.
+[620.82s]  Now, 12 milligrams per day is 10x, about 10x the RDA.
+[624.88s]  Maximum absorption of riboflavin in a singular sitting is about 30 milligrams per day.
+[629.42s]  So I have room to go higher.
+[630.68s]  I don't know what's optimal yet for riboflavin levels.
+[632.90s]  And even if riboflavin doesn't help with the ability of folate and B12 to convert homocysteine into methionine,
+[639.88s]  thereby decreasing homocysteine, I'm going to keep riboflavin, some amount of riboflavin,
+[643.96s]  in the supplemental approach.
+[645.44s]  As, and I don't yet have a video on it, but there is published data showing that cells that have a higher rejuvenation,
+[651.66s]  regeneration, sorry, capacity, have relatively higher levels of riboflavin relative to cells that have a low regeneration capacity.
+[658.50s]  Whether that's true in vivo relative to in vitro, nobody's tested yet,
+[662.66s]  but I think it makes the most sense to have slightly, at least slightly higher levels of riboflavin,
+[666.88s]  at least as a supplement.
+[668.86s]  All right, so then serum levels of folate combined with vitamin B12,
+[672.34s]  which maximizes activity of the enzyme methionine synthase to convert homocysteine into methionine,
+[678.46s]  thereby decreasing homocysteine levels.
+[680.96s]  So in terms of why I took out that supplement that includes B12 or methyl B12 and methylfolate,
+[686.62s]  we can see that from diet alone, I'm getting super physiological or greater than physiological amounts just from diet.
+[693.06s]  So for example, for vitamin B12, average intake during this 41-day period was 63 micrograms per day.
+[699.26s]  Note that the RDA is only 2.4 milligrams per day, sorry, micrograms per day.
+[704.02s]  And I should say too, even if we take out the supplement that I took for a few days during this 41-day period that includes methyl B12,
+[710.68s]  just from the sardines that I eat every day, they have about 8 micrograms per day.
+[714.60s]  So just the sardines alone are 3.5x the RDA.
+[718.16s]  So I'm getting, I should be getting enough B12 from diet.
+[721.22s]  Similarly for folate, we can see that average intake for this test, average daily intake was 1,000 micrograms per day,
+[727.12s]  which is 2.5x the RDA.
+[729.62s]  So this is the major reason why I took out these two from that singular supplement that included them,
+[735.48s]  as I figure I'm getting enough from diet and I can't imagine that they'd make much of a dent by taking super physiological supplemental doses.
+[744.20s]  Okay, so now on to how betaine can lower homocysteine.
+[747.34s]  So betaine combines with homocysteine via the action of BHMT, betaine homocysteine methyl transferase,
+[754.66s]  to convert homocysteine into methionine.
+[757.70s]  Now note that BHMT, maximal activity, requires zinc.
+[762.28s]  So if you're zinc deficient or if you're not getting enough dietary zinc,
+[765.70s]  then activity of BHMT will be suboptimal.
+[768.62s]  Conversion of homocysteine into methionine will be lower, leading to an accumulation of homocysteine.
+[773.32s]  So with that in mind, obviously for this test I mentioned the betaine supplementation, almost 5 grams per day,
+[779.28s]  but I've also been supplementing with zinc, 15 milligrams per day.
+[782.96s]  Now note that my total zinc intake is about 30 milligrams per day,
+[786.50s]  and the Linus Pauling Institute, which studies zinc intake and zinc status,
+[790.76s]  they recommend an upper limit of 40 milligrams per day.
+[793.24s]  So I may need to go a bit higher, but for now, for the pass-through test,
+[796.50s]  I've been supplementing with 15 milligrams of zinc per day,
+[798.96s]  as the diet, my dietary intake, is about 15 milligrams per day,
+[802.36s]  close to the RDA on its own, which may be insufficient.
+[805.50s]  That's a story for another day though.
+[807.82s]  Now there's a third pathway that can decrease or reduce homocysteine,
+[811.80s]  and that's by converting homocysteine in the presence of the amino acid serine and vitamin B6 into cystithionine.
+[818.04s]  Now I mentioned this in an earlier video a while back,
+[820.42s]  but that may be the best way to decrease homocysteine,
+[822.94s]  as an elevation for cystithionine can then be converted into cystine,
+[827.14s]  which can then be incorporated into glutathione, which decreases during aging.
+[831.44s]  So if we have a buildup of homocysteine and this pathway is blocked,
+[834.76s]  we could expect to potentially have lower levels of glutathione too,
+[838.06s]  which is like a double whammy, high homocysteine and low glutathione as the master antioxidant within cells.
+[844.60s]  But a key player in this process, which I've ignored until relatively recently,
+[849.64s]  is SAM or S-adenosylmethionine.
+[852.10s]  So why is that?
+[853.54s]  It doesn't seem obvious when looking just at the biochemistry that we see here,
+[857.62s]  because SAM, after being converted by methionine,
+[861.00s]  so methionine gets methylated into S-adenosylmethionine,
+[865.14s]  and after SAM is produced, it's converted into S-adenosylhomocysteine or SAH,
+[870.16s]  which is then converted back into homocysteine.
+[872.12s]  So there's no homocysteine lowering there, you're just going in a loop.
+[875.48s]  Similarly, S-adenosylmethionine inhibits MTHFR activity.
+[880.18s]  So if SAM is high, we'd expect to see potentially higher homocysteine because MTHFR would be inhibited,
+[888.52s]  thereby reducing the ability of folate to combine with B12 to decrease homocysteine into methionine.
+[893.24s]  So that could be potentially bad news there too.
+[896.42s]  But on the other hand, we can see that when SAM is relatively high,
+[900.58s]  that increases CBS activity or cystathione beta synthase activity,
+[905.26s]  which is required to convert homocysteine into cystathioneine.
+[909.38s]  Now note that I've experimented with this pathway in the past,
+[912.80s]  supplementing over three tests with two, four, and six grams of serine per day
+[917.68s]  in conjunction with relatively high B6 intake, and it didn't decrease homocysteine.
+[922.24s]  But S-adenosylmethionine may have been a key player in that process.
+[926.42s]  And before going more into that story,
+[928.20s]  I want to detail why this metabolite may be so important,
+[931.42s]  not just for homocysteine, but in aging overall.
+[934.82s]  And that's because we can see that to convert methionine into S-adenosylmethionine,
+[939.24s]  it requires ATP or energy.
+[941.54s]  Now, as we all know, mitochondrial energy production declines during aging.
+[945.32s]  So ATP would be lower in relatively older animals or people,
+[949.42s]  thereby reducing the ability of methionine to be converted into S-adenosylmethionine
+[953.40s]  and relatively low S-adenosylmethionine levels.
+[956.70s]  Under those conditions, we'd expect to see less transit of homocysteine
+[960.40s]  through that cystithionine and potentially increased glutathione pathway.
+[964.34s]  So aging, less SAM production, buildup of homocysteine, decrease for glutathione.
+[970.84s]  Seems like a pretty bad mix of stuff going on there with S-adenosylmethionine at its core.
+[976.40s]  Is low S-adenosylmethionine the bottleneck in my data?
+[980.04s]  And if so, if I can relieve that, can I get further below that nine micromolar value
+[983.96s]  that we saw for the most recent two tests?
+[986.06s]  So I can indirectly measure S-adenosylmethionine levels by looking at levels in plasma of sarcosine
+[992.20s]  and glycine.
+[993.24s]  And that's what we'll see here.
+[994.92s]  So S-adenosylmethionine combines with glycine.
+[997.38s]  Actually, it donates a methyl group to form sarcosine.
+[1000.24s]  And we can see that addition of the methyl group attached to the nitrogen atom.
+[1003.82s]  Now, this reaction is catalyzed by GNMT, glycine and methyl transferase.
+[1009.18s]  And that's important.
+[1010.30s]  Well, I should say that's important because GNMT has a longevity story on its own,
+[1014.72s]  which will likely get its own video at some point in the future.
+[1017.56s]  But if we assume that GNMT is a constant during aging, which may not be the case,
+[1021.88s]  it may actually decline or increase.
+[1023.84s]  But if we assume that it's a constant, if sarcosine divided by glycine is high,
+[1027.40s]  then it suggests high levels of S-adenosylmethionine.
+[1030.42s]  Sarcosine levels should be low when SAM is low because that methyl group from SAM
+[1034.52s]  is directly donated to glycine, thereby forming sarcosine.
+[1037.50s]  So taking it a step further, is sarcosine divided by glycine as an index,
+[1042.48s]  an indirect index of S-adenosylmethionine levels, is that correlated with homocysteine?
+[1047.58s]  So the first step in that process is measuring sarcosine and glycine,
+[1050.80s]  which I've been doing with at-home metabolomics.
+[1052.68s]  I have 21 tests.
+[1054.10s]  Actually, I have data for 20 tests.
+[1055.64s]  I'm waiting on test number 21, which includes plasma data for sarcosine and glycine,
+[1060.14s]  but also 621 other metabolites.
+[1062.96s]  So if you want to use this kit on your own, discount link in the video description.
+[1066.20s]  So on to the data.
+[1068.14s]  On the y-axis, we've got the sarcosine to glycine ratio,
+[1070.94s]  again, as an index of S-adenosylmethionine levels,
+[1073.84s]  and that's plotted against venipuncture levels of homocysteine on the same day.
+[1077.82s]  So the IOLO kit is using the tasso, and on the same day, I did venipuncture.
+[1081.88s]  So I'm directly comparing data generated on the same day.
+[1085.94s]  And what we can see is that there is a significant inverse correlation between this index,
+[1090.34s]  the sarcosine-glycine ratio, with homocysteine,
+[1093.12s]  as that correlation coefficient is negative 0.55,
+[1096.54s]  and the p-value is less than the significant threshold of less than 0.05.
+[1101.60s]  So from this, when sarcosine divided by glycine,
+[1104.88s]  as an index of relatively high S-adenosylmethionine is high,
+[1108.86s]  homocysteine is correlated with being low.
+[1112.46s]  And to illustrate that point, we can see a data point that looks like an outlier.
+[1116.02s]  And on that day, which is actually test number 20, the most recent test,
+[1120.02s]  or the test that I have most recent data for,
+[1122.28s]  I'm waiting on data for test number one for the October 27th test.
+[1125.86s]  On that day, I supplemented with 1.4 grams per day of TMG.
+[1129.10s]  You could say, what does TMG or betaine have to do with glycine?
+[1132.64s]  Well, TMG is trimethylglycine, which can be converted into dimethylglycine.
+[1137.84s]  And then dimethylglycine can be converted into methylglycine or sarcosine.
+[1141.48s]  If sarcosine is high, we'd expect to have a high sarcosine to glycine ratio.
+[1146.06s]  So even with S-adenosylmethionine,
+[1147.94s]  it may be possible to increase this ratio by using TMG, at least in my case.
+[1152.92s]  That's what that one data point that looks like an outlier would suggest.
+[1155.94s]  But when considering 1.4 grams per day of betaine,
+[1159.56s]  and potentially 5 grams per day of betaine,
+[1161.52s]  didn't make a dent on lowering homocysteine past 9 micromolar,
+[1165.36s]  I'm going to need another way to try to push homocysteine lower.
+[1168.72s]  So with the goal of further lowering homocysteine,
+[1171.28s]  how can I increase S-adenosylmethionine?
+[1173.78s]  Or using sarcosine divided by glycine as an index of that.
+[1177.84s]  So the obvious answer is just supplementing with S-adenosylmethionine,
+[1180.98s]  as it's sold as a supplement with one example shown there.
+[1184.54s]  That's in the backup plant for now.
+[1186.30s]  That's in the back pocket.
+[1187.90s]  More directly or indirectly,
+[1189.66s]  I've decided to go with creatine supplementation.
+[1192.02s]  And in terms of the why, we'll see that here.
+[1194.52s]  So in the liver, GAA or guanidinoacetic acid
+[1198.88s]  combines with S-adenosylmethionine to form creatine.
+[1202.76s]  So creatine synthesis happens in the liver.
+[1205.48s]  Now, creatine supplementation should spare S-adenosylmethionine
+[1209.28s]  because if we supplement directly with creatine,
+[1211.94s]  we don't need to make it as we have a daily requirement need.
+[1215.12s]  So if we're supplementing with it,
+[1216.66s]  S-adenosylmethionine levels should go up by a bit
+[1219.14s]  because we're supplementing with creatine,
+[1220.86s]  thereby limiting the need for the reaction to actually make it.
+[1223.42s]  Which then raises the question of how much creatine per day?
+[1227.00s]  Well, the daily creatine requirement for 70 kg men,
+[1231.50s]  and note that my body weight is a bit less than that,
+[1233.48s]  63 and a half kgs or so,
+[1235.46s]  is up to two grams of creatine per day.
+[1238.10s]  Now, I'm not a vegan.
+[1239.26s]  I do eat sardines every day.
+[1240.88s]  But sardines have relatively low creatine levels
+[1243.36s]  relative to other animal products, including beef.
+[1246.70s]  So with that in mind,
+[1247.46s]  it's possible that I could be creatine deficient
+[1249.92s]  and thereby having low levels of S-adenosylmethionine
+[1254.20s]  as whatever S-adenosylmethionine that I have
+[1256.14s]  has to be used to make creatine.
+[1257.78s]  If that's true,
+[1258.88s]  if I supplement with creatine two grams per day,
+[1261.12s]  which that's my starting dose,
+[1262.22s]  and I know some of you are going to say,
+[1263.18s]  go higher.
+[1263.96s]  Maybe, we'll see.
+[1265.52s]  First step, two grams per day.
+[1267.46s]  Try to satisfy any potential deficiency.
+[1269.86s]  That's how I generally do it.
+[1271.56s]  So if I do that,
+[1272.28s]  will that make a dent on lowering homocysteine
+[1274.16s]  by increasing S-adenosylmethionine?
+[1276.56s]  So will it work?
+[1279.92s]  So there's one more video coming
+[1292.12s]  in the blood test number seven analysis in this series,
+[1295.74s]  and that's diet composition.
+[1297.20s]  So stay tuned for that video coming relatively soon.
+[1299.90s]  If you're interested in more about my attempts
+[1301.60s]  to biohack aging,
+[1302.56s]  check us out on Patreon,
+[1303.64s]  where I offer blood test consults
+[1305.22s]  and also post at least twice per day
+[1307.26s]  in four other Patreon tiers.
+[1308.86s]  We've also got a whole bunch of discount
+[1310.88s]  and affiliate links that you can use to test yourself
+[1313.38s]  that help support the channel,
+[1314.90s]  including ultalabtest.com,
+[1316.50s]  which is where I get the majority of my blood tests done,
+[1318.58s]  the clearly filtered water filter,
+[1320.42s]  at-home metabolomics,
+[1321.82s]  or microbiome composition,
+[1323.46s]  NAD testing with Genfinity,
+[1325.12s]  epigenetic testing with True Diagnostic,
+[1326.82s]  which includes Dunedin Pace,
+[1328.60s]  at-home blood testing with Cyfox Health,
+[1330.16s]  which includes the best epigenetic clock
+[1331.70s]  of epigenetic clocks, Grimmage,
+[1333.64s]  green tea, diet tracking with coronameter,
+[1335.44s]  or if you'd like to support the channel,
+[1337.16s]  you can do that with the website,
+[1338.30s]  Buy Me A Coffee.
+[1339.26s]  We've also got merch,
+[1340.66s]  including Data Is My North Star,
+[1342.68s]  Figuring Stuff Out Is My Drug,
+[1344.14s]  and the Conquer Aging or Dietrying logo,
+[1346.06s]  which I've got on here.
+[1347.66s]  Link in the video's description.
+[1349.36s]  Thanks for watching.
+[1350.42s]  Hope that you enjoyed the video.
+[1351.78s]  Have a great day.
+[1352.98s]  Bye.
+[1353.98s]  Bye.
+[1354.26s]  Bye.
+[1354.54s]  Bye.
+[1354.60s]  Bye.
+[1354.76s]  Bye.
+[1354.82s]  Bye.
+[1354.86s]  Bye.
+[1354.90s]  Bye.
+[1354.94s]  Bye.
+[1354.98s]  Bye.
+[1355.02s]  Bye.
+[1355.30s]  Bye.
+[1355.34s]  Bye.
+[1355.38s]  Bye.
+[1355.42s]  Bye.
+[1355.50s]  Bye.
+[1355.54s]  Bye.
+[1355.58s]  Bye.
+[1355.62s]  Bye.
+[1355.66s]  Bye.
+[1355.74s]  Bye.
+[1355.78s]  Bye.
+[1355.86s]  Bye.
+[1355.90s]  Bye.
+[1356.10s]  Bye.
+[1356.22s]  Bye.
+[1356.30s]  Bye.
+[1356.74s]  Bye.
+[1356.78s]  Bye.
+[1356.82s]  Bye.
+[1356.86s]  Bye.
+[1357.74s]  Bye.
+[1357.86s]  Bye.
+[1357.90s]  Bye.
+[1357.94s]  Bye.
+[1358.02s]  Bye.
+[1358.30s]  Bye.
+[1358.58s]  Bye.
+[1358.78s]  Bye.
+[1358.86s]  Bye.
+[1358.90s]  Bye.
+[1359.10s]  Bye.
+[1359.82s]  Bye.
+[1360.78s]  Bye.
+[1360.82s]  Bye.
+[1360.94s]  Bye.
+[1361.82s]  Bye.
+[1362.82s]  Bye.
+[1362.86s]  Bye.
+[1362.94s]  Bye.
+[1363.82s]  Bye.
+[1364.78s]  Bye.
+[1364.94s]  Bye.
+[1365.82s]  Bye.

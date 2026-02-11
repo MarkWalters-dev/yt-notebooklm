@@ -1,0 +1,483 @@
+[0.32s]  For blood test number 7 in 2025, when using Dr. Morgan Levine's biological age calculator,
+[5.88s]  PhenoAge, we saw that my biological age was 15 years younger than the chronological.
+[11.04s]  So what might be contributing to these data?
+[13.72s]  In the last video, we did a deep dive into supplements, and if you missed it, it will
+[17.48s]  be in the right corner.
+[19.18s]  But in today's video, let's do a deep dive into diet composition, more specifically the
+[23.20s]  diet composition that corresponds to blood test number 7 in 2025.
+[27.62s]  With the full list of all 54 foods shown here, this is average daily dietary intake from
+[33.64s]  September 16th through October 26th of 2025, and that's a 41 day period.
+[39.54s]  So why that 41 day period?
+[41.34s]  Well, it started immediately after test number 6, which was on September 16th, and it lasted
+[46.88s]  until the day before test number 7, which was on October 27th, thereby leading to that 41
+[52.28s]  day period in between blood tests.
+[54.26s]  And then this is the average of all dietary intake in between for those 41 days.
+[59.18s]  Now for those who don't know, I've been weighing my food since 2015 every day with a food scale.
+[64.46s]  More than 99% of all food has been weighed over that 10 year period with the food scale.
+[69.02s]  I then log that data into a diet tracking app, chronometer.
+[72.28s]  I then pull the chronometer data into a spreadsheet.
+[75.28s]  And then I'm able to look at average dietary intake over that 41 day period and line it
+[80.26s]  up with the blood test.
+[81.20s]  So now every blood test has a corresponding average dietary intake and I can look at correlations,
+[85.48s]  but that story is coming later in the video.
+[87.48s]  So this list is ranked from top to bottom, 54 different foods were consumed in grams with
+[94.00s]  two exceptions.
+[96.00s]  Green tea, which is in ounces.
+[97.70s]  And if you want to use what I use, which is organic loose leaf green tea from Japan,
+[101.72s]  there's a discount link in the video description.
+[104.12s]  And then cookies, which is in calories.
+[105.88s]  And I have to always say at this point in the video, that's not seven calories of cookies
+[109.84s]  every day for 41 days.
+[111.88s]  That's one day of cookies and 40 days of no cookies.
+[114.76s]  All right, so at this point in the video, I always ask, did I do any experiments that were
+[119.08s]  specific to this test?
+[120.94s]  And the answer is yes, as I'm always trying to improve biomarker weak spots without messing
+[125.26s]  up the rest of the biomarkers.
+[127.06s]  Now for this test, there were three specific experiments.
+[130.22s]  In the first, I increased omega-3 intake to test the correlation with DHEA sulfate.
+[135.94s]  So for those who don't know, why is DHEA sulfate important?
+[139.34s]  It's important because DHEA sulfate impacts many age-related phenotypes.
+[143.68s]  And that's what we'll see here.
+[145.24s]  So after DHEA is produced by the adrenal gland and then sulfated, it impacts these age-related
+[150.58s]  phenotypes, including osteoporosis, obesity, diabetes, cancer, atherosclerosis.
+[156.34s]  It's immunomodulatory, which means that it's pro-immune and anti-inflammatory.
+[160.78s]  And it's also neuromodulatory, which means it offers neuroprotection and it impacts, positively
+[165.96s]  impacts neuroplasticity.
+[168.04s]  Which then raises the question of what's optimal for DHEA sulfate?
+[171.64s]  So that's what we'll start to see here as DHEA sulfate declines during aging.
+[176.30s]  On the y-axis, we've got DHEA sulfate, plasma or blood levels of DHEA sulfate plotted against
+[181.60s]  age on the X.
+[183.20s]  And then we can see that in youth around 20 years old, median DHEA sulfate levels, and
+[187.20s]  I should mention these data are in men, are 300 micrograms per deciliter.
+[192.20s]  And that's around 8 to 9 micromolar.
+[195.20s]  And then we can see that there's a precipitous age-related decline for DHEA sulfate.
+[199.86s]  And note that these data are similar in women too.
+[202.20s]  So relatively high in youth, and then an age-related decline.
+[205.16s]  Although, how high it peaks in women and youth is lower relative to men.
+[209.84s]  So to address the question of what's optimal for DHEA sulfate, my reading of the literature
+[213.58s]  is 300 micrograms per deciliter as that's the median value found in youth.
+[218.48s]  That's only part of the story.
+[219.48s]  The other part of that story is its association with all-cause mortality risk.
+[222.96s]  There too, relatively higher is better.
+[224.92s]  The third part of that story isn't just getting one data point into the quote-unquote optimal
+[229.64s]  range.
+[230.64s]  It's avoiding this age-related decline.
+[232.36s]  So even if your data isn't 300 micrograms per deciliter, resisting age-related change,
+[237.28s]  say it's 200 or 150, trying to resist age-related change for as long as possible is also how
+[242.48s]  I see optimizing this biomarker and many other biomarkers.
+[245.66s]  And in terms of optimizing biomarkers, if you've ever wondered what's optimal, I have a new
+[249.84s]  page here dedicated specifically to that.
+[252.84s]  It currently includes these 35 biomarkers shown here, more than 2 hours of video content, 52
+[257.92s]  published references.
+[259.18s]  And note that these data aren't the reference ranges.
+[261.74s]  This is my interpretation of the published literature for what may be optimal based on how each of these
+[265.94s]  biomarkers changes during aging and or associations with all-cause mortality risk.
+[270.54s]  So if you're interested in that, check it out.
+[272.38s]  Alright, back to our story, where DHEA sulfate is a weak spot that I'm trying to improve, which
+[277.60s]  is what we'll see here.
+[279.10s]  This is DHEA sulfate plotted against age, chronological age, from 2022 to 2025, and I have 25 blood tests
+[285.86s]  over that period.
+[287.26s]  With DHEA sulfate plotted on the y-axis against chronological age on the x.
+[291.86s]  Now for the first 19 tests, the data was relatively stable.
+[295.34s]  With an average DHEA sulfate of 126 micrograms per deciliter.
+[298.94s]  But then, take a look at the most recent 5 tests.
+[301.78s]  As there's been a precipitous decline, in fact, my lowest ever DHEA sulfate over this
+[308.40s]  4 year period in these 25 tests.
+[310.90s]  These data are definitely moving in the wrong direction.
+[313.86s]  Especially within the context of what's optimal.
+[316.14s]  As I mentioned, 300 micrograms per deciliter is the target, and I'm nowhere near that at
+[320.34s]  126 micrograms per deciliter.
+[322.94s]  Additionally, in terms of resisting age-related change, more recently, I'm not doing great.
+[327.42s]  Although, DHEA sulfate was relatively stable for those 19 tests.
+[330.38s]  As I mentioned, whatever's going on for the past 5 tests, I've got to try to reverse that,
+[334.38s]  and quickly.
+[335.38s]  Which then raises the question of, what can I do to reverse these data?
+[338.54s]  So, following every blood test, I calculate correlations, as I mentioned earlier.
+[343.02s]  So, after test number 6, I calculated correlations, and then I tried to follow those correlations
+[347.98s]  with the goal of moving DHEA sulfate and other biomarkers in the quote-unquote right direction.
+[352.46s]  Now, note that we are currently on test number 7 in this video, so I want to show what my
+[357.02s]  thought process was after test number 6, and following the correlations, to try to move
+[361.18s]  the needle for test number 7.
+[362.98s]  Now, one of those correlations is shown here.
+[365.30s]  This is DHEA sulfate plotted against average daily omega-3 intake.
+[369.54s]  And as I mentioned, this is just one of the correlations, the full correlation list for
+[373.78s]  biomarkers versus diet, on the correlations tier on Patreon.
+[376.98s]  So, if you're interested in that, check it out.
+[378.98s]  So, here we can see that there was a significant positive correlation for omega-3 intake.
+[383.78s]  And this is not from supplements, this is from whole foods, with DHEA sulfate,
+[388.02s]  with a correlation coefficient of 0.41, and the p-value right at the threshold of statistical
+[392.58s]  significance, 0.05.
+[394.66s]  If correlation equals causation, and I'm not saying that that's the case, but the only way
+[398.42s]  to know is to do the experiment and find out.
+[400.98s]  If I eat relatively high omega-3 towards the high end of my range, again, if correlation
+[406.34s]  equals causation, I should expect to see relatively higher DHEA sulfate in my data.
+[410.98s]  So, that's what I did.
+[412.34s]  But then it raises the question of omega-3 from what?
+[415.06s]  What am I getting omega-3 from, what are my primary sources?
+[418.58s]  Well, they include walnuts, sardines, and flaxseed.
+[421.62s]  Neither of those, in looking at the p-value, had a p-value less than 0.05, which then raises
+[426.82s]  the question of what do I do?
+[427.86s]  I have a significant correlation for omega-3 with DHEA sulfate, but I don't have any significant
+[432.58s]  correlations for the foods that provide the majority of my omega-3.
+[435.94s]  So, with that in mind, I decided to increase each of them.
+[438.58s]  As we'll see in a minute, I'll show the exact amounts that I increased them to try to move
+[442.10s]  the DHEA sulfate needle.
+[444.02s]  But note that it didn't work.
+[445.54s]  Again, this was a part of the story for my worst ever DHEA sulfate over these 25 tests.
+[452.66s]  So, in terms of what did I change in terms of those three foods, in terms of the amounts,
+[456.58s]  I increased sardine intake from 92 to about 143 grams per day.
+[460.50s]  So, the majority of the omega-3 came from sardines.
+[463.38s]  With relatively smaller increases for flaxseed, you can see 21 to 23 grams per day.
+[467.86s]  And walnuts increased from 3 to about 8 grams per day.
+[470.58s]  Again, it didn't work though.
+[472.10s]  So, I've got to come up with a different recipe for improving DHEA sulfate for test number 8.
+[476.90s]  With that in mind, what's the plan for test number 8?
+[479.30s]  Following test number 7, I then recalculated correlations.
+[483.14s]  And again, if you want to see the full list, that's on Patreon in the correlations tier.
+[487.14s]  So, this is the top of the correlation list for DHEA sulfate versus foods following test number 7.
+[494.18s]  With the correlation coefficient in the middle, the p-value, you can see each of these foods
+[498.66s]  is significant at a p-value threshold of less than 0.05.
+[502.10s]  And then the N is 25 tests over this about 4-year period.
+[506.74s]  And what we can see is positive and negative correlations.
+[509.30s]  The positive correlations suggest that when intake of the food is relatively high,
+[513.86s]  that's significantly correlated with higher levels of DHEA sulfate.
+[516.82s]  Again, correlation, not causation.
+[518.50s]  I am not at all implying causation.
+[520.34s]  The only way to know about causation is to do the experiment.
+[523.46s]  And then there are also negative correlations on this list,
+[526.18s]  which suggests that relatively higher intake of the food is significantly correlated with lower
+[530.26s]  levels of DHEA sulfate, which would be moving in the wrong direction.
+[533.78s]  So, atop the list, for whatever reason, is added salt intake,
+[537.06s]  with a positive correlation of 0.78.
+[539.94s]  But then digging deeper, there are other positive correlations, including dates,
+[544.42s]  vanilla bean, beets, and coconut butter.
+[547.14s]  If I follow all of those correlations, will DHEA sulfate be at the relatively higher end of my range?
+[552.18s]  That's a part of the plan.
+[553.70s]  While also trying to minimize inverse or negative correlations as shown in red.
+[558.34s]  And surprisingly, olives are inversely correlated with DHEA sulfate.
+[562.34s]  Whether that's related to the well-known effect of olive oil being able to reduce LDL,
+[567.46s]  and LDL, which is cholesterol, is involved in DHEA synthesis, I'm not yet sure.
+[572.82s]  But the idea that relatively high olive or olive oil intakes may be best for everyone,
+[577.62s]  in my case, maybe not, at least based on my correlation for olives with DHEA sulfate.
+[583.06s]  Besides olives, we can see nutmeg inversely correlated.
+[585.78s]  That data would be moving in the wrong direction too.
+[587.70s]  If you saw the video on nutmeg and one of its metabolites increasing lifespan in animal models,
+[591.94s]  I'd like to keep it in the approach, so that it would potentially lead to lower DHEA sulfate,
+[596.34s]  would be bad news in my data.
+[598.34s]  Avocado, celery, corn, kimchi, and lemon are also inversely correlated with DHEA sulfate,
+[603.94s]  potentially bad news.
+[605.54s]  So in terms of the plan for test number eight, the goal is to follow as many of these correlations as
+[610.34s]  possible.
+[611.30s]  Keeping the positive correlations relatively high intake, and reducing or cutting out the inverse
+[616.74s]  correlations, foods that have inverse correlations.
+[619.22s]  So with that in mind, with going into the specific numbers, I'll cover that for the test
+[622.82s]  number eight breakdown after test number eight probably sometime in January.
+[626.58s]  Test number eight will be at the end of December though.
+[629.06s]  So am I following those correlations?
+[630.66s]  So I've added salt back into the diet.
+[633.06s]  I've cut olive intake by about half.
+[635.22s]  So I was getting salt intake from olives, leading to a reduction in added salt intake.
+[640.02s]  So now I've reversed that, where I've added salt back into the approach and cut olive intake
+[644.34s]  by about half.
+[645.46s]  I've removed nutmeg, removed avocado, and I've also cut celery by about a third.
+[650.74s]  In terms of the other correlations, it's about a mixed bag.
+[653.30s]  I'm following some, but not following the others.
+[656.02s]  So the top five correlations, so I am following all of them as I don't know if any of them
+[660.74s]  will impact DHEA sulfate.
+[662.66s]  Now, if these are quote unquote real correlations, the correlation will stay relatively strong
+[667.06s]  or get a bit stronger, meaning it'll move closer to one or negative one.
+[671.62s]  All right.
+[671.94s]  So back to the, any experiments for this test.
+[675.06s]  So MCV has been moving in the wrong direction for a bunch of tests going back over the past few
+[679.78s]  few years.
+[680.34s]  And I covered that story in an earlier video.
+[682.10s]  If you missed it, it'll be in the right corner.
+[684.58s]  So for those who don't know, what is the MCV?
+[687.46s]  Well, it's the mean corpuscular volume.
+[689.62s]  So it's the average volume of red blood cells, which can be visually illustrated here.
+[694.18s]  So here we can see a red blood cell that has a relatively small volume.
+[697.14s]  That's a low MCV, a red blood cell that has a bigger volume.
+[700.90s]  So that's a medium intermediate MCV, and then big red blood cells or big volume.
+[705.78s]  That's a high MCV.
+[707.54s]  MCV increases during aging.
+[709.38s]  Low MCV is more likely to be found in youth.
+[711.78s]  So that's one part of the approach for what's optimal for MCV, having relatively small red blood
+[716.74s]  cells.
+[717.54s]  So following test number six, Brazil nuts were positively correlated with a higher
+[721.62s]  MCV, which is data potentially moving it in the wrong direction.
+[724.90s]  And again, it's important for me to highlight this.
+[726.58s]  This is a correlation.
+[727.54s]  It's not causation.
+[728.74s]  The only way I can test causation is to do the experiment by testing the correlation.
+[732.98s]  So that's what I did.
+[734.26s]  I reduced Brazil nut intake from 12 grams to about five grams per day.
+[738.98s]  And we can see the correlation on the left.
+[741.30s]  Following test number six, that correlation coefficient was 0.72 and the p-value is far
+[745.54s]  below 0.05.
+[747.70s]  But note that following that correlation by cutting Brazil nut intake, it didn't work.
+[752.26s]  This is a part of the story for my highest ever MCV over 60 tests going back to 2015 at
+[758.26s]  about 96 femtoliters.
+[760.50s]  So then I recalculate the correlations.
+[762.26s]  And as I mentioned, if a correlation following correlation doesn't work, it weakens.
+[767.06s]  And that's exactly what we can see after calculating the correlation after test number seven, as that
+[771.46s]  correlation coefficient moved from 0.72 to now 0.64.
+[775.06s]  So we can buy a bit and you can see that the p-value, it moved a bit closer to 0.05, albeit
+[779.94s]  still statistically significant from three times 10 to the negative eight to two times 10 to the
+[784.66s]  negative six.
+[785.22s]  So it's still a significant correlation.
+[786.98s]  But based on this one test, it seems that Brazil nut intake is not a part of the lowering
+[790.90s]  MCV story, which then raises the question of what am I going to do for test number eight to bring
+[795.62s]  MCV closer to what I consider is optimal around 90 femtoliters.
+[800.10s]  I'm currently testing correlations for lycopene and cacao for MCV for the next test.
+[805.06s]  For whatever reason in my data, relatively higher or highest lycopene intakes are positively
+[810.50s]  correlated with MCV.
+[811.70s]  That would be data moving in the wrong direction.
+[813.70s]  And cacao is inversely correlated with MCV.
+[816.18s]  So relatively higher intakes are significantly correlated with lower MCV.
+[819.78s]  So I've cut lycopene intake, specifically tomatoes, not cut them out.
+[822.98s]  They're still in the diet, albeit at a lower amount.
+[825.54s]  I'm aiming for about 125 grams of tomatoes per day, not about 200, which is where it's been
+[830.34s]  for the past few tests.
+[831.54s]  And I've added cacao beans back into the approach, 10 grams per day.
+[835.38s]  Now I haven't gone higher because sat fat in my data is significantly correlated with higher levels
+[840.02s]  of Cystatin C and B2M, which are important predictors of grim age.
+[843.86s]  So I'm trying to keep sat fat relatively low, thereby keeping cacao beans relatively low.
+[848.26s]  That's why I haven't gone relatively high intakes for cacao beans yet.
+[852.02s]  So the third experiment involved increasing fat intake to test the correlation with lipoprotein A.
+[856.90s]  And I'll have more on that in the macronutrient breakdown of this video.
+[860.98s]  But for now, let's take a look at cheat meals, because I know that there are some people in this
+[864.82s]  space that absolutely never cheat on their diet.
+[867.14s]  And unfortunately, or fortunately, however you want to look at it, I'm not one of them.
+[871.38s]  And that's because if I try to go completely cold turkey and have no cheat meals ever, that
+[876.10s]  historically has increased the probability of eventually breaking and having a binge and
+[880.26s]  just going crazy with calories and junk for a few days, which throws everything off track.
+[884.26s]  And it can ruin literally months of hard work in terms of calorie restriction and exercise
+[889.14s]  training and all of that, and even mindset, mental health.
+[891.46s]  I'm not trying to do that.
+[892.34s]  I'm not trying to do that.
+[892.90s]  So what I found what works best for me is immediately after blood testing, it's like
+[896.74s]  I won the Super Bowl.
+[897.54s]  I go out and quote unquote, celebrate with a cheat meal.
+[900.50s]  Now on those days, try to stick to the calorie targets that are on that day.
+[904.66s]  So if it's a workout day on a blood test day, around 2,500 calories at most generally is harder
+[910.66s]  to do when there's some cheat meals because cheat meals, although initially satiating and delicious
+[915.54s]  can lead to less satiety later in the day.
+[917.62s]  So I try to include the cheat meal while also sticking to the calorie targets for that day
+[922.50s]  without going a bit too high above that.
+[924.58s]  Now note that the cheat meals aren't just limited to one day.
+[927.46s]  What I found that works for me is on the day after, immediately after testing the day after,
+[931.78s]  and then up to about a third day.
+[933.78s]  And after that, I'm pretty much satiated on cheat meals or junk, and then it's locked in completely
+[937.86s]  for the rest of the diet.
+[939.22s]  No cheats after that.
+[940.66s]  So for this test, it was three days of cheats and then 38 days of completely clean back to
+[944.90s]  the standard diet after that.
+[946.74s]  In terms of what those cheat meals involved, it involved, well, it's basically a standard.
+[950.90s]  I almost every blood test immediately after blood testing, I had peanut butter.
+[953.86s]  I just love peanut butter.
+[954.74s]  It's great.
+[955.22s]  Immediately after testing, I had peanut butter mixed with jelly, specifically that jelly there.
+[959.06s]  And I also had some peanut butter mixed with Nutella, which was delicious.
+[963.46s]  It was so delicious.
+[964.26s]  I decided to have it for the second cheat day too.
+[966.74s]  On the third day, I mixed it up a bit where I had those cookie chips,
+[969.94s]  ahoy cookies.
+[970.66s]  I blended them up.
+[971.46s]  I ground them up into a fine powder, and then I mixed them with sugar, powdered sugar
+[975.70s]  and heavy cream to make a homemade ice cream, which there too, it was completely delicious.
+[980.42s]  Three days of junk, 38 days, no junk back on the standard diet.
+[984.58s]  In terms of the amount of junk calories that came from Nutella, 950, blackberry jelly was 438.
+[990.98s]  And from the added powdered sugar, it was 160.
+[993.86s]  But technically, I could add the whipped cream to the junk calories as it is an ultra processed food.
+[999.46s]  They do add additives to it.
+[1001.30s]  I'm not sure if I should do that.
+[1003.14s]  If people say in the comments that I should add heavy cream to the junk calories list,
+[1007.94s]  I'd be happy to do that in future videos.
+[1009.38s]  I'm not trying to skimp and make it look like the diet was more clean than it is.
+[1013.78s]  I'm happy to add it if people think that it's a junk food.
+[1016.50s]  In terms of junk calories, about 1550.
+[1019.30s]  And when divided by all of the calories consumed during this period, it was 1.6 of all calories.
+[1023.94s]  So the diet was about 98% clean relative to how much junk was on these three days.
+[1029.94s]  Alright, so this list is ranked in grams.
+[1031.94s]  What about ranking foods based on calories?
+[1034.82s]  And that's what we're going to see here.
+[1036.18s]  This is the top 10 foods for average daily calorie intake that correspond to this 41 day period from
+[1041.38s]  test number six to test number seven.
+[1043.70s]  And note that this list is generated by chronometer.
+[1046.02s]  If you want to measure your own diet with chronometer,
+[1048.42s]  there's a discount link in the video description.
+[1050.50s]  So in terms of the top food that provided calories, it was sardines.
+[1054.34s]  So I'm not a vegan.
+[1055.46s]  I haven't been a vegan for about nine years.
+[1057.78s]  Every day I've had fish since then.
+[1059.54s]  So it's a staple in the diet.
+[1061.54s]  In terms of the other foods that are in this top 10, I won't go through them all.
+[1065.30s]  Eight of the 10 foods that were in the top 10 list for test number six
+[1068.58s]  are also in this list for test number seven.
+[1070.98s]  In terms of what entered the top 10, avocados and almonds,
+[1073.94s]  and pistachios and Brazil nuts left the top 10.
+[1076.10s]  Still in the diet, but just not in the top 10.
+[1078.26s]  All right, next up is macronutrient composition, starting off with calorie intake,
+[1082.90s]  which average calorie intake for this test, 2302.
+[1086.34s]  And in terms of how that ranks relative to other tests over the past six months or so,
+[1091.54s]  my past four test average is about 2300 calories, 2292 to be exact.
+[1097.78s]  And I've done that because I'm trying to stay weight stable.
+[1100.82s]  So body weight declines in the second half of life.
+[1103.14s]  And I'm trying to avoid, and granted, I don't think I'm in the second half of life.
+[1106.42s]  Maximum fuel and lifespan is 122.
+[1108.10s]  I'm currently 52.
+[1109.06s]  So I don't think I'm in the second half of life.
+[1110.50s]  But when considering that body weight declines during aging in the second half of life,
+[1114.42s]  I'm trying to stay weight stable indefinitely, not lose an ounce of muscle or fat.
+[1118.42s]  Well, actually, I'd like to lose as much visceral fat as possible
+[1122.26s]  while optimizing as much muscle mass as possible within my current body weight of 140 pounds.
+[1127.94s]  Protein intake for this test average was about 126 grams per day,
+[1132.10s]  which was 22% of total calories.
+[1134.82s]  Next up is fat intake, which is what we can see here, an average of about 101 grams per day.
+[1140.10s]  And this is 39% of total calories.
+[1142.90s]  That 101 grams per day was an increase relative to the prior test of 84 grams per day and 33%
+[1149.06s]  of total calories.
+[1150.50s]  So where did that fat increase of 17 grams per day come from?
+[1153.78s]  Mostly monounsaturated fat.
+[1155.78s]  And if you remember earlier, I did that to test close to or significant correlations for total fat
+[1160.98s]  and monounsaturated fatty acids, MUFA, with lower lipoprotein A.
+[1166.02s]  Unfortunately, it didn't work though, as you'll see in a minute.
+[1168.42s]  The big question though is fat from what?
+[1170.58s]  Because although I have significant correlations for total fat and MUFA with lower lipoprotein A,
+[1175.38s]  where did I increase fat from?
+[1177.22s]  Avocado intake was inversely correlated with lipoprotein A after test number six.
+[1181.62s]  So to test that correlation, I added avocado more than doubling its intake from 41 to around 87 grams
+[1187.78s]  per day.
+[1188.66s]  But there too, it didn't work.
+[1190.18s]  So, so far I've struck out 0 for 3 on all of the experiments that I tried to move biomarkers.
+[1194.90s]  It didn't work.
+[1195.54s]  And I try to be as honest as possible with these things.
+[1198.50s]  You know, I'm happy to celebrate successes, but I'm also going to show the failures and then
+[1202.26s]  try to learn from them so that I can improve.
+[1204.26s]  But lipoprotein A for test number six was 81 nanomolar.
+[1207.22s]  For a test number seven, it was 80 nanomolar, despite following this correlation.
+[1211.70s]  Which then raises the question of what's the plan for lowering lipoprotein A, as that's
+[1215.86s]  a bit outside of the reference range.
+[1217.54s]  And lipoprotein A is six to seven times more atherogenic than LDL.
+[1221.30s]  So I'd like to reduce lipoprotein A even lower if I can.
+[1224.74s]  Now, for those who are going to say it's genetic and it can't be moved or manipulated,
+[1228.34s]  in my data, I've had lipoprotein A values as high as 145 nanomolar, with an average
+[1233.30s]  over the past 10 years of about 90 nanomolar.
+[1236.02s]  So it is possible to stay closer to one's lower end of their reference range
+[1240.18s]  or of their range.
+[1241.06s]  But I'm trying to push it even lower if I can by following the correlations.
+[1245.62s]  So how will I try to do that for test number eight?
+[1248.10s]  Well, I have a significant inverse correlation for chickpeas with lipoprotein A.
+[1252.10s]  So as a heads up for the test number eight diet composition video, which again,
+[1255.30s]  probably won't happen until sometime in late January, or it won't be on YouTube until sometime
+[1259.46s]  in late January.
+[1260.42s]  That data will be on Patreon immediately after I get the blood test results,
+[1263.86s]  testing sometime later in December.
+[1265.06s]  I've doubled chickpea intake relative to where it is here to about 80 ish grams per day relative
+[1270.50s]  to about 40 grams per day.
+[1271.62s]  So stay tuned for that data, whether it worked or not.
+[1274.42s]  All right.
+[1274.74s]  So back to the total fat story.
+[1276.66s]  So we can see that omega-3, I increased it by about two grams per day, again,
+[1280.18s]  from the combination of sardines, walnuts, and flax seeds.
+[1282.98s]  Omega-6 was a bit higher too because of the increase in walnuts.
+[1286.26s]  And I kept sat fat relatively low to test correlations or to repeat test correlations
+[1290.98s]  for Cystatin C and B2M, which stayed relatively low again for the second test in a row, which
+[1296.50s]  supports for whatever reason, relatively low saturated fat in my diet being better for
+[1301.06s]  Cystatin C and B2M.
+[1303.46s]  All right.
+[1303.78s]  Next up is carb intake.
+[1305.70s]  And that's what we'll see here.
+[1306.98s]  So total carbs are 267 grams per day, which seems like a lot, but note that net carbs equals
+[1312.50s]  total carbs minus fiber.
+[1314.26s]  Average fiber intake for this test was 82 grams per day.
+[1317.46s]  And when subtracting that from total carbs, we get a net carbs of 185 grams per day.
+[1322.50s]  We'll multiply by four calories per gram that yields 32, around 32% of the diet coming from
+[1328.42s]  net carbs.
+[1329.70s]  Now note that fiber, a fraction of that about 20% is fermented by gut bacteria into short chain
+[1335.22s]  fatty acids.
+[1335.86s]  In other words, gut bacteria make fat from fiber.
+[1339.22s]  And it's about 150 calories from soluble fiber coming from the total fat pool because total
+[1345.14s]  fat is comprised of insoluble fiber, which is not fermented by gut bacteria and soluble fiber,
+[1349.46s]  which is fermented by gut bacteria into these short chain fatty acids, acetate, propionate,
+[1353.70s]  and butyrate.
+[1354.26s]  So that 150 calories coming from soluble fiber fermentation leads to about 6.5% SCFAs, which I can
+[1362.50s]  then add to get net macros for this test, which was about 46% fat, 32% net carbs, and 22% protein.
+[1369.86s]  Now I should mention that this net macronutrient profile was not associated with my best biological
+[1375.22s]  age for any tests so far over the first seven tests in 2025.
+[1378.66s]  So one could argue that my fat intake is a bit too high, my protein intake may be a bit too high,
+[1383.46s]  and net carbs may be a bit too low.
+[1385.46s]  Now also on this list is sugar intake, and I'm not tracking sugar intake because it's a diverse
+[1390.82s]  group of molecules, including glucose, lactose, galactose, maltose, fructose, etc.
+[1397.14s]  But what I am tracking is total fructose with fructose and sucrose.
+[1401.30s]  Half of sucrose is fructose.
+[1403.06s]  So dividing that by two and adding it to fructose yields a total fructose amount.
+[1408.66s]  Having relatively higher fructose intakes is significantly correlated with more biomarkers
+[1412.58s]  moving in the wrong direction than right.
+[1414.74s]  And the diet is fruit and vegetable rich, which contain a lot of fructose, so I have to be
+[1418.42s]  careful how much fructose that I consume.
+[1420.82s]  So for this test, total fructose was about 50 grams per day.
+[1424.26s]  And I should mention at this point, I have to say that seems like a lot, but over the past
+[1428.50s]  10 years of tracking diet, I've had fructose intakes that correspond to a blood test that are way higher
+[1432.74s]  122 grams per day.
+[1435.14s]  Also, this 50 grams per day of total fructose was lower test over test.
+[1438.66s]  For test number six, it was 57 grams per day.
+[1441.46s]  So here too, and I say this a lot, progress, albeit not perfection.
+[1444.90s]  Now, considering that lowering my fructose and overall fruit intake was a part of this story
+[1449.86s]  for a 15 year biological age reduction, that was not my best, far from my best,
+[1454.50s]  with data going in the wrong direction over the past six tests since the first test.
+[1458.74s]  One could argue that maybe I shouldn't cut fructose intake.
+[1461.86s]  So that too is a part of the plan for test number eight.
+[1463.86s]  And I've increased strawberries.
+[1465.06s]  We're going to see a lot of strawberries in my diet composition video for test number eight.
+[1468.74s]  So stay tuned for that data coming in a future video.
+[1471.38s]  All right, next up are micronutrients.
+[1473.46s]  And that's what we'll see here with the full list of vitamins.
+[1475.70s]  It may be hard to see.
+[1476.58s]  So I'd encourage going full screen if you haven't gone, if you haven't done that already.
+[1480.26s]  And without going through all of the vitamins on the list for anyone starting on this journey,
+[1484.26s]  and I always have to say this, I think this is the most important, lowest hanging fruit.
+[1488.42s]  The goal should be to at least get RDA coverage for all vitamins and minerals.
+[1492.82s]  Now, what's optimal beyond that?
+[1494.98s]  It's looking at correlations between your diet and supplements with a standard panel of biomarkers,
+[1500.42s]  and then trying to course correct.
+[1501.86s]  You know, it's the F round, find out, test over test over test,
+[1504.98s]  to try to find your own personalized recipe for optimizing biomarkers.
+[1508.82s]  So with that in mind, many micronutrients on this list, on the vitamin list, and as we'll see for
+[1513.62s]  the mineral list in a second, are much higher than the RDA as I'm following those,
+[1517.94s]  their correlations with a standard panel of 25 to 30 biomarkers.
+[1522.82s]  I've highlighted the carotenoids as shown there in the green box.
+[1526.50s]  If you'll notice for the carotenoids, they're pretty high.
+[1528.90s]  And there aren't RDAs established for the carotenoids, but I covered in an earlier video
+[1532.90s]  that carotenoids are consistently associated with a relatively younger biological age.
+[1536.98s]  So I think it's important to keep them relatively high.
+[1539.54s]  So if you missed that video, it'll be in the right corner.
+[1541.86s]  All right, so in terms of minerals, I just want to highlight one important factor, and
+[1545.14s]  that's sodium intake, which for this test was 2700 milligrams per day.
+[1548.98s]  In an earlier video, I pitched the hypothesis that sodium can lower norepinephrine, which
+[1553.86s]  may be involved in hair grain, but also optimizing HRV and resting heart rate,
+[1557.70s]  but on the other hand, negatively impacting blood pressure.
+[1560.74s]  My blood pressure, since increasing sodium from about 1700 milligrams to 2700 milligrams per day,
+[1566.26s]  has been moving in the wrong direction.
+[1568.18s]  So as a heads up for the test number eight diet composition video, I've since cut sodium intake
+[1572.74s]  by about 500 milligrams per day to reevaluate correlations to see how lowering sodium can impact
+[1578.34s]  all of the above, HRV, resting heart rate, and blood pressure.
+[1580.82s]  So I'm planning on an update video for that at some point in the future.
+[1584.34s]  All right, so whether it'll all work, we'll find out very soon.
+[1587.70s]  The next blood test is scheduled for sometime between December 15th and December 26th.
+[1591.46s]  I've actually got three blood tests scheduled during that period, and I do that because this
+[1594.98s]  is flu season. So worst case scenario, something happens and I have to reschedule.
+[1598.74s]  I've got backup tests for the 15th, the 22nd, and the 26th.
+[1602.18s]  So I haven't specifically nailed down when that blood test is going to be,
+[1605.30s]  but I'm intending on getting it done by the end of this month.
+[1608.50s]  If you're interested in more about my attempts to biohack aging, check us out on Patreon,
+[1612.26s]  where I offer blood test consults and also post at least twice per day in four other Patreon tiers.
+[1618.10s]  We've also got a whole bunch of discount and affiliate links that you can use to test yourself
+[1621.94s]  that help support the channel, including ultalabtest.com, which is where I get the majority
+[1625.78s]  of my blood tests done, the clearly filtered water filter, at-home metabolomics, oral microbiome
+[1630.74s]  composition, NED testing with Genfinity, epigenetic testing with True Diagnostic,
+[1635.38s]  at-home blood testing with Cyfox Health, which includes Grimmage, Green Tea,
+[1639.94s]  diet tracking with Chronometer, or if you'd like to support the channel, you can do that with the
+[1643.14s]  website, Buy Me A Coffee. We've also got merch, including Data Is My North Star,
+[1647.54s]  Figuring Stuff Out As My Drug, and the Conquer Aging or Die Trying logo, which I've got on here.
+[1652.66s]  Link in the video's description. Thanks for watching. I hope that you enjoyed the video. Have a great day!
