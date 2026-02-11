@@ -3,6 +3,7 @@ import os
 import asyncio
 import httpx
 import time
+import random
 import sys
 import subprocess
 from deepgram import DeepgramClient, DeepgramClientOptions, PrerecordedOptions, FileSource
