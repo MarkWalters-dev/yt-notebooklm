@@ -1,0 +1,302 @@
+[0.00s]  For blood test number 6 in 2025, we saw that my biological age was 17 years younger than the
+[5.82s]  chronological, and if you missed that video, it'll be in the right corner. But what might be
+[10.52s]  contributing to these data? So in another video, we covered supplements. But today, let's do a deep
+[15.96s]  dive into diet composition. More specifically, what diet composition corresponded to blood test
+[21.38s]  number 6 in 2025? So that's what we'll see here. We're going to see the average daily dietary intake
+[27.28s]  from immediately after test number 5, which was on July 22nd, to the day before test number 6,
+[33.72s]  which was on September 15th. So there were 56 days in between blood tests. And note that I track all
+[39.48s]  of my diet using a food scale. I then enter that data into chronometer, so these aren't estimates that
+[44.18s]  you're about to see, with the full list for dietary intake shown here. So this list is ranked in terms
+[50.40s]  of grams, with two exceptions. Cheesecake, and note that that's in calories, and no, I didn't eat 24
+[56.54s]  calories of cheesecake per day. That's one day of cheesecake over 56 days. And then also green tea,
+[62.82s]  which is in ounces. All right, so then the question that I always ask at this point in the video is,
+[67.72s]  did I do any experiments for this test? As the goal is to optimize biomarker weak spots without messing
+[72.68s]  up the rest of the biomarkers. So for this test, there were three main interventions. First, I reduced
+[78.20s]  saturated fat containing foods, SFAs. And the major sources of saturated fatty acids in my diet come from
+[85.24s]  coconut butter and cacao beans. And I did that to test a correlation with Cystatin C. In terms of how
+[91.32s]  much I cut, for coconut butter, I cut it from 26 grams per day to about three grams per day. And for
+[97.14s]  cacao beans, from 10 grams to about one gram per day. All right, so let's take a look at this correlation
+[102.30s]  for saturated fat or saturated fat containing foods with Cystatin C, which is what we'll see here.
+[108.62s]  So also note that Cystatin C isn't just a biomarker for kidney function. It also is a significant
+[114.46s]  contributor to epigenetic aging, and more specifically for Grimmage, the best epigenetic
+[120.26s]  clock of epigenetic clocks for its association with risk of death for all causes. And if you missed
+[125.38s]  that video, that too will be in the right corner. So we've got three videos in the right corner for you.
+[129.76s]  All right, so when I first started tracking Cystatin C, it was in early 2024, and you can see it was
+[135.32s]  close to optimal. And I'll cover what's optimal for Cystatin C in a minute. And then I basically forgot
+[141.02s]  about it. I mistakenly assumed that Cystatin C was going to be a constant for all blood tests going
+[145.44s]  forward. So I didn't need to measure it at every test. But as we're going to see, Cystatin C increased
+[150.78s]  over the next five tests as shown there. And if we look at its correlation with chronological age,
+[156.32s]  and granted, this is over an 18 month period, we can see that that correlation coefficient is almost
+[161.28s]  perfectly linear with a correlation coefficient of 0.94, and the p-value is less than 0.05.
+[167.86s]  All right, so going back to what's optimal for Cystatin C,
+[171.02s]  I have a new Patreon tier dedicated specifically to what's optimal for biomarkers, which includes
+[176.84s]  data for Cystatin C, but also 34 other biomarkers, more than two hours of video content, 52 published
+[183.32s]  references, and these aren't the reference ranges, which you can get from any LLM these days. This is
+[188.24s]  what may be optimal based on how each of these biomarkers changes during aging, and or their
+[192.80s]  associations with risk of death for all causes. So if you're interested in that, check it out.
+[197.32s]  All right, so in terms of what's optimal, without going to the Patreon tier, less than 0.7 milligrams
+[203.34s]  per liter is my reading of the literature in terms of what's optimal, and then avoiding its age-related
+[208.40s]  increase as Cystatin C increases during aging. So for all of these tests, it was not lower than 0.7,
+[214.84s]  although for that one test, it was close. So we give it a red X. And then I have not avoided that age-related
+[220.54s]  increase even in this relatively short period of about 18 months, which then raises the question,
+[226.02s]  how can I reduce Cystatin C? So I mentioned that I've weighed all of my foods since 2015 using a
+[232.32s]  food scale, and then entered that into a diet-tracking app chronometer, so I can use that data to look at
+[238.04s]  correlations. And more specifically, let's take a look at correlations for macro and micronutrients
+[242.84s]  with Cystatin C after the July test. And that'll give us insight for why I chose to do which specific
+[249.78s]  interventions to try to lower it for test number six. So starting off with macros and micros,
+[255.14s]  and I've also got body weight on this table, that's what we can see here. And note that the
+[260.12s]  full correlation list is on Patreon. This is just the top of the list. It's too much data to show.
+[264.62s]  So I have a specific tier on Patreon dedicated to correlations for diet with biomarkers, and if
+[269.84s]  you'd like to see that, check it out. So in terms of the table, at the top, we've got the lowercase r,
+[274.84s]  that's the correlation coefficient. So a positive value indicates higher levels of the nutrient or body
+[279.76s]  weight is correlated with higher Cystatin C, and a negative value in that column is indicative of
+[285.56s]  higher values for the micronutrient or macronutrient or body weight with lower Cystatin C. And then we've
+[291.64s]  got the p-value as the measure of statistical significance. And note that I generally use
+[295.18s]  p-value less than 0.05 as the threshold. This is what's defined as nominally significant.
+[300.62s]  But also note that I expanded the list beyond statistical significance with p-value less than 0.05.
+[308.24s]  Excluding foods or nutrients that have a p-value greater than 0.05 may actually be removing some of
+[314.38s]  the signal. But for now, let's take a look at some other nutrients that were on the list that had a
+[318.96s]  p-value greater than 0.05 as shown there. So in going through the list, calories, lycopene, and saturated
+[326.18s]  fatty acids, all were positively correlated and significantly positively correlated with higher
+[331.12s]  Cystatin C, which would suggest if correlation equals causation, if I reduce them, that I might
+[336.58s]  see a reduction for Cystatin C. And on the other hand, for whatever reason, a higher body weight,
+[341.34s]  relatively higher body weight over these six tests was significantly correlated with lower Cystatin C.
+[347.00s]  All right, so what the macro and micronutrient data doesn't tell us is, for example, saturated fatty
+[351.66s]  acids, but from what foods? So for now, let's take a look at correlations for foods with Cystatin C.
+[357.38s]  And I should mention that although I've been tracking diets since 2015, it wasn't until 2018
+[361.64s]  that I started tracking food intake. Because as you can see, the macros and micros are actually
+[366.30s]  the reductionist approach relative to tracking food intake. So for anyone starting on this journey,
+[370.84s]  I'd recommend tracking not just macros and micros, but also individual foods with the goal of
+[375.22s]  optimizing biomarkers. So in terms of the correlations for foods with Cystatin C, we can see the top
+[380.72s]  portion of the list there. And once again, the full correlation list for not just this,
+[385.34s]  but all diet versus biomarkers is on the correlations tier on Patreon. So in terms of what's
+[390.88s]  significant, using that threshold of P value less than 0.05, we can see that there are four foods.
+[396.34s]  But remember, I asked about which saturated fatty acid containing foods might be contributing to the
+[402.26s]  Cystatin C correlation. And we don't see them in the P value less than 0.05 box or rectangle.
+[409.04s]  So we do see them though on the list. You can see that cacao beans and coconut butter each have
+[415.52s]  positive correlations, but their correlations are outside of statistical significance. So if I use
+[421.14s]  the P value less than 0.05 and forgot about everything else, I would lose or miss that these
+[426.54s]  two foods have positive correlations, albeit not significant, at least for now, but I would miss
+[431.70s]  those correlations. Similarly, take a look at lycopene. Lycopene on its own has a positive,
+[437.58s]  significant positive correlation with Cystatin C. But in terms of where I get the majority of my
+[441.96s]  lycopene from, it's watermelon and tomatoes, which are also on this list. You can see watermelon and
+[447.52s]  tomatoes both have positive correlations with Cystatin C, but they too are outside of statistical
+[453.28s]  significance. So if I use this rigorous threshold of P value less than 0.05 and taking it a step further
+[459.42s]  using the false discovery rate, basically nothing on the list would be significant. I would have no
+[464.06s]  actionable leads, but actually I do have actionable leads that may have made a dent on Cystatin C,
+[469.06s]  as we'll see in a minute. So these were the data following test number five in July. So for test
+[474.64s]  number six in September, I then cut both cacao beans and coconut butter to see if correlation could
+[481.18s]  indeed equal causation. So what was the impact on Cystatin C? And that's what we'll see here. And
+[487.10s]  jumping right into the data, we can see that reducing saturated fatty acid containing foods,
+[491.52s]  in my case, lowered or is a part of, may be a part of the story for a lower Cystatin C. Now I can't
+[498.34s]  say causation. This is just seven tests. There may be many other factors involved, but what I can say
+[504.06s]  is that I followed the data and this happened to be the result. I can't say causation. This may be
+[508.86s]  natural or normal variability in Cystatin C data. Although I should mention if there is variability in
+[514.66s]  Cystatin C data, only once out of the first six tests did I see Cystatin C values that were less
+[520.72s]  than 0.75. So now I see it a second time. So whether that's normal variability in the biomarker
+[525.84s]  or I actually did something, I'm not sure, but I'd like to think that I did something and I caused
+[530.86s]  something, but whether that's true, I'm not sure. All right. So that 0.75 is close to my best data yet
+[537.44s]  when compared with that first test and better than the other five tests. So then what happened
+[543.30s]  to the top correlations after Cystatin C test number seven? So after those first seven tests,
+[548.78s]  and note that this is after blood test number six in 2025, so it can get a bit confusing.
+[553.62s]  So note that real correlations strengthen, whereas false correlations weaken over time. And to illustrate
+[559.52s]  what I mean by that, let's pull up our correlations that were following test number five, and these are
+[564.46s]  now the correlations following test number six. So I'm going to put up the previous correlation on the
+[569.60s]  left so we don't have to jump between screens. And then starting off with saturated fatty acids, we can
+[574.72s]  see that the previous correlation was 0.82, and that's now strengthened by a small amount to 0.84. So that
+[581.02s]  would suggest that it's a real correlation or it may be causatively involved. And I noticed that I said
+[585.84s]  maybe. I didn't say that it is causatively involved as the correlation didn't weaken. So I put an S
+[592.80s]  there for strengthened. On the other hand, we can see that lycopene went from 0.089 to 0.78. So it
+[600.66s]  weakened. So this would suggest that maybe lycopene is not a part of the Cystatin C story. But again,
+[606.36s]  emphasis on may. To test it, I'll have to reduce my lycopene intake a bit below where it's been. And if
+[612.54s]  I see a further reduction in Cystatin C, well, then the correlation will strengthen and maybe it was a real
+[617.18s]  correlation. On the other hand, take a look at calorie intake with which weakened dramatically.
+[622.80s]  Which went from a correlation of 0.91 to 0.63. So I give that a double W for a weakened weakened,
+[630.72s]  a big weakening. So that suggests that calorie intake might not be a part of the Cystatin C story,
+[635.94s]  at least over these seven tests. And then in terms of the foods, we can see that cacao beans
+[641.02s]  correlation stayed relatively strong, 0.72 up to 0.74. And coconut butter increased from 0.61 to 0.67.
+[649.18s]  So again, remember real correlations will strengthen, whereas the quote unquote false
+[653.18s]  correlations will weaken. And in terms of one of those false correlations that weakened,
+[657.88s]  take a look at bananas. It went from a relatively strong negative 0.9, and in this case, close to
+[663.44s]  negative 0.1 would be perfectly linear, to negative 0.68. So that's a big weakening, which suggests that
+[669.82s]  banana intake in my case has little to do or less to do with Cystatin C relative to other foods.
+[676.66s]  Now, in terms of making a further dent on Cystatin C, I'm planning on following more of these
+[680.66s]  correlations, including blueberries and cinnamon. So we can see that for whatever reason, relatively
+[685.82s]  higher blueberry intake is significantly correlated with higher Cystatin C. So if I lower blueberry
+[691.16s]  intake, if correlation equals causation, I should expect to see a lowering for Cystatin C going forward
+[696.52s]  for the next test. On the other hand, take a look at cinnamon, which has a significant inverse
+[701.34s]  correlation. So if I increase cinnamon or keep cinnamon levels relatively high, I might expect
+[706.58s]  to see a reduction for Cystatin C. So those are two of the interventions that I've done for test
+[711.96s]  number seven coming up very shortly. So stay tuned for update video for that to see if it worked or not.
+[718.24s]  All right. So returning to the any experiments for this test question, there were two more.
+[722.76s]  The next was the RDW, which had increased for five tests in a row, albeit still within the
+[728.76s]  Lusk-Garden optimal range. Now, in terms of what I could do to potentially lower it, one of the strongest
+[733.94s]  correlations in my data after test number five, after the July test, was fructose intake. As we can see
+[739.76s]  that its correlation coefficient was relatively strong. Anything greater than 0.7 is considered a
+[744.12s]  strong correlation at 0.74. And the p-value was less than 0.05. So to test that, I cut fruit intake,
+[751.82s]  which is where I get the majority of my fructose to test the correlation. And more specifically,
+[756.36s]  I reduced strawberry intake and I reduced blueberry intake as shown there. So then the big question is,
+[762.14s]  did it work? Well, RDW did indeed move lower. After the September test, it was 12.1, whereas it was 12.3
+[769.96s]  after the July test. Now, again, here too, I can't say if this is causation. This may just be natural or
+[775.60s]  normal variability for the RDW. But knowing that it had increased for five tests in a row, and I did
+[780.90s]  something and it actually moved in the right direction, whether that's causation, I don't know,
+[785.08s]  but I'd like to think that I may have had something to do with that. Now for the next test, for test
+[789.64s]  number seven, for the October test, I made a further cut to fructose. So I've cut other foods that contain
+[795.24s]  fructose that are helping me bring it about another seven grams lower than where it was for this test.
+[800.36s]  So will it help bring the RDW less than 12 based on the RDW's correlation with fructose?
+[805.64s]  We'll have to wait about a month or I post that data right on Patreon after it arrives. So check
+[811.30s]  it out if you're interested. For the next experiment, major experiment number three for this test,
+[816.76s]  it was HBA1C, which for five consecutive tests has been 5.3 to 5.4%. Now granted, that's not super high,
+[824.78s]  but I've had recent values 5 and 5.1. So the goal is to keep it as low as possible,
+[830.12s]  or as close to 5 as possible, not 5.3 or 5.4, which is moving in the wrong direction.
+[837.12s]  When considering that hemoglobin H1C is glucose bound or glycated to hemoglobin,
+[843.48s]  if I can reduce my total glucose or fasting glucose, I would expect to see lower HBA1C.
+[849.28s]  So with that in mind, one of the strongest correlations in my data for higher total glucose
+[853.80s]  is total fat. As you can see, the correlation coefficient is 0.61,
+[857.52s]  and that p-value is less than 0.05. So for this test, I cut total fat from 99, an average of 99
+[865.28s]  to 84 grams per day over that 56-day period in between blood tests. And I already mentioned the
+[871.66s]  cut from coconut butter and cacao beans, but I also made a relatively small cut to walnuts from about 10
+[878.38s]  grams to about 3 grams per day. So with fat coming down, that means something had to go up to stay
+[884.80s]  eucalore. And in that case, I increased net carbs with the majority coming from corn, but then I also
+[890.80s]  increased chickpeas and a bit of a smaller increase for oats. So what did it do to HBA1C? Unfortunately,
+[897.92s]  it didn't make a dent. Stayed the same at 5.4. And I mentioned cinnamon for the cystatin C experiment.
+[904.74s]  That's also a part of the HBA1C story based on the correlations. So we'll see for test number seven
+[910.76s]  in 2025 if cinnamon makes a dent, not only on HBA1C, but also on cystatin C. All right, that's it for the
+[918.12s]  experiments portion of the video. What about cheat meals? So I know that there are some in this space
+[922.60s]  who stay absolutely clean all the time, all year round in terms of diet and never have a cheat meal
+[927.76s]  or any junk. But unfortunately that doesn't work for me. Historically, that can lead to a binge, which
+[933.36s]  is the antithesis of calorie restriction. So I'm trying to minimize that as much as possible.
+[937.46s]  What works for me is immediately after blood testing, I eat some junk, whatever it might be,
+[942.34s]  while sticking to the calorie goals or as close to the calorie goals for that day. And a couple
+[946.76s]  days after, while also including some junk, I then get satiated on the junk. And then I return to the
+[952.36s]  diet full force, having had some junk satiated, not wanting it for another 50 or so day period,
+[959.00s]  while still motivated to stay on this high nutrient dense diet. So in terms of cheat meals,
+[964.26s]  immediately after blood testing, I had cheesecake, specifically the brand shown there.
+[968.58s]  So that again, that's one day of cheesecake and then no other cheesecake for 55 days.
+[973.34s]  And on the second day after blood testing, I had the standard, which is peanut butter mixed with
+[977.56s]  chocolate. So like a homemade Reese's peanut butter cup. And that was it for junk. Then 54 days,
+[982.20s]  no junk, 54 days clean. In terms of junk calories, the cheesecake contributed about 1300.
+[988.10s]  The chocolate chips were about 550 for a total of about 1900 calories from junk over this 56 day
+[994.16s]  period. When divided by all of the calories consumed over this 56 day period, there was 1.5% junk,
+[1001.16s]  or in other words, the diet was 98 and a half percent clean. Now, do I have to be 98 and a half
+[1006.16s]  percent clean for all tests to have a 17 year younger biological age using phenowage? I don't know.
+[1012.18s]  I'm not sure, but this approach works for me. It may be different for others. I'd encourage others
+[1016.38s]  to find their own. How much can they cheat or how much not before the biomarkers start to go in the
+[1021.68s]  wrong directions? All right. So this list is ranked in grams. What about ranking foods in terms of
+[1027.20s]  calories? And that's what we'll see here. This is the top 10 foods for average daily calorie intake
+[1032.50s]  over that 56 day period that went from test number five to test number six. And note that this list is
+[1038.58s]  generated by chronometer. If you want to track your own data with chronometer, there's a discount link
+[1043.64s]  in the video's description. So atop the list, as it has been for many tests in the past, are strawberries.
+[1048.94s]  So I get the majority of my calories from strawberry intake. In terms of the why, part of that is
+[1053.56s]  fisetin. The other part of that is it has a high net correlative score with biomarkers moving in the
+[1060.12s]  right direction versus the wrong direction, which both of those together, fisetin and following my own
+[1065.34s]  correlations, suggest keeping it relatively high may be good for the biomarkers versus not.
+[1071.30s]  In terms of other foods that were on the list, I won't go through them all, but note that seven of the
+[1076.62s]  10 foods that are on this list were similar for this test as they were for test number five.
+[1081.24s]  In terms of what came into the top 10, that was corn, green olives. And I should mention that note
+[1086.76s]  that my diet has no oils, even olive oil. I'm doing the experiment for including more and more olives
+[1092.28s]  into the diet up to a point. So I don't want to get too much sodium, but do olives make a dent on
+[1097.56s]  any biomarkers? So in the past, I've included very small amounts of olives. So I really can't do that
+[1102.44s]  or answer that question. So lately I've been adding a lot more olives into the approach, up to about
+[1108.26s]  70 grams per day on average, to see how they correlate with biomarkers. So stay tuned for that evolving
+[1113.84s]  story over time. And then also, or included in the top 10, was low-fat yogurt, as shown there.
+[1121.48s]  In terms of what left the top 10, coconut butter, avocado, and blueberries. So note that they were still in
+[1126.18s]  the approach, but just not in the top 10 in terms of calorie intake. All right, so that then brings us
+[1131.06s]  to macronutrients. So let's start off with calorie intake, which for this test, the average per day
+[1136.30s]  was 2,274, which is in the same ballpark of where it was for test number five, about 2,300.
+[1143.42s]  In terms of protein intake, average was 113 grams per day, which is about 20% of total calories. And
+[1150.00s]  note that this is higher than it was for test number five by about 3%, which was 16.7% for test number
+[1155.50s]  five. What about fat intake? That's what we'll see here. Average daily fat intake was about 84
+[1160.84s]  grams per day. In terms of total calories, that's about 33% of total calories. And as I mentioned
+[1166.70s]  earlier, for test number five, I averaged 99 grams per day. For this test, I purposely cut that by a bit
+[1171.76s]  to 84 grams to test various correlations. The majority of that fat intake did come from saturated
+[1177.98s]  fat, as I showed earlier with the coconut butter and cacao beans, but then also some from omega-6,
+[1183.22s]  as I also cut walnuts. And if you're interested in the total fat amounts for monounsaturated omega-3
+[1188.44s]  and omega-6, they are also shown there. All right, next up R is carb intake. And this is the carb intake
+[1195.04s]  that corresponds to test number six. So total carbs are 312 grams, which seems like a lot. Note that net
+[1201.30s]  carbs equals total carbs minus fiber. Average daily fiber intake was 87 grams per day. And when
+[1207.34s]  subtracting that from total carbs, we get a net carbs of 225 grams per day. When multiplied by four
+[1213.38s]  calories per gram, we get a net carb percentage of 40% of total calories. Now note that fiber also
+[1220.98s]  contributes calories to the diet as about 20% of that is soluble fiber. Soluble fiber is fermented
+[1226.78s]  by gut bacteria into short chain fatty acids. In other words, short saturated fatty acids. Again,
+[1232.50s]  not all saturated fatty acids are the same for their metabolic effects. So in terms of the amount of
+[1238.62s]  calories that came from fiber and soluble fiber fermentation, chronometer estimates that it's about
+[1243.44s]  164 calories or 7% of the total diet. So now we can generate the net macros when considering the fiber
+[1251.38s]  data for 7%. We can add that to total fat. So now total fat is about 41%. Net carbs, 40% and total
+[1259.52s]  protein about 20%. Now note that within sugars, I also track sugar intake, but not all sugars as that's a
+[1266.82s]  big group. Glucose, galactose, and then it also includes disaccharides. There are just too many
+[1271.50s]  sugars to track, but I do track total fructose as sucrose is half fructose. And then when adding that
+[1278.26s]  to total fructose, I can track total fructose intake. So for this test, it was a relatively high
+[1283.44s]  57 grams per day, but, and I've mentioned this in many other videos in this series, the highest fructose
+[1289.76s]  intake that I've had that corresponds to any blood test since 2015 is a lot higher, more than double,
+[1294.66s]  122 grams per day. So 57 grams per day is progress, albeit not perfection. And note that I did mention
+[1301.92s]  I'll have a further fructose cut for the next test, probably somewhere around 50 grams per day. And that
+[1307.32s]  will test the correlation with RDW. In terms of the test number five versus test number six, we can see
+[1313.24s]  that I made that small fructose cut by about five grams per day. And that may have been the reason
+[1318.52s]  why RDW moved a small amount lower. All right, what about micronutrients? So let's go through
+[1324.62s]  the full list of vitamins or posting the full list of vitamins as shown there. And I've mentioned this
+[1330.16s]  in many other videos for, but for anyone starting on this journey, who's interested in optimizing
+[1334.12s]  biomarkers, I'd recommend full RDA coverage. And if you look on the list, that's true for all of the
+[1340.06s]  vitamins that are on the list with the exception of choline. Choline is covered in terms of my data.
+[1346.00s]  It's just that chronometer doesn't include choline data for the sardine version that I had been using.
+[1350.68s]  So it looks a bit lower than that RDA target of 500 milligrams per day. But then note that many
+[1356.36s]  micronutrients, including vitamins shown here are much higher than the RDA. And that's because I'm
+[1361.66s]  following their correlations with biomarkers. And again, I have all of that data on the biomarkers
+[1365.82s]  tier on Patreon. So if you're interested in that, check it out. I won't go into that more in this
+[1369.98s]  video. What I do want to highlight are a few vitamins that are way higher than the RDA,
+[1374.74s]  including riboflavin. And I mentioned this in the supplements video. Riboflavin intake was 12
+[1380.72s]  milligrams per day, which is higher than the RDA of about one milligram per day. So about 12X higher.
+[1386.38s]  Note that maximal absorption for riboflavin through the small intestine into the blood is about 30
+[1391.52s]  milligrams per day. So I may actually go a bit higher as I'm testing the effect of riboflavin,
+[1396.26s]  not just on homocysteine metabolism, but it may be involved in regenerative capacity. And I'll have more
+[1402.06s]  on that in a future video. When that future video will come, I don't know, but I'm collecting data
+[1406.54s]  for it. Also note that niacin is relatively high, about 15X or 16X relative to the RDA at about 500
+[1414.36s]  milligrams per day. And that's because I supplemented with nicotinamide about 500 milligrams per day
+[1418.76s]  for this test or test number six. But what I really want to highlight and focus on in this video are the
+[1424.22s]  carotenoids, alpha and beta carotene, beta cryptoxanthin, lutein-plaseoxanthin, and lycopene. So the big
+[1430.80s]  question is why is my carotenoid intake so high? And that's because one reason is dietary carotenoid
+[1437.46s]  intake is associated with a younger biological age, which is what we'll see here. So in this study,
+[1443.22s]  they looked at the biological age clock that I published all over and over on this channel,
+[1447.54s]  phenol age. And then they looked at its association with dietary intake of total carotenes, which
+[1452.98s]  included alpha and beta carotene, but also beta cryptoxanthin, lycopene, and lutein-plaseoxanthin.
+[1458.68s]  In terms of what was significant, we put up a red line at one, at a phenol age of one. And then where
+[1464.48s]  the shaded blue line is either completely above one or completely below one, we have a significant
+[1469.68s]  association. What we can see for each of these dietary carotenoid intake variables is that
+[1475.44s]  relatively low levels or relatively low intakes were associated, significantly associated with an
+[1480.84s]  older phenol age, moving in the wrong direction. And on the other hand, relatively high intakes were
+[1486.70s]  associated with a younger phenol age. And I've included the amounts, the maximal amounts that
+[1491.28s]  for each of these carotenoids that the range went up to. Now there is one exception to that,
+[1496.62s]  beta cryptoxanthin. With beta cryptoxanthin, there's a sweet spot where going too low may be bad for
+[1501.70s]  phenol age, but then you can see that although the data moves in the wrong direction at higher intakes,
+[1505.78s]  it just loses significance in terms of a younger biological age. So there may be a sweet spot for
+[1510.56s]  some beta cryptoxanthin being associated with a lower biological age relative to higher.
+[1515.14s]  Now to compare this against my intake, we can see that it's in the same ballpark and it's studies
+[1520.76s]  like this that are one reason why. But studies like this for me are just a guide. This suggests to me
+[1527.04s]  that having relatively high carotenoids should be a part of one's diet if the goal is to slow or
+[1533.42s]  minimize changes to biological age. But because I have so many blood tests, I'm able to see what my own
+[1540.28s]  correlation say, and then come up with my own personalized data for where each of these measures
+[1545.74s]  should be. Now, is that actually causation? I don't know, but it may be a part of the story.
+[1552.24s]  Alright, so in returning to the micronutrient profile, let's then go through the full list of vitamins as
+[1556.64s]  shown there. And again, I won't go through all of them, but I just want to highlight that sodium intake for the
+[1561.72s]  previous test was about 1800 milligrams per day. You can see that it was closer to 2500 milligrams per day for
+[1567.28s]  this test, for test number six. And for test number seven, it'll be closer to 2700 milligrams. Now,
+[1572.80s]  the reason I've done that, and I have a video on this, where it may be able to improve not just heart
+[1577.82s]  rate variability and resting heart rate, but also it may impact hair grain. But the key variable in that
+[1583.26s]  equation is blood pressure. So if my blood pressure goes up with a relatively higher sodium intake,
+[1588.28s]  while improving HRV and resting heart rate, and maybe even slowing the rate of hair grain,
+[1593.08s]  well, I don't know if that's worth the risk. So I'm looking for the sodium intake that can
+[1596.98s]  potentially optimize HRV, resting heart rate, blood pressure, but also maybe the rate of hair grain. In
+[1603.98s]  terms of the next test, that's scheduled for October 27th, 2025. So if you want to see those data, I'll post
+[1609.92s]  them immediately on Patreon within a few days. Otherwise, it'll be on YouTube probably about a month after
+[1614.62s]  that. If you're interested in more about my attempts to biohack aging, check us out on Patreon, where I post at least
+[1620.16s]  twice per day in four other Patreon tiers. We've also got a whole bunch of discount and affiliate links that you can use to
+[1625.78s]  test yourself that help support the channel, including ultolabtest.com, which is where I get
+[1630.32s]  the majority of my blood tests done, the clearly filtered water filter, which I use every day,
+[1634.58s]  at-home metabolomics, I'm up to 20 tests, oral microbiome composition, NED testing with Genfinity,
+[1640.58s]  epigenetic testing with True Diagnostic, at-home blood testing with Cybox Health, which includes
+[1644.86s]  Grimmage, as I mentioned in the video, green tea, drinking it every day, diet tracking with coronameter,
+[1649.60s]  or if you'd like to support the channel, you can do that with the website, buy me a coffee.
+[1652.78s]  We've also got merch, including Data is my North Star, Figuring Stuff Out is my Drug,
+[1657.74s]  and the Conquer Aging or Die Trying channel logo, as shown there and that I've got on here.
+[1663.02s]  Link in the video's description.
+[1664.88s]  Thanks for watching. I hope that you enjoyed the video. Have a great day.

@@ -1,0 +1,356 @@
+[0.40s]  Hey everyone, Maria Brañas Morera, as shown here, lived to 117 years old, which is good
+[7.28s]  news because it's pretty close to the longevity world record of 122 years old.
+[12.32s]  Now as a part of her story, she escaped the major age-related diseases, including cardiovascular
+[17.60s]  disease, cancer, type 2 diabetes, and Alzheimer's, which then raises the question, what was the
+[23.80s]  cause of death?
+[24.80s]  Now in this video, I'm going to pitch the hypothesis that it could involve respiratory
+[29.24s]  failure.
+[30.24s]  And note that I'm not the first person to pitch this hypothesis.
+[33.28s]  Tony at the I Am Longevity channel, and I'd encourage everyone to check out this video,
+[37.40s]  it's a brilliant video, Tony pitched the hypothesis that her cause of death may be linked to a
+[42.12s]  loss of motor units in her diaphragm, and then she died in her sleep because she couldn't
+[47.44s]  breathe anymore.
+[48.44s]  So this is a brilliant hypothesis, and I'm not here to mostly rehash that story, I'm here
+[52.92s]  to potentially add to it.
+[54.56s]  Let's do a quick review for how a loss of motor units, specifically to the diaphragm, may
+[59.06s]  impact respiratory failure.
+[61.06s]  So first, during aging there is a loss of motor units, which is what we'll see here.
+[66.30s]  On the Y-axis we've got the number of motor units, and this is in a muscle located in the
+[71.22s]  upper portion of the foot, plotted against age from birth to around 100 years.
+[76.24s]  And we can see that the number of motor units are approximately stable until around 55 years
+[81.10s]  old, after which there's a steep decline until 100 years old.
+[85.06s]  Now the importance of that, for why motor units are important, is that without motor units telling
+[90.22s]  the muscle to contract, it will decay.
+[92.30s]  And this is sarcopenia, the age-related loss of muscle mass and function.
+[96.70s]  As Tony so brilliantly says, and states on his channel over and over, that motor units,
+[101.26s]  without motor units innervating muscle, we're all screwed.
+[104.30s]  We can escape cardiovascular disease, cancer, etc.
+[107.30s]  But if we don't have motor units, how can we move, how can we breathe?
+[110.86s]  So to illustrate how motor units contribute to muscle contraction, that's what we'll see
+[114.68s]  here.
+[115.68s]  So the signal for contraction starts in the brain, with upper motor neurons.
+[120.16s]  And then the signal from the upper motor neurons is transmitted to the spinal cord, which
+[124.12s]  then transmits the signal via lower motor neurons to skeletal muscle, which then tells
+[128.94s]  the muscle to contract.
+[130.98s]  How does motor unit loss impact respiratory failure?
+[134.60s]  So the diaphragm, just like skeletal muscle, is a skeletal muscle, as we can see that it's
+[138.86s]  attached to the rib cage.
+[140.38s]  So muscle attached to bone is a skeletal muscle.
+[143.28s]  And the diaphragm is the main muscle of inspiration.
+[146.90s]  We can also see that the diaphragm is innervated, or connected to the spinal cord, by phrenic nerves.
+[152.92s]  Now phrenic motor neuron numbers decline during aging, which is what we'll see here.
+[158.16s]  The number of phrenic motor neurons on the y-axis plotted against age in young and old
+[163.48s]  rats.
+[163.78s]  And I should mention the data that I'm going to show, the mechanistic data is in rats and
+[168.34s]  mice.
+[168.62s]  It's obviously easier to isolate motor units and motor neurons from animal models as we
+[174.04s]  can sacrifice and remove the tissues.
+[176.28s]  This is infinitely harder in people.
+[178.30s]  So I'm going to show data in animal model.
+[179.90s]  We can see that the older rats have significantly lower levels of phrenic motor neuron levels when
+[185.36s]  compared with young.
+[186.08s]  Now the consequence of this is that diaphragm muscle mass and function also decline during
+[191.46s]  aging.
+[192.46s]  First starting off with the data for diaphragm muscle mass, which is what we'll see here.
+[196.16s]  On the y-axis we've got mean or average cross-sectional area.
+[199.52s]  And these data are in mice, from young mice, 6 months old, to old mice, 24 months old, in black.
+[206.12s]  And then on the x-axis we've got muscle fiber type.
+[209.02s]  Type 1, Type 2a, Type 2x, and or Type 2b.
+[212.90s]  The importance of these muscle fiber types is that the Type 1 muscles are slow twitch.
+[217.28s]  And then from Type 2a and beyond to the right, there's a continuum of faster and then fastest
+[223.18s]  twitch muscle fibers.
+[224.78s]  So what we can see is that in the Type 1 and Type 2a's there's a trend for lower levels
+[229.28s]  of diaphragm muscle mass in the old mice relative to the young.
+[232.28s]  But these data are not significant.
+[234.28s]  But what we can see is that diaphragm muscle mass is significantly reduced in the older
+[239.66s]  mice when compared with the younger mice, specific to the Type 2x and or Type 2b muscle fibers.
+[245.28s]  These are the fastest twitch muscle fibers.
+[247.66s]  Now, correspondingly with a loss of diaphragm muscle mass, there's also a loss of diaphragm
+[252.60s]  muscle function during aging.
+[253.84s]  So on the y-axis we've got specific force.
+[256.52s]  So this is force production normalized to muscle cross-sectional area.
+[260.18s]  And then we've got two different force production measures.
+[262.94s]  On the left we've got isometric and on the right we've got tetanic.
+[266.72s]  So movement versus no movement and force production.
+[269.46s]  What we can see from both force production measures is that the older diaphragms, the
+[274.60s]  24-month-old mice, have significantly reduced force production relative to the young mice.
+[280.16s]  So taken together, these data do indeed suggest the hypothesis that diaphragm motor unit loss,
+[285.68s]  thereby resulting in reduced diaphragm muscle mass and function, could be a cause of death
+[290.18s]  in supercentenarians.
+[291.94s]  And as I mentioned, Tony beautifully laid out this hypothesis with data, so if you're
+[295.82s]  interested in that, I'd recommend checking out his video.
+[298.98s]  But I'd like to add, I think I can add to this story.
+[302.20s]  And what I think I can add is that if we escape all major diseases, this may not be an
+[306.54s]  aberration to Maria, this may be coming for all of us, because neurodegeneration and respiratory
+[312.10s]  failure may be a likely cause of death.
+[314.60s]  And to illustrate that story, I'm going to look at data for ALS, or amyotrophic lateral
+[319.34s]  sclerosis, with the best example of that being Stephen Hawking, as shown here, who was diagnosed
+[325.26s]  with and lived with ALS for about 55 years, which is like a crazy record that anybody could
+[330.00s]  live with ALS for that long, because it's generally a quick neurodegenerative process and a relatively
+[335.14s]  quick death.
+[336.64s]  Now you could say the lifetime probability of contracting or getting ALS is low.
+[341.52s]  It's one out of every 347 men, and one out of every 436 women are diagnosed with ALS over
+[348.62s]  their lifetimes.
+[349.84s]  So this doesn't look like an age-related disease on its surface, as everybody isn't
+[353.98s]  getting ALS.
+[356.00s]  So then how would ALS, or how does ALS link with aging, especially death via respiratory
+[361.34s]  failure?
+[362.50s]  So first, there are many ALS mechanisms that overlap with hallmarks of aging, which is what
+[367.58s]  we'll see here, including disruption of proteostasis, mitochondrial dysfunction, oxidative stress,
+[373.84s]  and neuroinflammation.
+[376.00s]  Respiratory failure is the top cause of death in ALS, which is what we'll see here.
+[381.18s]  So the top cause of death in ALS is not cancer or type 2 diabetes or cardiac arrest or having
+[387.48s]  a heart attack or cardiovascular disease.
+[389.86s]  We can see that it's respiratory failure.
+[392.44s]  So then even without an ALS diagnosis, if we escape all major diseases, neurodegeneration
+[397.70s]  and respiratory failure is a likely cause of death.
+[400.26s]  To illustrate that point, let's take a look at which biomarkers are linked with neurodegeneration.
+[404.86s]  So neurofilament light chain, which I'm going to refer to as NFL, is a biomarker of axonal
+[411.44s]  injury, which precedes neurodegeneration, which is what we'll see here in this image of a neuron.
+[416.64s]  So when there is injury to the axon, as shown there, neurofilaments are released, which can
+[422.08s]  then be detected in the blood as a biomarker of neurodegeneration.
+[425.92s]  Now, serum levels of NFL are two times higher in ALS patients when compared with controls.
+[432.08s]  That's what we'll see here.
+[433.56s]  On the y-axis, we've got serum levels of NFL, and that's plotted against controls on the
+[439.76s]  left and ALS, people who are diagnosed with ALS on the right.
+[442.64s]  And you can see that these are relatively young subjects, 68 years for the controls and 58
+[447.28s]  years for the ALS patients.
+[448.80s]  And what we can see is that twofold higher level average level of serum levels of NFL in
+[455.16s]  the ALS patients when compared with controls.
+[457.84s]  With average levels in the controls, just around 20 picograms per mil, and we can see it's approximately
+[462.48s]  double that in the ALS patients.
+[464.60s]  Now, what I'd also like to highlight is the highest levels of NFL in the ALS patients,
+[469.94s]  which are around, in two patients, around 110 picograms per mil.
+[473.74s]  So keep these data in mind, 20, 40, and 110.
+[477.84s]  So I mentioned that even without an ALS diagnosis, and I'm going to say this a few times, if we escape
+[483.00s]  all major diseases, neurodegeneration and respiratory failure is a likely cause of death.
+[486.68s]  So why is that?
+[487.68s]  Well, NFL increases during aging, which is what we'll see here.
+[492.00s]  And I'm going to use two studies to illustrate this point, but there are many that show an
+[496.16s]  age-related increase for serum levels or circulating levels in blood for NFL.
+[501.12s]  On the y-axis, we've got serum levels of neurofilament light chain, or NFL, and that's plotted
+[505.92s]  against age.
+[507.24s]  And then when looking at the median levels of NFL during aging, the yellow line, we can see
+[511.86s]  that there's an age-related increase.
+[514.06s]  At younger ages, we can see that values for NFL, and these are in non-ALS patients.
+[518.66s]  These are in generally healthy population, not ALS patients.
+[522.44s]  So we can see that in the generally healthy population in young people, serum NFL levels
+[527.08s]  are generally low.
+[528.08s]  Even at the upper end of the range, they're around eight or so picograms per mil, which
+[531.96s]  is a very low level.
+[533.52s]  But then in 65-year-olds, we can see that the highest level of NFL is higher, somewhere
+[539.14s]  around 25 picograms per mil.
+[541.34s]  Still not as high as what we find in ALS, average values.
+[545.34s]  But nonetheless, you can see that the data moves in the wrong direction.
+[548.74s]  What I also didn't indicate is that the median levels in this study of up to 65-year-olds
+[553.34s]  was 10 picograms per mil in the 65-year-olds.
+[556.54s]  So again, this is lower than what we'd expect to find in ALS.
+[560.24s]  Note that the study only goes up to 65-year-olds.
+[562.66s]  The name of this channel is Conquer Aging or Die Trying, not Get to 65 and Die, right?
+[566.82s]  It's super longevity.
+[567.94s]  I'm sure many of you watching are interested in super longevity, just like me.
+[571.80s]  Which then raises the question, what is the predicted NFL for people greater than 100
+[576.62s]  years?
+[577.62s]  So the plot shown here is not a linear model, but they did have a linear model in this paper.
+[583.02s]  When looking at the linear model, the linear regression equation for how NFL would be predicted
+[587.48s]  to change during aging within the 20-65 year age range for the people in this study, if
+[592.84s]  we know age and sex, so male or female, we can come close to predicting circulating levels
+[598.54s]  of NFL.
+[599.54s]  Now, I get that this regression equation is trained based on data up to 65 years.
+[605.26s]  So the data I'm going to show now is extrapolation beyond that, which may lose accuracy.
+[609.84s]  So this is speculative.
+[610.84s]  I want to be very clear.
+[612.34s]  This is not definitive.
+[613.34s]  This is speculative.
+[614.22s]  Ideally, we'd have a population that includes people way up to 120 years, everybody quantifying
+[619.54s]  NFL.
+[620.54s]  Then we can look at the regression equation and then we can see what it would truly be.
+[624.12s]  That data doesn't exist as far as I know.
+[626.92s]  So in terms of the average NFL in a 106-year-old when plugging in 106 for age and one for a man,
+[633.62s]  and you can enter these data if you're a woman, it should be similar or in the same ballpark.
+[638.12s]  The average NFL for a 106-year-old using this equation would be 40 picograms per mil, which
+[643.34s]  is the average ALS value.
+[644.88s]  Now, would that result in neurodegeneration to the point where we would die in our sleep
+[649.66s]  from respiratory failure?
+[650.62s]  I'm not sure.
+[651.62s]  But that 106-year-olds could have NFL levels as high as the average value found in ALS,
+[657.62s]  this is potentially bad news for neurodegeneration at very old ages.
+[661.78s]  So let's take this a step further.
+[663.58s]  Let's assume that we break the human longevity record of 122 years and get far beyond that,
+[668.34s]  say 148 years or around 150.
+[671.20s]  Well, when plugging that number into the regression equation, the NFL, the average NFL level would
+[676.28s]  be 110 picograms per mil, which is close to the highest value found in ALS.
+[681.00s]  Now, would that reproduce full-blown ALS where we'd have to be in a wheelchair for life?
+[686.16s]  I don't know.
+[687.48s]  But it can't be good for neurodegeneration and the ability to breathe via innervation,
+[692.12s]  you know, a loss of motor units.
+[694.36s]  So this is just one study.
+[695.62s]  Let's see if other studies come to a similar conclusion or not.
+[699.12s]  So that's what we'll see here.
+[700.38s]  On the y-axis, we've got again NFL plotted against age, and now the age range goes up to
+[704.92s]  85 years.
+[706.64s]  Well, we can see again that NFL increases during aging, with average values in the 85-year-olds
+[711.94s]  around 25 picograms per mil.
+[714.58s]  Now again, that's not 40 picograms per mil, but note that these data only go up to 85 years,
+[720.72s]  which then raises the question, what is the predicted NFL for people older than 100 years?
+[726.20s]  So here too, fortunately, they included a regression equation, and for their regression equation,
+[731.76s]  it didn't include sex, so male or female, but it did include age.
+[735.24s]  So if we know age, we can predict NFL levels.
+[738.44s]  And again, note that these data should be most precise or close to precise within the 20 to
+[743.98s]  85-year age range.
+[745.30s]  Again, what I'm doing is extrapolation and speculation beyond that range, so the regression equation
+[750.68s]  may not completely hold.
+[752.20s]  So it's just a ballpark figure, but it could be close to accurate.
+[756.74s]  So when entering data for 104 years old, average NFL levels using the regression equation
+[762.44s]  would be 40 picograms per mil, again, the average value found in ALS patients, potentially without
+[768.64s]  an ALS diagnosis.
+[770.40s]  And these data are similar to the values that we saw in the study on the left, 106 years
+[774.60s]  old, to get to values that are close to average for what's found in ALS patients.
+[779.64s]  All right, what about going beyond 104 years, quote unquote, super longevity?
+[783.64s]  Well, if we can get to 135 years, NFL levels based on this regression equation, the study
+[789.70s]  on the right, would be 110 picograms per mil.
+[792.40s]  Again, this is the highest level that was shown for NFL levels in ALS patients.
+[797.56s]  This can't be good for neurodegeneration status at very old ages, which then goes back to this
+[803.54s]  initial premise of even without an ALS diagnosis, if we escape all major diseases, neurodegeneration
+[810.16s]  and respiratory failure may be a cause of death for those of us who are interested in not just
+[815.84s]  longevity, but super longevity.
+[817.92s]  All right, so this is the story of what is, but what can we do about it?
+[822.92s]  Can we track neurofilament light chain?
+[825.52s]  And we can.
+[826.52s]  This is ultalabtest.com.
+[828.36s]  They do include this biomarker.
+[829.76s]  I'm not sure if other blood testing companies include it, but it's pretty expensive.
+[833.52s]  For just one biomarker, $637 per test.
+[837.42s]  And for someone like me, who's already spending somewhere in that ballpark eight times per
+[840.98s]  year, this prices me out.
+[842.72s]  Now I'd like to pitch an idea.
+[845.04s]  I can do this test, but I can't afford to do it on my own.
+[848.10s]  If the community, if all of you would like to crowd fund this, I'd be happy to measure
+[852.46s]  this with each of my eight blood tests per year.
+[854.60s]  And then at the end of that year, report back on aspects of diet that may be correlated
+[859.18s]  with neurofilament light chain.
+[860.52s]  So to potentially get that process started, I'll put in the pinned comment.
+[865.10s]  But if we get a lot of upvotes, maybe I'll make a crowdfunding where we can crowd fund
+[869.88s]  this and I'd be happy to include this for every blood test going forward.
+[872.88s]  If not, no worries.
+[874.04s]  There may be another way to track neurofilament light chain levels.
+[877.92s]  And that's by looking at diacylglycerides or diglycerides, not triglycerides.
+[883.38s]  Triglycerides are a glycerol backbone bound to three fatty acids.
+[887.68s]  Diglycerides are a glycerol backbone bound to two fatty acids.
+[890.60s]  And diglycerides have been shown to be significantly associated with circulating levels of NFL,
+[895.20s]  at least in ALS patients.
+[897.60s]  With the strongest association between those two diglycerides on the Y axis plotted against
+[902.74s]  NFL on the X in ALS patients for the diglyceride that has oleic acid, 18,1 colon 18,1.
+[911.16s]  So what we can see from this plot is that this diglyceride that contains oleic acid is significantly
+[915.92s]  correlated with circulating levels of NFL in ALS patients.
+[920.40s]  In other words, when this diglyceride is higher, that was significantly correlated or
+[924.56s]  associated with higher levels of NFL.
+[927.30s]  And when levels of these diglycerides were lower, levels of NFL were correspondingly lower.
+[931.94s]  Again, these are correlations.
+[933.18s]  This is not causation.
+[934.28s]  I just want to make that point abundantly clear.
+[937.28s]  Now in this study, this wasn't the only diglyceride that was associated significantly
+[941.16s]  associated with NFL.
+[943.12s]  There were others, six others as shown here.
+[946.38s]  So on the left, we've got those specific diglyceride species.
+[950.24s]  And then we can see when looking at their adjusted p-values, each had an adjusted p-value less
+[954.94s]  than 0.05.
+[956.44s]  So they were higher in ALS patients when compared with healthy controls.
+[960.70s]  In terms of how much higher, we'll take a look at the log FC.
+[964.04s]  That's the log two-fold change value.
+[966.62s]  Now for those who may be unfamiliar with statistics, on its face, it may look like the DG181, 18,1,
+[972.12s]  is 4.2-fold higher in ALS patients when compared with controls.
+[977.38s]  But no, this is a log scale.
+[979.38s]  This is a base two log scale.
+[983.06s]  So that's actually 18 times higher in the ALS patients when compared with the healthy controls.
+[987.88s]  And we're looking at the log two FC value for the lowest log FC value, which was 2.62.
+[994.24s]  That's six times higher in the ALS patients when compared with the healthy controls.
+[998.88s]  So for the seven diglycerides that are on this list, they were six to 18 times higher
+[1003.64s]  in ALS patients when compared with healthy controls.
+[1006.14s]  And one of them is significantly correlated with neurofilament light chain.
+[1009.82s]  These diglycerides can be tracked, which means they can potentially optimize.
+[1013.82s]  Now, will that slow neurodegeneration?
+[1015.82s]  I don't know.
+[1016.82s]  But for someone like me who's interested in super longevity, if I can keep diglycerides low,
+[1021.68s]  and that's a part of any mechanisms that are involved in keeping NFL low, I'm going to do that.
+[1026.36s]  To track diglycerides, I've been using at-home metabolomics using IOLO's kit as shown here,
+[1031.40s]  which includes data for ALS-associated diglycerides, but also 600 other metabolites.
+[1037.26s]  Now, I prefer the raw data from IOLO, but there may be others who prefer data grouped into categories.
+[1042.60s]  And IOLO also does that as shown here by grouping the data into 19 categories.
+[1046.82s]  So if you want to use this kit, discount link in the video's description.
+[1050.50s]  All right, so what's my data for these ALS-associated diglycerides?
+[1054.46s]  First though, which of these ALS-associated diglycerides can be tracked?
+[1059.06s]  So of the seven that were on the list, IOLO's kit includes four of them, including DG18118-1,
+[1065.30s]  which had the strongest correlation of those seven diglycerides with NFL.
+[1070.40s]  Now, to quantify this over time, I think it makes sense to sum levels of these four,
+[1076.16s]  if we had all seven diglycerides, it would be even better.
+[1078.84s]  But to sum levels of these four diglycerides, when considering that they're all higher in ALS
+[1083.36s]  in association with neurodegeneration, to sum them and track year-to-year change
+[1087.52s]  and try to keep year-to-year change as low as possible.
+[1090.26s]  So that's what we'll see here.
+[1091.38s]  With the sum of these four ALS-associated diglycerides on the Y-axis plotted against time
+[1096.90s]  from 2023 to 2025, as I have 20 tests over that period.
+[1101.04s]  I have test number 21.
+[1102.46s]  I'm waiting on those data.
+[1103.86s]  So when I first started tracking over five tests in 2023, average levels of these four
+[1108.36s]  diglycerides, 4.1 micromolar.
+[1111.26s]  In 2024, over nine tests, a bit better at 3.7 micromolar.
+[1115.90s]  And thus far, after the first six tests in 2025, again, I'm waiting on results for test number
+[1121.34s]  seven and I'm going to send another for test number eight.
+[1123.68s]  So we'll have a bit more data.
+[1125.38s]  Average diglyceride levels for these four, 3.9 micromolar.
+[1128.80s]  In terms of what's optimal, very debatable.
+[1132.12s]  At worst, I'd say lower is better, especially when considering that higher levels of diglycerides
+[1136.82s]  are associated with higher levels of neurofilament light chain.
+[1140.68s]  But how low?
+[1141.58s]  Nobody knows.
+[1142.70s]  So I'm aiming for my lowest levels.
+[1144.70s]  And then on the other side, resisting an age-related increase, especially if higher levels are involved
+[1149.52s]  in mechanisms related to neurodegeneration.
+[1152.30s]  Now, as a side note, if you're familiar with the channel, diglycerides shouldn't be a new
+[1156.14s]  topic.
+[1156.70s]  They shouldn't be a new metabolite species.
+[1158.16s]  They're associated with all-cause or an increased all-cause mortality risk.
+[1162.40s]  And if you missed that video, I'll link to it in the right corner.
+[1165.48s]  So these data then raise a few questions.
+[1168.34s]  Which interventions reduce NFL and or diglycerides?
+[1171.98s]  Now, the obvious would be exercise training.
+[1174.10s]  Because if we regularly exercise, we'd expect to have more motor units or slow the loss of
+[1179.00s]  motor units during aging.
+[1180.92s]  Neurodegeneration would be a part of that process.
+[1182.66s]  So exercise training potentially slowing the neurodegeneration, potentially slowing circulating
+[1187.58s]  levels of NFL, potentially having lower levels of diglycerides.
+[1190.76s]  That seems like the obvious story.
+[1192.46s]  But there may be other mechanisms.
+[1194.12s]  So I'm going to do deep dives in future videos.
+[1195.96s]  So stay tuned for that.
+[1196.88s]  Also, are there other biomarkers related to NFL or neurodegeneration that we can track?
+[1203.76s]  NFL may be one measure.
+[1205.52s]  But if there are other measures that we can track, either directly that are direct markers
+[1209.84s]  of neurodegeneration or indirectly that are associated with NFL or other neurodegeneration biomarkers,
+[1215.78s]  that may be wise to track over time.
+[1218.74s]  And just as a heads up before making that video, there are some.
+[1222.28s]  Cystatin C is linked with NFL, chynurnine divided by tryptophan, and acylcarnitine.
+[1227.46s]  If you've ever wondered what's optimal for biomarkers, we'll have a new Patreon tier dedicated
+[1231.42s]  specifically to that.
+[1232.86s]  It currently includes the 35 biomarkers shown here, more than two hours of video content,
+[1237.56s]  52 published references, and these aren't the reference ranges.
+[1240.70s]  This is what may be optimal based on how each of these biomarkers changes during aging
+[1244.34s]  and or associations with all-cause mortality risk in the largest studies that exist.
+[1249.46s]  So if you're interested in that, check it out.
+[1252.10s]  If you're interested in more about my attempts to biohack aging, check us out on Patreon,
+[1255.78s]  where I offer blood test consults and also post at least twice per day in four other Patreon
+[1261.02s]  tiers.
+[1261.80s]  We've also got a whole bunch of discount and affiliate links that you can use to test yourself
+[1265.38s]  that help support the channel, including ultalabtest.com, which is where I get the majority
+[1269.48s]  of my blood tests done, the clearly filtered water filter, which I use every day,
+[1272.90s]  Iola's Metaboloma Kit, as mentioned in the video, oral microbiome composition, NAD testing
+[1278.40s]  with Genfinity, epigenetic testing with True Diagnostic, at-home blood testing with Cyfox
+[1283.02s]  Health, which includes the best epigenetic tests of epigenetic tests, Grimmage, green tea,
+[1288.02s]  which I drink every day, diet tracking with chronometer, or if you'd like to support the channel, you
+[1291.74s]  can do that with the website, buy me a coffee.
+[1293.86s]  We've also got merch, including Data is My North Star, Figuring Stuff Out is My Drug, which
+[1298.66s]  I've got on here, and the Conquer Aging or Dietrying logo, link in the video's description.
+[1304.14s]  Thanks for watching.
+[1305.24s]  Hope that you enjoyed the video.
+[1306.62s]  Have a great day.
