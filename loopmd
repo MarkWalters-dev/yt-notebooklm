@@ -1,0 +1,13 @@
+while true; do
+	./srt2md
+	echo "Waiting for 5 minutes..."
+	for ((i=5; i>0; i--)); do
+		now=$(date '+%Y-%m-%d %H:%M:%S')
+		if [ $i -eq 5 ]; then
+			echo "Started waiting at $now."
+		else
+			echo "$((i)) minute(s) remaining... ($now)"
+		fi
+		sleep 60
+	done
+done
