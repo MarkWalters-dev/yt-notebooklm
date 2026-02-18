@@ -1,0 +1,18 @@
+2026-02-18 08:43:46,126 [INFO] Scanning 'deepgram' for transcript files...
+2026-02-18 08:43:46,127 [INFO] Found 2 channels.
+2026-02-18 08:43:46,130 [INFO] Channel 'Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD': 474 transcript files.
+2026-02-18 08:43:46,130 [INFO] Processing 2019-11-28_46-Year_Old_Scientist_Does_12_Pull-Ups_dLktQvFz70Q.txt (1/474)
+2026-02-18 08:43:46,131 [INFO] Converting to markdown for 2019-11-28_46-Year_Old_Scientist_Does_12_Pull-Ups_dLktQvFz70Q.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 08:43:46,131 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:43:53,305 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:43:53,314 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2019-11-28_46-Year_Old_Scientist_Does_12_Pull-Ups_dLktQvFz70Q.txt using gemini-2.5-flash
+2026-02-18 08:43:53,314 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2019-11-28_46-Year_Old_Scientist_Does_12_Pull-Ups_dLktQvFz70Q.md
+2026-02-18 08:43:53,314 [INFO] Processing 2020-05-03_Lab_Results_Serum_Albumin_-_What_s_optimal_1XuqLpnwCUk.txt (2/474)
+2026-02-18 08:43:53,315 [INFO] Converting to markdown for 2020-05-03_Lab_Results_Serum_Albumin_-_What_s_optimal_1XuqLpnwCUk.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 08:43:53,315 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:44:12,426 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:44:12,430 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-05-03_Lab_Results_Serum_Albumin_-_What_s_optimal_1XuqLpnwCUk.txt using gemini-2.5-flash
+2026-02-18 08:44:12,430 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-05-03_Lab_Results_Serum_Albumin_-_What_s_optimal_1XuqLpnwCUk.md
+2026-02-18 08:44:12,430 [INFO] Processing 2020-05-03_Optimizing_Biological_Age_-_Dr._Michael_Lustgarten_8hs2n7U7J-k.txt (3/474)
+2026-02-18 08:44:12,438 [INFO] Converting to markdown for 2020-05-03_Optimizing_Biological_Age_-_Dr._Michael_Lustgarten_8hs2n7U7J-k.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 08:44:12,438 [INFO] AFC is enabled with max remote calls: 10.
