@@ -16,3 +16,328 @@
 2026-02-18 08:44:12,430 [INFO] Processing 2020-05-03_Optimizing_Biological_Age_-_Dr._Michael_Lustgarten_8hs2n7U7J-k.txt (3/474)
 2026-02-18 08:44:12,438 [INFO] Converting to markdown for 2020-05-03_Optimizing_Biological_Age_-_Dr._Michael_Lustgarten_8hs2n7U7J-k.txt (Attempt 1) with model gemini-2.5-flash...
 2026-02-18 08:44:12,438 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:49:47,836 [INFO] Scanning 'deepgram' for transcript files...
+2026-02-18 08:49:47,837 [INFO] Found 2 channels.
+2026-02-18 08:49:47,840 [INFO] Channel 'Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD': 474 transcript files.
+2026-02-18 08:49:47,840 [INFO] [1/474] Markdown already exists, skipping: 2019-11-28_46-Year_Old_Scientist_Does_12_Pull-Ups_dLktQvFz70Q.txt
+2026-02-18 08:49:47,840 [INFO] [2/474] Markdown already exists, skipping: 2020-05-03_Lab_Results_Serum_Albumin_-_What_s_optimal_1XuqLpnwCUk.txt
+2026-02-18 08:49:47,840 [INFO] Processing 2020-05-03_Optimizing_Biological_Age_-_Dr._Michael_Lustgarten_8hs2n7U7J-k.txt (3/474)
+2026-02-18 08:49:47,841 [INFO] Converting to markdown for 2020-05-03_Optimizing_Biological_Age_-_Dr._Michael_Lustgarten_8hs2n7U7J-k.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:49:47,841 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:49:56,932 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:49:56,933 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-05-03_Optimizing_Biological_Age_-_Dr._Michael_Lustgarten_8hs2n7U7J-k.txt using gemini-2.5-flash-lite
+2026-02-18 08:49:56,934 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-05-03_Optimizing_Biological_Age_-_Dr._Michael_Lustgarten_8hs2n7U7J-k.md
+2026-02-18 08:49:56,934 [INFO] Processing 2020-05-16_Lab_Results_Glucose_CRP_-_What_Optimal_For_Health_And_Aging_1fp4zV5QZd4.txt (4/474)
+2026-02-18 08:49:56,941 [INFO] Converting to markdown for 2020-05-16_Lab_Results_Glucose_CRP_-_What_Optimal_For_Health_And_Aging_1fp4zV5QZd4.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:49:56,941 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:50:01,475 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:50:01,479 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-05-16_Lab_Results_Glucose_CRP_-_What_Optimal_For_Health_And_Aging_1fp4zV5QZd4.txt using gemini-2.5-flash-lite
+2026-02-18 08:50:01,480 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-05-16_Lab_Results_Glucose_CRP_-_What_Optimal_For_Health_And_Aging_1fp4zV5QZd4.md
+2026-02-18 08:50:01,480 [INFO] Processing 2020-05-23_Lab_Results_Creatinine_-_What_s_Optimal_For_Health_And_Aging_PK6oBMMasFU.txt (5/474)
+2026-02-18 08:50:01,480 [INFO] Converting to markdown for 2020-05-23_Lab_Results_Creatinine_-_What_s_Optimal_For_Health_And_Aging_PK6oBMMasFU.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:50:01,481 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:50:04,602 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:50:04,653 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-05-23_Lab_Results_Creatinine_-_What_s_Optimal_For_Health_And_Aging_PK6oBMMasFU.txt using gemini-2.5-flash-lite
+2026-02-18 08:50:04,655 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-05-23_Lab_Results_Creatinine_-_What_s_Optimal_For_Health_And_Aging_PK6oBMMasFU.md
+2026-02-18 08:50:04,655 [INFO] Processing 2020-06-03_Biological_Age_Testing_-_15_Years_Younger_Than_My_Chronological_Age_S_InX5jxHc4.txt (6/474)
+2026-02-18 08:50:04,662 [INFO] Converting to markdown for 2020-06-03_Biological_Age_Testing_-_15_Years_Younger_Than_My_Chronological_Age_S_InX5jxHc4.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:50:04,663 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:50:09,515 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:50:09,517 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-06-03_Biological_Age_Testing_-_15_Years_Younger_Than_My_Chronological_Age_S_InX5jxHc4.txt using gemini-2.5-flash-lite
+2026-02-18 08:50:09,518 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-06-03_Biological_Age_Testing_-_15_Years_Younger_Than_My_Chronological_Age_S_InX5jxHc4.md
+2026-02-18 08:50:09,518 [INFO] Processing 2020-06-05_The_Gut_Microbiome_Impacts_Muscle_Mass_And_Physical_Function_zj3Q_9uUje0.txt (7/474)
+2026-02-18 08:50:09,526 [INFO] Converting to markdown for 2020-06-05_The_Gut_Microbiome_Impacts_Muscle_Mass_And_Physical_Function_zj3Q_9uUje0.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:50:09,526 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:50:17,540 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:50:17,578 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-06-05_The_Gut_Microbiome_Impacts_Muscle_Mass_And_Physical_Function_zj3Q_9uUje0.txt using gemini-2.5-flash-lite
+2026-02-18 08:50:17,580 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-06-05_The_Gut_Microbiome_Impacts_Muscle_Mass_And_Physical_Function_zj3Q_9uUje0.md
+2026-02-18 08:50:17,581 [INFO] Processing 2020-06-26_Blood_test_analysis_100_year_old_subject_XhCUuxhxmpg.txt (8/474)
+2026-02-18 08:50:17,587 [INFO] [Rate Limit] Waiting 35.3 seconds to avoid exceeding RPM limit.
+2026-02-18 08:50:52,841 [INFO] Converting to markdown for 2020-06-26_Blood_test_analysis_100_year_old_subject_XhCUuxhxmpg.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:50:52,842 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:50:55,295 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-02-18 08:50:55,297 [ERROR] Error converting to markdown for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-06-26_Blood_test_analysis_100_year_old_subject_XhCUuxhxmpg.txt on attempt 1 with gemini-2.5-flash-lite: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-02-18 08:51:15,298 [INFO] Converting to markdown for 2020-06-26_Blood_test_analysis_100_year_old_subject_XhCUuxhxmpg.txt (Attempt 2) with model gemini-2.5-flash-lite...
+2026-02-18 08:51:15,299 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:51:21,161 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:51:21,164 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-06-26_Blood_test_analysis_100_year_old_subject_XhCUuxhxmpg.txt using gemini-2.5-flash-lite
+2026-02-18 08:51:21,165 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-06-26_Blood_test_analysis_100_year_old_subject_XhCUuxhxmpg.md
+2026-02-18 08:51:21,165 [INFO] Processing 2020-06-27_Quantifying_Phenotypic_Age_-_Blood_Test_Measurement_3_in_2020_85t8vmIgR6s.txt (9/474)
+2026-02-18 08:51:21,166 [INFO] Converting to markdown for 2020-06-27_Quantifying_Phenotypic_Age_-_Blood_Test_Measurement_3_in_2020_85t8vmIgR6s.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:51:21,166 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:51:26,344 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:51:26,348 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-06-27_Quantifying_Phenotypic_Age_-_Blood_Test_Measurement_3_in_2020_85t8vmIgR6s.txt using gemini-2.5-flash-lite
+2026-02-18 08:51:26,349 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-06-27_Quantifying_Phenotypic_Age_-_Blood_Test_Measurement_3_in_2020_85t8vmIgR6s.md
+2026-02-18 08:51:26,349 [INFO] Processing 2020-06-28_Is_hesperidin_essential_for_prophylaxis_and_treatment_of_COVID-19_Infection_WunapHssCyw.txt (10/474)
+2026-02-18 08:51:26,357 [INFO] Converting to markdown for 2020-06-28_Is_hesperidin_essential_for_prophylaxis_and_treatment_of_COVID-19_Infection_WunapHssCyw.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:51:26,357 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:51:31,351 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:51:31,420 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-06-28_Is_hesperidin_essential_for_prophylaxis_and_treatment_of_COVID-19_Infection_WunapHssCyw.txt using gemini-2.5-flash-lite
+2026-02-18 08:51:31,421 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-06-28_Is_hesperidin_essential_for_prophylaxis_and_treatment_of_COVID-19_Infection_WunapHssCyw.md
+2026-02-18 08:51:31,421 [INFO] Processing 2020-07-01_Are_there_foods_that_can_increase_NAD_Part_I_5-2YoGctcCk.txt (11/474)
+2026-02-18 08:51:31,429 [INFO] Converting to markdown for 2020-07-01_Are_there_foods_that_can_increase_NAD_Part_I_5-2YoGctcCk.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:51:31,429 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:51:34,412 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:51:34,414 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-01_Are_there_foods_that_can_increase_NAD_Part_I_5-2YoGctcCk.txt using gemini-2.5-flash-lite
+2026-02-18 08:51:34,414 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-01_Are_there_foods_that_can_increase_NAD_Part_I_5-2YoGctcCk.md
+2026-02-18 08:51:34,415 [INFO] Processing 2020-07-05_Vitamin_K1_phylloquinone_-_How_much_is_optimal_for_health_znX-fEF9YlY.txt (12/474)
+2026-02-18 08:51:34,422 [INFO] [Rate Limit] Waiting 23.4 seconds to avoid exceeding RPM limit.
+2026-02-18 08:51:57,842 [INFO] Converting to markdown for 2020-07-05_Vitamin_K1_phylloquinone_-_How_much_is_optimal_for_health_znX-fEF9YlY.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:51:57,842 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:52:01,482 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:52:01,486 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-05_Vitamin_K1_phylloquinone_-_How_much_is_optimal_for_health_znX-fEF9YlY.txt using gemini-2.5-flash-lite
+2026-02-18 08:52:01,487 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-05_Vitamin_K1_phylloquinone_-_How_much_is_optimal_for_health_znX-fEF9YlY.md
+2026-02-18 08:52:01,487 [INFO] Processing 2020-07-07_Dietary_Vitamin_C_Intake_-_How_Much_Is_Optimal_MNcfDzhXuRw.txt (13/474)
+2026-02-18 08:52:01,494 [INFO] [Rate Limit] Waiting 18.8 seconds to avoid exceeding RPM limit.
+2026-02-18 08:52:20,299 [INFO] Converting to markdown for 2020-07-07_Dietary_Vitamin_C_Intake_-_How_Much_Is_Optimal_MNcfDzhXuRw.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:52:20,299 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:52:23,561 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:52:23,564 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-07_Dietary_Vitamin_C_Intake_-_How_Much_Is_Optimal_MNcfDzhXuRw.txt using gemini-2.5-flash-lite
+2026-02-18 08:52:23,565 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-07_Dietary_Vitamin_C_Intake_-_How_Much_Is_Optimal_MNcfDzhXuRw.md
+2026-02-18 08:52:23,566 [INFO] Processing 2020-07-12_Blood_testing_for_total_cholesterol_-_What_s_optimal_gzGrzf79kBM.txt (14/474)
+2026-02-18 08:52:23,573 [INFO] Converting to markdown for 2020-07-12_Blood_testing_for_total_cholesterol_-_What_s_optimal_gzGrzf79kBM.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:52:23,573 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:52:27,577 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:52:27,579 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-12_Blood_testing_for_total_cholesterol_-_What_s_optimal_gzGrzf79kBM.txt using gemini-2.5-flash-lite
+2026-02-18 08:52:27,579 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-12_Blood_testing_for_total_cholesterol_-_What_s_optimal_gzGrzf79kBM.md
+2026-02-18 08:52:27,580 [INFO] Processing 2020-07-14_Optimizing_Blood_Cholesterol_Levels_-_What_s_My_Data_PBv_hXwUqHM.txt (15/474)
+2026-02-18 08:52:27,587 [INFO] Converting to markdown for 2020-07-14_Optimizing_Blood_Cholesterol_Levels_-_What_s_My_Data_PBv_hXwUqHM.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:52:27,587 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:52:31,136 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:52:31,139 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-14_Optimizing_Blood_Cholesterol_Levels_-_What_s_My_Data_PBv_hXwUqHM.txt using gemini-2.5-flash-lite
+2026-02-18 08:52:31,140 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-14_Optimizing_Blood_Cholesterol_Levels_-_What_s_My_Data_PBv_hXwUqHM.md
+2026-02-18 08:52:31,140 [INFO] Processing 2020-07-17_Resting_heart_rate_and_heart_rate_variability_-_What_s_optimal_XskTAUb6-ac.txt (16/474)
+2026-02-18 08:52:31,148 [INFO] [Rate Limit] Waiting 5.3 seconds to avoid exceeding RPM limit.
+2026-02-18 08:52:36,429 [INFO] Converting to markdown for 2020-07-17_Resting_heart_rate_and_heart_rate_variability_-_What_s_optimal_XskTAUb6-ac.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:52:36,429 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:52:41,843 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:52:41,846 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-17_Resting_heart_rate_and_heart_rate_variability_-_What_s_optimal_XskTAUb6-ac.txt using gemini-2.5-flash-lite
+2026-02-18 08:52:41,846 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-17_Resting_heart_rate_and_heart_rate_variability_-_What_s_optimal_XskTAUb6-ac.md
+2026-02-18 08:52:41,846 [INFO] Processing 2020-07-19_Is_Weight_Loss_Driving_Improvements_For_Resting_Heart_Rate_And_Heart_Rate_Variability_R90__fEsgiA.txt (17/474)
+2026-02-18 08:52:41,853 [INFO] [Rate Limit] Waiting 21.0 seconds to avoid exceeding RPM limit.
+2026-02-18 08:53:02,842 [INFO] Converting to markdown for 2020-07-19_Is_Weight_Loss_Driving_Improvements_For_Resting_Heart_Rate_And_Heart_Rate_Variability_R90__fEsgiA.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:53:02,843 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:53:06,293 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:53:06,297 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-19_Is_Weight_Loss_Driving_Improvements_For_Resting_Heart_Rate_And_Heart_Rate_Variability_R90__fEsgiA.txt using gemini-2.5-flash-lite
+2026-02-18 08:53:06,297 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-19_Is_Weight_Loss_Driving_Improvements_For_Resting_Heart_Rate_And_Heart_Rate_Variability_R90__fEsgiA.md
+2026-02-18 08:53:06,297 [INFO] Processing 2020-07-21_Blood_testing_for_Blood_Urea_Nitrogen_BUN_-_What_s_optimal_u654YTubFRM.txt (18/474)
+2026-02-18 08:53:06,304 [INFO] [Rate Limit] Waiting 19.0 seconds to avoid exceeding RPM limit.
+2026-02-18 08:53:25,300 [INFO] Converting to markdown for 2020-07-21_Blood_testing_for_Blood_Urea_Nitrogen_BUN_-_What_s_optimal_u654YTubFRM.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:53:25,300 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:53:29,830 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:53:29,834 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-21_Blood_testing_for_Blood_Urea_Nitrogen_BUN_-_What_s_optimal_u654YTubFRM.txt using gemini-2.5-flash-lite
+2026-02-18 08:53:29,834 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-21_Blood_testing_for_Blood_Urea_Nitrogen_BUN_-_What_s_optimal_u654YTubFRM.md
+2026-02-18 08:53:29,834 [INFO] Processing 2020-07-26_CD38_gets_in_the_way_of_NR_and_NMN_for_increasing_NAD+_pj-CSSghDXo.txt (19/474)
+2026-02-18 08:53:29,842 [INFO] Converting to markdown for 2020-07-26_CD38_gets_in_the_way_of_NR_and_NMN_for_increasing_NAD+_pj-CSSghDXo.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:53:29,842 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:53:34,718 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:53:34,776 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-26_CD38_gets_in_the_way_of_NR_and_NMN_for_increasing_NAD+_pj-CSSghDXo.txt using gemini-2.5-flash-lite
+2026-02-18 08:53:34,778 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-26_CD38_gets_in_the_way_of_NR_and_NMN_for_increasing_NAD+_pj-CSSghDXo.md
+2026-02-18 08:53:34,778 [INFO] Processing 2020-07-31_Biological_Age_Test_4_in_2020_-_Getting_Better_or_Getting_Worse_64Ib2F66RKQ.txt (20/474)
+2026-02-18 08:53:34,784 [INFO] Converting to markdown for 2020-07-31_Biological_Age_Test_4_in_2020_-_Getting_Better_or_Getting_Worse_64Ib2F66RKQ.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:53:34,784 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:53:40,494 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:53:40,543 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-31_Biological_Age_Test_4_in_2020_-_Getting_Better_or_Getting_Worse_64Ib2F66RKQ.txt using gemini-2.5-flash-lite
+2026-02-18 08:53:40,545 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-07-31_Biological_Age_Test_4_in_2020_-_Getting_Better_or_Getting_Worse_64Ib2F66RKQ.md
+2026-02-18 08:53:40,545 [INFO] Processing 2020-08-03_LPS_Increases_During_Aging_-_Besides_Calorie_Restriction_What_Else_Can_Reduce_It_NGrYzOKGBXA.txt (21/474)
+2026-02-18 08:53:40,551 [INFO] Converting to markdown for 2020-08-03_LPS_Increases_During_Aging_-_Besides_Calorie_Restriction_What_Else_Can_Reduce_It_NGrYzOKGBXA.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 08:53:40,552 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:53:40,670 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-18 08:53:40,671 [ERROR] Error converting to markdown for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-08-03_LPS_Increases_During_Aging_-_Besides_Calorie_Restriction_What_Else_Can_Reduce_It_NGrYzOKGBXA.txt on attempt 1 with gemini-2.5-flash-lite: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 19.366397285s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash-lite', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '19s'}]}}
+2026-02-18 08:53:40,671 [WARNING] Rate/quota limit hit for gemini-2.5-flash-lite. Waiting 60 seconds.
+2026-02-18 08:54:40,681 [INFO] Converting to markdown for 2020-08-03_LPS_Increases_During_Aging_-_Besides_Calorie_Restriction_What_Else_Can_Reduce_It_NGrYzOKGBXA.txt (Attempt 1) with model gemini-flash-lite-latest...
+2026-02-18 08:54:40,681 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:54:45,492 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:54:45,493 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-08-03_LPS_Increases_During_Aging_-_Besides_Calorie_Restriction_What_Else_Can_Reduce_It_NGrYzOKGBXA.txt using gemini-flash-lite-latest
+2026-02-18 08:54:45,493 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-08-03_LPS_Increases_During_Aging_-_Besides_Calorie_Restriction_What_Else_Can_Reduce_It_NGrYzOKGBXA.md
+2026-02-18 08:54:45,493 [INFO] Processing 2020-08-10_Blood_Test_Analysis_-_100_-_111y_Centenarians_Semi-_and_Super-Centenarians_Xv_B7NWp1LU.txt (22/474)
+2026-02-18 08:54:45,500 [INFO] Converting to markdown for 2020-08-10_Blood_Test_Analysis_-_100_-_111y_Centenarians_Semi-_and_Super-Centenarians_Xv_B7NWp1LU.txt (Attempt 1) with model gemini-flash-lite-latest...
+2026-02-18 08:54:45,500 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:54:52,119 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:54:52,176 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-08-10_Blood_Test_Analysis_-_100_-_111y_Centenarians_Semi-_and_Super-Centenarians_Xv_B7NWp1LU.txt using gemini-flash-lite-latest
+2026-02-18 08:54:52,177 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-08-10_Blood_Test_Analysis_-_100_-_111y_Centenarians_Semi-_and_Super-Centenarians_Xv_B7NWp1LU.md
+2026-02-18 08:54:52,177 [INFO] Processing 2020-08-15_Low_Total_Cholesterol_-_Biological_Youth_Or_Increased_Mortality_Risk_HliKDVje50g.txt (23/474)
+2026-02-18 08:54:52,184 [INFO] Converting to markdown for 2020-08-15_Low_Total_Cholesterol_-_Biological_Youth_Or_Increased_Mortality_Risk_HliKDVje50g.txt (Attempt 1) with model gemini-flash-lite-latest...
+2026-02-18 08:54:52,185 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:54:52,341 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-18 08:54:52,344 [ERROR] Error converting to markdown for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-08-15_Low_Total_Cholesterol_-_Biological_Youth_Or_Increased_Mortality_Risk_HliKDVje50g.txt on attempt 1 with gemini-flash-lite-latest: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 7.703400458s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash-lite', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7s'}]}}
+2026-02-18 08:54:52,344 [WARNING] Rate/quota limit hit for gemini-flash-lite-latest. Waiting 60 seconds.
+2026-02-18 08:55:52,354 [INFO] Converting to markdown for 2020-08-15_Low_Total_Cholesterol_-_Biological_Youth_Or_Increased_Mortality_Risk_HliKDVje50g.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 08:55:52,354 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:56:08,226 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:56:08,230 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-08-15_Low_Total_Cholesterol_-_Biological_Youth_Or_Increased_Mortality_Risk_HliKDVje50g.txt using gemini-2.5-flash
+2026-02-18 08:56:08,230 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-08-15_Low_Total_Cholesterol_-_Biological_Youth_Or_Increased_Mortality_Risk_HliKDVje50g.md
+2026-02-18 08:56:08,231 [INFO] Processing 2020-08-21_Calorie_Restriction_vs._Rapamycin_-_Which_Is_Better_at_Extending_Maximal_Lifespan_BgXz4Z7Qn9M.txt (24/474)
+2026-02-18 08:56:08,238 [INFO] Converting to markdown for 2020-08-21_Calorie_Restriction_vs._Rapamycin_-_Which_Is_Better_at_Extending_Maximal_Lifespan_BgXz4Z7Qn9M.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 08:56:08,238 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:56:28,968 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:56:28,975 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-08-21_Calorie_Restriction_vs._Rapamycin_-_Which_Is_Better_at_Extending_Maximal_Lifespan_BgXz4Z7Qn9M.txt using gemini-2.5-flash
+2026-02-18 08:56:28,975 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-08-21_Calorie_Restriction_vs._Rapamycin_-_Which_Is_Better_at_Extending_Maximal_Lifespan_BgXz4Z7Qn9M.md
+2026-02-18 08:56:28,975 [INFO] Processing 2020-08-27_Fungi_In_The_Blood_Fungi_In_The_Brain_-_Rapamycin_To_The_Rescue_CU-wDKWzGck.txt (25/474)
+2026-02-18 08:56:28,982 [INFO] Converting to markdown for 2020-08-27_Fungi_In_The_Blood_Fungi_In_The_Brain_-_Rapamycin_To_The_Rescue_CU-wDKWzGck.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 08:56:28,982 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:56:38,710 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:56:38,714 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-08-27_Fungi_In_The_Blood_Fungi_In_The_Brain_-_Rapamycin_To_The_Rescue_CU-wDKWzGck.txt using gemini-2.5-flash
+2026-02-18 08:56:38,715 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-08-27_Fungi_In_The_Blood_Fungi_In_The_Brain_-_Rapamycin_To_The_Rescue_CU-wDKWzGck.md
+2026-02-18 08:56:38,715 [INFO] Processing 2020-09-02_Acarbose_Extends_Lifespan_-_Impact_Of_The_Gut_Microbiome_L9wUIkqfFbo.txt (26/474)
+2026-02-18 08:56:38,722 [INFO] Converting to markdown for 2020-09-02_Acarbose_Extends_Lifespan_-_Impact_Of_The_Gut_Microbiome_L9wUIkqfFbo.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 08:56:38,722 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:56:54,710 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:56:54,713 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-09-02_Acarbose_Extends_Lifespan_-_Impact_Of_The_Gut_Microbiome_L9wUIkqfFbo.txt using gemini-2.5-flash
+2026-02-18 08:56:54,714 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-09-02_Acarbose_Extends_Lifespan_-_Impact_Of_The_Gut_Microbiome_L9wUIkqfFbo.md
+2026-02-18 08:56:54,714 [INFO] Processing 2020-09-08_Dietary_AGE_Products_Impact_Insulin_Resistance_Inflammation_And_Lifespan_8gKFWBTpXWE.txt (27/474)
+2026-02-18 08:56:54,721 [INFO] Converting to markdown for 2020-09-08_Dietary_AGE_Products_Impact_Insulin_Resistance_Inflammation_And_Lifespan_8gKFWBTpXWE.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 08:56:54,721 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:57:12,552 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:57:12,592 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-09-08_Dietary_AGE_Products_Impact_Insulin_Resistance_Inflammation_And_Lifespan_8gKFWBTpXWE.txt using gemini-2.5-flash
+2026-02-18 08:57:12,593 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-09-08_Dietary_AGE_Products_Impact_Insulin_Resistance_Inflammation_And_Lifespan_8gKFWBTpXWE.md
+2026-02-18 08:57:12,594 [INFO] Processing 2020-09-27_Epigenetic_Clocks_-_Which_Has_The_Best_Correlation_For_Aging_and_Age-Related_Diseases_iNnvF1Eh7VE.txt (28/474)
+2026-02-18 08:57:12,600 [INFO] Converting to markdown for 2020-09-27_Epigenetic_Clocks_-_Which_Has_The_Best_Correlation_For_Aging_and_Age-Related_Diseases_iNnvF1Eh7VE.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 08:57:12,600 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:57:36,866 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:57:36,905 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-09-27_Epigenetic_Clocks_-_Which_Has_The_Best_Correlation_For_Aging_and_Age-Related_Diseases_iNnvF1Eh7VE.txt using gemini-2.5-flash
+2026-02-18 08:57:36,906 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-09-27_Epigenetic_Clocks_-_Which_Has_The_Best_Correlation_For_Aging_and_Age-Related_Diseases_iNnvF1Eh7VE.md
+2026-02-18 08:57:36,906 [INFO] Processing 2020-10-16_Deep_Sleep_-_How_Does_It_Change_During_Aging_What_s_Its_Connection_To_Alzheimer_s_Disease_oqkt_aWweK4.txt (29/474)
+2026-02-18 08:57:36,913 [INFO] Converting to markdown for 2020-10-16_Deep_Sleep_-_How_Does_It_Change_During_Aging_What_s_Its_Connection_To_Alzheimer_s_Disease_oqkt_aWweK4.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 08:57:36,913 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:57:59,881 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:57:59,883 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-10-16_Deep_Sleep_-_How_Does_It_Change_During_Aging_What_s_Its_Connection_To_Alzheimer_s_Disease_oqkt_aWweK4.txt using gemini-2.5-flash
+2026-02-18 08:57:59,884 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-10-16_Deep_Sleep_-_How_Does_It_Change_During_Aging_What_s_Its_Connection_To_Alzheimer_s_Disease_oqkt_aWweK4.md
+2026-02-18 08:57:59,884 [INFO] Processing 2020-10-23_Biological_Age_-_Optimal_On_A_Carnivore_Diet_6Rc9xLvD2PU.txt (30/474)
+2026-02-18 08:57:59,891 [INFO] Converting to markdown for 2020-10-23_Biological_Age_-_Optimal_On_A_Carnivore_Diet_6Rc9xLvD2PU.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 08:57:59,891 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:58:34,508 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:58:34,546 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-10-23_Biological_Age_-_Optimal_On_A_Carnivore_Diet_6Rc9xLvD2PU.txt using gemini-2.5-flash
+2026-02-18 08:58:34,548 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-10-23_Biological_Age_-_Optimal_On_A_Carnivore_Diet_6Rc9xLvD2PU.md
+2026-02-18 08:58:34,548 [INFO] Processing 2020-10-30_Slower_Biological_Aging_In_People_On_A_Calorie_Restricted_Diet_vQOTkkCVAJU.txt (31/474)
+2026-02-18 08:58:34,555 [INFO] Converting to markdown for 2020-10-30_Slower_Biological_Aging_In_People_On_A_Calorie_Restricted_Diet_vQOTkkCVAJU.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 08:58:34,555 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:58:55,502 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:58:55,549 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-10-30_Slower_Biological_Aging_In_People_On_A_Calorie_Restricted_Diet_vQOTkkCVAJU.txt using gemini-2.5-flash
+2026-02-18 08:58:55,550 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-10-30_Slower_Biological_Aging_In_People_On_A_Calorie_Restricted_Diet_vQOTkkCVAJU.md
+2026-02-18 08:58:55,551 [INFO] Processing 2020-11-05_Quantifying_Biological_Age_-_Blood_Test_5_in_2020_0Q1A4OcJlUQ.txt (32/474)
+2026-02-18 08:58:55,558 [INFO] Converting to markdown for 2020-11-05_Quantifying_Biological_Age_-_Blood_Test_5_in_2020_0Q1A4OcJlUQ.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 08:58:55,558 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:59:10,144 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:59:10,148 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-11-05_Quantifying_Biological_Age_-_Blood_Test_5_in_2020_0Q1A4OcJlUQ.txt using gemini-2.5-flash
+2026-02-18 08:59:10,149 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-11-05_Quantifying_Biological_Age_-_Blood_Test_5_in_2020_0Q1A4OcJlUQ.md
+2026-02-18 08:59:10,150 [INFO] Processing 2020-11-11_Longevity_Genes_-_APOE_qooPWgG2frQ.txt (33/474)
+2026-02-18 08:59:10,157 [INFO] Converting to markdown for 2020-11-11_Longevity_Genes_-_APOE_qooPWgG2frQ.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 08:59:10,157 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:59:30,308 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:59:30,317 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-11-11_Longevity_Genes_-_APOE_qooPWgG2frQ.txt using gemini-2.5-flash
+2026-02-18 08:59:30,318 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-11-11_Longevity_Genes_-_APOE_qooPWgG2frQ.md
+2026-02-18 08:59:30,318 [INFO] Processing 2020-11-19_Kidney_Function_-_The_Missing_Link_In_The_TMAO-Health_And_Disease_Story_H8b9TTApXi4.txt (34/474)
+2026-02-18 08:59:30,326 [INFO] Converting to markdown for 2020-11-19_Kidney_Function_-_The_Missing_Link_In_The_TMAO-Health_And_Disease_Story_H8b9TTApXi4.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 08:59:30,326 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 08:59:43,625 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 08:59:43,665 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-11-19_Kidney_Function_-_The_Missing_Link_In_The_TMAO-Health_And_Disease_Story_H8b9TTApXi4.txt using gemini-2.5-flash
+2026-02-18 08:59:43,666 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-11-19_Kidney_Function_-_The_Missing_Link_In_The_TMAO-Health_And_Disease_Story_H8b9TTApXi4.md
+2026-02-18 08:59:43,666 [INFO] Processing 2020-11-25_HDL_-_What_s_Optimal_For_Minimizing_Disease_Risk_And_Maximizing_Longevity_BhYjPEL5bVc.txt (35/474)
+2026-02-18 08:59:43,674 [INFO] Converting to markdown for 2020-11-25_HDL_-_What_s_Optimal_For_Minimizing_Disease_Risk_And_Maximizing_Longevity_BhYjPEL5bVc.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 08:59:43,674 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 09:00:14,306 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 09:00:14,307 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-11-25_HDL_-_What_s_Optimal_For_Minimizing_Disease_Risk_And_Maximizing_Longevity_BhYjPEL5bVc.txt using gemini-2.5-flash
+2026-02-18 09:00:14,308 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-11-25_HDL_-_What_s_Optimal_For_Minimizing_Disease_Risk_And_Maximizing_Longevity_BhYjPEL5bVc.md
+2026-02-18 09:00:14,308 [INFO] Processing 2020-12-06_Neutrophils_Lymphocytes_Monocytes_-_What_s_Optimal_For_Health_And_Longevity_Fc9dvWVhDho.txt (36/474)
+2026-02-18 09:00:14,315 [INFO] Converting to markdown for 2020-12-06_Neutrophils_Lymphocytes_Monocytes_-_What_s_Optimal_For_Health_And_Longevity_Fc9dvWVhDho.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 09:00:14,315 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 09:00:47,434 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 09:00:47,438 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-12-06_Neutrophils_Lymphocytes_Monocytes_-_What_s_Optimal_For_Health_And_Longevity_Fc9dvWVhDho.txt using gemini-2.5-flash
+2026-02-18 09:00:47,438 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-12-06_Neutrophils_Lymphocytes_Monocytes_-_What_s_Optimal_For_Health_And_Longevity_Fc9dvWVhDho.md
+2026-02-18 09:00:47,439 [INFO] Processing 2020-12-15_LDL_-_What_s_Optimal_For_Health_And_Longevity_8sq7gQMvicQ.txt (37/474)
+2026-02-18 09:00:47,446 [INFO] Converting to markdown for 2020-12-15_LDL_-_What_s_Optimal_For_Health_And_Longevity_8sq7gQMvicQ.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 09:00:47,446 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 09:01:14,128 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 09:01:14,132 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-12-15_LDL_-_What_s_Optimal_For_Health_And_Longevity_8sq7gQMvicQ.txt using gemini-2.5-flash
+2026-02-18 09:01:14,132 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-12-15_LDL_-_What_s_Optimal_For_Health_And_Longevity_8sq7gQMvicQ.md
+2026-02-18 09:01:14,132 [INFO] Processing 2020-12-27_Microbial_Products_Affect_the_Hallmarks_Of_Aging_-_Mitochondrial_Function_Part_I_6uQ2YGz_64g.txt (38/474)
+2026-02-18 09:01:14,139 [INFO] Converting to markdown for 2020-12-27_Microbial_Products_Affect_the_Hallmarks_Of_Aging_-_Mitochondrial_Function_Part_I_6uQ2YGz_64g.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 09:01:14,139 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 09:01:38,782 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 09:01:38,821 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-12-27_Microbial_Products_Affect_the_Hallmarks_Of_Aging_-_Mitochondrial_Function_Part_I_6uQ2YGz_64g.txt using gemini-2.5-flash
+2026-02-18 09:01:38,822 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2020-12-27_Microbial_Products_Affect_the_Hallmarks_Of_Aging_-_Mitochondrial_Function_Part_I_6uQ2YGz_64g.md
+2026-02-18 09:01:38,822 [INFO] Processing 2021-01-06_Quantifying_Biological_Age_-_Blood_Test_6_in_2020_mc7jMFoyJW8.txt (39/474)
+2026-02-18 09:01:38,829 [INFO] Converting to markdown for 2021-01-06_Quantifying_Biological_Age_-_Blood_Test_6_in_2020_mc7jMFoyJW8.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 09:01:38,829 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 09:02:07,498 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 09:02:07,502 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-01-06_Quantifying_Biological_Age_-_Blood_Test_6_in_2020_mc7jMFoyJW8.txt using gemini-2.5-flash
+2026-02-18 09:02:07,503 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-01-06_Quantifying_Biological_Age_-_Blood_Test_6_in_2020_mc7jMFoyJW8.md
+2026-02-18 09:02:07,504 [INFO] Processing 2021-01-14_Apigenin_Increases_Muscle_Mass_And_Improves_Muscle_Function_In_Both_Young_And_Old_Mice_iTYZN7xS3OY.txt (40/474)
+2026-02-18 09:02:07,510 [INFO] Converting to markdown for 2021-01-14_Apigenin_Increases_Muscle_Mass_And_Improves_Muscle_Function_In_Both_Young_And_Old_Mice_iTYZN7xS3OY.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 09:02:07,511 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 09:02:07,696 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-18 09:02:07,699 [ERROR] Error converting to markdown for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-01-14_Apigenin_Increases_Muscle_Mass_And_Improves_Muscle_Function_In_Both_Young_And_Old_Mice_iTYZN7xS3OY.txt on attempt 1 with gemini-2.5-flash: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 52.36290066s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}
+2026-02-18 09:02:07,699 [WARNING] Rate/quota limit hit for gemini-2.5-flash. Waiting 60 seconds.
+2026-02-18 09:03:07,708 [ERROR] All models have exceeded their daily quota. Stopping.
+2026-02-18 09:06:26,157 [INFO] Scanning 'deepgram' for transcript files...
+2026-02-18 09:06:26,157 [INFO] Found 2 channels.
+2026-02-18 09:06:26,161 [INFO] Channel 'Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD': 474 transcript files.
+2026-02-18 09:06:26,161 [INFO] [1/474] Markdown already exists, skipping: 2019-11-28_46-Year_Old_Scientist_Does_12_Pull-Ups_dLktQvFz70Q.txt
+2026-02-18 09:06:26,161 [INFO] [2/474] Markdown already exists, skipping: 2020-05-03_Lab_Results_Serum_Albumin_-_What_s_optimal_1XuqLpnwCUk.txt
+2026-02-18 09:06:26,161 [INFO] [3/474] Markdown already exists, skipping: 2020-05-03_Optimizing_Biological_Age_-_Dr._Michael_Lustgarten_8hs2n7U7J-k.txt
+2026-02-18 09:06:26,161 [INFO] [4/474] Markdown already exists, skipping: 2020-05-16_Lab_Results_Glucose_CRP_-_What_Optimal_For_Health_And_Aging_1fp4zV5QZd4.txt
+2026-02-18 09:06:26,161 [INFO] [5/474] Markdown already exists, skipping: 2020-05-23_Lab_Results_Creatinine_-_What_s_Optimal_For_Health_And_Aging_PK6oBMMasFU.txt
+2026-02-18 09:06:26,161 [INFO] [6/474] Markdown already exists, skipping: 2020-06-03_Biological_Age_Testing_-_15_Years_Younger_Than_My_Chronological_Age_S_InX5jxHc4.txt
+2026-02-18 09:06:26,161 [INFO] [7/474] Markdown already exists, skipping: 2020-06-05_The_Gut_Microbiome_Impacts_Muscle_Mass_And_Physical_Function_zj3Q_9uUje0.txt
+2026-02-18 09:06:26,161 [INFO] [8/474] Markdown already exists, skipping: 2020-06-26_Blood_test_analysis_100_year_old_subject_XhCUuxhxmpg.txt
+2026-02-18 09:06:26,161 [INFO] [9/474] Markdown already exists, skipping: 2020-06-27_Quantifying_Phenotypic_Age_-_Blood_Test_Measurement_3_in_2020_85t8vmIgR6s.txt
+2026-02-18 09:06:26,161 [INFO] [10/474] Markdown already exists, skipping: 2020-06-28_Is_hesperidin_essential_for_prophylaxis_and_treatment_of_COVID-19_Infection_WunapHssCyw.txt
+2026-02-18 09:06:26,162 [INFO] [11/474] Markdown already exists, skipping: 2020-07-01_Are_there_foods_that_can_increase_NAD_Part_I_5-2YoGctcCk.txt
+2026-02-18 09:06:26,162 [INFO] [12/474] Markdown already exists, skipping: 2020-07-05_Vitamin_K1_phylloquinone_-_How_much_is_optimal_for_health_znX-fEF9YlY.txt
+2026-02-18 09:06:26,162 [INFO] [13/474] Markdown already exists, skipping: 2020-07-07_Dietary_Vitamin_C_Intake_-_How_Much_Is_Optimal_MNcfDzhXuRw.txt
+2026-02-18 09:06:26,162 [INFO] [14/474] Markdown already exists, skipping: 2020-07-12_Blood_testing_for_total_cholesterol_-_What_s_optimal_gzGrzf79kBM.txt
+2026-02-18 09:06:26,162 [INFO] [15/474] Markdown already exists, skipping: 2020-07-14_Optimizing_Blood_Cholesterol_Levels_-_What_s_My_Data_PBv_hXwUqHM.txt
+2026-02-18 09:06:26,162 [INFO] [16/474] Markdown already exists, skipping: 2020-07-17_Resting_heart_rate_and_heart_rate_variability_-_What_s_optimal_XskTAUb6-ac.txt
+2026-02-18 09:06:26,162 [INFO] [17/474] Markdown already exists, skipping: 2020-07-19_Is_Weight_Loss_Driving_Improvements_For_Resting_Heart_Rate_And_Heart_Rate_Variability_R90__fEsgiA.txt
+2026-02-18 09:06:26,162 [INFO] [18/474] Markdown already exists, skipping: 2020-07-21_Blood_testing_for_Blood_Urea_Nitrogen_BUN_-_What_s_optimal_u654YTubFRM.txt
+2026-02-18 09:06:26,162 [INFO] [19/474] Markdown already exists, skipping: 2020-07-26_CD38_gets_in_the_way_of_NR_and_NMN_for_increasing_NAD+_pj-CSSghDXo.txt
+2026-02-18 09:06:26,162 [INFO] [20/474] Markdown already exists, skipping: 2020-07-31_Biological_Age_Test_4_in_2020_-_Getting_Better_or_Getting_Worse_64Ib2F66RKQ.txt
+2026-02-18 09:06:26,162 [INFO] [21/474] Markdown already exists, skipping: 2020-08-03_LPS_Increases_During_Aging_-_Besides_Calorie_Restriction_What_Else_Can_Reduce_It_NGrYzOKGBXA.txt
+2026-02-18 09:06:26,162 [INFO] [22/474] Markdown already exists, skipping: 2020-08-10_Blood_Test_Analysis_-_100_-_111y_Centenarians_Semi-_and_Super-Centenarians_Xv_B7NWp1LU.txt
+2026-02-18 09:06:26,162 [INFO] [23/474] Markdown already exists, skipping: 2020-08-15_Low_Total_Cholesterol_-_Biological_Youth_Or_Increased_Mortality_Risk_HliKDVje50g.txt
+2026-02-18 09:06:26,163 [INFO] [24/474] Markdown already exists, skipping: 2020-08-21_Calorie_Restriction_vs._Rapamycin_-_Which_Is_Better_at_Extending_Maximal_Lifespan_BgXz4Z7Qn9M.txt
+2026-02-18 09:06:26,163 [INFO] [25/474] Markdown already exists, skipping: 2020-08-27_Fungi_In_The_Blood_Fungi_In_The_Brain_-_Rapamycin_To_The_Rescue_CU-wDKWzGck.txt
+2026-02-18 09:06:26,163 [INFO] [26/474] Markdown already exists, skipping: 2020-09-02_Acarbose_Extends_Lifespan_-_Impact_Of_The_Gut_Microbiome_L9wUIkqfFbo.txt
+2026-02-18 09:06:26,163 [INFO] [27/474] Markdown already exists, skipping: 2020-09-08_Dietary_AGE_Products_Impact_Insulin_Resistance_Inflammation_And_Lifespan_8gKFWBTpXWE.txt
+2026-02-18 09:06:26,163 [INFO] [28/474] Markdown already exists, skipping: 2020-09-27_Epigenetic_Clocks_-_Which_Has_The_Best_Correlation_For_Aging_and_Age-Related_Diseases_iNnvF1Eh7VE.txt
+2026-02-18 09:06:26,163 [INFO] [29/474] Markdown already exists, skipping: 2020-10-16_Deep_Sleep_-_How_Does_It_Change_During_Aging_What_s_Its_Connection_To_Alzheimer_s_Disease_oqkt_aWweK4.txt
+2026-02-18 09:06:26,163 [INFO] [30/474] Markdown already exists, skipping: 2020-10-23_Biological_Age_-_Optimal_On_A_Carnivore_Diet_6Rc9xLvD2PU.txt
+2026-02-18 09:06:26,163 [INFO] [31/474] Markdown already exists, skipping: 2020-10-30_Slower_Biological_Aging_In_People_On_A_Calorie_Restricted_Diet_vQOTkkCVAJU.txt
+2026-02-18 09:06:26,163 [INFO] [32/474] Markdown already exists, skipping: 2020-11-05_Quantifying_Biological_Age_-_Blood_Test_5_in_2020_0Q1A4OcJlUQ.txt
+2026-02-18 09:06:26,163 [INFO] [33/474] Markdown already exists, skipping: 2020-11-11_Longevity_Genes_-_APOE_qooPWgG2frQ.txt
+2026-02-18 09:06:26,163 [INFO] [34/474] Markdown already exists, skipping: 2020-11-19_Kidney_Function_-_The_Missing_Link_In_The_TMAO-Health_And_Disease_Story_H8b9TTApXi4.txt
+2026-02-18 09:06:26,163 [INFO] [35/474] Markdown already exists, skipping: 2020-11-25_HDL_-_What_s_Optimal_For_Minimizing_Disease_Risk_And_Maximizing_Longevity_BhYjPEL5bVc.txt
+2026-02-18 09:06:26,163 [INFO] [36/474] Markdown already exists, skipping: 2020-12-06_Neutrophils_Lymphocytes_Monocytes_-_What_s_Optimal_For_Health_And_Longevity_Fc9dvWVhDho.txt
+2026-02-18 09:06:26,164 [INFO] [37/474] Markdown already exists, skipping: 2020-12-15_LDL_-_What_s_Optimal_For_Health_And_Longevity_8sq7gQMvicQ.txt
+2026-02-18 09:06:26,165 [INFO] [38/474] Markdown already exists, skipping: 2020-12-27_Microbial_Products_Affect_the_Hallmarks_Of_Aging_-_Mitochondrial_Function_Part_I_6uQ2YGz_64g.txt
+2026-02-18 09:06:26,165 [INFO] [39/474] Markdown already exists, skipping: 2021-01-06_Quantifying_Biological_Age_-_Blood_Test_6_in_2020_mc7jMFoyJW8.txt
+2026-02-18 09:06:26,165 [INFO] Processing 2021-01-14_Apigenin_Increases_Muscle_Mass_And_Improves_Muscle_Function_In_Both_Young_And_Old_Mice_iTYZN7xS3OY.txt (40/474)
+2026-02-18 09:06:26,166 [INFO] Converting to markdown for 2021-01-14_Apigenin_Increases_Muscle_Mass_And_Improves_Muscle_Function_In_Both_Young_And_Old_Mice_iTYZN7xS3OY.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 09:06:26,166 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 09:06:31,576 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-18 09:06:31,579 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-01-14_Apigenin_Increases_Muscle_Mass_And_Improves_Muscle_Function_In_Both_Young_And_Old_Mice_iTYZN7xS3OY.txt using gemini-2.5-flash-lite
+2026-02-18 09:06:31,580 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-01-14_Apigenin_Increases_Muscle_Mass_And_Improves_Muscle_Function_In_Both_Young_And_Old_Mice_iTYZN7xS3OY.md
+2026-02-18 09:06:31,580 [INFO] Processing 2021-01-22_Quantifying_Biological_Age_With_Aging.ai_-_24_Blood_Tests_Since_2009_yhHeO9mXFl8.txt (41/474)
+2026-02-18 09:06:31,587 [INFO] Converting to markdown for 2021-01-22_Quantifying_Biological_Age_With_Aging.ai_-_24_Blood_Tests_Since_2009_yhHeO9mXFl8.txt (Attempt 1) with model gemini-2.5-flash-lite...
+2026-02-18 09:06:31,587 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 09:06:31,738 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-18 09:06:31,740 [ERROR] Error converting to markdown for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-01-22_Quantifying_Biological_Age_With_Aging.ai_-_24_Blood_Tests_Since_2009_yhHeO9mXFl8.txt on attempt 1 with gemini-2.5-flash-lite: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 28.299632131s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash-lite', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28s'}]}}
+2026-02-18 09:06:31,740 [WARNING] Rate/quota limit hit for gemini-2.5-flash-lite. Waiting 60 seconds.
+2026-02-18 09:07:31,750 [INFO] Converting to markdown for 2021-01-22_Quantifying_Biological_Age_With_Aging.ai_-_24_Blood_Tests_Since_2009_yhHeO9mXFl8.txt (Attempt 1) with model gemini-flash-lite-latest...
+2026-02-18 09:07:31,750 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 09:07:32,039 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-18 09:07:32,041 [ERROR] Error converting to markdown for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-01-22_Quantifying_Biological_Age_With_Aging.ai_-_24_Blood_Tests_Since_2009_yhHeO9mXFl8.txt on attempt 1 with gemini-flash-lite-latest: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 27.997833265s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash-lite'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}
+2026-02-18 09:07:32,041 [WARNING] Rate/quota limit hit for gemini-flash-lite-latest. Waiting 60 seconds.
+2026-02-18 09:08:32,050 [INFO] Converting to markdown for 2021-01-22_Quantifying_Biological_Age_With_Aging.ai_-_24_Blood_Tests_Since_2009_yhHeO9mXFl8.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 09:08:32,050 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 09:08:51,513 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-18 09:08:51,517 [INFO] Markdown conversion successful for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-01-22_Quantifying_Biological_Age_With_Aging.ai_-_24_Blood_Tests_Since_2009_yhHeO9mXFl8.txt using gemini-2.5-flash
+2026-02-18 09:08:51,517 [INFO] Saved markdown: md/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-01-22_Quantifying_Biological_Age_With_Aging.ai_-_24_Blood_Tests_Since_2009_yhHeO9mXFl8.md
+2026-02-18 09:08:51,517 [INFO] Processing 2021-01-30_Microbes_Affect_The_Hallmarks_Of_Aging_-_Mitochondrial_Dysfunction_Part_II_rXUd_WCZtPc.txt (42/474)
+2026-02-18 09:08:51,525 [INFO] Converting to markdown for 2021-01-30_Microbes_Affect_The_Hallmarks_Of_Aging_-_Mitochondrial_Dysfunction_Part_II_rXUd_WCZtPc.txt (Attempt 1) with model gemini-2.5-flash...
+2026-02-18 09:08:51,525 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-18 09:08:51,707 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-18 09:08:51,708 [ERROR] Error converting to markdown for deepgram/Conquer_Aging_Or_Die_Trying_Mike_Lustgarten_PhD/2021-01-30_Microbes_Affect_The_Hallmarks_Of_Aging_-_Mitochondrial_Dysfunction_Part_II_rXUd_WCZtPc.txt on attempt 1 with gemini-2.5-flash: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 8.377888965s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}
+2026-02-18 09:08:51,709 [WARNING] Rate/quota limit hit for gemini-2.5-flash. Waiting 60 seconds.
+2026-02-18 09:09:51,719 [ERROR] All models have exceeded their daily quota. Stopping.
