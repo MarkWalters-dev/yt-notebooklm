@@ -75,18 +75,22 @@ client = genai.Client(api_key=API_KEY)
 
 def load_model_state():
     if not os.path.exists(MODEL_STATE_FILE):
-        return {"index": 0, "failures": [False] * len(MODEL_NAMES)}
+        return {"index": 0, "failures": [False] * len(MODEL_NAMES), "date": get_local_day()}
     try:
         with open(MODEL_STATE_FILE, "r") as f:
             data = json.load(f)
+        # Reset failures on a new day
+        if data.get("date") != get_local_day():
+            return {"index": 0, "failures": [False] * len(MODEL_NAMES), "date": get_local_day()}
         if "failures" not in data or len(data["failures"]) != len(MODEL_NAMES):
-            return {"index": 0, "failures": [False] * len(MODEL_NAMES)}
+            return {"index": 0, "failures": [False] * len(MODEL_NAMES), "date": get_local_day()}
         return data
     except Exception:
-        return {"index": 0, "failures": [False] * len(MODEL_NAMES)}
+        return {"index": 0, "failures": [False] * len(MODEL_NAMES), "date": get_local_day()}
 
 
 def save_model_state(state):
+    state["date"] = get_local_day()
     with open(MODEL_STATE_FILE, "w") as f:
         json.dump(state, f)
 
@@ -205,6 +209,9 @@ def convert_to_markdown(transcript, file_path, max_retries=3):
     return None
 
 def main():
+    # Always start fresh with the first model on each run
+    save_model_state({"index": 0, "failures": [False] * len(MODEL_NAMES)})
+
     msg = f"Scanning '{BASE_SUBS_DIR}' for transcript files..."
     print(msg)
     logging.info(msg)
