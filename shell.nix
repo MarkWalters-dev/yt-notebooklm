@@ -35,6 +35,7 @@ pkgs.mkShell {
     pkgs.bc
     pkgs.tmux
     pkgs.uv
+    pkgs.deno
     
     (pkgs.python3.withPackages (p: [
       p.google-genai
