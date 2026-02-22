@@ -34,6 +34,7 @@ pkgs.mkShell {
     pkgs.glow
     pkgs.bc
     pkgs.tmux
+    pkgs.uv
     
     (pkgs.python3.withPackages (p: [
       p.google-genai
