@@ -1,0 +1,88 @@
+#!/usr/bin/env python3
+"""
+Compare .available files (from getAvailableVideoIds) against .archive to find
+video IDs that have never been downloaded.
+
+Reads:
+  .archive                                     – already-downloaded IDs
+  audio/<channel>/.available                   – known normal videos
+  audio/<channel>/shorts/.available            – known shorts
+  audio/<channel>/live/.available              – known live streams
+
+Writes (one bare ID per line):
+  audio/<channel>/.missing
+  audio/<channel>/shorts/.missing
+  audio/<channel>/live/.missing
+"""
+
+import os
+import glob
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+AUDIO_BASE = os.path.join(SCRIPT_DIR, "audio")
+ARCHIVE    = os.path.join(SCRIPT_DIR, ".archive")
+
+
+def load_archive(path: str) -> set[str]:
+    """Return the set of video IDs from a yt-dlp archive file (format: 'youtube <id>')."""
+    ids: set[str] = set()
+    if not os.path.isfile(path):
+        print(f"Warning: archive file not found: {path}")
+        return ids
+    with open(path) as fh:
+        for line in fh:
+            parts = line.strip().split()
+            if len(parts) == 2 and parts[0] == "youtube":
+                ids.add(parts[1])
+    return ids
+
+
+def load_available(path: str) -> list[str]:
+    """Return ordered list of bare video IDs from a .available file."""
+    ids: list[str] = []
+    with open(path) as fh:
+        for line in fh:
+            vid_id = line.strip()
+            if vid_id:
+                ids.append(vid_id)
+    return ids
+
+
+def main() -> None:
+    archived = load_archive(ARCHIVE)
+    print(f"Loaded {len(archived)} archived IDs from .archive\n")
+
+    available_files = sorted(glob.glob(
+        os.path.join(AUDIO_BASE, "**", ".available"), recursive=True
+    ))
+
+    if not available_files:
+        print("No .available files found. Run getAvailableVideoIds first.")
+        return
+
+    grand_total_available = 0
+    grand_total_missing   = 0
+
+    for avail_path in available_files:
+        available = load_available(avail_path)
+        missing   = [vid_id for vid_id in available if vid_id not in archived]
+
+        rel_avail  = os.path.relpath(avail_path, SCRIPT_DIR)
+        missing_path = os.path.join(os.path.dirname(avail_path), ".missing")
+        rel_missing  = os.path.relpath(missing_path, SCRIPT_DIR)
+
+        with open(missing_path, "w") as fh:
+            for vid_id in missing:
+                fh.write(f"{vid_id}\n")
+
+        grand_total_available += len(available)
+        grand_total_missing   += len(missing)
+
+        print(f"{rel_avail}")
+        print(f"  {len(available)} available,  {len(missing)} missing  →  {rel_missing}")
+
+    print(f"\nTotal: {grand_total_missing} missing out of {grand_total_available} available")
+
+
+if __name__ == "__main__":
+    main()
