@@ -1,11 +1,33 @@
 #!/bin/bash
 YT_DLP="/home/john/yt/.venv/bin/yt-dlp"
 
-# Build a URL list from the download archive
+# Build set of already-checked video IDs (with subs or confirmed none)
+declare -A checked
+for archfile in .subs-archive .subs-missing-archive; do
+    if [[ -f "$archfile" ]]; then
+        while read -r _ id; do
+            checked["$id"]=1
+        done < "$archfile"
+    fi
+done
+
+# Build URL list of only unchecked videos from the download archive
 tmpfile=$(mktemp)
-awk '{print "https://www.youtube.com/watch?v=" $2}' .archive > "$tmpfile"
+while read -r _ id; do
+    [[ -z "${checked[$id]}" ]] && echo "https://www.youtube.com/watch?v=$id"
+done < .archive > "$tmpfile"
+
+count=$(wc -l < "$tmpfile")
+echo "Checking $count unchecked videos ($(( ${#checked[@]} )) already done)..."
+
+if [[ $count -eq 0 ]]; then
+    echo "All videos already checked."
+    rm -f "$tmpfile"
+    exit 0
+fi
 
 # Download only human-created English subtitles (skip auto-generated)
+# --download-archive records videos where subs were found
 PYTHONPATH="" $YT_DLP \
     --skip-download \
     --write-subs \
@@ -21,5 +43,19 @@ PYTHONPATH="" $YT_DLP \
     --download-archive .subs-archive \
     -o "ytsubs/%(channel)s/%(upload_date>%Y-%m-%d)s_%(title)s_%(id)s.%(ext)s" \
     -a "$tmpfile"
+
+# Mark videos with no subs found in .subs-missing-archive so they are skipped
+# on the next run. Videos where subs were found are already in .subs-archive.
+declare -A now_have_subs
+if [[ -f .subs-archive ]]; then
+    while read -r _ id; do
+        now_have_subs["$id"]=1
+    done < .subs-archive
+fi
+while read -r _ id; do
+    if [[ -z "${checked[$id]}" && -z "${now_have_subs[$id]}" ]]; then
+        echo "youtube $id" >> .subs-missing-archive
+    fi
+done < .archive
 
 rm -f "$tmpfile"
