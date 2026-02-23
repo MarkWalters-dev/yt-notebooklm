@@ -77,7 +77,7 @@ def main() -> None:
 
         grand_total_available += len(available)
         grand_total_missing   += len(missing)
-        if len(missing) == 0:
+        if len(missing) > 0:
             # print(f"{rel_avail}")
             print(f"  {len(available)} available,  {len(missing)} missing  →  {rel_missing}")
 
