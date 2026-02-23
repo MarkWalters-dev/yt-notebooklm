@@ -1,16 +1,36 @@
 #!/bin/bash
 YT_DLP="/home/john/yt/.venv/bin/yt-dlp"
 
+# Clean exit on Ctrl-C without writing partial results
+interrupted=0
+trap 'interrupted=1' SIGINT SIGTERM
+
 # Build set of already-processed video IDs
 declare -A done
 [[ -f .subs-archive ]] && while read -r _ id; do done["$id"]=1; done < .subs-archive
 [[ -f .subs-missing-archive ]] && while read -r id; do done["$id"]=1; done < .subs-missing-archive
 
-# Process each .missing file across all channels
+# Count total unchecked IDs for progress display
+total=0
 for missing in audio/*/.missing audio/*/shorts/.missing audio/*/live/.missing; do
     [[ -f "$missing" ]] || continue
     while read -r id; do
         [[ -z "$id" || -n "${done[$id]}" ]] && continue
+        (( total++ ))
+    done < "$missing"
+done
+
+current=0
+
+# Process each .missing file across all channels
+for missing in audio/*/.missing audio/*/shorts/.missing audio/*/live/.missing; do
+    [[ -f "$missing" ]] || continue
+    while read -r id; do
+        [[ $interrupted -eq 1 ]] && { echo "Interrupted."; exit 1; }
+        [[ -z "$id" || -n "${done[$id]}" ]] && continue
+
+        (( current++ ))
+        echo "[$current/$total] $id"
 
         PYTHONPATH="" $YT_DLP \
             --skip-download \
@@ -27,6 +47,8 @@ for missing in audio/*/.missing audio/*/shorts/.missing audio/*/live/.missing; d
             --download-archive .subs-archive \
             -o "ytsubs/%(channel)s/%(upload_date>%Y-%m-%d)s_%(title)s_%(id)s.%(ext)s" \
             "https://www.youtube.com/watch?v=$id"
+
+        [[ $interrupted -eq 1 ]] && { echo "Interrupted."; exit 1; }
 
         grep -qF "$id" .subs-archive 2>/dev/null || echo "$id" >> .subs-missing-archive
 
