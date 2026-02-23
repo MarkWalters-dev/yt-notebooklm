@@ -1,60 +1,35 @@
 #!/bin/bash
 YT_DLP="/home/john/yt/.venv/bin/yt-dlp"
 
-# Build set of already-attempted video IDs from the checked archive
-declare -A checked
-if [[ -f .subs-checked-archive ]]; then
-    while read -r _ id; do
-        checked["$id"]=1
-    done < .subs-checked-archive
-fi
+# Build set of already-processed video IDs
+declare -A done
+[[ -f .subs-archive ]] && while read -r _ id; do done["$id"]=1; done < .subs-archive
+[[ -f .subs-missing-archive ]] && while read -r id; do done["$id"]=1; done < .subs-missing-archive
 
-# Build URL list of only unchecked videos from the download archive
-tmpfile=$(mktemp)
-while read -r _ id; do
-    [[ -z "${checked[$id]}" ]] && echo "https://www.youtube.com/watch?v=$id"
-done < .archive > "$tmpfile"
+# Process each .missing file across all channels
+for missing in audio/*/.missing audio/*/shorts/.missing audio/*/live/.missing; do
+    [[ -f "$missing" ]] || continue
+    while read -r id; do
+        [[ -z "$id" || -n "${done[$id]}" ]] && continue
 
-count=$(wc -l < "$tmpfile")
-echo "Checking $count unchecked videos ($(( ${#checked[@]} )) already done)..."
+        PYTHONPATH="" $YT_DLP \
+            --skip-download \
+            --write-subs \
+            --no-write-auto-subs \
+            --sub-langs "en" \
+            --convert-subs srt \
+            --restrict-filenames \
+            --cookies cookies.txt \
+            --sleep-requests 1 \
+            --sleep-interval 2 \
+            --ignore-errors \
+            --no-overwrites \
+            --download-archive .subs-archive \
+            -o "ytsubs/%(channel)s/%(upload_date>%Y-%m-%d)s_%(title)s_%(id)s.%(ext)s" \
+            "https://www.youtube.com/watch?v=$id"
 
-if [[ $count -eq 0 ]]; then
-    echo "All videos already checked."
-    rm -f "$tmpfile"
-    exit 0
-fi
+        grep -qF "$id" .subs-archive 2>/dev/null || echo "$id" >> .subs-missing-archive
 
-# Snapshot existing srt files before the run
-before_srts=$(find ytsubs/ -name "*.srt" 2>/dev/null | sort)
-
-# Download only human-created English subtitles (skip auto-generated).
-# --download-archive .subs-checked-archive records ALL attempted videos so
-# they are skipped on the next run, regardless of whether subs were found.
-PYTHONPATH="" $YT_DLP \
-    --skip-download \
-    --write-subs \
-    --no-write-auto-subs \
-    --sub-langs "en" \
-    --convert-subs srt \
-    --restrict-filenames \
-    --cookies cookies.txt \
-    --sleep-requests 1 \
-    --sleep-interval 2 \
-    --ignore-errors \
-    --no-overwrites \
-    --download-archive .subs-checked-archive \
-    -o "ytsubs/%(channel)s/%(upload_date>%Y-%m-%d)s_%(title)s_%(id)s.%(ext)s" \
-    -a "$tmpfile"
-
-# Find newly created srt files and record their video IDs in .subs-archive.
-# The output template ends with _%(id)s so the ID is the last _-delimited token.
-after_srts=$(find ytsubs/ -name "*.srt" 2>/dev/null | sort)
-while IFS= read -r srtfile; do
-    [[ -z "$srtfile" ]] && continue
-    base="${srtfile##*/}"          # strip directory
-    base="${base%%.*}"             # strip all extensions (e.g. .en.srt)
-    id="${base##*_}"               # last underscore-delimited token = video ID
-    echo "youtube $id" >> .subs-archive
-done < <(comm -13 <(echo "$before_srts") <(echo "$after_srts"))
-
-rm -f "$tmpfile"
+        done["$id"]=1
+    done < "$missing"
+done
