@@ -1,0 +1,117 @@
+#!/usr/bin/env python3
+"""
+Fetch all available YouTube video IDs for every channel in channels.lst.
+Saves per-channel output to:
+  audio/<channel_name>/.available          – regular videos
+  audio/<channel_name>/shorts/.available   – shorts
+  audio/<channel_name>/live/.available     – live / streams
+
+Format: one bare video ID per line.
+"""
+
+import os
+import yt_dlp
+
+SCRIPT_DIR   = os.path.dirname(os.path.abspath(__file__))
+CHANNELS_LST = os.path.join(SCRIPT_DIR, "channels.lst")
+AUDIO_BASE   = os.path.join(SCRIPT_DIR, "audio")
+COOKIES      = os.path.join(SCRIPT_DIR, "cookies.txt")
+
+# (channel tab, subdir relative to audio/<channel>, output filename)
+TABS = [
+    ("videos",  "",        ".available"),
+    ("shorts",  "shorts",  ".available"),
+    ("streams", "live",    ".available"),
+]
+
+
+def base_ydl_opts() -> dict:
+    opts = {
+        "extract_flat": "in_playlist",
+        "skip_download": True,
+        "quiet": True,
+        "no_warnings": True,
+        "ignoreerrors": True,
+        "sleep_interval_requests": 1,
+    }
+    if os.path.isfile(COOKIES):
+        opts["cookiefile"] = COOKIES
+    return opts
+
+
+def fetch_ids(url: str) -> tuple[list[str], str | None]:
+    """Return (list_of_video_ids, channel_name_or_None)."""
+    ids: list[str] = []
+    channel_name: str | None = None
+
+    with yt_dlp.YoutubeDL(base_ydl_opts()) as ydl:
+        info = ydl.extract_info(url, download=False)
+
+    if not info:
+        return ids, channel_name
+
+    channel_name = (
+        info.get("channel")
+        or info.get("uploader")
+        or info.get("uploader_id")
+    )
+
+    for entry in info.get("entries") or []:
+        if not entry:
+            continue
+        vid_id = entry.get("id") or entry.get("url")
+        if vid_id:
+            ids.append(vid_id)
+
+    return ids, channel_name
+
+
+def read_channels() -> list[str]:
+    with open(CHANNELS_LST) as fh:
+        return [
+            line.strip()
+            for line in fh
+            if line.strip() and not line.startswith("#")
+        ]
+
+
+def main() -> None:
+    channels = read_channels()
+    print(f"Loaded {len(channels)} channel(s) from channels.lst\n")
+
+    for handle in channels:
+        print(f"── {handle}")
+        channel_dir: str | None = None
+
+        for tab, subdir, filename in TABS:
+            url = f"https://www.youtube.com/{handle}/{tab}"
+            print(f"   fetching /{tab} … ", end="", flush=True)
+
+            ids, channel_name = fetch_ids(url)
+
+            # Resolve channel directory once, on first successful response
+            if channel_dir is None:
+                name = channel_name or handle.lstrip("@")
+                safe_name = (
+                    name
+                    .replace(" ", "_")
+                    .replace("/", "_")
+                    .replace("\\", "_")
+                )
+                channel_dir = os.path.join(AUDIO_BASE, safe_name)
+
+            out_dir = os.path.join(channel_dir, subdir) if subdir else channel_dir
+            os.makedirs(out_dir, exist_ok=True)
+            out_path = os.path.join(out_dir, filename)
+
+            with open(out_path, "w") as fh:
+                for vid_id in ids:
+                    fh.write(f"{vid_id}\n")
+
+            print(f"{len(ids):>5} IDs  →  {os.path.relpath(out_path, SCRIPT_DIR)}")
+
+        print()
+
+
+if __name__ == "__main__":
+    main()
