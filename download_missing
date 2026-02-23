@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+# Download all missing videos found by getMissingVideos.
+# Output path depends on which subfolder the .missing file came from:
+#   audio/<channel>/.missing          -> audio/<channel>/
+#   audio/<channel>/shorts/.missing   -> audio/<channel>/shorts/
+#   audio/<channel>/live/.missing     -> audio/<channel>/live/
+
+set -euo pipefail
+
+YTDLP="/home/john/yt/.venv/bin/yt-dlp"
+FORMAT="(140/bestaudio[ext=m4a][language*=en])"
+
+while IFS= read -r -d '' missing_file; do
+  # Skip empty .missing files
+  [[ -s "$missing_file" ]] || continue
+
+  dir="$(dirname "$missing_file")"   # e.g. audio/ChannelName  or  audio/ChannelName/shorts
+  out_tmpl="${dir}/%(upload_date>%Y-%m-%d)s_%(title)s_%(id)s.%(ext)s"
+
+  echo "==> $missing_file"
+
+  while IFS= read -r video_id; do
+    [[ -z "$video_id" ]] && continue
+    echo "    $video_id"
+    PYTHONPATH="" "$YTDLP" \
+      -f "$FORMAT" \
+      --cookies cookies.txt \
+      --restrict-filenames \
+      --sleep-requests 1 \
+      --sleep-interval 3 \
+      --download-archive .archive \
+      -o "$out_tmpl" \
+      "https://www.youtube.com/watch?v=${video_id}"
+  done < "$missing_file"
+
+done < <(find audio -name ".missing" -print0)
