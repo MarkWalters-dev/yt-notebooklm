@@ -1,15 +1,13 @@
 #!/bin/bash
 YT_DLP="/home/john/yt/.venv/bin/yt-dlp"
 
-# Build set of already-checked video IDs (with subs or confirmed none)
+# Build set of already-attempted video IDs from the checked archive
 declare -A checked
-for archfile in .subs-archive .subs-missing-archive; do
-    if [[ -f "$archfile" ]]; then
-        while read -r _ id; do
-            checked["$id"]=1
-        done < "$archfile"
-    fi
-done
+if [[ -f .subs-checked-archive ]]; then
+    while read -r _ id; do
+        checked["$id"]=1
+    done < .subs-checked-archive
+fi
 
 # Build URL list of only unchecked videos from the download archive
 tmpfile=$(mktemp)
@@ -26,8 +24,12 @@ if [[ $count -eq 0 ]]; then
     exit 0
 fi
 
-# Download only human-created English subtitles (skip auto-generated)
-# --download-archive records videos where subs were found
+# Snapshot existing srt files before the run
+before_srts=$(find ytsubs/ -name "*.srt" 2>/dev/null | sort)
+
+# Download only human-created English subtitles (skip auto-generated).
+# --download-archive .subs-checked-archive records ALL attempted videos so
+# they are skipped on the next run, regardless of whether subs were found.
 PYTHONPATH="" $YT_DLP \
     --skip-download \
     --write-subs \
@@ -40,22 +42,19 @@ PYTHONPATH="" $YT_DLP \
     --sleep-interval 2 \
     --ignore-errors \
     --no-overwrites \
-    --download-archive .subs-archive \
+    --download-archive .subs-checked-archive \
     -o "ytsubs/%(channel)s/%(upload_date>%Y-%m-%d)s_%(title)s_%(id)s.%(ext)s" \
     -a "$tmpfile"
 
-# Mark videos with no subs found in .subs-missing-archive so they are skipped
-# on the next run. Videos where subs were found are already in .subs-archive.
-declare -A now_have_subs
-if [[ -f .subs-archive ]]; then
-    while read -r _ id; do
-        now_have_subs["$id"]=1
-    done < .subs-archive
-fi
-while read -r _ id; do
-    if [[ -z "${checked[$id]}" && -z "${now_have_subs[$id]}" ]]; then
-        echo "youtube $id" >> .subs-missing-archive
-    fi
-done < .archive
+# Find newly created srt files and record their video IDs in .subs-archive.
+# The output template ends with _%(id)s so the ID is the last _-delimited token.
+after_srts=$(find ytsubs/ -name "*.srt" 2>/dev/null | sort)
+while IFS= read -r srtfile; do
+    [[ -z "$srtfile" ]] && continue
+    base="${srtfile##*/}"          # strip directory
+    base="${base%%.*}"             # strip all extensions (e.g. .en.srt)
+    id="${base##*_}"               # last underscore-delimited token = video ID
+    echo "youtube $id" >> .subs-archive
+done < <(comm -13 <(echo "$before_srts") <(echo "$after_srts"))
 
 rm -f "$tmpfile"
