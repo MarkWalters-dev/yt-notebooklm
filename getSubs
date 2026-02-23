@@ -1,0 +1,25 @@
+#!/bin/bash
+YT_DLP="/home/john/yt/.venv/bin/yt-dlp"
+
+# Build a URL list from the download archive
+tmpfile=$(mktemp)
+awk '{print "https://www.youtube.com/watch?v=" $2}' .archive > "$tmpfile"
+
+# Download only human-created English subtitles (skip auto-generated)
+PYTHONPATH="" $YT_DLP \
+    --skip-download \
+    --write-subs \
+    --no-write-auto-subs \
+    --sub-langs "en" \
+    --convert-subs srt \
+    --restrict-filenames \
+    --cookies cookies.txt \
+    --sleep-requests 1 \
+    --sleep-interval 2 \
+    --ignore-errors \
+    --no-overwrites \
+    --download-archive .subs-archive \
+    -o "ytsubs/%(channel)s/%(upload_date>%Y-%m-%d)s_%(title)s_%(id)s.%(ext)s" \
+    -a "$tmpfile"
+
+rm -f "$tmpfile"
